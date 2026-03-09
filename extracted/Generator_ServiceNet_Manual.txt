@@ -1,0 +1,1550 @@
+Record All Information
+for future reference:
+Brand:
+Purchase Date:
+Model #:
+Serial #:
+Questions? 1-800-888-2468
+Register your product online
+www.devap.com
+CONSUMER SAFETY INFORMATION . .2
+SAFETY GUIDELINES/DEFINITIONS . .2
+SAFETY INSTRUCTIONS . . . . . . . . . .2-8
+ASSEMBLY . . . . . . . . . . . . . . . . . . . .9-11
+OPERATION . . . . . . . . . . . . . . . . . .12-14
+MAINTENANCE . . . . . . . . . . . . . . .15-16
+STORAGE . . . . . . . . . . . . . . . . . . . .17-18
+WATTAGE CALCULATIONS . . . . . . .17-19
+TROUBLESHOOTING GUIDE . . . . . . .20
+WARRANTY . . . . . . . . . . . . . . . . . . . . .21
+QUICK FACTS . . . . . . . . . . . . . . . . . . .22
+ESPAOL . . . . . . . . . . . . . . . . . . . . . . . . . . .23-40
+FRANAIS . . . . . . . . . . . . . . . . . . . . . .45-68
+READ AND SAVE THESE INSTRUCTIONS
+Generator
+Operators Manual
+Part No. D26563 Rev. 0
+
+2- ENG
+D26563
+Read Operators Manual. Do not operate equipment until you have read
+operators Manual for Safety, Assembly, Operation, and Maintenance
+Instructions.
+This product may not be equipped with a spark arresting muffler. If the
+product is not equipped and will be used around flammable materials,
+or on land covered with materials such as agricultural crops, forest, brush, grass, or other
+similar items, then an approved spark arrester must be installed and is legally required in the
+state of California. It is a violation of California statutes section 130050 and/or sections 4442
+and 4443 of the California Public Resources Code, unless the engine is equipped with a spark
+arrester, as defined in section 4442, and maintained in effective working order. Spark arrester
+are also required on some U.S. Forest Service land and may also be legally required under
+other statutes and ordinances.
+Engine exhaust contains chemicals known, in certain quantities, to
+cause cancer, birth defects or other reproductive harm.
+CONSUMER SAFETY INFORMATION
+CONSUMER GENERAL AND SERVICE INFORMATION
+DO NOT RETURN THIS PRODUCT TO THE RETAILER! FOR SERVICE
+OPTIONS CALL: 1-800-888-2468, EXT. 2.
+ Please read and follow these instructions for proper use and maintenance.
+ Please take the time now to register your generator online at
+www.devap.com.
+ If you experience any problems and need assistance, please call us at our toll
+free number 1-800-888-2468, Monday through Saturday, 8:00 a.m. To 6:00
+p.m. C.S.T. 
+ If repair or service part purchase is required, our many Authorized Warranty
+Service Centers are conveniently located and equipped to handle all in-
+warranty and out-of-warranty service.
+ For the location of the nearest Authorized Warranty Service Center call 1-
+800-888-2468, Ext. 2, 24 hours a day, 7 days a week or visit our web site @
+devap.com. 
+ Retain sales receipt as proof of purchase for warranty service.
+ Read and understand all safety warnings.
+ Do not operate this unit until you have read and understand this Owners
+Manual for Safety, Operation, and Maintenance Instructions.
+ Do not operate this unit until you have read and understand the Engine
+Owners Manual for Safety, Operation, and Maintenance Instructions.
+Note: Photographs and line drawings used in this manual are for reference only and
+do not represent a specific model.
+
+3- ENG
+D26563
+indicates an imminently hazardous situation which, if not avoided, will result
+in death or serious injury.
+indicates a potentially hazardous situation which, if not avoided, could
+result in death or serious injury.
+indicates a potentially hazardous situation which, if not avoided,may result
+in minor or moderate injury
+used without the safety alert symbol indicates potentially hazardous
+situation which, if not avoided, may result in property damage.
+This manual contains information that is important for you to know and understand. This infor-
+mation relates to protecting YOUR SAFETY and PREVENTING EQUIPMENT PROBLEMS. To
+help you recognize this information, we use the symbols below. Please read the manual and
+pay attention to these sections. 
+SAFETY GUIDELINES / DEFINITIONS
+IMPORTANT SAFETY INSTRUCTIONS
+Improper operation or maintenance of this product could result in
+serious injury and property damage. Read and understand all
+warnings and operating instructions before using.
+RISK OF ELECTROCUTION AND FIRE
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+Attempting to
+connect generator
+directly to the
+electrical system
+of any building
+structure.
+Back feeding electricity through
+a buildings electrical system to
+the outside utility feed lines
+could endanger repair persons
+attempting to restore service.
+Never backfeed electricity
+through a structure's electrical
+system.
+Attempting to connect to the in-
+coming utility service could result
+in electrocution.
+Restoration of electrical service
+while the generator is connected
+to the incoming utility could
+result in a fire or serious damage
+if an isolator switch is not
+installed.
+Failure to use a double throw
+transfer switch when connecting
+to a structure's electrical system
+can damage appliances and
+WILL VOID the manufacturer's
+warranty.
+To connect to a structure's electri-
+cal system in a safe manner,
+always have a Double-Throw
+Transfer Switch installed by a
+qualified electrician and in compli-
+ance with local ordinances.
+(When installing a Double-
+Throw Transfer Switch, a mini-
+mum of 10 gauge wiring must
+be used.)
+
+4- ENG
+D26563
+Operation of unit
+when damaged,
+or with guards or
+panels removed.
+Removal of guarding could
+expose electrically charged
+components and result in
+electrocution.
+Do not operate generator with
+protective guarding removed.
+Improper
+connection of
+items to
+generator.
+Exceeding the load capacity of
+the generator by attaching too
+many items, or items with very
+high load ratings to it could
+result in overheating of some
+items or their attachment wiring
+resulting in fire or electrical
+shock.
+Attempting to use the unit
+when it has been damaged, or
+when it is not functioning
+normally could result in fire or
+electrocution.
+Read the load rating chart and
+instructions in the Wattage Cal-
+culation section. Make sure that
+the summation of electrical
+loads for all attachments does
+not exceed the load rating of the
+generator.
+Do not operate generator with
+mechanical or electrical
+problem. Have unit repaired by
+an Authorized Service Center.
+Operation of
+generator in rain,
+wet, icy, or
+flooded
+conditions.
+Water is an excellent conductor
+of electricity! Water which comes
+in contact with electrically
+charged components can
+transmit electricity to the frame
+and other surfaces, resulting in
+electrical shock to anyone con-
+tacting them.
+Operate generator in a clean, dry,
+well ventilated area. Make sure
+hands are dry before touching
+unit.
+Use of worn,
+damaged, under-
+sized or un-
+grounded exten-
+sion cords.
+Use of ungrounded cordsets
+could prevent operation of
+circuit breakers and result in
+electrical shock.
+Always use a cordset having a
+grounding wire with an
+appropriate grounding plug. DO
+NOT use an ungrounded plug.
+Use proper size (wire gauge)
+cordset for application see chart
+in the Assembly section of this
+manual.
+Contact with worn or damaged
+extension cords could result in
+electrocution.
+Use of undersize extension
+cords could result in overheating
+of the wires or attached items,
+resulting in fire.
+Inspect extension cords before
+use and replace with new cord if
+required.
+Placing generator
+on or against
+highly conductive
+surface, such as a
+steel walkway or
+metal roof.
+Place generator on low conduc-
+tivity surface such as a concrete
+slab.
+Accidental leakage of electrical
+current could charge conductive
+surfaces in contact with the
+generator.
+RISK OF ELECTROCUTION AND FIRE
+(Continued)
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+ALWAYS operate generator a
+minimum of six feet from any
+conductive surface.
+
+5- ENG
+D26563
+RISK OF FIRE
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+Improper storage
+of fuel
+Improperly stored fuel could
+lead to accidental ignition. Fuel
+improperly secured could get
+into the hands of children or
+other unqualified persons.
+Store fuel in a OSHA approved
+container designed to hold
+gasoline. Store container in se-
+cure location to prevent use by
+others.
+Attempting to
+fill the fuel tank
+while the engine
+is running.
+Gasoline and gasoline vapors
+can become ignited by coming
+in contact with hot components
+such as the muffler, engine
+exhaust gases, or from an
+electrical spark.
+Cigarettes, sparks, fires, or
+other hot objects can cause
+gasoline or gasoline vapors to
+ignite.
+Turn engine off and allow it to
+cool before adding fuel to the
+tank. Equip area of operation
+with a fire extinguisher certified
+to handle gasoline or fuel fires.
+Add fuel to tank in well
+ventilated area. Make sure there
+are no sources of ignition near
+the generator.
+Operate generator in a clean, dry,
+well ventilated area a minimum of
+four feet from any building, object
+or wall. DO NOT OPERATE
+UNIT INDOORS OR IN ANY
+CONFINED AREA.
+Materials placed against or near
+the generator or operating the
+generator in areas where the
+temperature exceeds 104 F. am-
+bient (such as storage rooms or
+garages) can interfere with its
+proper ventilation features caus-
+ing overheating and possible ig-
+nition of the materials or build-
+ings.
+Sparks, fire, hot
+objects
+Inadequate
+ventilation for
+generator
+Tampering with
+factory set
+engine speed
+settings.
+Engine speed has been factory
+set to provide safe operation.
+Tampering with the engine speed
+adjustment could result in
+overheating of attachments and
+could cause a fire.
+Spilled fuel and its vapors can
+become ignited from hot
+surfaces or sparks.
+Never attempt to speed-up
+the engine to obtain more per-
+formance. Both the output
+voltage and frequency will be
+thrown out of standard by this
+practice, endangering
+attachments and the user.
+Use care in filling the tank to
+avoid spilling fuel. Make sure
+fuel cap is secured tightly and
+check engine for fuel leaks
+before starting engine. Move
+generator away from refueling
+area or any spillage before
+starting engine. Allow for fuel
+expansion. Keep maximum fuel
+level  inch below the tip of the
+fuel tank. Never refuel with the
+engine running.
+Overfilling the fuel
+tank  fuel
+spillage.
+
+6- ENG
+D26563
+RISK OF UNSAFE OPERATION
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+Operation of
+generator in
+careless manner
+All sources of energy include the
+potential for injury. Unsafe
+operation or maintenance of your
+generator could lead to serious
+injury or death to you or others.
+ Review and understand all of
+the operating instructions and
+warnings in this manual.
+ Become familiar with the oper-
+ation and controls of the
+generator. Know how to shut it
+off quickly.
+ Equip area of operation with a
+fire extinguisher certified to
+handle gasoline or fuel fires.
+ Keep children or others away
+from the generator at all times.
+RISK OF BREATHING - INHALATION
+HAZARD
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+Breathing exhaust fumes will
+cause serious injury or death.
+Operate generator in clean, dry,
+well ventilated area. Never
+operate unit in enclosed areas
+such as garages, basements,
+storage, sheds, or in any
+location occupied by humans or
+animals. Keep children, pets and
+others away from area of operat-
+ing unit.
+Gasoline
+engines produce
+toxic carbon
+monoxide
+exhaust fumes.
+RISK OF INJURY AND PROPERTY
+DAMAGE WHEN TRANSPORTING
+GENERATOR
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+Fire, Inhalation,
+Damage to
+Vehicle Surfaces
+Fuel or oil can leak or spill and
+could result in fire or breathing
+hazard, serious injury or death
+can result. Fuel or oil leaks will
+damage carpet, paint or other
+surfaces in vehicles or trailers.
+If generator is equipped with a
+fuel shut-off valve, turn the valve
+to the off position before
+transporting to avoid fuel leaks.
+If generator is not equipped with
+a fuel shut-off valve, drain the
+fuel from tank before transport-
+ing. Transport fuel only in an
+OSHA approved container.
+Always place generator on a
+protective mat when transport-
+ing to protect against damage to
+vehicle from leaks. Remove
+generator from vehicle immedi-
+ately upon arrival at your desti-
+nation.
+
+7- ENG
+D26563
+RISK OF UNSAFE OPERATION
+(Continued)
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+Improper raising or suspending
+can cause damage to the
+generator.
+Always use cables, chains, or
+straps rated at 2000 lbs working
+load or more to raise or suspend
+generator.
+Operation of
+voltage
+sensitive appli-
+ances without a
+voltage surge
+protector
+Any gasoline operated
+household generator will incur
+voltage variations causing
+damage to voltage sensitive ap-
+pliances or could result in fire.
+Always use a U.L. listed voltage
+sensitive surge protector to
+connect voltage sensitive
+appliances (TV, computer, ste-
+reo, etc.). Failure to use a U.L.
+listed voltage surge protector
+will void the warranty on your
+generator.
+Notice: A multiple outlet strip is
+not a surge protector. Make sure
+you use a U.L. listed voltage
+surge protector
+Raising or
+suspending
+generators
+equipped with
+lift rings
+improperly
+Generator could fall causing
+serious injury or death to you or
+others.
+Always use proper connecting
+procedures as described in this
+manual when connecting cables,
+chains, or straps for raising or
+suspending generators equipped
+with lift rings.
+Operating
+generator while
+suspended 
+Generator will not operate
+properly and will cause damage
+to the generator and could
+cause serious injury or death to
+you or others.
+Never operate generator while
+suspended or in an unlevel
+position. Always operate
+generate on a flat, level surface.
+Contact with hot surfaces, such
+as engines exhaust components,
+could result in serious burns.
+RISK OF HOT SURFACES
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+Contact with hot
+engine and
+generator
+components.
+During operation, touch only the
+control surfaces of the
+generator. Keep children away
+from the generator at all times.
+They may not be able to recog-
+nize the hazards of this 
+product.
+
+NOTE: This manual is a general manual. Information in this manual may or
+may not pertain to your model. Please read carefully.
+NOTE: Left and right describes the location of a part with the operator
+facing the outlet panel.
+REMOVE GENERATOR FROM CARTON
+
+Open carton from top.
+
+Cut carton along dotted lines.
+
+Remove all carton inserts.
+
+Remove generator through opening in carton.
+
+(if equipped) Remove shipping block from
+under the gen head. Unscrew bolt and
+remove the shipping block. It is very important
+that this is removed before starting your
+generator. See Figure 1.
+or
+ASSEMBLY
+Read this manual. Do not attempt to operate equipment
+until you have read this Manual for Safety, Operation, and
+Maintenance Instructions.
+Figure 1
+8- ENG
+D26563
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+HAZARD
+WHAT CAN HAPPEN
+HOW TO PREVENT IT
+RISK OF MOVING PARTS
+Never operate generator with
+guarding or cover plates
+removed. Avoid wearing loose
+fitting clothing or jewelry which
+could be caught by moving parts.
+The generator contains parts
+which rotate at high speed during
+operation. These parts are
+covered by guarding to prevent
+injury.
+Contact with
+moving parts
+can result in
+serious injury.
+RISK FROM LIFTING
+The generator is too heavy to be
+lifted by one person. Obtain as-
+sistance from others before you
+try to move it.
+Serious injury can result from at-
+tempting to lift too heavy an
+object.
+Lifting a very
+heavy object.
+
+
+(if equipped) Remove shipping shims. See Figure 1a. 
+a.
+Locate shipping shims (a) under generator frame.
+b.
+Loosen but do not remove limiter bolts (b).
+c.
+Pull label (c) and remove shims.
+d.
+Retighten limiter bolts. Torque to 120-144 in-lbs.
+It is very important that these are removed before starting your generator.
+IMPORTANT: Before any attempt to start your generator be sure to check
+engine oil (See Engine Operator's manual).
+GROUNDING THE GENERATOR
+A grounding lug is supplied with the generator for
+use when required by local electrical ordinances.
+Refer to article 250 of the National Electrical Code
+to clarify any needed grounding information. Your
+local electric company or a certified electrician
+should be able to help you with this information.
+9- ENG
+D26563
+Grounding Lug
+TYPICAL INSTALLATION OF BATTERY
+(Electric Start Units Only)
+
+Recommended Battery for Electric Start: 12V - 45 A H. or 210 CCA (Cold
+Cranking Amps)
+
+Purchase battery and battery hardware separately, not included with unit.
+1.
+Place battery in rack with terminals
+facing towards generator head.
+2.
+Place battery bracket (A) over battery as
+shown in Figure 3 (opposite battery
+terminals).
+3.
+Place "L" bolt (B) through top and
+bottom brackets and secure with wing
+nut (C).
+4.
+Locate the solenoid on the left side of
+the unit. See Figure 4 and 5.
+Figure 2
+Figure 3
+a
+b
+c
+c
+b
+Figure 1a
+
+10- ENG
+D26563
+FOR GBE4010 AND GBFE6010
+5.
+Remove the nut from the solenoid
+post with the panel assembly wire
+harness. Place one end of the posi-
+tive (red) battery cable onto this
+post with the panel assembly wire.
+Reassemble nut and tighten
+securely. See Figure 4. 
+FOR GBV7000, GBV7010,
+GBVE8000, GBVE7500
+5.
+Remove the nut from the solenoid
+post and place one end of the posi-
+tive (red) battery cable onto the
+post. Reassemble nut and tighten
+securely. See Figures 5. 
+Lawn & Garden
+batteries can come in
+two terminal configurations. The
+Positive (+) and Negative (-) terminals
+can be oriented so that they are +/- or
+-/+. See Figure 6. In the unlikely event
+that the battery terminals are un-
+marked, we recommend that you
+return the battery to the retailer for
+exchange for a properly marked
+battery or let an authorized service
+center install the battery for you.
+Failure to connect the battery
+properly can possibly cause bodily
+injury. In addition, extensive engine
+electrical damage not covered under
+warranty can result.
+6.
+Attach the other end of the positive
+(red) battery cable to the positive (+)
+terminal on the battery.
+To Prevent sparks
+connect the red
+(positive) cable to the positive (+)
+terminal before connecting the black
+negative cable.
+7.
+Attach one end of the negative
+(black) cable to the negative (-)
+terminal on the battery.
+8.
+Attach the other end of the negative
+(black) cable to the frame as
+shown. Install the star washer be-
+tween the cable and the frame. See
+Figure 7.
+Panel
+Assembly
+Wire
+Harness
+Solenoid
+Figure 4
+Positive (+)
+Battery Cable
+Solenoid
+Figure 5
+Figure 6
+Figure 7
+Nuts
+(-) Negative Battery Cable Connection
+Star Washer
+Negative (-)
+Battery Cable
+IMPORTANT: See Figure 6 caution
+before connecting cable to battery.
+Negative (-)
+Battery Cable
+
+11- ENG
+D26563
+EXTENSION CORDS
+When using an appliance or tool at a considerable distance from the generator, a
+3-wire extension cord that has a 3-blade grounding plug and a 3-slot receptacle
+that accepts the tool's plug MUST be used in order to reduce the risk of
+electrical shock. A cord of adequate size must be used. Using the following chart
+to determine the minimum wire size required.
+*NOTE: When amperage exceeds 20 amp; a 12
+gauge extension cord should not be used for long
+distances.
+Extension Cord Wire Gauge Chart
+Amperage
+*Up to 20 ampdraw
+Up to 30 amp draw
+Cord
+Length
+0 to 100 ft.
+0 to 100 ft.
+Wire Gauge
+Size
+12 ga.
+10 ga.
+An extension cord that is hot to the touch is overloaded.
+Repair or replace damaged extension cords immediately.
+DOUBLE THROW TRANSFER SWITCH
+Potential hazards exist when a portable electric generator is
+connected to the main electrical supply coming into the house.
+It is at that point that the electrical generator could feed back into the utility
+company's system causing possible electrocution of workers who are repairing
+the electrical lines.
+To avoid back feeding of electricity into utility systems, a double-throw transfer
+switch must be installed between the generator and utility power. The Double-
+Throw Transfer Switch should be installed by a licensed electrician and in com-
+pliance with all state and local electrical codes. (When installing a Double-
+Throw Transfer Switch, a minimum of 10 gauge wiring must be used.)
+The electrician should also install a sub-panel to isolate the circuits you would
+want to use during an emergency or electrical power outage. Your generator will
+not be large enough to handle the load of all the lights, appliances, TV, etc. at
+one time. To select which items to run during the electrical power outage, see
+Wattage Calculation section in this manual.
+OBTAINING ELECTRICITY FROM THE GENERATOR
+There are basically 2 ways to obtain electricity from a generator:
+1.
+Use of extension cords directly from the generator to the appliance, lights,
+tools, etc.
+2.
+Use of a double-throw transfer switch installed directly to the main electrical
+supply outside of house. 
+
+12- ENG
+D26563
+OPERATION
+KNOW YOUR GENERATOR
+Read this General Manual and Safety Rules before operation of your Generator.
+Compare the illustration in your parts manual with your generator to familiarize yourself with
+the location of various controls and adjustments. Save all manuals for future references.
+GENERATOR CAPACITY
+IMPORTANT: Exceeding the rated capacity of your generator can result in serious damage
+to your generator and connected electrical devices. See the Wattage Calculation section in
+this manual to assist you in determining the appliances and tools that can be run with the
+wattage capacity of your generator.
+CIRCUIT BREAKERS
+Each receptacle has a circuit breaker to protect the generator from overloading. If the circuit
+breaker trips, unplug all electrical loads from the generator. Let the circuit breaker cool
+down. Push circuit breaker button to reset.
+LOW OIL SHUTDOWN (IF EQUIPPED)
+Your generator engine is equipped with Low Oil Shutdown. Low Oil Shutdown is a safety
+device designed to protect your engine from damage in the event the oil level in the
+crankcase is low.
+If while the engine is running, the oil gets low, it will automatically shut itself down and will
+not restart until the oil is added. If the oil is low before start-up, the generator will not start
+until oil is added.
+NOTE: The Low Oil Shutdown mechanism is very sensitive. You must fill the engine to the
+full mark on the dipstick to inactivate this safety device.
+BEFORE START UP
+This generator has been shipped from the factory without oil in the
+crankcase. Operating the unit without oil can damage the engine.
+Always check engine oil level before every start. Running engine low
+of oil or out of oil could result in serious damage to the engine.
+Follow the steps listed below before starting generator:
+1.
+Check engine oil. Refer to the Engine Operator's Manual for correct grade and quantity
+of oil.
+2.
+Check fuel level, fill as required. Make sure generator is turned off and has been allowed
+time to cool down. Use clean, fresh, regular unleaded gasoline with a minimum of 87
+octane. Do not mix oil with gasoline. 
+Never fill fuel tank completely. Fill tank to 1/2" below the bottom of
+the filler neck to provide space for fuel expansion. Wipe any fuel
+spillage from engine and equipment before starting engine.
+Never fill fuel tank indoors. Never fill fuel tank when engine is
+running or hot. Do not smoke when filling fuel tank.
+Never run engine indoors or in enclosed, poor ventilated areas, en-
+gine exhaust contains carbon monoxide, an odorless and deadly
+gas.
+3.
+Make sure generator is grounded in accordance with local requirements.
+4.
+All electrical loads MUST be disconnected.
+5.
+(if equipped) Idle control switch must be in the OFF position.
+
+13- ENG
+D26563
+Engine speed has been factory set to provide safe operation.
+Tampering with the engine speed adjustment could result in over-
+heating of attachments and could cause a fire. Never attempt to speed-up the en-
+gine to obtain more performance. Both the output voltage and frequency will be
+thrown out of standard by this practice, endangering attachments and the user.
+You MUST unplug any load from the generator before starting to
+prevent permanent damage to any appliances.
+TO START THE ENGINE
+(Recoil start/Pull start)
+Never run engine indoors or in enclosed, poor ventilated
+areas, engine exhaust contains carbon monoxide, an
+odorless and deadly gas.
+1.
+Open the fuel shut-off valve. Turn counter
+clockwise until the valve stops. See Figure
+8.
+2. 
+(if equipped) On the engine there is a
+ON/OFF switch located on the front panel of
+the engine. Place this switch to the "ON"
+position.
+3. 
+Move the choke control located on the engine to "CHOKE" position. 
+NOTE: No choke is required on warm engines. Make sure choke is in the
+"RUN" position on warm engine starts.
+4.
+Grasp handle on rope starter and pull slowly until resistance is felt. Let the
+rope rewind slowly. Pull rope with a rapid full arm stroke. Let rope rewind
+slowly. Repeat if necessary.
+NOTE: IF ENGINE OIL LEVEL IS TOO LOW, ENGINE WILL NOT START.
+CHECK OIL LEVEL AND ADD IF NECESSARY.
+5.
+When engine starts, gradually move the choke to the "RUN" position.
+IMPORTANT: Allow generator to run at no load for 5 minutes upon each initial
+start-up to allow engine and generator to stabilize.
+TO START GENERATOR
+(Electric start)
+1.
+Open the fuel shut-off valve. See Figure 8.
+2. 
+(if equipped) On the engine there is a ON/OFF switch located on the front
+panel of the engine. Place this switch to the "ON" position.
+3. 
+Move the choke control located on the engine to "CHOKE" position. A cold
+engine may require to be choked longer than a warm engine.
+4. 
+Push ON\OFF\START switch on control panel to the "START" position to
+start engine. Hold in "START" position no longer than 15 seconds per
+minute when trying to start engine. Extended cranking can damage the
+starter motor.
+5.
+When engine starts, gradually move the choke to the "NO Choke" position. 
+IMPORTANT: Allow generator to run at no load for 5 minutes upon each initial
+start-up to allow engine and generator to stabilize.
+Figure 8
+OR
+
+14- ENG
+D26563
+STOPPING ENGINE
+1. 
+Disconnect all electrical loads.
+2. 
+(if equipped) Turn ON/OFF switch to "OFF" position.
+3. 
+Close fuel shut-off valve.
+CONNECTING ELECTRICAL LOADS
+1.
+Let engine run and warm up for five minutes after starting with no electrical
+load.
+Connect loads in the following manner to prevent damage to equipment:
+2.
+Connect inductive load equipment first, inductive loads consist of
+refrigerators, freezers, water pumps, air conditioners, or small hand tools.
+Connect the items that require the most wattage first. See Wattage Calcu-
+lation Section in this manual.
+3.
+Connect the lights next.
+4.
+Voltage sensitive equipment should be the last equipment connected to the
+generator. Plug voltage sensitive appliances such at TV's, VCR's, micro-
+waves, ovens, computers, and cordless telephones into a UL listed voltage
+surge protector, then connect the UL listed voltage surge protector to the
+generator.
+Failure to connect and operate equipment in this sequence
+can cause damage to equipment and will void the warranty
+on your generator.
+Follow the wattage calculation table in the Wattage Calculation section of
+this manual. Overloading the generator will cause power fluctuations and
+can damage equipment and appliances.
+DeVilbiss Air Power Company will only be responsible for damage to
+customer's equipment when the generator is determined to be defective.
+This determination will only be made by an authorized representative of
+DeVilbiss Air Power Company and this decision will be final. DeVilbiss Air
+Power Company reserves the right to inspect the electrical connections at
+the customer's site of operation and test the generator for proper opera-
+tion before any determination of liability is made. Failure to maintain the
+equipment or wiring for inspection will void any claim for damages by the
+customer. DeVilbiss Air Power Company will not be responsible for
+equipment damaged as a result of voltage surges, improper operation or
+improper installation of the generator.
+
+15- ENG
+D26563
+CONNECTING PROCEDURE FOR RAISING OR SUSPENDING
+GENERATORS EQUIPPED WITH LIFT RINGS
+Failure to properly connect lifting cables, chains, or straps
+can cause property damage, serious injury or death, and
+void the manufacturer's warranty.
+Always use cables, chains, or straps rated at 2000 lbs.
+working load or more to raise or suspend generator.
+Never operate generator while suspended. This could
+cause property damage, serious injury or death.
+1.
+Route cable, chain, or strap through
+both lift rings as shown. ALWAYS
+use both lift rings when raising or
+suspending generator.
+NOTE: Make sure the generator is in a
+level position before raising or suspend-
+ing to prevent damage.
+Lift Ring
+Lift Ring
+Note 1: Change oil after first two (2) operating hours and every 50 operating
+hours thereafter, more often if operated in extreme dusty or dirty conditions.
+Note 2: Check oil after 5 hours of operation.
+CUSTOMER RESPONSIBILITIES TABLE
+MAINTENANCE TASK
+Before
+each
+use
+Every 25
+Hours of
+Every
+Season
+Every 50
+Hours of
+Every
+Season
+Every 100
+Hours of
+Every
+Season
+Check Spark Plug
+Prepare unit for storage if it is to remain
+idle for more than 30 days.
+MAINTENANCE
+Check oil level
+Change oil
+Clean Air Filter Assembly
+Prepare Unit for Storage
+See Note 2
+X
+See Note 1
+X
+X
+X
+GENERAL RECOMMENDATIONS
+The warranty of the generator does not cover items that have been subjected to
+operator abuse or negligence. To receive full value from the warranty, operator
+must maintain the generator as instructed in this manual.
+ENGINE MAINTENANCE
+Refer to the Engine Operator's manual for service and maintenance of the
+engine.
+
+16- ENG
+D26563
+If you are going to store your generator for more than 30 days, use the
+following information as a guide to prepare the generator for storage.
+Never store generator with fuel in the tank indoors or in
+enclosed, poorly ventilated areas, where fumes can reach
+an open flame, spark or pilot light as on a furnace, water heater, clothes
+dryer or other gas appliances.
+ENGINE PREPARATION
+1.
+Add fuel stabilizer to fuel tank to minimize the formation of fuel gum
+deposits during storage.
+2.
+Run engine at least 10 minutes after adding stabilizer to allow it to enter the
+fuel system.
+3. 
+Next shut off engine. 
+4.
+Disconnect the spark plug wire and remove the spark plug.
+5.
+Add one teaspoon of oil through the spark plug hole.
+6.
+Place rag over spark plug hole and pull the recoil a few times to lubricate
+the combustion chamber.
+7. 
+Replace the spark plug, but do not connect the spark plug wire.
+NOTE: If a fuel stabilizer is not used, all gasoline must be drained from the tank
+and carburetor to prevent gum deposits from forming on these parts and causing
+possible malfunction of the engine.
+GENERATOR
+ 
+Clean the generator as outlined in the Maintenance Section on this manual.
+
+Check that cooling air slots and openings on generator are open and
+unobstructed.
+STORAGE
+GENERATOR MAINTENANCE
+Your generator should be kept clean and dry at all times. The generator should
+not be stored or operated in environments that includes excessive moisture,
+dust or any corrosive vapors. If these substances are on the generator, clean
+with a cloth or soft bristle brush. Do not use a garden hose or anything with
+water pressure to clean the generator. Water may enter the cooling air slots and
+could possibly damage the rotor, stator and the internal windings of the gen
+head.
+(IF EQUIPPED) GROUND FAULT CIRCUIT INTERRUPTER GFCI
+RECEPTACLE) 
+MONTHLY: For maximum protection against electrical shock the GFCI should
+be tested monthly.
+To test:
+1.
+Depress the TEST button. The RESET button should extend. If the RESET
+button does not extend, notify a DeVilbiss Air Power Company Authorized
+Warranty Service Center.
+2.
+To restore power, depress the RESET button firmly into the GFCI unit until an
+audible click is heard. If reset properly, the RESET button is flush with the
+surface of the test button. When the button stays in, the power is ON.
+
+17- ENG
+D26563
+BATTERY (ELECTRIC START UNITS ONLY)
+ 
+Store battery as described by the battery manufacturer.
+NOTE: After storing battery for a long period of time it may lose its charge. If
+the battery loses its charge, manually start the engine with the battery connect-
+ed. The engine will recharge the battery as it runs.
+WATTAGE CALCULATIONS
+Never exceed the rated capacity of your generator. Serious damage to the
+generator or appliance could result from an overload.
+1.
+Starting and running wattage requirements should always be calculated
+when matching a generators wattage capacity to the appliance or tool.
+2.
+There are two types of electrical appliances that can be powered by
+your generator:
+A.
+Items such as radios, light bulbs, television sets, and microwaves
+have a "resistive load". Starting wattage and running wattage are
+the same.
+B.
+Items such as refrigerators, air compressors, washer, dryer, and
+hand tools that use an electrical motor have an "inductive load".
+Inductive load appliances and tools require approximately 2 to 4
+times the listed wattage for starting the equipment. This initial load
+only lasts for a few seconds on start-up but is very important when
+figuring your total wattage to be used. 
+C.
+Always start your largest electric motor first, and then plug in other
+items, one at a time.
+NOTE: On 120-volt loads the maximum starting wattage should NOT
+exceed one half of the rated generator wattage. Example: a 5000 rated
+wattage generator = 2500 maximum starting wattage.
+IMPORTANT
+DETERMINING WATTAGE REQUIREMENTS
+Before operating this generator list all of the appliances and/or tools that are
+going to operate at the same time. (Then determine the starting wattage
+requirements and the running wattage requirements by following example
+and/or refer to household wattage calculator.)
+1.
+First total the running wattage of all appliances and/or tools that will be
+operated at the same time.
+Running Watts
+Starting Watts
+Example 1:
+Lights 
+=
+100 Watts
+0
+Television
+=
+300 Watts
+0
+Slow Cooker
+=
+250 Watts
+0
+TOTAL
+=650 Watts
+0
+2.
+Next the starting wattages of any appliances and/or tools that will start and
+stop during operation.
+Running Watts
+Starting Watts
+Example 2:
+Small Refrigerator 
+500 Watts
+2000 Watts
+TOTAL
+=500 Watts
+2000 Watts
+
+18- ENG
+D26563
+3.
+The running wattage of examples 1 & 2 totals 1150 watts. The starting
+wattage of the small refrigerator is 2000 watts which is 1500 watts more
+than the running watts. Take this difference of 1500 starting watts from the
+refrigerator and add to the total running watts of 1150.
+Example 3:
+1500 Starting Watts
+1150 Running Watts
+TOTAL
+=2650 Total Watts
+Generator must have a maximum capacity of at least 2650 watts.
+STARTING WATTAGE REQUIREMENTS
+1.
+Some appliances and tools will list on the motor nameplate the starting
+and running voltage and amperage requirements. Use the following
+formula to convert voltage and amperage to wattage:
+Volts X Amp = Watts
+Example: 120 volts x 10 amps = 1200 watts
+2.
+To determine the approximate starting wattage requirement for most
+appliances and tools with inductive type motors, multiply the wattage that
+was calculated by 2 to 4 times to assure adequate generator capacity. If
+the nameplate information is not available use the values on the following
+chart as a guide.
+3.
+Remember that the starting and running wattage for resistive loads are the
+same. (Example: a 100 watt light bulb requires only 100 watts to start.)
+Most resistive loads will be listed in wattage.
+The wattage ratings shown are averages. Wattage requirements may vary
+with different brands of appliances.
+Application Guide
+To select the right generator for your needs, total the wattage
+of the items to be run at the same time.
+Run
+Electric Appliance
+Wattage
+Contractor
+Emergency Relief
+Recreational
+3/8" Hand Drill
+Jigsaw
+1/3 HP Airless Sprayer
+6" Bench Grinder
+Belt Sander
+Demolition Hammer
+7 1/4" Circular Saw
+Light Bulb
+Home Security
+Television
+Microwave
+Toaster Oven
+Portable Heater (5,000 BTU)
+Furnace Fan
+Refrigerator/Freezer
+Sump Pump
+Clothes Washer
+Water Heater
+Air Conditioner (20,000 BTU)
+12V DC Battery Charger
+Radio
+Slow Cooker
+Electric Blanket
+Electric Skillet
+Coffee Maker
+Small Refrigerator
+100
+250
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+4500
+5000
+5500
+6000
+6500
+7000
+7500
+Start
+
+19- ENG
+D26563
+APPLIANCE OR 
+LOAD DEVICE* 
+REFRIGERATOR/ 
+FREEZER 
+800 
+SMALL REFRIGERATOR 
+AIR COND.(ROOM) 
+SUMP PUMP 1/2 HP 
+600 
+TELEVISION 
+CAUTION !! 
+HOT PLATE 
+MICROWAVE 
+SPACE HEATER 
+2400 
+1000 
+3 
+2 
+LIGHTING 
+60 WATT BULBS 
+75 WATT BULBS 
+100 WATT BULBS 
+300 WATT BULBS 
+ELECTRIC LOAD GRAND TOTAL 
+THIS TOTAL MUST BE LESS THAN YOUR GENERATOR RATING 
+WATTAGE RATING OF YOUR GENERATOR 
+TOTAL
+THIS TOTAL MUST BE GREATER THAN YOUR HOUSEHOLD WATTAGE LOAD 
+TYPICAL DEVICE 
+WATTAGE** 
+2400 
+1800 
+7200 
+2000 
+300 
+1500 
+800 
+1500 
+WATER HEATER 
+4000 
+TIMES NUMBER 
+OF BULBS 
+60 
+75 
+100 
+300 
+CAUTION !! 
+ 
+ 
+ 
+ 
+ 
+WATTS 
+DEVICES WITH HIGH STARTING (INDUCTIVE)LOADS 
+RUN WATTS 
+TIMES (X) START FACTOR 
+DO NOT CONNECT VOLTAGE SENSITIVE 
+ 
+ELECTRONIC EQUIPMENT (TV SET, COMPUTER,
+ETC.) DIRECTLY TO YOUR GENERATOR. IF YOU USE 
+THE GENERATOR TO POWER SENSITIVE EQUIPMENT
+YOU MUST USE A U.L. LISTED VOLTAGE SURGE 
+PROTECTOR.
+NOTICE: 
+ 
+FAILURE TO USE A U.L. LISTED VOLTAGE
+SURGE PROTECTOR WILL DAMAGE YOUR 
+EQUIPMENT AND VOID YOUR WARRANTY.
+3 
+3 
+THE IDLE CONTROL MUST BE IN THE
+OFF POSITION WHEN OPERATING 
+LARGE MOTOR LOADS (FREEZERS, 
+REFRIGERATORS,ETC.) OR VOLTAGE 
+SENSITIVE ELECTRONIC EQUIPMENT 
+(TV, COMPUTERS, ETC.) 
+FURNACE FAN 1/3 HP
+800
+3
+2400
+WELL PUMP 1/2 HP
+1000
+2
+ 2000
+*FOR PRODUCTS NOT 
+LISTED REFER TO
+CALCULATION
+INSTRUCTIONS
+**AVERAGE VALUES -
+ACTUAL INDIVIDUAL
+DEVICE VOLTAGES MAY
+BE HIGHER OR LOWER
+x
+x
+x
+x
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+x
+x
+x
+x
+x
+x
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+HOUSEHOLD WATTAGE CALCULATOR
+
+20- ENG
+D26563
+TROUBLESHOOTING GUIDE
+PROBLEM
+CAUSE
+CORRECTION
+Engine will not
+start
+1.
+Low on fuel or oil.
+2.
+Ignition switch in "Off"
+position.
+3.
+Faulty spark plug.
+4.
+Choke in wrong position.
+5.
+Fuel shut-off valve in
+closed position
+6.
+Unit loaded during start-
+up.
+1.
+Add fuel or oil.
+2.
+Turn to "ON" position
+3.
+Replace spark plug.
+4.
+Adjust choke accordingly.
+5.
+Open fuel shut-off valve.
+6.
+Remove load from unit.
+1.
+Faulty receptacle.
+1.
+Have Service Center
+replace. 
+2.
+Circuit breaker kicked
+out.
+2.
+Depress and reset.
+3.
+Defective capacitor.
+3.
+Have Service Center
+replace capacitor.
+4.
+Faulty power cord.
+4.
+Repair or replace cord.
+5. GFCI switch breaker
+kicked out (if equipped)
+5. Depress and reset
+7. 
+Spark plug wire loose.
+7.
+Attach wire to spark plug.
+No electrical
+output
+1.
+Overload
+1.
+Reduce load.
+2.
+Faulty cords or
+equipment
+2.
+Check for damaged, bare,
+or frayed wires on
+equipment. Replace.
+Repeated
+circuit breaker
+tripping
+1.
+Generator overloaded.
+1.
+Reduce load.
+2.
+Insufficient ventilation.
+2.
+Move to adequate supply
+of fresh air.
+Generator
+overheating
+1. 
+Faulty solenoid
+1. Have Service Center
+replace.
+2. 
+Faulty idle control switch
+2. 
+Have Service Center
+replace.
+3. 
+Faulty windings in stator
+4. 
+Faulty circuit board
+5. 
+Faulty wire harness
+3. Have Service Center
+replace.
+4. Have Service Center
+replace.
+5. Have Service Center
+replace.
+DC does not
+have power
+with the
+circuit breaker
+depressed 
+(if equipped)
+1. 
+Faulty rectifier
+2. 
+Faulty windings in stator
+3. 
+Faulty wire harness
+1. Have Service Center
+replace.
+2. 
+Have Service Center
+replace.
+3. Have Service Center
+replace.
+No auto idle 
+(if equipped)
+
+21- ENG
+D26563
+LIMITED WARRANTY
+DeVilbiss Air Power Company warrants to the original purchaser who uses the product in a
+consumer application (personal, residential or household usage) that all products covered under this
+warranty are free from defects in material and workmanship for one year from the date of purchase.
+All products covered by this limited warranty which are used in commercial applications (i.e., income
+producing) are warranted to be free of defects in material and workmanship for 90 days from the date
+of original purchase. Products covered under this warranty include air compressors, air tools, service
+parts, pressure washers, and generators.
+DeVilbiss Air Power Company will repair or replace, at DeVilbiss' option, products or components
+which have failed within the warranty period. Service will be scheduled according to the normal work
+flow and business hours at the service center location, and the availability of replacement parts. All
+decisions of DeVilbiss Air Power Company with regard to this limited warranty shall be final.
+This warranty gives you specific legal rights, and you may also have other rights which vary from state
+to state.
+RESPONSIBILITY OF ORIGINAL PURCHASER (initial User):
+ To process a warranty claim on this product, DO NOT return it to the retailer. The product must be
+evaluated by an Authorized Warranty Service Center. For the location of the nearest Authorized
+Warranty Service Center call 1-800-888-2468, Ext. 2, 24 hours a day, 7 days a week or visit our
+web site @ devap.com.
+ Retain original cash register sales receipt as proof of purchase for warranty work.
+ Use reasonable care in the operation and maintenance of the product as described in the Owners
+Manual(s).
+ Deliver or ship the product to the nearest Authorized Warranty Service Center. Freight costs, if any,
+must be paid by the purchaser.
+ Air compressors with 60 and 80 gallon tanks will be inspected at the site of installation. Contact
+the nearest Authorized Warranty Service Center that provides on-site service calls for service call
+arrangements.
+ If the purchaser does not receive satisfactory results from the Authorized Warranty Service Center,
+the purchaser should contact DeVilbiss Air Power Company.
+THIS WARRANTY DOES NOT COVER:
+ Merchandise sold as reconditioned, used as rental equipment, or floor or display models.
+ Merchandise that has become damaged or inoperative because of ordinary wear, misuse*, cold,
+heat, rain, excessive humidity, freeze damage, use of improper chemicals, negligence, accident,
+failure to operate the product in accordance with the instructions provided in the Owners Manual(s)
+supplied with the product, improper maintenance, the use of accessories or attachments not
+recommended by DeVilbiss Air Power Company, or unauthorized repair or alterations. 
+* An air compressor that pumps air more than 50% during a one hour period is considered
+misuse because the air compressor is undersized for the required air demand. 
+ Repair and transportation costs of merchandise determined not to be defective.
+ Costs associated with assembly, required oil, adjustments or other installation and start-up costs.
+ Expendable parts or accessories supplied with the product which are expected to become
+inoperative or unuseable after a reasonable period of use, including but not limited to sanding
+disks or pads, saw and shear blades, grinding stones, springs, chisels, nozzles, o-rings, air jets,
+washers and similar accessories.
+ Merchandise sold by DeVilbiss Air Power Company which has been manufactured by and identified
+as the product of another company, such as gasoline engines. The product manufacturer's
+warranty, if any, will apply. 
+ ANY INCIDENTAL, INDIRECT OR CONSEQUENTIAL LOSS, DAMAGE, OR EXPENSE THAT
+MAY RESULT FROM ANY DEFECT, FAILURE OR MALFUNCTION OF THE PRODUCT IS NOT
+COVERED BY THIS WARRANTY. Some states do not allow the exclusion or limitation of
+incidental or consequential damages, so the above limitation or exclusion may not apply to you.
+ IMPLIED WARRANTIES, INCLUDING THOSE OF MERCHANTABILITY OR FITNESS FOR A
+PARTICULAR PURPOSE, ARE LIMITED TO ONE YEAR FROM THE DATE OF ORIGINAL
+PURCHASE. Some states do not allow limitations on how long an implied warranty lasts, so the
+above limitations may not apply to you.
+213 Industrial Drive  Jackson, TN 38301-9615 
+Telephone: 1-800-888-2468 , Ext. 2 
+FAX: 1-800-888-9036
+
+22- ENG
+D26563
+CALL 1-800-888-2468 EXT 2
+TO FIND A LOCAL AUTHORIZED SERVICE CENTER NEAR YOU FOR REPAIRS
+AND SERVICE PART PURCHACES.
+QUICK FACTS
+ALWAYS REFER TO THE MANUALS SUPPLIED WITH THIS UNIT
+ENGINE
+GAS
+ENGINE OIL
+WATTAGE
+WIRING
+BATTERY
+VOLT REG.
+ENGINE
+STORAGE
+OPERATION
+Use clean, fresh gasoline with a minimum 87 octane rating. Do
+not add gasoline during or immediately after use.
+Refer to engine owner's manual for oil recommendations.
+Most generators are equipped with a low-oil shutdown. If the oil
+is low or if the Generator is not level, the engine will not start.
+Make wattage calculations before use. Refer to general
+operator's manual for further instructions.
+Contact an electrician for any wiring instructions. If wiring into a
+house, a double-throw transfer switch and a heavy duty cord
+set must be used.
+Use a standard (12V) lawn and garden battery with a minimum
+of 45 A.H. or 210 CCA.
+The voltage and frequency are regulated by the rpm's of the
+engine. Do not adjust the throttle or governor to achieve higher
+performance. This will only alter the factory Pre-set settings
+and damage anything connected to the generator.
+Be sure a volt/amp surge protector is used when sensitive
+electronic equipment is used, such as: televisions, computers,
+stereos, and etc The damage of such equipment without the
+use of a protector WILL NOT be covered under warranty.
+Do not adjust or attempt maintenance without consulting engine
+manual or an authorized engine service center.
+Add stabilizer to fuel tank and run engine for 5 minutes before
+storage.
+When in long term storage, operate the generator every 60 days
+for at least 10 minutes with a load on it. This will prevent the
+loss of residual magnetism that produces the electricity.
+Allow the generator to run 5 minutes at no load for the engine
+and the gen head to stabilize.
+Make sure the adequate size of extension cord is used. Refer to
+the Grounding Instructions/Extension Cord section of the
+owners manual.
+If the generator is operating equipment that is drawing half of
+the rated watts it is considered 50% load. Using all of the rated
+watts is considered 100% load.

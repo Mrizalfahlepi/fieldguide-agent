@@ -1,0 +1,105 @@
+{
+  "equipment_type": "electrical",
+  "brand": "",
+  "model": "",
+  "category": "service_manual",
+  "components": [
+    "belt",
+    "capacitor",
+    "carburetor",
+    "chain",
+    "circuit breaker",
+    "coil",
+    "filter",
+    "ignition",
+    "o-ring",
+    "rotor",
+    "solenoid",
+    "spark plug",
+    "starter motor",
+    "stator",
+    "valve",
+    "water pump"
+  ],
+  "symptoms": [
+    "excessive",
+    "overheating"
+  ],
+  "common_failures": [],
+  "diagnostic_steps": [
+    "Route cable, chain, or strap through",
+    "Add fuel stabilizer to fuel tank to minimize the formation of fuel gum",
+    "Run engine at least 10 minutes after adding stabilizer to allow it to enter the",
+    "Next shut off engine. ",
+    "Disconnect the spark plu"
+  ],
+  "repair_steps": [
+    "Place battery in rack with terminals",
+    "Place battery bracket (A) over battery as",
+    "Place \"L\" bolt (B) through top and",
+    "Locate the solenoid on the left side of",
+    "Remove the nut from the solenoid",
+    "Remove the nut from the solenoid",
+    "Attach the other end of the positive",
+    "Attach one end of the negative",
+    "Attach the other end of the negative",
+    "to 100 ft.",
+    "to 100 ft."
+  ],
+  "tools_required": [
+    "drill",
+    "grinder",
+    "jack"
+  ],
+  "safety_warnings": [
+    "Disconnect all electrical loads.",
+    "Disconnect the spark plug wire and remove the spark plug."
+  ],
+  "specifications": {},
+  "torque_specs": [],
+  "maintenance_schedule": [
+    {
+      "interval": "24 hour",
+      "context": "of the nearest Authorized Warranty Service Center call 1-\n800-888-2468, Ext. 2, 24 hours a day, 7 days a week or visit our web site @\ndevap.com. \n Retain sales receipt as proof of purchas"
+    },
+    {
+      "interval": "5 hour",
+      "context": "often if operated in extreme dusty or dirty conditions.\nNote 2: Check oil after 5 hours of operation.\nCUSTOMER RESPONSIBILITIES TABLE\nMAINTENANCE TASK\nBefore\neach\nuse\nEvery 25\nHours of\nE"
+    },
+    {
+      "interval": "Every 25\nHour",
+      "context": "of operation.\nCUSTOMER RESPONSIBILITIES TABLE\nMAINTENANCE TASK\nBefore\neach\nuse\nEvery 25\nHours of\nEvery\nSeason\nEvery 50\nHours of\nEvery\nSeason\nEvery 100\nHours of\nEvery\nSeason\nCheck Spark Plug\nPr"
+    },
+    {
+      "interval": "Every 50\nHour",
+      "context": "IBILITIES TABLE\nMAINTENANCE TASK\nBefore\neach\nuse\nEvery 25\nHours of\nEvery\nSeason\nEvery 50\nHours of\nEvery\nSeason\nEvery 100\nHours of\nEvery\nSeason\nCheck Spark Plug\nPrepare unit for storage if it is"
+    },
+    {
+      "interval": "Every 100\nHour",
+      "context": "K\nBefore\neach\nuse\nEvery 25\nHours of\nEvery\nSeason\nEvery 50\nHours of\nEvery\nSeason\nEvery 100\nHours of\nEvery\nSeason\nCheck Spark Plug\nPrepare unit for storage if it is to remain\nidle for more than 30"
+    },
+    {
+      "interval": "MONTHLY",
+      "context": "the gen\nhead.\n(IF EQUIPPED) GROUND FAULT CIRCUIT INTERRUPTER GFCI\nRECEPTACLE) \nMONTHLY: For maximum protection against electrical shock the GFCI should\nbe tested monthly.\nTo test:\n1.\nDep"
+    },
+    {
+      "interval": "monthly",
+      "context": "THLY: For maximum protection against electrical shock the GFCI should\nbe tested monthly.\nTo test:\n1.\nDepress the TEST button. The RESET button should extend. If the RESET\nbutton does not"
+    },
+    {
+      "interval": "24 hour",
+      "context": "of the nearest Authorized\nWarranty Service Center call 1-800-888-2468, Ext. 2, 24 hours a day, 7 days a week or visit our\nweb site @ devap.com.\n Retain original cash register sales recei"
+    },
+    {
+      "interval": "every 60 day",
+      "context": "for 5 minutes before\nstorage.\nWhen in long term storage, operate the generator every 60 days\nfor at least 10 minutes with a load on it. This will prevent the\nloss of residual magnetism that p"
+    }
+  ],
+  "wiring_info": [],
+  "troubleshooting_table": [],
+  "source_document": "extracted/Generator_ServiceNet_Manual.txt",
+  "text_length": 45707,
+  "confidence_scores": {
+    "overall": 0.86
+  }
+}

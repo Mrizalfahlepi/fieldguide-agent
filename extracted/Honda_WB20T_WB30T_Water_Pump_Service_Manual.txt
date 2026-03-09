@@ -1,0 +1,1519 @@
+Thank you for purchasing 
+a Honda water pump. 
+This manual describes 
+operation 
+and maintenance 
+of the Honda WB20T- 
+WB30T 
+water pumps. All information 
+in this publication 
+is based on the 
+latest product 
+information 
+available 
+at the time of printing. 
+Honda Motor 
+Co., Ltd. reserves the right to make changes 
+at any time 
+without 
+notice and without 
+incurring 
+any obligation. 
+No part of this publication 
+may be reproduced 
+without 
+written 
+permission. 
+This manual is considered 
+a permanent 
+part of the water pump and it must 
+stay with the water pump if resold. 
+READ THIS OWNERS 
+MANUAL 
+CAREFULLY. 
+Pay special attention 
+to 
+these symbols 
+and any instructions 
+that follow: 
+m 
+-Indicates 
+a strong possibility 
+that serious 
+injury or 
+death could result if instructions 
+are not followed. 
+-Indicates 
+a possibility 
+that minor injury can result if 
+instructions 
+are not followed. 
+1 IMPORTANT NoTlCE 1 -Indicates 
+that equipment 
+or property 
+damage 
+can 
+result if instructions 
+are not followed. 
+NOTE: Gives helpful information. 
+Honda water pumps are designed to give safe and dependable 
+service if 
+operated 
+according 
+to instructions. 
+Operating 
+this water pump requires 
+special effort on your part to ensure your safety and the safety of others. 
+m 
+Using this product for a purpose not intended 
+may cause injury 
+or property 
+damage. 
+Read and understand 
+this Owners 
+Manual 
+before 
+operating 
+the water 
+pump. 
+If a problem should arise, or if you have any questions 
+about your water 
+pump, consult 
+an authorized 
+Honda water pump dealer. 
+HONDA MOTOR CO., LTD. 1990, ALL RIGHTS RESERVED 
+
+CONTENTS 
+1. SAFETY INFORMATION 
+....................................................... 
+3 
+2. CbMPONENT 
+IDENTIFICATION 
+............................................. 
+5 
+3. PRE-OPERATION CHECK . ..r .................................................. 
+6 
+4. STARTING THE ENGINE ....................................................... 
+12 
+5. OPERATION 
+....................................................................... 
+14 
+l High altitude operation 
+..................................................... 
+15 
+6. STOPPING THE ENGINE ....................................................... 
+16 
+7. MAINTENANCE 
+.................................................................. 
+17 
+8. TRANSPORTING/STORAGE 
+.................................................. 
+25 
+9. TROUBLESHOOTING 
+................. 
+.......................................... 
+27 
+10. SPECIFICATIONS 
+................................................................ 
+29 
+1 1. WARRANTY 
+SERVICE .......................................................... 
+30 
+2 
+
+1. SAFETY INFORMATION 
+Read these labels before you operate the water pump. 
+3 
+
+m 
+To ensure 
+safe operation- 
+For safety, 
+never pump flammable 
+or corrosive 
+liquids such as gasoline 
+or acid. Also, 
+to avoid pump corrosion, 
+never pump sea water, 
+muddy 
+water, 
+chemical 
+solutions, 
+or caustic 
+liquids such as used oil, wine, 
+or 
+milk. 
+Place the pump on a firm, level surface. 
+If the pump is tilted or overturn- 
+ed, fuel spillage 
+may result. 
+To prevent 
+fire hazards 
+and to provide 
+adequate 
+ventilation, 
+keep the 
+pump at least 1 meter (3 feet) away from buildings 
+and other equipment 
+during 
+operation. 
+Do not place flammable 
+objects 
+close to the pump. 
+A spark arrester 
+is available 
+as an optional 
+part for this pump. It is illegal 
+in some areas to operate 
+an engine without 
+a spark arrester. 
+Check local 
+laws and regulations 
+before operating. 
+Know 
+how to stop the pump quickly, 
+and understand 
+the operation 
+of 
+all controls. 
+Never 
+permit 
+anyone 
+to operate 
+the pump without 
+proper 
+instructions. 
+Do not allow 
+children 
+to operate 
+the pump. 
+Keep children 
+and pets 
+away 
+from the area of operation. 
+Gasoline 
+is extremely 
+flammable 
+and is explosive 
+under certain 
+condi- 
+tions. 
+Do not smoke or allow flames or sparks where the pump is refuel- 
+ed or where 
+gasoline 
+is stored. 
+Refuel in a well-ventilated 
+area with the 
+engine 
+stopped. 
+Do not overfill 
+the tank. Make sure that the filler cap is 
+closed 
+securely. 
+Exhaust 
+gas contains 
+poisonous 
+carbon 
+monoxide. 
+Avoid 
+inhalation 
+of 
+exhaust 
+gasses. 
+Never 
+run the pump 
+in a closed 
+garage 
+or confined 
+area. 
+The muffler 
+becomes 
+very hot during 
+operation 
+and remains 
+hot for a 
+while 
+after 
+stopping 
+the engine. 
+Be careful 
+not to touch 
+the muffler 
+while 
+it is hot. Let the engine 
+cool before storing 
+the pump indoors. 
+
+2. 
+COMPONENT 
+IDENTIFICATION 
+PRlMiNG WATER 
+FILLER CAP 
+\ 
+CAP 
+CHOKE LEVER 
+AIR CLEANER 
+MUFFLER 
+THROTTLE LEVER 
+*FRAME SERIAL 
+NUMBER 
+PUMP DRAIN PLUG 
+SPURT 
+DISCHARGE 
+FUEL VALVE 
+ENGINE SWITCH 
+STARTER GRIP 
+*ENGINE SERIAL NUMBER 
+~&RF 
+CAP 
+Record the frame and engine serial numbers for 1 our reference. 
+Refer to 
+the serial numbers 
+when ordering 
+parts, and when making technical 
+or 
+warranty 
+inquiries 
+(see ). 
+Frame serial number: 
+Engine serial number: 
+5 
+
+3. 
+PRE-OPERATION 
+CHECK 
+1. Suction 
+hose (commercially 
+available) 
+Use a reinforced-wall 
+or wire braided hose to prevent suction 
+collapse. 
+Since the pumps self-priming 
+time is directly 
+proportional 
+to hose length, 
+a short hose is recommended. 
+Secure the hose with the hose band. 
+1 IMPORTANT NoTCE 1 Always 
+install the strainer 
+on the end of the suction 
+hose before 
+pumping. 
+Graiel 
+or debris sucked 
+into the pump will cause 
+serious 
+impeller 
+damage. 
+STRAINER 
+2. Discharge 
+hose (commercially 
+available) 
+2. Discharge 
+hose (commercially 
+available) 
+(optional parts) 
+When using a fabric hose, always 
+use a hose band to prevent 
+the hose 
+from disconnecting 
+under high pressure. 
+NOTE: 
+A short, 
+large-diameter 
+hose will provide 
+lower fluid friction 
+and 
+improve 
+efficiency. 
+HOSEBAND 
+(optional parts1 
+6 
+
+3. Engine Oil 
+( IMPORTANT NOTICE 1 Running 
+the 
+engine 
+with 
+low 
+oil level 
+will 
+cause 
+serious 
+engine 
+damage. 
+1. Place the water pump on a level serface. 
+2. Remove the oil filler cap/dipstick 
+and wipe it clean. 
+3. Check the oil level by inserting 
+the dipstick 
+in the filler neck without 
+screwing 
+it in. 
+4. If the level is low, fill to the top of the oil filler neck with the recom- 
+mended oil. 
+Use high-detergent, 
+premium quality 4-stroke engine oil, certified to meet 
+or exceed U.S. automobile 
+manufacturers 
+requirements 
+for API Service 
+Classification 
+SG, SF/CC, CD. 
+( IMPORTANT NOTICE ] u sing nondetergent 
+oil or 2-stroke 
+engine 
+oil could 
+shorten 
+the engines 
+service 
+life. 
+SAE 1 OW-30 
+,is recommended 
+for general, 
+all-temperature 
+use. Other 
+viscosities 
+shown 
+in the following 
+chart may be used when the average 
+temperature 
+in your area is within 
+the indicated 
+range. 
+-30 -20 -10 
+10 
+20 
+30 40C 
+Ambient temperature 
+OIL FILLER HECK 
+OIL FILLER CAP/ 
+DIPSTICK 
+63 
+: 
+f 
+-- 
+--- 
+-- 
+b 
+% 
+J 
+9 
+w 
+- 
+-z- 
+- 
+= 
++ 
+=- 
+: 
+- 
+z 
+.L 
+-z= 
+= 
+--z == 
+q 
+-;--s 
+- 
+7 
+
+4. Fuel 
+Unscrew 
+the fuel filler cap. Check the fuel level. 
+FUEL TANK 
+CAPACITY: 
+WB20T...2.7 
+P (0.71 
+US gal, 0.59.lmp 
+g,al) 
+WB30T...3.6 
+e (0.95 
+US gal, 0.79 
+Imp gal) 
+Gasoline 
+is extremely 
+flammable, 
+and gasoline 
+vapor can explode. 
+Use ex- 
+treme care when handling 
+gasoline. 
+Keep gasoline 
+out of reach of children. 
+l Refuel 
+in a well ventilated 
+area with the engine 
+stopped. 
+Keep flames 
+and sparks 
+away, 
+and do not smoke 
+in the area. 
+l Gasoline 
+vapors 
+or spilled gasoline 
+may ignite. 
+l Refuel carefully 
+to avoid spilling gasoline. 
+Avoid overfilling 
+the fuel tank 
+(there 
+should 
+be no gas in the filler neck). 
+After 
+refueling, 
+tighten 
+the 
+fuel cap securely. 
+If any gasoline 
+was spilled, 
+make sure the area is dry 
+before 
+starting 
+the engine. 
+l After use, store the water 
+pump on a level surface. 
+Be sure the storage 
+area is well ventilated; 
+do not allow flames or sparks in the storage area. 
+After refueling, 
+be sure to tighten 
+the fuel filler cap firmly. 
+FUEL FILLER CAP 
+8 
+
+Gasoline 
+Recommendation 
+Pump octane rating: 86 or higher 
+We recommend 
+unleaded gasoline because it produces fewer engine and 
+spark plug deposits 
+and extends 
+the exhaust 
+system life. 
+If spark 
+knock 
+(metallic rapping noise) or persistent 
+pinging 
+occurs at 
+a steady engine speed under normal load, change brands of gasoline. 
+If 
+spark knock or pinging 
+persists, 
+see an authorized 
+Honda water 
+pump 
+dealer. 
+1 IMPORTANT NoTlCE 1 Running 
+the engine 
+with 
+perisistent 
+spark knock or 
+pinging 
+can cause engine 
+damage. 
+Running the engine with persistent 
+spark knock or pinging is considered 
+misuse, 
+and the Distributors 
+Limited 
+Warranty 
+does not cover 
+parts 
+damaged by misuse. 
+Occasionally 
+you, may hear light spark knock while operating 
+under heavy 
+loads. 
+This 
+is no cause for concern. 
+It simply 
+means your engine 
+is 
+operating 
+efficiently. 
+Never use stale or contaminated 
+gasoline or an oil/gasoline 
+mixture. 
+Avoid 
+getting 
+dirt or water in the gas tank. 
+9 
+
+GASOLINES 
+CONTAINING 
+ALCOHOL 
+If you decide to use a gasoline containing 
+alcohol (gasohol), 
+be sure its oc- 
+tane 
+rating 
+is at least as high as that 
+recommended 
+by Honda 
+(see 
+Gasoline Recommendation 
+on ). There are two types of gasohol: 
+one containing 
+ethanol, 
+and the other containing 
+methanol. 
+1 IMPORTANT NoTiCE I Using gasohol that contains 
+more than 10% ethanol, 
+or gasoline 
+containing 
+methanol 
+(methyl 
+or wood 
+alcohol) 
+that does not 
+also contain 
+cosolvents 
+and corrosion 
+inhibitors 
+for methanol, 
+can cause 
+serious 
+fuel system 
+damage 
+and poor engine 
+performance. 
+Never use gasoline 
+containing 
+more than 
+5% methanol, 
+even if it has 
+cosolvents 
+and corrosion 
+inhibitors. 
+Honda 
+cannot 
+endorse 
+the use of gasoline 
+containing 
+methanol 
+since 
+evidence 
+of its suitability 
+is as yet incomplete. 
+NOTE: 
+Fuel system 
+damage 
+or engine performance 
+problems 
+resulting 
+from the use of gasoline 
+that contains 
+alcohol 
+is not covered 
+under the 
+warranty. 
+Before buying 
+gasoline 
+from an unfamiliar 
+station, 
+first determine 
+if the 
+gasoline contains 
+alcohol; 
+if it does, find out the type and percentage 
+of 
+alcohol used. 
+NOTE: 
+If you notice any undesirable 
+operating 
+symptoms 
+while using a 
+gasoline 
+that contains 
+alcohol, 
+or one that you think 
+contains 
+alcohol, 
+switch 
+to a gasoline that you know does not contain 
+alcohol. 
+10 
+
+5. Air cleaner 
+Loosen the wing nut and remove the air cleaner cover. 
+Check the element for dirt or obstruction. 
+Clean the element if necessary 
+(see ). 
+AIR CLEANER 
+AIR CLEANER 
+I 
+WING NUT 
+6. Priming 
+water 
+The pump chamber should be completely 
+filled before operating. 
+ppoRTANT 
+NoTKE 1 Never attempt 
+to operate 
+the pump without 
+priming 
+water 
+or the pump will overheat. 
+Extended 
+dry operation 
+will destroy 
+the 
+pump seal. If the unit has been operated 
+dry, stop the engine immediately 
+and allow the pump to cool before adding priming 
+water. 
+PRIMING WATER 
+FILLER CAP 
+11 
+
+4. 
+STARTING 
+THE ENGINE 
+1. Turn the fuel valve ON. 
+2. Close the choke lever. 
+NOTE: 
+Do not use the choke 
+if the engine 
+is warm 
+or the ambient 
+temperature 
+is high. 
+I 
+CHOKE LEVER 
+3. Turn the engine switch 
+to the ON position. 
+ENGINE SWITCH 
+12 
+
+4. Raise the throttle 
+lever slightly. 
+THROTTLE LEVER 
+5. Pull the starter grip lightly 
+until resistance 
+is felt, then pull it briskly. 
+1 IMPORTANT NoTCE I Do not allow the starter grip to snap back against the 
+engine. 
+Return 
+it gently 
+to prevent 
+damage 
+to the starter. 
+13 
+
+5. OPERATION 
+1. As the engine warms up, gradually 
+open the choke. 
+CHOKE LEVER 
+2. Set the throttle 
+at the desired speed. 
+THROTTLE LEVER 
+14 
+
+High Altitude 
+Operation 
+At high altitude, 
+the standard 
+carburetor 
+air-fuel mixture 
+will be too rich. 
+Performance 
+will decrease, and fuel consumption 
+will increase. A very rich 
+fuel mixture 
+may also foul the spark plugs and cause hard starting. 
+High altitude performance 
+can be improved by installing 
+a smaller diameter 
+main fuel jet in the carburetor 
+and readjusting 
+the pilot screw. 
+If you 
+always 
+operate the engine at altitudes 
+higher than 6,000 feet above sea 
+level, 
+have an authorized 
+Honda water 
+pump dealer perform 
+this car- 
+buretor modification. 
+Even with carburetor 
+modification, 
+engine horsepower 
+will decrease about 
+3.5% for each 1,000 feet increase in altitude. 
+The effect of altitude 
+on 
+horsepower 
+will be greater than this if no carburetor 
+modification 
+is made. 
+1 IMPORTANT NOTICE 1 0 nce a carburetor 
+is jetted 
+for hiah 
+altitude 
+use, 
+operation 
+at lower altitudes 
+without 
+rejetting-may 
+result inreduced 
+perfor- 
+mance, 
+overheating, 
+and serious 
+engine damage. 
+It is especially 
+important 
+to rejet a carburetor 
+when going from a higher 
+altitude 
+to a lower 
+one. At lower 
+altitudes, 
+the air/fuel 
+mixture 
+may 
+become excessively 
+lean. 
+15 
+
+6. STOPPING 
+THE ENGINE 
+1. Move the throttle 
+lever down fully. 
+2. Turn the engine switch 
+to the OFF position. 
+THROTTLE LEVER 
+3. Turn the fuel valve OFF. 
+ENGINE SWITCH 
+I 
+FUEL VALVE 
+NOTE: 
+To stop the engine in an emergency, 
+turn the engine switch to the 
+OFF position. 
+16 
+
+7. MAINTENANCE 
+The purpose of the maintenance 
+and adjustment 
+schedule 
+is to keep the 
+pump in the best operating 
+condition. 
+Inspect or service as scheduled 
+in 
+the table below. 
+m 
+Shut off the engine 
+before performing 
+any maintenance. 
+If the 
+engine 
+must be run, make-sure 
+the area is weli ventilated. 
+The exhaust 
+contains 
+poisonous 
+carbon 
+monoxide 
+gas. 
+1 IMPORTANT NOTICE ] u se only genuine 
+HONDA 
+parts or their equivalent 
+for 
+maintenance 
+or repair. 
+Replacement 
+parts 
+which 
+are not of equivalent 
+quality 
+may damage 
+your water 
+pump. 
+Maintenance 
+Schedule 
+Combustion 
+Chamber 
+Clean-Lap 
+valves 
+Fuel tank 
+and strainer 
+Clean 
+__ .- 
+Check 
+Impeller 
+Impeller 
+clearance 
+Casing 
+Cover 
+Pump 
+inlet 
+valve 
+Fuel line 
+Check 
+Check 
+Check 
+Check 
+1Rnnlar.e 
+if nncnnnarvl 
+0121 
+012) 
+012) 
+Every 
+2 years 
+(2) 
+O(2) 
+O(2) 
+O(2) 
+NOTE 
+(1): 
+Service 
+more 
+frequently 
+when 
+used 
+in dusty 
+areas. 
+(2): 
+These 
+items 
+should 
+be serviced 
+by an authorized 
+Honda 
+dealer, 
+unless the owner 
+has the proper 
+tools and 
+is mechanically 
+proficient. 
+See the Honda 
+Shop 
+Manual. 
+17 
+
+TOOL KIT 
+Em) 
+SPARK PLUG WRENCH 
+D 
+) 
+WRENCH HANDLE 
+10 x 12 mm WRENCH 
+3-G 
+14xl7mmWRENCH 
+IO 
+TOOL BAG 
+18 
+
+1. Oil change 
+Drain the oil while the engine is still warm to assure rapid and complete 
+draining. 
+m 
+Used motor oil may cause skin cancer if repeatedly 
+left in con- 
+tact with the skin for prolonged 
+periods. 
+Although 
+this is unlikely 
+unless 
+you handle used oil on a daily basis, it is 
+still advisable 
+to thoroughly 
+wash your hands with soap and water as soon 
+as possible 
+after handling 
+used oil. 
+1. Remove the oil filler cap and the drain plug to drain the oil. 
+2. Reinstalj the drain plug and tighten 
+securely. 
+3. Refill with the recommended 
+oil (see ) to the specified 
+level. 
+OIL CAPACITY: 
+0.7 P (0.74 
+US qt) 
+PLUG 
+NOTE: 
+Please dispose of used motor oil in a manner that doesnt harm the 
+environment. 
+We suggest 
+you take it in a sealed container 
+to your local 
+service station 
+for reclamation. 
+Do not throw 
+it in the trash or pour it on 
+the ground or down a drain. 
+19 
+
+2. Air cleaner 
+service 
+A dirty air cleaner will restrict 
+air flow to the carburetor. 
+To prevent car- 
+buretor 
+malfunction, 
+service the air cleaner regularly. 
+Service more fre- 
+quently 
+when operating 
+the pump in extremely 
+dusty areas. 
+m 
+Never use gasoline 
+or low flash point solvents 
+for cleaning 
+the 
+air cleaner 
+element. 
+A fire or explosion 
+could result. 
+1 IMPORTANT NOTICE ( N ever run the engine 
+without 
+the air cleaner. 
+Rapid 
+engine 
+wear will result. 
+1. Loosen the wing nut, remove the air cleaner cover and remove the air 
+cleaner element. 
+2. Wash the air cleaner element 
+in a solution 
+of household 
+detergent 
+and 
+warm water, 
+then rinse thoroughly, 
+or wash in nonflammable 
+or high 
+flashpoint 
+solvent. 
+Allow the element to dry thoroughly. 
+3. Soak the element 
+in clean engine oil, and squeeze out the excess oil. 
+The engine will smoke during initial start-up 
+if too much oil is left in the 
+foam. 
+4. Reinstall the air cleaner element and the cover. 
+AIR CLEANER 
+ELEMENT 
+AIR CLEANER COVER 
+20 
+
+3. Spark plug service 
+Recommended 
+spark plug: BP4HS-10 
+(NGK) 
+To ensure proper engine operation, 
+the spark plug must be properly gap- 
+ped and free of deposits. 
+1. Remove the spark plug. 
+m 
+If the engine has be& 
+running, 
+the muffler will be very hot. Be 
+careful 
+not to touch 
+the muffler. 
+SPARK 
+PLUG WRENCH 
+2. 
+3. 
+Visually 
+inspect the spark plug. Discard it if the insulator 
+is cracked or 
+chipped. 
+Clean the spark plug with a wire brush if it is to be reused. 
+Measure the plug gap with a feeler gauge. The gap should be 0.9- 
+1 .O 
+mm (0.035-0.039 
+in). Correct 
+as necessary 
+by bending 
+the side 
+electrode. 
+~ 
+0.9- 
+1 .O mm 
+(0.035-0.039 
+in) 
+21 
+
+4. Check that the spark plug washer is in good condition, 
+and thread the 
+spark plug in by hand to prevent cross-threading. 
+5. After the spark plug is seated, tighten with a spark plug wrench to com- 
+press the washer. 
+NOTE: 
+If installing 
+a new spark plug, tighten 
+l/2 turn after the spark plug 
+seats to compress 
+the washer. 
+If reinstalling 
+a used spark plug, tighten 
+l/8- 
+l/4 turn after the spark plug seats to compress 
+the washer. 
+1 IMPORTANT NOTICE ] Th e spark plug must be securely 
+tightened. 
+An im- 
+properly 
+tightened 
+plug can become 
+very 
+hot and damage 
+the engine. 
+Never 
+use a spark plug with an improper 
+heat range. 
+22 
+
+4. Clean sediment 
+cup 
+Turn the fuel valve to the OFF position. 
+Loosen the ring nut and remove the 
+sediment 
+cup and packing. 
+Wash removed 
+parts in solvent, 
+dry them thoroughly 
+and reinstall 
+them 
+securely. 
+Turn the fuel valve ON and check for leaks. 
+PACKING 
+SEDIMENT 
+RING NUT 
+CUP 
+23 
+
+5. Spark arrester 
+maintenance 
+(optional 
+part) 
+m 
+If the engine 
+has been running, 
+the muffler 
+will be very hot. 
+Allow 
+it to cool before 
+proceeding. 
+1. 
+2. 
+3. 
+4. 
+5. 
+Remove the 8 mm flange nuts and 8 x 16 mm flange bolt and remove 
+the muffler. 
+Remove 
+the 6 x 6 mm and 6 x 10 mm flange 
+bolts 
+and muffler 
+protector. 
+Check the muffler exhaust 
+port for carbon deposits; 
+clean if necessary. 
+Loosen carbon deposits 
+in the muffler by lightly tapping around it with a 
+plastic 
+hammer. 
+Install the muffler 
+and muffler 
+protector 
+securely. 
+, 
+8 mm FLANGE NUT (2) 
+MUFFLER 
+PROTECTOR 
+/ 
+8 x 18 FLANGE 8&T 
+(1) Y 
+6xl2mmBOLTf2) 
+UFFLER 
+. ,. 
+;a% 
+,  
+\ 
+EXHAUST 
+PORT 
+24 
+
+8. TRANSPORTING/STORAGE 
+m 
+When transporting 
+the pump, turn the fuel valve OFF and keep 
+the pump 
+level 
+to prevent 
+fuel spillage. 
+Fuel vapor 
+or spilled 
+fuel may 
+ignite. 
+Before storing the pump for an extended 
+period; 
+1. Be sure the storage area is free of excessive 
+humidity 
+and dust. 
+2. Clean the pump interior 
+before shutting 
+down or the impeller may be 
+damaged when restarting. 
+After flushing, 
+remove the pump drain plug, 
+drain as much water as possible from the pump housing and replace the 
+plug. 
+3. Drain the fuel . . . 
+a. With the fuel valve in the ON position, 
+remove the carburetor 
+drain 
+screw, 
+and drain all the gasoline from the fuel tank into a suitable 
+container. 
+b. Reinstall the carburetor 
+drain screw. 
+m 
+Gasoline 
+is extremely 
+flammable 
+and is explosive 
+under certain 
+conditions. 
+Perform 
+this task in a well ventilated 
+area. Do not smoke 
+or 
+allow flames or sparks in the area during this procedure. 
+DRAIN SCREW 
+25 
+
+4. Change the engine oil. 
+5. Remove the spark plug and pour about a tablespoon 
+of clean engine oil 
+into the cylinder. 
+Crank the engine several revolutions 
+to distribute 
+the 
+oil, then reinstall 
+the spark plug. 
+6. Pull the starter rope slowly until resistance 
+is felt. Continue 
+pulling until 
+the notch on the starter pulley aligns with the hole on the recoil starter 
+(see illustration 
+below). At this point, the intake and exhaust valves are 
+closed, and this will help to protect the engine from internal corrosion. 
+the mark on the starter pulley 
+the hole at the top of the recoil 
+7. Cover the engine and pump to keep out dust. 
+26 
+
+9. TROUBLESHOOTING 
+When the engine will not start: 
+1. Is the engine switch 
+ON? 
+2. Is there enough fuel? 
+3. Is the fuel valve ON? 
+4. Is gasoline 
+reaching the carburetor? 
+To check, loosen the drain screw with the fuel valve ON. 
+Fuel should flow out freely. 
+m 
+If any fuel is spilled, 
+make sure the area is dry before testing 
+the spark plug or starting 
+the engine. 
+Fuel vapor or spilled fliel may ignite. 
+DRAIN SCREW 
+5. Is there a spark at the spark plug? 
+a. Remove the spark plug cap. Clean any dirt from around the spark 
+plug base, then remove the spark plug. 
+b. Install the spark plug in the plug cap. 
+c. Turn the engine switch 
+ON. 
+d. Ground the side electrode to any engine ground, pull the recoil starter 
+to see if sparks jump across the gap. 
+e. If there is no sparks, replace the plug. 
+Install 
+the new plug and try to start the engine according 
+to the 
+instructions. 
+6. If the engine still does not start, take the pump to an authorized 
+Honda 
+water pump dealer. 
+27 
+
+When the pump does not pump water: 
+1. Is the pump fully primed? 
+2. Is the strainer 
+clogged? 
+3. Are the hose bands installed 
+securely? 
+4. Are the hoses damaged? 
+5. Is the suction 
+head too high? 
+6. If the pump still does not pump the water, take the pump to an authoriz- 
+ed Honda water pump dealer. 
+28 
+
+10. 
+SPECIFICATIONS 
+Model 
+Power 
+equipment 
+description 
+code 
+WBPOT 
+WB30T 
+WZAL 
+WZAN 
+Dimensions 
+and Weight 
+Length 
+x Width 
+x Height 
+Dry weight 
+(mass) 
+Engine 
+460 
+x 360 
+x 440 
+mm 
+520 
+x 400 
+x 485 
+mm 
+(18.1 
+x 14.2 
+x 17.3 
+in) 
+(20.5 
+x 15.7 
+x 19.1 
+in) 
+23 kg (50.7 
+lb) 
+28 kg (61.7 
+lb) 
+Model 
+Enaine tvoe 
+G150 
+G200 
+4-stroke, 
+side valve, 
+1 cylinder 
+Displacement 
+[Bore x Stroke1 
+Max. 
+outout 
+144 cc (8.8 
+cu in) 
+197 
+cc (12.0 
+cu in) 
+(64 x 45 mm (2.5 
+x 1.8 in)] [67 x 56 mm (2.6 
+x 2.2 in)] 
+3.5 
+PS13.600 
+rpm 
+5.0 PS13.600 
+rpm 
+Max. 
+torque 
+Cooling 
+system 
+lanition 
+svstem 
+0.72 
+kg-m (5.2 
+ft-lb)/ 
+1.06 
+kg-m (7.7 ft-lb)/ 
+3,000 
+rpm 
+2,800 
+rpm 
+Forced air 
+C.D.I. 
+PTO shaft rotation, 
+Counterclockwise 
+Pump 
+Suction 
+port diameter 
+Discharae 
+oort diameter 
+50 mm (2 in) 
+80 mm (3 in) 
+50 mm (2 in) 
+80 mm (3 in) 
+Rated 
+revolutions 
+Total 
+head 
+Suction 
+head 
+3.600 
+rpm 
+32 m (105 
+ft1 
+8 m (26.2 
+ft) 
+3.600 
+rpm 
+28 m (91.9 
+ft) 
+8 m (26.2 
+ft) 
+Capacity 
+600 
+P (158.4 
+US gal)/min 
+1.100 
+P (290.4 
+US gal)/min 
+Self-priming 
+time 
+llOsecat5m(16.4ft) 
+150 set at 5 m (16.4 
+ft) 
+NOTE: 
+Specifications 
+are subject 
+to change 
+without 
+notice. 
+29 
+
+11. 
+WARRANTY 
+SERVICE 
+Owner 
+Satisfaction 
+Your satisfaction 
+and goodwill 
+are important 
+to your dealer and to us. All 
+Honda warranty 
+details are explained 
+in the Distributors 
+Limited Warran- 
+ty. Normally, 
+any problems concerning 
+the product will be handled by your 
+dealers service department. 
+If you have a warranty 
+problem that has not 
+been handled 
+to your satisfaction, 
+we suggest 
+you take the following 
+action: 
+l Discuss your problem with a member of dealership 
+management. 
+Often 
+complaints 
+can be quickly 
+resolved 
+at that level. If the problem 
+has 
+already been reviewed 
+with the Service Manager, contact the owner of 
+the dealership 
+or the General Manager. 
+l If your problem still has not been resolved to your satisfaction, 
+contact 
+the Power 
+Equipment 
+Customer 
+Relations 
+Department 
+of American 
+Honda Motor Co., Inc. 
+American 
+Honda Motor Co., Inc. 
+Power Equipment 
+Customer 
+Relations 
+Department 
+P.O. Box 50 
+Gardena, California 
+90247-0805 
+Telephone: 
+(2 13) 604-2400 
+We will need the following 
+information 
+in order to assist you: 
+- Your name, address, 
+and telephone 
+number 
+- 
+Product model and serial number 
+- 
+Date of Purchase 
+- 
+Dealer name and address 
+- Nature of problem 
+After reviewing 
+all the facts involved, 
+you will be advised of what action 
+can be taken.. Please bear in mind that your problem will likely be resolved 
+at the dealership, 
+using the dealers facilities, 
+equipment, 
+and personnel, 
+so it is very important 
+that your initial contact 
+be with the dealer. 
+Your purchase 
+of a Honda product 
+is greatly 
+appreciated 
+by both your 
+dealer and American 
+Honda Motor Co., Inc. We want to assist you in every 
+way possible to assure your complete 
+satisfaction 
+with your purchase. 
+30 
+
+Current customer service contact information: 
+ 
+United States, Puerto Rico, and U.S. Virgin Islands: 
+Honda Power Equipment dealership personnel are trained professionals. They should 
+be able to answer any question you may have. If you encounter a problem that your 
+dealer does not solve to your satisfaction, please discuss it with the dealership's 
+management. The Service Manager or General Manager can help. Almost all problems 
+are solved in this way. 
+If you are dissatisfied with the decision made by the dealership's management, contact 
+the Honda Power Equipment Customer Relations Office. You can write: 
+American Honda Motor Co., Inc. 
+Power Equipment Division 
+Customer Relations Office 
+4900 Marconi Drive 
+Alpharetta, GA 30005-8847 
+Or telephone: (770) 497-6400 M-F, 8:30 am - 7:00 pm EST 
+When you write or call, please provide the following information: 
+ 
+Model and serial numbers 
+ 
+Name of the dealer who sold the Honda power equipment to you 
+ 
+Name and address of the dealer who services your equipment 
+ 
+Date of purchase 
+ 
+Your name, address, and telephone number 
+ 
+A detailed description of the problem 
+ 
+
+MEMO 
+
+MEMO

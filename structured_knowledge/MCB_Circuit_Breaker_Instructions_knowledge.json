@@ -1,0 +1,45 @@
+{
+  "equipment_type": "electrical",
+  "brand": "BTB",
+  "model": "IEC60898-1",
+  "category": "service_manual",
+  "components": [
+    "circuit breaker"
+  ],
+  "symptoms": [
+    "overheating"
+  ],
+  "common_failures": [],
+  "diagnostic_steps": [
+    "Troubleshooting ",
+    "Maintenance ",
+    "Dimension "
+  ],
+  "repair_steps": [
+    "Installation ",
+    "Preparation: ",
+    "Mounting: ",
+    "Operation ",
+    "Switching On: ",
+    "Switching Off: ",
+    "Tripping: ",
+    "Safety Guidelines ",
+    "Troubleshooting ",
+    "Maintenance ",
+    "Dimension "
+  ],
+  "tools_required": [],
+  "safety_warnings": [
+    "disconnected before installation."
+  ],
+  "specifications": {},
+  "torque_specs": [],
+  "maintenance_schedule": [],
+  "wiring_info": [],
+  "troubleshooting_table": [],
+  "source_document": "extracted/MCB_Circuit_Breaker_Instructions.txt",
+  "text_length": 2210,
+  "confidence_scores": {
+    "overall": 0.71
+  }
+}

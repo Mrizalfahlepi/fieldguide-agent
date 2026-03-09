@@ -1,0 +1,215 @@
+{
+  "equipment_type": "generator",
+  "brand": "Baldor",
+  "model": "PC13R",
+  "category": "service_manual",
+  "components": [
+    "bearing",
+    "belt",
+    "capacitor",
+    "carburetor",
+    "circuit breaker",
+    "coil",
+    "crankshaft",
+    "cylinder",
+    "fuse",
+    "ignition",
+    "piston",
+    "rotor",
+    "seal",
+    "sensor",
+    "shaft",
+    "spark plug",
+    "stator",
+    "strainer",
+    "valve",
+    "water pump"
+  ],
+  "symptoms": [
+    "excessive",
+    "overheating",
+    "vibration"
+  ],
+  "common_failures": [],
+  "diagnostic_steps": [
+    "SPECIFICATIO US ",
+    "1 -1,999 R ",
+    "mmx200 rnmxl10 mm ",
+    "to 15OV: Type with an output voltage of 110 ",
+    "to 300V: Type with an output voltage of 220, ",
+    "to 150V, 0 to 330V: Dual voltage type ",
+    "Bent or broken crankshaft or resultant damage caused by vibration related to bent or broken crankshaft. Also, damage ",
+    "Repairs required because of prolonged storage including damage caused by old or contaminated fuel in the fuel tank, fuel ",
+    "Repair required due to overheating (Most often caused by overloaded or clogged or damaged or missing flywheel, fan, ",
+    "Dirt or grit related wear caused by improper air cleaner maintenance (most often resulting in worn piston rings, cylinders, ",
+    "Broken or scored parts caused by low oil level, dirty or improper grade of oil. ",
+    "Engine tune-ups and normal maintenance service including, but not limited to, valve adjustment, normal replacement of ",
+    "Any engine which has been subject to negligence, misuse, accident, mis-application or over -speeding. ",
+    "Any engine that has been installed, repaired or altered by anyone in a manor which in Robin's sole judgment adversely ",
+    "Any engine which has been fitted with or repaired with parts or components not manufactured or approved by Robin ",
+    "Instances when normal use has exhausted the life of a component or an engine. ",
+    "To AC receptacle ",
+    "CONTROL PANEL ",
+    "= TROUBLESHOOTING ",
+    "Remove control panel and disconnect couplers on ",
+    "Measure the resistance between ",
+    "-1 -2 CHECKING CONDENSER ",
+    "1-1 -3 CHECKING ROTOR ",
+    "Remove rear cover and stator. ",
+    "Measure the resistance of field coil with a circuit ",
+    "Check the magnetic force of magnets molded in ",
+    "If the magnetic force is weak, replace the rotor with a new one. ",
+    "If the diode or the resistor is faulty, replace rotor assembly with new one. ",
+    "- 3800 r.p.m. ",
+    "-2-2 CHECKING STATOR "
+  ],
+  "repair_steps": [
+    "Year or 3,000 Hours ",
+    "Years or 3,000 Hours ",
+    "RPM Standby Systems ",
+    "Year or 1,000 Hours ",
+    "Years or 1,000 Hours ",
+    "RPM Standby Systems ",
+    "Year or 3,000 Hours ",
+    "Years or 3,000 Hours ",
+    "Year or 1,000 Hours ",
+    "Years or 1,000 Hours ",
+    "Year or 3,000 Hours ",
+    "Years or 3,000 Hours ",
+    "RPM Standby Systems ",
+    "Year or 1,000 Hours ",
+    "Years or 1,000 Hours ",
+    "RPM Standby Systems ",
+    "Year or 3,000 Hours ",
+    "Years or 3,000 Hours ",
+    "Year or 1,000 Hours ",
+    "DISASSEMBLY AND ASSEMBLY ",
+    "Be sure to memorize the location of individual parts when disassembling the generator so that the ",
+    "For more convenience, divide the parts into several groups and store them in boxes. ",
+    "To prevent bolts and nuts from being misplaced or installed incorrectly, place them temporarily back ",
+    "Handle disassembled parts with care; clean them before reassembly using a neutral cleaning fluid. ",
+    "Use all disassembly /assembly tools properly, and use the proper tool for each specific job. ",
+    "Side cover ",
+    "(1) Remove the rear cover ",
+    "'art to remove ",
+    "Element cover ",
+    "Shut the fuel striner. ",
+    "Remove the strainer cup. ",
+    "Put a vessel to receive fuel under the ",
+    "Attach the strainer cup to the strainer ",
+    "DISASSEMBLY AND ASSEMBLY ",
+    "Be sure to memorize the location of individual parts when disassembling the generator so that the ",
+    "For more convenience, divide the parts into several groups and store them in boxes. ",
+    "To prevent bolts and nuts from being misplaced or installed incorrectly, place them temporarily back ",
+    "Handle disassembled parts with care; clean them before reassembly using a neutral cleaning fluid. ",
+    "Use all disassembly /assembly tools properly, and use the proper tool for each specific job. ",
+    "Side cover ",
+    "(1) Remove the rear cover ",
+    "'art to remove ",
+    "Element cover ",
+    "Shut the fuel striner. ",
+    "Remove the strainer cup. ",
+    "Put a vessel to receive fuel under the ",
+    "Attach the strainer cup to the strainer "
+  ],
+  "tools_required": [
+    "ammeter",
+    "drill",
+    "impact wrench",
+    "jack",
+    "socket",
+    "spanner",
+    "voltmeter",
+    "wrench"
+  ],
+  "safety_warnings": [
+    "disconnect the spark plug and battery to prevent accidental starting.",
+    "high voltage",
+    "Disconnect all leads plugged into the unit Prior to working on it.",
+    "disconnected and locked open.",
+    "high voltage",
+    "high voltage",
+    "electric shock",
+    "electric shock",
+    "electric shock",
+    "electric shock",
+    "Disconnect two (2) wires comming from the sen-",
+    "Disconnect fuel hose from the strainer.",
+    "disconnect couplers on"
+  ],
+  "specifications": {},
+  "torque_specs": [],
+  "maintenance_schedule": [
+    {
+      "interval": "monthly",
+      "context": "h national electrical codes and local \nregulations. \n \n \nCheck GFCI Receptacles monthly by using the \"Test\" and \"Reset\" buttons designed into them. \n \n \nDepending on your application it m"
+    },
+    {
+      "interval": "monthly",
+      "context": "GENERATOR SETS     \n \n \nCheck all fuel supply piping and their connections on a monthly basis for fuel leaks. \n \n \nUse only approved piping and componentry in your fuel supply system."
+    },
+    {
+      "interval": "6 hour",
+      "context": "y \nI \n1.3 U.S. pints (600 cc) \nContinuous operating hours per tank I \nApprox. 3.6 hours \nIgnition system \n1 \nSolid \n \nstate \n \nignition \nStarting \n \nsystem \n1 \nRecoil \n \nstarter \n: \nForc"
+    },
+    {
+      "interval": "6 hour",
+      "context": "0 LONG OPERATION \nThe large 0.9 U.S. gal. (3.5 liter) fuel tank allows about \n3.6 hours of continuous operation at 60Hz \nrated load. \n0 MINIMAL MAINTENANCE \n-d \nThe brushless design and"
+    },
+    {
+      "interval": "000 Hour",
+      "context": "ef, \nDG Series, K Series) \n1 Year \n3 Years \nTowable Products \n(TS) \n1 Year or 3,000 Hours \nWhichever comes first \n3 Years or 3,000 Hours \nWhichever comes first \n3600 RPM Standby Systems \n("
+    },
+    {
+      "interval": "000 Hour",
+      "context": "able Products \n(TS) \n1 Year or 3,000 Hours \nWhichever comes first \n3 Years or 3,000 Hours \nWhichever comes first \n3600 RPM Standby Systems \n(Some AE Models) \n1 Year or 1,000 Hours \nWhichev"
+    },
+    {
+      "interval": "000 Hour",
+      "context": "Whichever comes first \n3600 RPM Standby Systems \n(Some AE Models) \n1 Year or 1,000 Hours \nWhichever comes first \n3 Years or 1,000 Hours \nWhichever comes first \n1800 RPM Standby Systems \n("
+    },
+    {
+      "interval": "000 Hour",
+      "context": "s \n(Some AE Models) \n1 Year or 1,000 Hours \nWhichever comes first \n3 Years or 1,000 Hours \nWhichever comes first \n1800 RPM Standby Systems \n(Some AE Models, DLC, \nGLC) \n1 Year or 3,000 Hou"
+    },
+    {
+      "interval": "000 Hour",
+      "context": "comes first \n1800 RPM Standby Systems \n(Some AE Models, DLC, \nGLC) \n1 Year or 3,000 Hours \nWhichever comes first \n3 Years or 3,000 Hours \nWhichever comes first \nIndustrial Standby Systems"
+    },
+    {
+      "interval": "000 Hour",
+      "context": "Models, DLC, \nGLC) \n1 Year or 3,000 Hours \nWhichever comes first \n3 Years or 3,000 Hours \nWhichever comes first \nIndustrial Standby Systems \n1 Year or 1,000 Hours \nWhichever comes first"
+    },
+    {
+      "interval": "000 Hour",
+      "context": "or 3,000 Hours \nWhichever comes first \nIndustrial Standby Systems \n1 Year or 1,000 Hours \nWhichever comes first \n2 Years or 1,000 Hours \nWhichever comes first \nIndustrial Prime Power \nSys"
+    },
+    {
+      "interval": "000 Hour",
+      "context": "ial Standby Systems \n1 Year or 1,000 Hours \nWhichever comes first \n2 Years or 1,000 Hours \nWhichever comes first \nIndustrial Prime Power \nSystems \n1 Year or 1,000 Hours \nWhichever comes fi"
+    },
+    {
+      "interval": "000 Hour",
+      "context": ",000 Hours \nWhichever comes first \nIndustrial Prime Power \nSystems \n1 Year or 1,000 Hours \nWhichever comes first \n1 Year or 1,000 Hours \nWhichever comes first \nInternational \n1 Year or 1,0"
+    },
+    {
+      "interval": "000 Hour",
+      "context": "Prime Power \nSystems \n1 Year or 1,000 Hours \nWhichever comes first \n1 Year or 1,000 Hours \nWhichever comes first \nInternational \n1 Year or 1,000 Hours \nWhichever comes first \n1 Year or 1,0"
+    },
+    {
+      "interval": "000 Hour",
+      "context": "first \n1 Year or 1,000 Hours \nWhichever comes first \nInternational \n1 Year or 1,000 Hours \nWhichever comes first \n1 Year or 1,000 Hours \nWhichever comes first \n \n*Labor coverage for warran"
+    },
+    {
+      "interval": "000 Hour",
+      "context": "first \nInternational \n1 Year or 1,000 Hours \nWhichever comes first \n1 Year or 1,000 Hours \nWhichever comes first \n \n*Labor coverage for warrantable repairs is provided for the applicable p"
+    }
+  ],
+  "wiring_info": [],
+  "troubleshooting_table": [],
+  "source_document": "extracted/Baldor_Generator_Service_Manual.txt",
+  "text_length": 73457,
+  "confidence_scores": {
+    "overall": 0.86
+  }
+}

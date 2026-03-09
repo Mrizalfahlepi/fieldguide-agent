@@ -1,0 +1,144 @@
+{
+  "equipment_type": "pump",
+  "brand": "Honda",
+  "model": "WB20XT",
+  "category": "service_manual",
+  "components": [
+    "carburetor",
+    "coil",
+    "coupling",
+    "cylinder",
+    "filter",
+    "gasket",
+    "ignition",
+    "impeller",
+    "o-ring",
+    "seal",
+    "shaft",
+    "spark plug",
+    "strainer",
+    "valve",
+    "water pump"
+  ],
+  "symptoms": [
+    "excessive",
+    "overheating"
+  ],
+  "common_failures": [],
+  "diagnostic_steps": [
+    "2. SAFETY LABEL LOCATIONS",
+    "Name and address of manufacturer, authorized representative and importer are written in the ",
+    "mm (19.1 in)",
+    "mm (20.1 in)",
+    "mm (14.4 in)",
+    "mm (15.2 in)",
+    "mm (16.9 in)",
+    "mm (17.9 in)",
+    "kg (46 lbs)",
+    "kg (57 lbs)",
+    "cm3 (7.4 cu-in)",
+    "cm3 (9.9 cu-in)",
+    "44 lmp gal)",
+    "68 lmp gal)",
+    "4 kW/3,600 min-1(rpm)",
+    "6 kW/3,600 min-1(rpm)",
+    "5 Nm/2,500 min-1(rpm)",
+    "5 lbfft/2,500 min-1(rpm))",
+    "3 Nm/2,500 min-1(rpm)",
+    "6 lbfft/2,500 min-1(rpm))",
+    "mm (2.0 in)",
+    "mm (3.1 in)",
+    "mm (2.0 in)",
+    "mm (3.1 in)",
+    "4 lmp gal/min)",
+    "0 lmp gal/min)",
+    "TRANSPORTING/STORAGE .............................................................28",
+    "TROUBLESHOOTING ........................................................................30",
+    "SPECIFICATIONS...............................................................................32",
+    "1. SAFETY INSTRUCTION"
+  ],
+  "repair_steps": [
+    "Maintenance schedule",
+    "Air cleaner",
+    "Spark plug",
+    "Idle speed",
+    "1. Changing oil",
+    "Place a suitable container below the engine to catch the used oil, ",
+    "Allow the used oil to drain completely into an approved container, then ",
+    "With the engine in a level position fill with the recommended oil ",
+    "2. Air cleaner service",
+    "Unscrew the wing nut, remove the air cleaner cover and remove the ",
+    "Clean the air filter elements if they are to be reused.",
+    "Name and address of manufacturer, authorized representative and importer are written in the ",
+    "3. COMPONENT IDENTIFICATION",
+    "4. PRE-OPERATION FOR STARTING",
+    "Connect the suction hose.",
+    "2. Connect the discharge hose.",
+    "Check the engine oil level."
+  ],
+  "tools_required": [
+    "wrench"
+  ],
+  "safety_warnings": [
+    "disconnecting under high pressure.",
+    "Disconnect the spark plug cap and then remove the spark plug with"
+  ],
+  "specifications": {
+    "capacity": "2.0"
+  },
+  "torque_specs": [
+    {
+      "context": "TORQUE: 18 Nm",
+      "value": "18",
+      "unit": "Nm"
+    },
+    {
+      "context": "TORQUE: 18 Nm",
+      "value": "18",
+      "unit": "Nm"
+    },
+    {
+      "context": "7.5 Nm",
+      "value": "7.5",
+      "unit": "Nm"
+    },
+    {
+      "context": "10.3 Nm",
+      "value": "10.3",
+      "unit": "Nm"
+    }
+  ],
+  "maintenance_schedule": [
+    {
+      "interval": "service interval",
+      "context": "ained. Regular maintenance will also \nhelp to extend service life. The required service intervals and the kind \nof maintenance to be performed are described in the table below.\nShut off the engine"
+    },
+    {
+      "interval": "Maintenance schedule",
+      "context": "y may \ndamage the pump.\n3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM\n\n21\nMaintenance schedule\n* Replace paper element type only.\nNOTE:\n(1) Service more frequently when used in dusty areas.\n(2)"
+    },
+    {
+      "interval": "Every 3\nmonth",
+      "context": "ting\nhour interval, whichever comes first.\nItem\nEach\nuse\nFirst\nmonth\nor\n20 hrs.\nEvery 3\nmonths\nor\n50 hrs.\nEvery 6\nmonths\nor\n100 hrs.\nEvery\nyear\nor\n300 hrs.\npage\nEngine oil\nCheck level\no\n10\nChan"
+    },
+    {
+      "interval": "Every 6\nmonth",
+      "context": "ver comes first.\nItem\nEach\nuse\nFirst\nmonth\nor\n20 hrs.\nEvery 3\nmonths\nor\n50 hrs.\nEvery 6\nmonths\nor\n100 hrs.\nEvery\nyear\nor\n300 hrs.\npage\nEngine oil\nCheck level\no\n10\nChange\no\no\n22\nAir cleaner\nChec"
+    },
+    {
+      "interval": "Every 2 year",
+      "context": "Clean\nAfter every 500 hrs. (2)\nFuel tank and filter\nClean\no (2)\nFuel tube\nCheck\nEvery 2 years (Replace if necessary) (2)\nImpeller\nCheck\no (2)\nImpeller clearance\nCheck\no (2)\nPump inlet valve\nCh"
+    },
+    {
+      "interval": "Maintenance Schedule",
+      "context": "n very dusty areas, clean the \nair filter more frequently than specified in the Maintenance Schedule \n(see ).\nNever use gasoline or low flash point solvents for cleaning. They are \nflammable and explo"
+    }
+  ],
+  "wiring_info": [],
+  "troubleshooting_table": [],
+  "source_document": "extracted/Honda_WB20XT_WB30XT_Owners_Manual.txt",
+  "text_length": 32122,
+  "confidence_scores": {
+    "overall": 1.0
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "equipment_type": "pump",
+  "brand": "Honda",
+  "model": "WB20T-",
+  "category": "service_manual",
+  "components": [
+    "carburetor",
+    "coil",
+    "cylinder",
+    "impeller",
+    "seal",
+    "shaft",
+    "spark plug",
+    "strainer",
+    "valve",
+    "water pump"
+  ],
+  "symptoms": [
+    "excessive",
+    "overheating"
+  ],
+  "common_failures": [],
+  "diagnostic_steps": [
+    "Is there a spark at the spark plug? ",
+    "If the engine still does not start, take the pump to an authorized ",
+    "When the pump does not pump water: ",
+    "Is the pump fully primed? ",
+    "Is the strainer ",
+    "Are the hose bands installed ",
+    "Are the hoses damaged? ",
+    "Is the suction ",
+    "If the pump still does not pump the water, take the pump to an authoriz- ",
+    "SPECIFICATIONS ",
+    "0 PS13.600 ",
+    "mm (2 in) ",
+    "mm (3 in) ",
+    "mm (2 in) ",
+    "mm (3 in) ",
+    "set at 5 m (16.4 ",
+    "8. TRANSPORTING/STORAGE ",
+    "9. TROUBLESHOOTING ",
+    "10. SPECIFICATIONS ",
+    "1 1. WARRANTY ",
+    "1. SAFETY INFORMATION ",
+    "COMPONENT "
+  ],
+  "repair_steps": [
+    "IMPORTANT NOTICE ] u se only genuine ",
+    "x 12 mm WRENCH ",
+    "1. Oil change ",
+    "Remove the oil filler cap and the drain plug to drain the oil. ",
+    "Reinstalj the drain plug and tighten ",
+    "Refill with the recommended ",
+    "7 P (0.74 ",
+    "2. Air cleaner ",
+    "IMPORTANT NOTICE ( N ever run the engine ",
+    "Loosen the wing nut, remove the air cleaner cover and remove the air ",
+    "Wash the air cleaner element ",
+    "Soak the element ",
+    "Reinstall the air cleaner element and the cover. ",
+    "3. Spark plug service ",
+    "Remove the spark plug. ",
+    "x 12 mm WRENCH ",
+    "1. Oil change ",
+    "Remove the oil filler cap and the drain plug to drain the oil. ",
+    "Reinstalj the drain plug and tighten ",
+    "Refill with the recommended ",
+    "7 P (0.74 ",
+    "2. Air cleaner ",
+    "IMPORTANT NOTICE ( N ever run the engine ",
+    "Loosen the wing nut, remove the air cleaner cover and remove the air ",
+    "Wash the air cleaner element ",
+    "Soak the element ",
+    "Reinstall the air cleaner element and the cover. ",
+    "3. Spark plug service ",
+    "Remove the spark plug. "
+  ],
+  "tools_required": [
+    "wrench"
+  ],
+  "safety_warnings": [
+    "high pressure"
+  ],
+  "specifications": {},
+  "torque_specs": [
+    {
+      "context": "kg-m (5.2 \nft-lb",
+      "value": "5.2",
+      "unit": "ft-lb"
+    },
+    {
+      "context": "kg-m (7.7 ft-lb",
+      "value": "7.7",
+      "unit": "ft-lb"
+    }
+  ],
+  "maintenance_schedule": [
+    {
+      "interval": "Every \n2 year",
+      "context": "l line \nCheck \nCheck \nCheck \nCheck \n1Rnnlar.e \nif nncnnnarvl \n0121 \n012) \n012) \nEvery \n2 years \n(2) \nO(2) \nO(2) \nO(2) \nNOTE \n(1): \nService \nmore \nfrequently \nwhen \nused \nin dusty \nareas. \n(2):"
+    },
+    {
+      "interval": "daily",
+      "context": "olonged \nperiods. \nAlthough \nthis is unlikely \nunless \nyou handle used oil on a daily basis, it is \nstill advisable \nto thoroughly \nwash your hands with soap and water as soon \nas possi"
+    }
+  ],
+  "wiring_info": [],
+  "troubleshooting_table": [],
+  "source_document": "extracted/Honda_WB20T_WB30T_Water_Pump_Service_Manual.txt",
+  "text_length": 25735,
+  "confidence_scores": {
+    "overall": 0.86
+  }
+}

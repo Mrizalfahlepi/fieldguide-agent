@@ -1,0 +1,198 @@
+{
+  "equipment_type": "generator",
+  "brand": "",
+  "model": "",
+  "category": "service_manual",
+  "components": [
+    "alternator",
+    "bearing",
+    "belt",
+    "carburetor",
+    "circuit breaker",
+    "coil",
+    "contactor",
+    "crankshaft",
+    "cylinder",
+    "filter",
+    "fuel pump",
+    "fuse",
+    "gasket",
+    "gear",
+    "ignition",
+    "piston",
+    "relay",
+    "rotor",
+    "seal",
+    "shaft",
+    "solenoid",
+    "spark plug",
+    "starter motor",
+    "stator",
+    "valve"
+  ],
+  "symptoms": [
+    "abnormalities.",
+    "excessive",
+    "high temperature",
+    "overheating",
+    "vibration",
+    "won't start"
+  ],
+  "common_failures": [],
+  "diagnostic_steps": [
+    "5 AMP FUSE",
+    "Flashes = Low Battery (Voltage falls below 11.0 VDC for one ",
+    "Flashes = Overcrank (Unit does not start through entire start ",
+    "Flashes = Overspeed (Alternator spins at 4200 rpm/72 Hz ",
+    "Flashes = Low Oil Pressure (Drops below the 5 psi threshold ",
+    "Flashes = High Oil Temperature (Unit shuts down when tem-",
+    "Flashes = Underspeed (Alternator spins less than 3240 ",
+    "FUEL METERING SYSTEM",
+    "AIR INDUCTION SYSTEM"
+  ],
+  "repair_steps": [
+    "Introduction",
+    "Study these SAFETY RULES carefully before installing, operating ",
+    "Introduction",
+    "Study these SAFETY RULES carefully before installing, operating ",
+    "13 OUT OF SERVICE PROCEDURE",
+    "13.1 REMOVAL FROM SERVICE",
+    "Start the engine and let it warm up.",
+    "Close the fuel shutoff valve in the fuel supply line and allow ",
+    "While the engine is still warm from running, drain the oil ",
+    "Attach a tag to the engine indicating the viscosity and clas-",
+    "Remove the spark plug and pour two or three tablespoons of ",
+    "Remove the battery and store it in a cool, dry room on a ",
+    "Clean and wipe the entire generator.",
+    "13.2 RETURN TO SERVICE",
+    "Check the tag on the engine for oil viscosity and classification. ",
+    "Check the state of the battery. Fill all cells of unsealed batter-",
+    "Clean and wipe the entire generator.",
+    "Reconnect the battery. Observe battery polarity. Damage may ",
+    "Turn OFF all electrical loads. Add fuel if necessary and then ",
+    "Allow the unit to warm up thoroughly.",
+    "Apply electrical loads to at least 50 percent of the units rated ",
+    "When the engine is thoroughly warmed up, shut it down.",
+    "The generator is now ready for service.",
+    "14 RV GENERATOR SERVICE",
+    "Hours ..................................................Clean Spark Arrestor",
+    "Hours .................................Replace Paper Air Filter Element",
+    "Hours ......................................................Replace Fuel Filter",
+    "Hours ..................................................Replace Spark Plugs",
+    "NOTICE TO INSTALLER",
+    "6.3 GENERATOR SPECIFICATIONS",
+    "Rotor Poles",
+    "Engine RPM",
+    "Rated Max. Continuous AC Output Watts*",
+    "Rated Max. Continuous Current Amps (240V)"
+  ],
+  "tools_required": [
+    "phillips",
+    "screwdriver",
+    "socket",
+    "wrench"
+  ],
+  "safety_warnings": [
+    "disconnect the bonding conductor, if so equipped.",
+    "electric shock",
+    "electric shock",
+    "Disconnect any charging source prior to connect-",
+    "disconnecting battery terminals; and",
+    "electric shock",
+    "electric shock",
+    "Disconnect remote harness. Contact"
+  ],
+  "specifications": {
+    "weight": "278"
+  },
+  "torque_specs": [],
+  "maintenance_schedule": [
+    {
+      "interval": "Service Interval",
+      "context": "rvice Procedure ......................................... 16\n3.14 \nRV Generator Service Interval .................................. 16\nPart II  Installation Instructions\nSafety Rules ............."
+    },
+    {
+      "interval": "500 Hour",
+      "context": "Compliance Label.\nDisplacement\nCategory\nCompliance Period\n> 66 cc - < 225 cc\nA\n500 Hours\nB\n250 Hours\nC\n125 HOurs\n 225 cc\nA\n1000 Hours\nB\n500 Hours\nC\n250 Hours\n1.6.3 GENERATOR SPECIFICATION"
+    },
+    {
+      "interval": "250 Hour",
+      "context": "Label.\nDisplacement\nCategory\nCompliance Period\n> 66 cc - < 225 cc\nA\n500 Hours\nB\n250 Hours\nC\n125 HOurs\n 225 cc\nA\n1000 Hours\nB\n500 Hours\nC\n250 Hours\n1.6.3 GENERATOR SPECIFICATIONS\nSERIES\nRV4"
+    },
+    {
+      "interval": "125 HOur",
+      "context": "acement\nCategory\nCompliance Period\n> 66 cc - < 225 cc\nA\n500 Hours\nB\n250 Hours\nC\n125 HOurs\n 225 cc\nA\n1000 Hours\nB\n500 Hours\nC\n250 Hours\n1.6.3 GENERATOR SPECIFICATIONS\nSERIES\nRV45G\nRV55G\nRV6"
+    },
+    {
+      "interval": "1000 Hour",
+      "context": "pliance Period\n> 66 cc - < 225 cc\nA\n500 Hours\nB\n250 Hours\nC\n125 HOurs\n 225 cc\nA\n1000 Hours\nB\n500 Hours\nC\n250 Hours\n1.6.3 GENERATOR SPECIFICATIONS\nSERIES\nRV45G\nRV55G\nRV65G\nRotor RPM\n3600\n360"
+    },
+    {
+      "interval": "500 Hour",
+      "context": "d\n> 66 cc - < 225 cc\nA\n500 Hours\nB\n250 Hours\nC\n125 HOurs\n 225 cc\nA\n1000 Hours\nB\n500 Hours\nC\n250 Hours\n1.6.3 GENERATOR SPECIFICATIONS\nSERIES\nRV45G\nRV55G\nRV65G\nRotor RPM\n3600\n3600\n3600\nRotor"
+    },
+    {
+      "interval": "250 Hour",
+      "context": "< 225 cc\nA\n500 Hours\nB\n250 Hours\nC\n125 HOurs\n 225 cc\nA\n1000 Hours\nB\n500 Hours\nC\n250 Hours\n1.6.3 GENERATOR SPECIFICATIONS\nSERIES\nRV45G\nRV55G\nRV65G\nRotor RPM\n3600\n3600\n3600\nRotor Poles\n2\n2\n2"
+    },
+    {
+      "interval": "every 200 hour",
+      "context": "MAINTAINING THE ENGINE\nAIR CLEANER\nReplace the paper air filter element after every 200 hours of opera-\ntion. (Perform more often when operating in dusty conditions)\n1. \nAt the Air Cleaner Cov"
+    },
+    {
+      "interval": "every 400 hour",
+      "context": ".5 \nFUEL FILTER (GASOLINE ONLY)\nRemove and replace the fuel filter (Figure 3.5) every 400 hours of \noperation.\nFigure 3.5  Fuel Filter\n \n \n13\nTO FUEL PUMP\nCUSTOMER FUEL CONNECTION\nFUEL FILTER\nMa"
+    },
+    {
+      "interval": "every 200 hour",
+      "context": "gine exhaust muffler has a spark arrestor screen. Inspect and \nclean the screen every 200 hours of operation or once each year, \nwhichever comes first.\nNOTE:\nIf using the generator on any forest"
+    },
+    {
+      "interval": "WEEKLY",
+      "context": "when not in use. The generator \nbattery should be inspected as follows:\n3.8.1 \nWEEKLY\nInspect the battery posts and cables for tightness and corro-\n \nsion. Tighten and clean as necessar"
+    },
+    {
+      "interval": "50 hour",
+      "context": "d with water and the area dried.\n3.9 \nADJUSTING VALVE CLEARANCE\nAfter the first 50 hours of operation, check the valve clearance \nin the engine, adjust if necessary.\nImportant: If feeling"
+    },
+    {
+      "interval": "8 Hour",
+      "context": "The generator is now ready for service.\n3.14 RV GENERATOR SERVICE\nINTERVAL\n1st 8 Hours,\n then every 200 Hours ......................... Change Engine Oil/Filter\n1st 50 Hours,\n then ever"
+    },
+    {
+      "interval": "every 200 Hour",
+      "context": "is now ready for service.\n3.14 RV GENERATOR SERVICE\nINTERVAL\n1st 8 Hours,\n then every 200 Hours ......................... Change Engine Oil/Filter\n1st 50 Hours,\n then every 500 Hours ..........."
+    },
+    {
+      "interval": "50 Hour",
+      "context": "s,\n then every 200 Hours ......................... Change Engine Oil/Filter\n1st 50 Hours,\n then every 500 Hours .................................. Adjust Valve Lash\n200 Hours ............"
+    },
+    {
+      "interval": "every 500 Hour",
+      "context": "00 Hours ......................... Change Engine Oil/Filter\n1st 50 Hours,\n then every 500 Hours .................................. Adjust Valve Lash\n200 Hours ..................................."
+    },
+    {
+      "interval": "200 Hour",
+      "context": "urs,\n then every 500 Hours .................................. Adjust Valve Lash\n200 Hours ..................................................Clean Spark Arrestor\n200 Hours ................."
+    },
+    {
+      "interval": "200 Hour",
+      "context": "00 Hours ..................................................Clean Spark Arrestor\n200 Hours .................................Replace Paper Air Filter Element\n400 Hours ......................"
+    },
+    {
+      "interval": "400 Hour",
+      "context": "tor\n200 Hours .................................Replace Paper Air Filter Element\n400 Hours ......................................................Replace Fuel Filter\n500 Hours .............."
+    },
+    {
+      "interval": "500 Hour",
+      "context": "Hours ......................................................Replace Fuel Filter\n500 Hours ..................................................Replace Spark Plugs\nMaintenance\n\nPart II \nInstal"
+    }
+  ],
+  "wiring_info": [],
+  "troubleshooting_table": [],
+  "source_document": "extracted/Generator_Owners_Manual_Repair_Parts.txt",
+  "text_length": 139386,
+  "confidence_scores": {
+    "overall": 1.0
+  }
+}

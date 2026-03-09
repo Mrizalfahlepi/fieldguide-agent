@@ -1,0 +1,15 @@
+{
+  "total_files": 8,
+  "successfully_structured": 8,
+  "equipment_types": [
+    "generator",
+    "pump",
+    "electrical"
+  ],
+  "brands": [
+    "Honda",
+    "CAT",
+    "BTB",
+    "Baldor"
+  ]
+}

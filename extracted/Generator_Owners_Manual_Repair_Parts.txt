@@ -1,0 +1,4716 @@
+www.generac.com or 1-888-GENERAC
+Air-cooled Recreational
+Vehicle Generators
+RV 45, 55 and 65
+Owner's Manual
+Models:
+005411-0, 005413-0, 005415-0, 005751-0, 
+005752-0, 005753-0, 005855-0, 005856-0, 
+005857-0
+
+Part I  Operating Instructions
+Introduction ..............................................................1
+ Read This Manual Thoroughly ........................................... 1
+ Contents ............................................................................. 1
+ Operation and Maintenance .............................................. 1
+ How to Obtain Service ....................................................... 1
+ Authorized Service Dealer Locator Number ..........................1
+Safety Rules .............................................................2
+Section 1  General Information .............................4
+1.1 
+Generator Identification .............................................. 4
+1.2 
+Generator Applicability ............................................... 5
+1.3 
+Installation ................................................................... 5
+1.4 
+Safety .......................................................................... 5
+1.5 
+Generator AC Connection System ............................. 5
+1.6 
+Specifications .............................................................. 6
+1.7 
+Exhaust Emissions Information (Gasoline) ................ 7
+1.8 
+Evaporative Emissions Information ............................ 8
+Section 2  Operation ..............................................8
+2.1 
+Generator Control Panel ............................................. 8
+2.2 
+Optional Remote Start/Stop Panel ............................. 9
+2.3 
+Automatic Choke ........................................................ 9
+2.4 
+Before Starting the Engine ......................................... 9
+2.5 
+Starting the Generator .............................................. 10
+2.6 
+Stopping the Generator ............................................ 10
+2.7 
+Applying Loads to Generator ................................... 10
+2.8 
+Protection Systems ................................................... 11
+Section 3  Maintenance........................................12
+3.1 
+Checking the Engine Oil Level ................................. 12
+3.2 
+Changing the Engine Oil and/or Oil Filter ................ 12
+3.3 
+Maintaining the Engine Air Cleaner .......................... 13
+3.4 
+Checking the Engine Spark Plug ............................. 13
+3.5 
+Fuel Filter (Gasoline Only) ........................................ 13
+3.6 
+Clean Spark Arrestor ................................................ 14
+3.7 
+Cleaning the Generator ............................................ 14
+3.8 
+Battery Maintenance ................................................. 14
+3.9 
+Adjusting Valve Clearance ........................................ 15
+3.10 
+Major Service Manual ............................................... 16
+3.11 
+Drive Belt ................................................................... 16
+3.12 
+Exercising the Generator .......................................... 16
+3.13 
+Out of Service Procedure ......................................... 16
+3.14 
+RV Generator Service Interval .................................. 16
+Part II  Installation Instructions
+Safety Rules ...........................................................18
+ Notice to Installer ............................................................. 18
+Section 1  General Information ..........................20
+1.1 
+ Purpose and Scope of the Installation
+Instructions ................................................................ 20
+1.2 
+Safety ........................................................................ 20
+1.3 
+Standards Booklets .................................................. 20
+1.4 
+Equipment Description ............................................. 20
+1.5 
+Generator Engine Operating Speed ........................ 20
+1.6 
+Generator AC Connection System ........................... 20
+Section 2  Installation .........................................21
+ 
+Major Features and Dimensions .............................. 21
+2.1 
+Location and Support ............................................... 22
+2.2 
+Generator Compartments ......................................... 23
+2.3 
+Cooling and Ventilating Air ....................................... 25
+2.4 
+Gasoline Fuel System ............................................... 27
+2.5 
+Exhaust System ........................................................ 28
+2.6 
+Electrical Connections .............................................. 29
+2.7 
+Battery Installation .................................................... 30
+2.8 
+Optional Accessories ................................................ 32
+Section 3  Post Installation ................................33
+3.1 
+Post Installation Tests ............................................... 33
+3.2 
+Before Initial Start-up ................................................ 33
+3.3 
+Initial Start ................................................................. 33
+3.4 
+Testing Under Load ................................................... 33
+3.5 
+Installation Checklist ................................................. 34
+Section 4  Troubleshooting ..................................35
+4.1 
+Troubleshooting Guide ............................................. 35
+Section 5  Electrical Data .....................................36
+Section 6  Exploded Views and Parts Lists ........40
+Section 7  Warranty ..............................................52
+Table of Contents
+
+INTRODUCTION
+READ THIS MANUAL THOROUGHLY
+If any portion of this manual is not understood, contact the near-
+est Authorized Service Dealer for starting, operating and servicing 
+procedures.
+Throughout this publication, and on tags and decals affixed to the 
+generator, DANGER, WARNING, CAUTION and NOTE blocks are 
+used to alert personnel to special instructions about a particular 
+operation that may be hazardous if performed incorrectly or care-
+lessly. Observe them carefully. Their definitions are as follows:
+ After this heading, read instructions that, if not 
+strictly complied with, will result in personal 
+injury, including death, and property damage.
+ After this heading, read instructions that, if not 
+strictly complied with, may result in personal 
+injury or property damage.
+ After this heading, read instructions that, if not 
+strictly complied with, could result in damage 
+to equipment and/or property.
+NOTE:
+ After this heading, read explanatory statements that require 
+special emphasis.
+These safety warnings cannot eliminate the hazards that they 
+indicate. Common sense and strict compliance with the special 
+instructions while performing the service are essential to prevent-
+ing accidents.
+Four commonly used safety symbols accompany the Danger, 
+Warning and Caution blocks. The type of information each indi-
+cates follows:
+n
+ This symbol points out important safety 
+information that, if not followed, could 
+endanger personal safety and/or property of 
+others.
+
+ This symbol points out potential explosion 
+hazard.
+ 
+ This symbol points out potential fire hazard.
+ 
+ This symbol points out potential electrical 
+shock hazard.
+The operator (driver) is responsible for proper and safe use of the 
+vehicle and its equipment, and the safety of all vehicle occupants. 
+We strongly recommend that the operator read this manual and 
+thoroughly understand all instructions before using this equipment. 
+We also strongly recommend instructing other occupants in the 
+vehicle to properly start and operate the generator. This prepares 
+them if they need to operate the equipment in an emergency.
+CONTENTS
+This manual contains pertinent owners information, including 
+warranty, electrical diagrams, exploded views and lists of repair 
+parts. In addition, the latter portion of this manual contains infor-
+mation necessary for the proper installation of these generators.
+OPERATION AND MAINTENANCE
+It is the operator's responsibility to perform all safety checks, to 
+make sure that all maintenance for safe operation is performed 
+promptly, and to have the equipment checked periodically by 
+an Authorized Service Dealer. Normal maintenance service and 
+replacement of parts are the responsibility of the owner/operator 
+and, as such, are not considered defects in materials or workman-
+ship within the terms of the warranty. Individual operating habits 
+and usage contribute to the need for maintenance service.
+Proper maintenance and care of the generator ensures a minimum 
+number of problems and keep operating expenses at a minimum. 
+See an Authorized Service Dealer for service aids and acces-
+sories.
+HOW TO OBTAIN SERVICE
+When the generator requires servicing or repairs, simply contact 
+an Authorized Service Dealer for assistance. Service technicians 
+are factory-trained and are capable of handling all service needs.
+When contacting an Authorized Service Dealer about parts and 
+service, always supply the complete model number and serial 
+number of the unit as given on its data decal, which is located on 
+the generator.
+Model No. _________________ Serial No. ______________
+Authorized SERVICE
+DEALER LOCATION
+To locate the nearest AUTHORIZED SERVICE
+DEALER, please call this number:
+1-800-333-1322
+ONLY DEALER LOCATION INFORMATION 
+CAN BE OBTAINED AT THIS NUMBER.
+ 
+ 
+1
+Introduction
+
+ 2 
+Study these SAFETY RULES carefully before installing, operating 
+or servicing this equipment. Become familiar with this manual and 
+with the unit. The generator can operate safely, efficiently and reli-
+ably only if it is properly installed, operated and maintained. Many 
+accidents are caused by failing to follow simple and fundamental 
+rules or precautions.
+The manufacturer cannot anticipate every possible circumstance 
+that might involve a hazard. The warnings in this manual, and on 
+tags and decals affixed to the unit, are, therefore, not all-inclusive. 
+If using a procedure, work method or operating technique the 
+manufacturer does not specifically recommend, ensure that it is 
+safe for others. Also make sure the procedure, work method or 
+operating technique that chosen does not render the generator 
+unsafe.
+n 
+ Despite the safe design of this generator, 
+operating this equipment imprudently, 
+neglecting its maintenance or being careless 
+can cause 
+possible injury or death. Permit only respon-
+sible and capable persons to operate or 
+maintain this equipment.
+ 
+ Potentially lethal voltages are generated by 
+these machines. Ensure all steps are taken to 
+render the machine safe before attempting to 
+work on the generator.
+n 
+ Parts of the generator are rotating and/or hot 
+during operation. Exercise care near running 
+generators. 
+GENERAL HAZARDS
+For safety reasons, the manufacturer recommends that the 
+ 
+installation, initial start-up and maintenance of this equipment 
+is carried out by an Authorized Service Dealer.
+The generator engine releases DEADLY carbon monoxide gas 
+ 
+through its exhaust system. This dangerous gas, if breathed 
+in sufficient concentrations, can cause unconsciousness or 
+even death. Never operate the generator set with the vehicle 
+inside any garage or other enclosed area. Shut down the 
+generator and do not operate it until it has been inspected 
+and repaired.
+DO NOT OPERATE THE GENERATOR IF THE EXHAUST SYSTEM 
+ 
+IS LEAKING OR HAS BEEN DAMAGED.
+SYMPTOMS OF CARBON MONOXIDE POISONING ARE (a) 
+ 
+inability to think coherently, (b) nausea, (c) vomiting, 
+(d) twitching muscles, (e) throbbing temples, (f) dizzi-
+ness, (g) headaches, (h) weakness, and (i) sleepiness. IF 
+EXPERIENCING ANY OF THESE SYMPTOMS, MOVE INTO 
+FRESH AIR IMMEDIATELY. IF SYMPTOMS PERSIST, GET 
+MEDICAL HELP. 
+Never sleep in the vehicle while the genset is running unless 
+ 
+the vehicle has a working carbon monoxide detector. The 
+exhaust system must be installed in accordance with the 
+genset installation manual. Make sure there is ample fresh 
+air when operating the genset in a confined area.
+Keep hands, feet, clothing, etc., away from drive belts, fans, 
+ 
+and other moving or hot parts. Never remove any drive belt or 
+fan guard while the unit is operating.
+Adequate, unobstructed flow of cooling and ventilating air is 
+ 
+critical to correct generator operation and is required to expel 
+toxic fumes and fuel vapors from the generator compartment. 
+Without sufficient cooling airflow, the engine/generator quickly 
+overheats, which causes serious damage to the generator. Do 
+not alter the installation or permit even partial blockage of ven-
+tilation provisions, as this can seriously affect safe operation of 
+the generator.
+When working on this equipment, remain alert at all times. 
+ 
+Never work on the equipment when physically or mentally 
+fatigued.
+Inspect the generator regularly, and contact the nearest 
+ 
+Authorized Service Dealer immediately for parts needing repair 
+or replacement.
+Before performing any maintenance on the generator, discon-
+ 
+nect its battery cables to prevent accidental start up. Disconnect 
+the cable from the battery post indicated by a NEGATIVE, NEG 
+or () first. Reconnect that cable last.
+Never use the generator or any of its parts as a step. Stepping 
+ 
+on the unit can stress and break parts, and may result in dan-
+gerous operating conditions from leaking exhaust gases, fuel 
+leakage, oil leakage, etc.
+n 
+ SAVE THESE INSTRUCTIONS  The manufacturer suggests that these rules for safe operation be 
+copied and posted in potential hazard areas of the recreational vehicle. Safety should be stressed to 
+all operators and potential operators of this equipment.
+CALIFORNIA PROPOSITION 65 WARNING
+Engine exhaust and some of its constituents are known 
+to the State of California to cause cancer, birth defects 
+and other reproductive harm.
+CALIFORNIA PROPOSITION 65 WARNING
+This product contains or emits chemicals known to the 
+State of California to cause cancer, birth defects and 
+other reproductive harm.
+Safety Rules
+
+ 
+ 
+3
+ELECTRICAL HAZARDS
+The generator covered by this manual produces dangerous 
+ 
+electrical voltages and can cause fatal electrical shock. Avoid 
+contact with bare wires, terminals, connections, etc., while the 
+unit is running. Ensure all appropriate covers, guards and bar-
+riers are in place before operating the generator. If work must 
+be done around an operating unit, stand on an insulated, dry 
+surface to reduce shock hazard.
+Do not handle any kind of electrical device while stand-
+ 
+ing in water, while barefoot, or while hands or feet are wet. 
+DANGEROUS ELECTRICAL SHOCK MAY RESULT.
+During installation onto the vehicle, have the generator prop-
+ 
+erly grounded (bonded) either by solid mounting to the vehicle 
+frame or chassis, or by means of an approved bonding conduc-
+tor. DO NOT disconnect the bonding conductor, if so equipped. 
+DO NOT reconnect the bonding conductor to any generator part 
+that might be removed or disassembled during routine mainte-
+nance. If the grounding conductor must be replaced, use only a 
+flexible conductor that is of No. 8 American Wire Gauge (AWG) 
+copper wire minimum.
+In case of accident caused by electric shock, immediately 
+ 
+shut down the source of electrical power. If this is not pos-
+sible, attempt to free the victim from the live conductor. AVOID 
+DIRECT CONTACT WITH THE VICTIM. Use a nonconducting 
+implement, such as a rope or board, to free the victim from the 
+live conductor. If the victim is unconscious, apply first aid and 
+get immediate medical help.
+Never wear jewelry when working on this equipment. Jewelry 
+ 
+can conduct electricity resulting in electric shock, or may get 
+caught in moving components causing injury.
+FIRE HAZARDS
+For fire safety, the generator must be installed and maintained 
+ 
+properly. Installation always must comply with applicable 
+codes, standards, laws and regulations. Adhere strictly to local, 
+state and national electrical and building codes. Comply with 
+regulations the Occupational Safety and Health Administration 
+(OSHA) has established. Also, ensure that the generator is 
+installed in accordance with the manufacturers instructions 
+and recommendations. Following proper installation, do noth-
+ing that might alter a safe installation and render the unit in 
+noncompliance with the aforementioned codes, standards, 
+laws and regulations.
+Keep a fire extinguisher in the vehicle at all times. Extinguishers 
+ 
+rated ABC by the National Fire Protection Association are 
+appropriate for use on the recreational vehicle generator elec-
+trical system. Keep the extinguisher properly charged and be 
+familiar with its use. If there are any questions pertaining to fire 
+extinguishers, consult the local fire department.
+EXPLOSION HAZARDS
+Do not smoke around the generator. Wipe up any fuel or oil 
+ 
+spills immediately. Ensure that no combustible materials are left 
+in the generator compartment, or on or near the generator, as 
+FIRE or EXPLOSION may result. Keep the area surrounding the 
+generator clean and free from debris.
+Gasoline is extremely FLAMMABLE and its vapors are 
+ 
+EXPLOSIVE. Do not permit smoking, open flame, sparks or any 
+source of heat in the vicinity while handling gasoline. Comply 
+with all laws governing the storage and handling of gasoline.
+This generator may use liquid propane (LP) gas as a fuel. LP 
+ 
+gas is highly EXPLOSIVE. The gas is heavier than air and tends 
+to settle in low areas where even the slightest spark can ignite 
+the gas and cause an explosion.
+Safety Rules
+
+ 4 
+Please record the following information from the generator DATA DECAL or information decal.
+ 
+1. Model Number ____________________ 
+2. Serial Number _________________
+ 
+3. kW Rating _________________________ 
+4. Rated Voltage _________________
+ 
+5. Phase _____________________________ 
+6. Hertz __________________________
+1
+2
+3
+4 5
+8
+15
+13
+16
+14
+6
+7
+9, 17
+10
+12 11
+10, 17
+18
+1.1 GENERATOR IDENTIFICATION
+REFERENCE NUMBER IDENTIFICATION
+ 
+1. Generator Air Intake
+ 
+2. Data Plate
+ 
+3. Engine Start/Stop Switch
+ 
+4. 7.5 amp Fuse
+ 
+5. Circuit Breaker
+ 
+6. Optional Remote Panel Receptacle
+ 
+7. Generator AC Output Leads
+ 
+8. Starter Contactor
+ 
+9. Fuel Inlet
+ 
+10. Fuel Pump
+ 
+11. Oil Filter
+ 
+12. Oil Drain Plug
+ 
+13. Oil Dipstick and Filler Tube
+ 
+14. Air Filter (Behind access panel.)
+ 
+15. Spark Plugs
+ 
+16. Exhaust Outlet
+ 
+17. Fuel Filter
+ 
+18. Evaporative Port
+General Information
+
+ 
+ 
+5
+1.2 
+GENERATOR APPLICABILITY
+These generators have been designed and manufactured for sup-
+plying electrical power for recreational vehicles. DO NOT modify 
+the generator or use it for any application other than for what it 
+was designed. If there are any questions pertaining to its applica-
+tion, write or call the factory. Do not use the unit until advised by 
+competent authority.
+ 
+ For fire safety, the generator must have been 
+properly installed in compliance with ANSI 
+119.2-1975/NFPA 501C-1974, Standard for 
+Recreational Vehicles, Part III  Installation 
+of Electrical Systems. The generator also 
+must have been installed in strict compliance 
+with the manufacturers detailed installation 
+instructions. After installation, do nothing 
+that might render the unit in noncompliance 
+with such codes, standards and instructions.
+Use the generator set to supply electrical power for operating one 
+of the following electrical loads:
+RV 45 G: 120 and/or 240 volts, single phase, 60 Hz electrical 
+ 
+loads. These loads can require up to 4500 watts (4.5 kW) of 
+total power, but cannot exceed 37.5 AC amperes of current at 
+120 volts (breaker is limited to 30 Amps).
+RV 55 G: 120 and/or 240 volts, single phase, 60 Hz electrical 
+ 
+loads. These loads can require up to 5500 watts (5.5 kW) of 
+total power, but cannot exceed 45.8 AC amperes of current at 
+120 volts or exceed 22.9 AC amperes at 240 volts.
+RV 65 G: 120 and/or 240 volts, single phase, 60 Hz electrical 
+ 
+loads. These loads can require up to 6500 watts (6.5 kW) of 
+total power, but cannot exceed 54.1 AC amperes of current at 
+120 volts or exceed 27 AC amperes at 240 volts.
+n
+ Do not overload the generator. Some instal-
+lations may require that electrical loads be 
+alternated to avoid overloading. Applying 
+excessively high electrical loads may dam-
+age the generator and may shorten its 
+life. Add up the rated watts of all electrical 
+lighting, appliance, tool and motor loads 
+the generator will power at one time. This 
+total should not be greater than the watt-
+age capacity of the generator. If an electri-
+cal device nameplate gives only volts and 
+amps, multiply volts times amps to obtain 
+watts (volts x amps = watts). Some elec-
+tric motors require more watts of power (or 
+amps of current) for starting than for con-
+tinuous operation.
+1.3 
+INSTALLATION
+This Owners Manual has been prepared under the assumption 
+that a competent, qualified technician installed the generator into 
+a recreational vehicle. We also assume the installer complied 
+with all applicable codes, standards and regulations pertaining to 
+installation.
+An INSTALLATION MANUAL was shipped with the generator. That 
+Manual contains manufacturers instructions and recommenda-
+tions for installing the unit into an industrial vehicle. After installa-
+tion, installers should forward the Installation Manual to Owners/
+Operators for their information.
+Owners/Operators have the responsibility to make sure that noth-
+ing is done that might render the installation unsafe or in non-
+compliance with applicable codes, standards and instructions.
+1.4 
+SAFETY
+Before using the generator set, carefully read GENERAL SAFETY 
+RULES inside the cover. Comply with these RULES to prevent 
+accidents and damage to equipment and/or property. The manu-
+facturer suggests copying and posting the GENERAL SAFETY 
+RULES to potential operators of this equipment.
+1.5 
+ GENERATOR AC CONNECTION 
+SYSTEM
+These air-cooled generator sets are equipped with dual stator 
+AC power windings. These two stator windings supply electrical 
+power to customer electrical loads by means of a dual 2-wire 
+connection system.
+Generators may be installed to provide the following outputs:
+1. 
+120 VAC loads only  two loads, each with a maximum 
+total wattage requirement equal to half of the generators 
+rated power output (in watts), and 120V across the generator 
+output terminals. Figure 1.1 shows the generator lead wire 
+connections for 120VAC ONLY.
+Figure 1.1  Connection for 120 Volts Only
+General Information
+
+ 6 
+2. 
+120/240 VAC loads  one load with a maximum total watt-
+age requirement equal to the generators rated power output, 
+and 240V across the generator output terminals; or two sepa-
+rate loads, each with a maximum total wattage requirement 
+equal to half of the generators rated power output (in watts), 
+and 120V across the generator output terminals. Figure 1.2, 
+shows the generator lead wire connections for 120/240 VAC 
+loads. Also refer to the "Line Breakers" section for circuit 
+breaker ratings.
+This procedure should be done by an Authorized Service Dealer or 
+other qualified installer.
+Figure 1.2 - Connection for 120/240 Volts
+T1
+RED
+T2
+WHITE
+T3
+BLACK
+GROUNDED NEUTRAL
+STATOR POWER
+WINDINGS
+CB1
+CB2
+1.6 
+SPECIFICATIONS
+1.6.1 
+FUEL REQUIREMENTS (GASOLINE)
+This generator is equipped with a gasoline fuel system as standard 
+equipment. Specific installations may provide either a separate fuel 
+tank for the generator, or the generator may share the vehicle 
+engines fuel tank.
+1.6.1.1 Fuel Consumption (gph)
+Model
+10% Load
+50% Load
+100% Load
+RV45G
+.33
+.45
+.73
+RV55G
+.35
+.55
+.89
+RV65G
+.37
+.65
+.97
+NOTE
+Some installations using a shared fuel tank may have a gen-
+erator fuel pickup tube that is shorter than the vehicle engines 
+pickup tube. Such an arrangement causes the generator engine 
+to run out of gas while adequate fuel for the vehicle remains 
+in the tank.
+To reduce lead and carbon deposits use high quality UNLEADED 
+gasoline with the generator. Leaded REGULAR grade gasoline is an 
+acceptable substitute.
+NOTE:
+Using unleaded gasoline contributes to longer engine valve life by 
+reducing lead and carbon deposits.
+n 
+ The manufacturer does not recommend 
+using any gasoline containing alcohol (such 
+as gasohol). If using any gasoline contain-
+ing alcohol, it must not contain more than 
+10 percent ethanol (Do not use E85), and it 
+must be removed from the generator during 
+storage. Do NOT use any gasoline contain-
+ing methanol. If using gasoline with alcohol, 
+inspect more frequently for fuel leaks and 
+other abnormalities.
+1.6.2 
+ENGINE OIL REQUIREMENTS
+All oil should meet minimum American Petroleum Institute (API) 
+Service Class SJ, SL or better. Use no special additives. Select the 
+oil's viscosity grade according to the expected operating tempera-
+ture (also see chart).
+SAE 30 
+ 
+ Above 32 F
+10W-30 
+ 
+ Between 40 F and -10 F
+Synthetic 5W-30 
+ 
+ 10 F and below
+SAE 30
+SAE 30
+Synthetic 5W-30
+Synthetic 5W-30
+10W-30
+10W-30
+Crankcase and oil filter capacity is approximately 1.4 L or 1.5 U.S. 
+quarts. DO NOT use special additives. See sections "Checking the 
+Engine Oil Level" and "Changing the Engine Oil and/or Oil Filter" for 
+oil level check and filling procedures.
+General Information
+
+ 
+ 
+7
+1.6.4 
+ENGINE SPECIFICATIONS
+Type of Engine ........................................................................GT-530
+Cooling Method ................................................................ Air-cooled
+Rated Horsepower ...................................................18 at 3600 rpm
+Displacement ........................................................................... 530cc
+Compression Ratio ................................................................8.5 to 1
+Cylinder Block ..................................Aluminum w/Cast Iron Sleeve
+Type of Governor .......................................Electronic, Fixed Speed
+Engine Governor Speed ...................................................2571 rpm
+Air Cleaner ................................................................. Paper Element
+Starter ..................................................................12-volt DC Electric
+Ignition System ............................ Solid-state w/Flywheel Magneto
+Recommended Spark Plug
+ NGK ....................................................................................BPR6HS
+Spark Plug Gap .............................................0.030 inch (0.76 mm)
+Recommended Min. Battery .................. 400 Cold Cranking Amps
+Class II Emission Certified
+1.7 
+ EXHAUST EMISSIONS 
+INFORMATION (GASOLINE)
+The Environmental Protection Agency (EPA) and the California Air 
+Resource Board (CARB) require that this generator comply with 
+exhaust emission standards. The generator is certified to meet all 
+applicable exhaust emission levels. This generator is certified for 
+use as a mobile engine. It is important that you follow the mainte-
+nance specifications listed in this manual to ensure that the engine 
+complies with emission standards for the duration of its life. This 
+engine is certified to operate on gasoline. The emission control 
+system on the generator consists of the following:
+Fuel Metering System
+ 
+~ Carburetor assembly
+~ Fuel pump and lines
+Air Induction System
+ 
+~ Intake pipe / manifold
+~ Air cleaner
+Ignition System
+ 
+~ Spark plug
+~ Ignition module
+Catalytic Converter (if equipped)
+ 
+The Emissions Compliance Period referred to on the Emissions 
+Compliance Label indicates the number of operating hours for 
+which the engine has been shown to meet Federal and California 
+emission requirements. See the table below to determine the com-
+pliance period for this generator. The displacement of the engine is 
+listed on the Emissions Compliance Label.
+Displacement
+Category
+Compliance Period
+> 66 cc - < 225 cc
+A
+500 Hours
+B
+250 Hours
+C
+125 HOurs
+ 225 cc
+A
+1000 Hours
+B
+500 Hours
+C
+250 Hours
+1.6.3 GENERATOR SPECIFICATIONS
+SERIES
+RV45G
+RV55G
+RV65G
+Rotor RPM
+3600
+3600
+3600
+Rotor Poles
+2
+2
+2
+Engine RPM
+2571
+2571
+2571
+Rated Max. Continuous AC Output Watts*
+4500
+5500
+6500
+Voltage*
+120
+120
+120
+Rated Max. Continuous Current Amps (240V)
+37.5 (18.7)
+45.8 (22.9)
+54.1 (27)
+Phase
+1
+1
+1
+Frequency
+60 Hertz
+60 Hertz
+60 Hertz
+Weight
+278 lbs.
+285 lbs.
+293 lbs.
+Length
+33.7 in.
+33.7 in.
+33.7 in.
+Width
+21.5 in.
+21.5 in.
+21.5 in.
+Height
+16.8 in.
+16.8 in.
+16.8 in.
+* All units are re-connectable to 120 and/or 240 volts, dual voltage output. Units are not listed per RVIA/ANSI when reconnected for dual voltage output
+** Maximum wattage and current are subject to, and limited by, such factors as fuel Btu content, ambient temperature, altitude, engine condition, etc.. Maximum power 
+decreases about 3.5% for each 1,000 feet above sea level; and will also decrease about 1% for each 6 C (10 F) above 16 C (60 F) ambient temperature.
+General Information
+
+ 8 
+1.8 
+ EVAPORATIVE EMISSIONS 
+INFORMATION
+This generator is subject to evaporative emission standards which 
+have been implemented by the California Air Resource Board 
+(CARB) and the Environmental Protection Agency (EPA). If this 
+generator is offered for sale in the state of California, it must be 
+covered by a CARB evaporative Executive Order. If this generator 
+is offered for sale to the final consumer in any other state, certified 
+low-permeation fuel line must be used to supply fuel to the genera-
+tor as required by EPA.
+Anyone who installs or configures a fuel system to supply this 
+generator with gasoline is required to comply with all applicable 
+evaporative emission regulations. If this generator is configured 
+such that it shares the primary fuel system of a vehicle in which it 
+is installed, reduced certification requirements may apply. See the 
+CARB guidance document MAC 05-05, located at http://www.arb.
+ca.gov/msprog/macs/mac0505/mac0505.pdf for further details. If 
+this generator is installed such that it uses a dedicated fuel system, 
+detailed evaporative emission requirements apply; contact a repu-
+table fuel system manufacturer to purchase a complete fuel sys-
+tem certified for use with this generator, or consult the California 
+Code of Regulations if you wish to obtain certification on your 
+own. See the installation instructions in this manual for connecting 
+fuel system vapor lines to the engine.
+This generator is not legal for sale in the state of California unless 
+all CARB evaporative emission requirements are adhered to, and 
+is not legal for sale in any other state unless certified low-per-
+meation fuel line is used to supply the generator with gasoline. 
+Contact the California Air Resource Board or the Environmental 
+protection agency for further information. CARB regulations can 
+be found in 13 CCR 2750  2773; EPA regulations can be 
+found in 40 CFR Part 90.
+2.1 
+GENERATOR CONTROL PANEL
+The following features are mounted on the generator control panel 
+(Figure 2.1):
+2.1.1 
+START/STOP SWITCH
+This generator is started with a "One Touch" starting sequence. 
+Push up on the top half of the momentary switch. Hold for one 
+(1) second and release. Note flashing indicator light on the switch. 
+Fuel pump engages automatically for a three (3) to five (5) second 
+delay before starter motor cranks the engine for 16 seconds or 
+until the engine starts. If the engine does not start, the starter 
+will cool for seven (7) seconds and crank the engine again for 16 
+seconds. If the engine does not start, the starter will cool for seven 
+(7) seconds before cranking for seven (7) seconds to a maximum 
+cycle total of 90 seconds. Once started, the light on the switch 
+stays on continuously. If the generator does not start at the end 
+of the start sequence, a fault code will flash on the switch (see 
+Diagnostics).
+The switch center position is the RUN position.
+To stop a running engine, press momentarily the bottom half of the 
+switch to kill the ignition.
+Figure 2.1  Typical Control Panel
+The switch center position is the RUN position.
+To stop a running engine, press momentarily the bottom half of the 
+switch to kill the ignition.
+2.1.2 
+7.5 AMP FUSE
+The fuse protects the engines DC control circuit against electrical 
+overload. If the fuse element has melted open due to overloading, 
+the engine cannot be cranked. If the fuse must be replaced, use 
+only an identical 7.5 amp replacement fuse.
+2.1.3 
+LINE BREAKERS
+Protects generators AC output circuit against overload, i.e., pre-
+vents unit from exceeding wattage/amperage capacity. The circuit 
+breaker ratings are as follows:
+Model
+Cir. Breaker 1
+Cir. Breaker 2
+240 Volt
+RV45
+30A
+N/A
+N/A
+RV55
+20A
+30A
+25A 2P
+RV65
+30A
+30A
+30A 2P
+NOTE:
+If this generator has been reconnected for dual voltage AC out-
+put (120/240 volts), install line breakers having an amperage 
+rating equal to that stated in the preceding chart. The replace-
+ment line breakers consist of two separate breakers with a 
+connecting piece between the breaker handles (so that both 
+breakers will operate at the same time). If the unit is recon-
+nected for dual voltage, it is no longer RVIA listed.
+Operation
+
+ 
+ 
+9
+2.1.4 
+DIAGNOSTICS
+If the generator shuts down due to a fault, the indicator will flash a 
+code to identify the problem.
+2 Flashes = Low Battery (Voltage falls below 11.0 VDC for one 
+ 
+minute)
+NOTE:
+Alarm will clear automatically if voltage rises over 11.0 VDC. 
+Battery voltage is not monitored during crank cycle.
+3 Flashes = Overcrank (Unit does not start through entire start 
+ 
+cycle)
+4 Flashes = Overspeed (Alternator spins at 4200 rpm/72 Hz 
+ 
+or greater)
+5 Flashes = Low Oil Pressure (Drops below the 5 psi threshold 
+ 
+of the switch)
+NOTE:
+There is a five second delay of the alarm when the engine is 
+first started up.
+6 Flashes = High Oil Temperature (Unit shuts down when tem-
+ 
+perature switch limit is reached)
+NOTE:
+As the unit cools down it will attempt to restart automatically 
+when the temperature switch opens again.
+7 Flashes = Underspeed (Alternator spins less than 3240 
+ 
+rpm/54 Hz for three (3) seconds)
+NOTE:
+After a fault is indicated, press stop momentarily to clear the 
+alarm once the problem is fixed.
+2.2 
+ OPTIONAL REMOTE
+START/STOP PANEL
+A remote mounted Start/Stop Panel is available that allows start-
+ing and stopping the generator engine conveniently from inside the 
+vehicle. The remote panel includes a Start/Stop switch, hourmeter, 
+generator run lamp, and a wire harness.
+2.3 
+AUTOMATIC CHOKE
+This engine is equipped with an automatic choke that consists of 
+two main components: a choke solenoid and prechoke (Gasoline 
+only.).
+2.3.1 
+CHOKE SOLENOID
+During engine cranking (Start/Stop switch at START), a solid-state 
+choke module signals the choke solenoid to activate and cycle 
+(choke on/choke off) until the engine starts. The choke solenoid 
+thus opens and closes the carburetor choke valve only when 
+the engine is cranking. When the engine starts, the choke stops 
+cycling (Gasoline only.).
+2.3.2 
+PRECHOKE
+The choke system also has a temperature-sensitive metal strip that 
+adjusts choke valve angle according to ambient temperatures (i.e., 
+in cold ambient temperatures, choke valve closes more). Once the 
+engine starts, an element heats the temperature-sensitive strip to 
+a normal operating condition, opening the choke valve. This may 
+take about three minutes in cooler weather (Gasoline only.).
+2.4 
+ BEFORE STARTING THE 
+ENGINE
+NOTE:
+Instructions and information in this manual assume the genera-
+tor has been properly installed, connected, serviced, tested and 
+adjusted by a qualified installation technician or installation 
+contractor.
+2.4.1 
+INSTALLATION
+Generator installation must have been properly completed so it 
+complies with all applicable codes, standards and regulations 
+and with the manufacturer's recommendations. (See Part II - 
+Installation Instructions.)
+2.4.2 
+ENGINE LUBRICATION
+Have the engine crankcase properly serviced with the recommend-
+ed oil before starting. Refer to sections "Engine Specifications", 
+"Checking the Engine Oil Level" and "Changing the Engine Oil and/
+or Oil Filter" for oil servicing procedures and recommendations.
+n 
+ Any attempt to crank or start the engine 
+before it has been properly serviced it with 
+the recommended oil may result in an engine 
+failure.
+2.4.3 
+FUEL SUPPLY
+The engine must have an adequate supply of proper fuel to oper-
+ate. Before starting it, check that sufficient fuel is available.
+NOTE:
+Depending on the installation, the generator may have either a 
+separate fuel tank, or it may share the vehicle engines fuel 
+tank.
+2.4.4 
+COOLING AND VENTILATING AIR
+Air inlet and outlet openings in the generator compartment must 
+be open and unobstructed for continued proper operation. Without 
+sufficient cooling and ventilating airflow, the engine/generator 
+quickly overheats, which causes it to shut down and may damage 
+the generator.
+Operation
+
+ 10 
+2.4.5 
+ENGINE EXHAUST GAS
+Before starting the generator engine, be sure there is no way for 
+exhaust gases to enter the vehicle interior and endanger people or 
+animals. Close windows, doors and other openings in the vehicle 
+that, if open, might permit exhaust gases to enter the vehicle.
+n 
+ The generator engine releases DEADLY 
+carbon monoxide gas through its exhaust 
+system. This dangerous gas, if breathed in 
+sufficient concentrations, can cause uncon-
+sciousness or even death. Never operate 
+the generator set with the vehicle inside 
+any garage or other enclosed area. DO NOT 
+OPERATE THE GENERATOR IF THE EXHAUST 
+SYSTEM IS LEAKING OR HAS BEEN 
+DAMAGED. Shut down the generator and 
+do not operate it until it has been inspected 
+and repaired. SYMPTOMS OF CARBON 
+MONOXIDE POISONING ARE (a) inability to 
+think coherently, (b) nausea, (c) vomiting, (d) 
+twitching muscles, (e) throbbing temples, (f) 
+dizziness, (g) headaches, (h) weakness, and 
+(i) sleepiness. IF EXPERIENCING ANY OF 
+THESE SYMPTOMS, MOVE INTO FRESH AIR 
+IMMEDIATELY. IF SYMPTOMS PERSIST, GET 
+MEDICAL HELP.
+n 
+ Never sleep in the vehicle while the genset 
+is running unless the vehicle has a working 
+carbon monoxide detector. The exhaust sys-
+tem must be installed in accordance with the 
+genset installation manual. Make sure there 
+is ample fresh air when operating the genset 
+in a confined area.
+2.5 
+STARTING THE GENERATOR
+NOTE:
+Read the vehicle manufacturers instructions. The owner/
+operator should become familiar with the vehicle in which this 
+generator is installed. Differences exist between vehicles. For 
+example, some vehicles may use a transfer switch to isolate 
+dockside power from the generator, while other vehicles may 
+use an isolating receptacle. Some vehicles may be equipped 
+with a DC converter which allows the generator to power certain 
+DC lighting and other DC loads.
+To crank and start the generator engine, proceed as follows:
+1. 
+Turn OFF electrical loads using the means provided in the 
+vehicle (such as a main line circuit breaker or transfer 
+switch).
+NOTE:
+If starting from the generator control panel, turn OFF loads 
+by setting the generators main circuit breaker to the OFF (or 
+open) position. If starting from a remote panel, turn OFF loads 
+using the means provided in the vehicle (such as a main circuit 
+breaker). Electrical load circuits should be turned ON after the 
+generator has started, stabilized and warmed up.
+2. 
+To crank and start the engine, push up on the Start/Stop 
+switch momentarily and release. There is a delay as the fuel 
+pump primes and the generator automatically begins the start 
+sequence (Note the flashing light on the switch.).
+3. 
+Let the engine run at no-load for a few minutes to stabilize and 
+warm up.
+4. 
+Turn ON electrical loads using the means provided (such as a 
+main circuit breaker or transfer switch).
+2.6 
+STOPPING THE GENERATOR
+1. 
+Turn OFF all electrical loads using the means provided (such 
+as a main circuit breaker or transfer switch).
+2. 
+Let generator run at no-load for a few minutes, to stabilize 
+internal engine generator temperatures.
+3. 
+Place the Start/Stop switch in its STOP position. The engine 
+will come to a complete stop.
+2.7 
+ APPLYING LOADS TO 
+GENERATOR
+When applying electrical loads to the generator, observe these 
+guidelines:
+Before applying electrical loads, let the generator stabilize and 
+ 
+warm up for a minute or two.
+DO NOT overload the generator.
+ 
+2.7.1 
+LETTING THE ENGINE STABILIZE
+The generator supplies correct rated voltage only at the proper 
+governed speed. Some electrical appliances may be extremely 
+sensitive to voltage. Incorrect voltages can damage such appli-
+ances.
+If electrical loads are applied at reduced operating speeds, such 
+loads imposed on the engine when sufficient power is not available 
+may shorten engine life. Never turn ON electrical loads until after 
+the generator engine has started and stabilized at no-load.
+2.7.2 
+DO NOT OVERLOAD THE GENERATOR
+Read the rated wattage/amperage capacity of the generator on the 
+generator data label (See the "Generator Identification" section.).
+Applying electrical loads in excess of the units rated capacity will 
+cause the engine/generator to automatically shut down.
+To avoid overloading, add up the wattage of all connected electrical 
+lighting, appliance, tool and motor loads. This total should not be 
+greater than the generators rated wattage capacity.
+Operation
+
+ 
+ 
+11
+Most lighting, appliance, tool and motor loads indicate their 
+ 
+required watts on their nameplate or data plate. For light bulbs, 
+simply note the wattage rating of the bulb.
+If a load does not show its rated wattage, multiply that loads 
+ 
+rated VOLTS times AMPS to obtain WATTS.
+Induction type motors (such as those that run the vehicles 
+ 
+furnace fan, refrigerator, air conditioner, etc.) need about 2-1/2 
+times more watts of power for starting than for running (for a 
+few seconds during motor starting). Be sure to allow for this 
+when connecting electrical loads to the generator. First, figure 
+the watts needed to start electric motors in the system. To that 
+figure, add the running wattages of other items that will be oper-
+ated by the generator.
+Do not apply heavy electrical loads for the first two or three 
+ 
+hours of operation.
+2.8 
+PROTECTION SYSTEMS
+2.8.1 
+LOW OIL PRESSURE SWITCH
+This switch (Figure 2.2) has normally closed (N.C.) contacts that 
+are held open by engine oil pressure during cranking and operat-
+ing. Should oil pressure drop below a preset level, switch contacts 
+close, and the engine automatically shuts down. The unit should 
+not be restarted until oil is added.
+2.8.2 
+HIGH TEMPERATURE SWITCH
+This switch (Figure 2.2), which has normally open (N.O.) contacts, 
+is mounted near the oil filter. The contacts close if the temperature 
+should exceed approximately 270 F (132 C) for gasoline mod-
+els.
+Figure 2.2  Low Oil Pressure and 
+High Temperature Switches
+2.8.3 
+FIELD BOOST
+The Controller Circuit Board houses a field boost diode and resistor 
+that are not part of the automatic choke circuit. These two compo-
+nents are part of a field boost circuit (Figure 2.3). During engine 
+cranking only, a positive DC (battery) voltage is delivered through 
+a diode, resistor, brushes, slip rings, and the generator rotor. 
+Application of this voltage to the rotor flashes the field whenever 
+it is started. Flashing of the field each time the generator starts 
+makes sure that a sufficiently strong magnetic field is available to 
+produce pickup voltage in the stator windings.
+Figure 2.3  Field Boost Circuit
+2.8.4 
+OVERVOLTAGE PROTECTION
+A solid-state voltage regulator (Figure 2.4) controls the generators 
+AC output voltage. This regulator supplies an excitation current to 
+the rotor. By regulating the rotors excitation current, the strength 
+of its magnetic field is regulated and, in turn, the voltage delivered 
+to connected electrical loads is controlled. When the AC frequency 
+is 60 Hertz, voltage is regulated at 125 to 120 volts.
+Figure 2.4  Solid State Voltage Regulator
+Operation
+
+ 12 
+2.8.5 
+ OPERATION IN HIGH GRASS OR BRUSH
+ 
+ Never operate the generator while the vehicle 
+is parked over high grass, weeds, brush, 
+leaves or any other combustible substance. 
+Such materials can ignite and burn from the 
+heat of the exhaust system. The generator 
+exhaust system becomes extremely hot dur-
+ing operation and remains hot for a long time 
+after it has shut down.
+3.1 
+ CHECKING THE ENGINE OIL 
+LEVEL
+For oil capacities and requirements, see the Engine Oil 
+Requirements section. Check the engine crankcase oil level at 
+least every eight hours of operation, or before it is used. To check 
+the engine oil level, proceed as follows (see Figure 3.1):
+1. 
+Be sure the generator is as level as possible.
+2. 
+Remove the dipstick and wipe it dry with a clean, lint-free 
+cloth.
+3. 
+Install and tighten the dipstick cap; then, remove it again. The 
+oil level should be at the dipstick Full mark.
+4. 
+If necessary, remove the oil fill cap on the rocker cover and 
+slowly add oil until it reaches the dipstick Full mark. DO NOT 
+FILL ABOVE THE FULL MARK.
+n 
+ Never operate the engine with the oil level 
+below the Add mark on the dipstick. Doing 
+this could damage the engine.
+5. 
+Install and tighten the oil fill cap and the dipstick before oper-
+ating the engine.
+ Figure 3.1  Oil Dipstick/Fill Tube and
+Location of Oil Drain Plug
+Oil Dipstick
+Oil Drain Hose
+Oil Fill
+3.2 
+ CHANGING THE ENGINE OIL 
+AND/OR OIL FILTER
+n 
+ Hot oil may cause burns. Allow engine to 
+cool before draining oil. Avoid prolonged 
+or repeated skin exposure with used oil. 
+Thoroughly wash exposed areas with soap.
+Oil Change Intervals  see Section RV Generator Service 
+Interval.
+To change the oil and oil filter, proceed as follows:
+1. 
+Run the engine until it is thoroughly warmed up (at least five 
+minutes) then shut off the engine.
+2. 
+With the engine still warm from running, remove the round 
+access grommet from underneath the front of the generator. 
+Place a suitable container underneath to catch all the drain 
+oil.
+3. 
+Use the 0G4818 tool (supplied with the generator) to turn the 
+old filter counter-clockwise and remove. Let oil drain into the 
+container located directly below.
+4. 
+Locate the oil drain hose inside and pull the yellow drain plug 
+out of the access hole (Figure 3.1).
+5. 
+Turn the yellow cap counter-clockwise to remove and finish 
+draining the old oil.
+6. 
+After the oil has been drained, replace the oil drain plug by 
+tightening it clockwise and return.
+7. 
+Clean off the oil filter bracket and any old oil that may have 
+spilled while draining.
+8. 
+Apply a light coating of clean engine oil the gasket of the new 
+oil filter (Figure 3.2).
+9. 
+Screw the new oil filter on by hand until its gasket lightly con-
+tacts the oil filter adapter. Then, tighten the filter an additional 
+ to one turn. Replace and secure the round access grom-
+met.
+Figure 3.2  Engine Oil Filter
+Engine
+Oil Filter
+Twist Counter-clockwise to Loosen
+Maintenance
+
+10. Remove the dipstick, valve cover plug and add new oil (see 
+Engine Oil Requirements) to engine. DO NOT FILL ABOVE 
+THE FULL MARK.
+11. Install and tighten plug and dipstick before starting the 
+engine.
+12. Start engine and check for leaks.
+NOTE:
+Check the oil level and fill to the FULL mark after checking for 
+leaks. The filter will retain some oil.
+3.3 
+ MAINTAINING THE ENGINE
+AIR CLEANER
+Replace the paper air filter element after every 200 hours of opera-
+tion. (Perform more often when operating in dusty conditions)
+1. 
+At the Air Cleaner Cover, turn the yellow plastic knob  turn 
+counter-clockwise.
+2. 
+Pull the top of the Cover out as it hinges on the bottom of the 
+Air Cleaner Base.
+3. 
+Separate the Cover by lifting up and out from the Base.
+4. 
+Pull the old filter out and discard safely.
+5. 
+Install the new filter in place on the Air Cleaner Base (Figure 
+3.3).
+6. 
+Interlock the Air Cleaner Cover to hinge with the Air Cleaner 
+Base.
+7. 
+Align the Cover and gently push the top closed.
+8. 
+Engage the yellow plastic knob and turn  turn clockwise to 
+secure.
+Figure 3.3  Engine Air Cleaner
+Air Cleaner Base
+Air Cleaner
+Air Cleaner Cover
+Knob
+3.4 
+ CHECKING THE ENGINE 
+SPARK PLUG
+Reset the spark plug gap or replace the spark plugs as necessary. 
+See the Service Schedule section for maintenance requirements.
+1. 
+Clean the area around the base of the spark plugs to keep dirt 
+and debris out of the engine.
+2. 
+Remove the spark plugs and check the condition. Replace the 
+spark plugs if worn or if reuse is questionable. See the Service 
+Schedule section for recommended interval. Clean by scrap-
+ing or washing using a wire brush and commercial solvent. 
+Do not blast the spark plugs to clean.
+3. 
+Check the spark plug gap using a wire feeler gauge. Adjust the 
+gap to 0.76mm (0.030 inch) by carefully bending the ground 
+electrode if necessary (Figure 3.4).
+Figure 3.4  Setting the Spark Plug Gap
+n 
+ Sparking can occur if the wire terminal does 
+not fit firmly on the spark plug terminal end. 
+If necessary, re-form the wire terminal to 
+obtain a tight fit.
+3.5 
+FUEL FILTER (GASOLINE ONLY)
+Remove and replace the fuel filter (Figure 3.5) every 400 hours of 
+operation.
+Figure 3.5  Fuel Filter
+ 
+ 
+13
+TO FUEL PUMP
+CUSTOMER FUEL CONNECTION
+FUEL FILTER
+Maintenance
+
+ 14 
+3.6 
+CLEAN SPARK ARRESTOR
+The engine exhaust muffler has a spark arrestor screen. Inspect and 
+clean the screen every 200 hours of operation or once each year, 
+whichever comes first.
+NOTE:
+If using the generator on any forest-covered, brush-covered or 
+grass-covered unimproved land, it must equipped with a spark 
+arrestor. The spark arrestor must be maintained in good condi-
+tion by the owner/operator.
+Clean and inspect the spark arrestor as follows:
+Remove the screen by removing the screw.
+ 
+Slide the spark arrestor screen out from the tail pipe.
+ 
+Inspect screen and replace if torn, perforated or otherwise 
+ 
+damaged. DO NOT USE a defective screen. If screen is not 
+damaged, clean it with commercial solvent.
+Replace the screen and the screw.
+ 
+Figure 3.6 - Spark Arrestor
+RETAINING 
+SCREW P/N 056892
+SPARK ARRRESTOR
+SCREEN P/N 089680
+TAILPIPE
+P/N 0G5857
+3.7 
+CLEANING THE GENERATOR
+Keep the generator set as clean and dry as possible. Protect the 
+unit against excessive dust, dirt, corrosive vapors, road splash, 
+etc. Permitting dirt and moisture to accumulate on generator 
+windings will have an adverse effect on the insulation resistance 
+of those windings.
+When moisture is allowed to remain in contact with windings, 
+some of the moisture will be retained in voids and cracks in the 
+insulation. This causes a reduced insulation resistance and will 
+eventually cause problems. Dirt will make the problem worse, 
+since dirt tends to hold moisture in contact with windings. Salt (as 
+from sea air) also will worsen the problem since it tends to absorb 
+moisture from the air. Salt and moisture, when combined, form a 
+good electrical conductor which is detrimental to the generator.
+n 
+ Do NOT use a forceful spray of water to 
+clean the generator. Water will enter the gen-
+erator interior and cause problems, and may 
+also contaminate the generator fuel system.
+3.8 
+BATTERY MAINTENANCE
+NOTE:
+This generator is not equipped with an internal battery charger. 
+It is intended for use in systems where an external battery char-
+ger is installed by the RV O.E.M. or an aftermarket installer.
+All lead-acid batteries will discharge when not in use. The generator 
+battery should be inspected as follows:
+3.8.1 
+WEEKLY
+Inspect the battery posts and cables for tightness and corro-
+ 
+sion. Tighten and clean as necessary.
+Check the battery fluid level of unsealed batteries and, if nec-
+ 
+essary, fill with Distilled Water Only. Do not use tap water in 
+batteries.
+3.8.2 
+EVERY SIX MONTHS
+Have the state of charge and condition checked. This should be 
+ 
+done with an automotive-type battery hydrometer. 
+NOTE:
+Servicing of the battery is to be performed or supervised by 
+personnel knowledgeable of batteries and the required precau-
+tions. Keep unauthorized personnel away from batteries.
+Damage will result if the battery connections are made in 
+reverse.
+ 
+ Do not dispose of the battery in a fire. The 
+battery is capable of exploding. Storage bat-
+teries give off explosive hydrogen gas. This 
+gas can form an explosive mixture around 
+the battery for several hours after charging. 
+The slightest spark can ignite the gas and 
+cause an explosion. Such an explosion can 
+shatter the battery and cause blindness or 
+other injury. Any area that houses a storage 
+battery must be properly ventilated. Do not 
+allow smoking, open flame, sparks, or any 
+spark producing tools or equipment near the 
+battery. Discharge static electricity from body 
+before touching the battery by first touching 
+a grounded metal surface.
+Maintenance
+
+ 
+ 
+15
+ 
+ A battery presents a risk of electrical shock 
+and high short circuit current. The following 
+precautions are to be observed when work-
+ing on batteries:
+ Remove watches, rings or other metal objects;
+ Use tools with insulated handles;
+ Wear rubber gloves and boots;
+ Do not lay tools or metal parts on top of the 
+battery;
+ Disconnect any charging source prior to connect-
+ing or disconnecting battery terminals; and
+ Do not use any jumper cables or booster battery 
+to crank and start the generator engine. If any 
+battery has discharged, remove it for recharging.
+n
+ Do not open or mutilate the battery. 
+Released electrolyte has been known to 
+be harmful to the skin and eyes, and to be 
+toxic.
+n
+ The electrolyte is a dilute sulfuric acid that 
+is harmful to the skin and eyes. It is electri-
+cally conductive and corrosive. The follow-
+ing procedures are to be observed:
+ Wear full eye protection and protective clothing;
+ Where electrolyte contacts the skin, wash it off 
+immediately with water;
+ Where electrolyte contacts the eyes, flush 
+thoroughly and immediately with water and 
+seek medical attention; and
+ Spilled electrolyte is to be washed down with 
+an acid neutralizing agent. A common practice 
+is to use a solution of 1 pound (500 grams) 
+bicarbonate of soda to 1 gallon (4 liters) or 
+water. The bicarbonate of soda solution is to 
+be added until the evidence of reaction (foam-
+ing) has ceased. The resulting liquid is to be 
+flushed with water and the area dried.
+3.9 
+ADJUSTING VALVE CLEARANCE
+After the first 50 hours of operation, check the valve clearance 
+in the engine, adjust if necessary.
+Important: If feeling uncomfortable about doing this procedure or 
+the proper tools are not available, please contact the Authorized 
+Dealer for service assistance. This is a very important step to 
+insure longest life for the engine.
+To check valve clearance:
+The engine should be cool before checking. If valve clearance is 
+ 
+0.002" - 0.004" (0.05 - 0.1mm), adjustment is not needed.
+Remove spark plug wires and position wires away from plugs.
+ 
+Remove spark plugs.
+ 
+Make sure the piston is at Top Dead Center (TDC) of its com-
+ 
+pression stroke (both valves closed). To get the piston at TDC, 
+remove the intake screen at the front of the engine to gain 
+access to the flywheel nut. Use a large socket and socket 
+wrench to rotate the nut and hence the engine in a clockwise 
+direction. While watching the piston through the spark plug 
+hole. The piston should move up and down. The piston is at 
+TDC when it is at its highest point of travel.
+To adjust valve clearance (if necessary):
+Make sure the engine is at 60 to 80 F.
+ 
+Make sure that the spark plug wire is removed from the spark 
+ 
+plug and out of the way.
+Remove the four screws attaching the valve cover with a #2 or 
+ 
+#3 Phillips screwdriver.
+Loosen the rocker jam nut. Use an 10mm allen wrench to turn 
+ 
+the pivot ball stud while checking clearance between the rocker 
+arm and the valve stem with a feeler gauge. Correct clearance 
+is 0.002-0.004 inch (0.05-0.1 mm). (Figure 3.7).
+Figure 3.7 - Valve Clearance Adjustment
+Jam Nut
+Pivot Ball
+Stud
+Rocker 
+Arm
+Valve
+Stem
+NOTE:
+Hold the rocker arm jam nut in place as the pivot ball stud is 
+turned.
+When valve clearance is correct, hold the pivot ball stud in place 
+with the allen wrench and tighten the rocker arm jam nut. Tighten 
+the jam nut to 174 in/lbs. torque. After tightening the jam nut, 
+recheck valve clearance to make sure it did not change.
+Install new valve cover gasket.
+ 
+Re-attach the valve cover.
+ 
+NOTE:
+Start all four screws before tightening or it will not be possible 
+to get all the screws in place. Make sure the valve cover gasket 
+is in place.
+Install spark plugs.
+ 
+Re-attach the spark plug wire to the spark plug.
+ 
+On the GT-530, repeat the process for the other cylinder.
+ 
+Maintenance
+
+ 16 
+3.10 MAJOR SERVICE MANUAL
+To obtain a service manual for the generator, contact the near-
+est Authorized Service Dealer. Make sure to identify the MODEL 
+NUMBER and SERIES.
+3.11 DRIVE BELT
+The engine drives the generator rotor by means of a pulley and 
+drive belt arrangement. Drive belt tension was properly adjusted 
+before the unit was shipped from the factory. If suspect that drive 
+belt tension is incorrect, contact an Authorized Service Dealer.
+3.12 EXERCISING THE GENERATOR
+The manufacturer recommends starting and operating the genera-
+tor at least once every seven days. Let the unit run for at least 30 
+minutes to exercise the engine.
+3.13 OUT OF SERVICE PROCEDURE
+3.13.1 REMOVAL FROM SERVICE
+If the generator cannot be exercised every seven days, and it is to 
+be out of service longer than 30 days, prepare the generator for 
+storage as follows:
+1. 
+Start the engine and let it warm up.
+2. 
+Close the fuel shutoff valve in the fuel supply line and allow 
+the unit to shut down.
+3. 
+While the engine is still warm from running, drain the oil 
+completely. Refill the crankcase with SAE 5W-30 oil having 
+API classification For Service SJ/SL.
+4. 
+Attach a tag to the engine indicating the viscosity and clas-
+sification of the oil in the crankcase.
+5. 
+Remove the spark plug and pour two or three tablespoons of 
+clean, fresh engine oil into the spark plug threaded openings. 
+Reinstall and tighten the spark plug.
+6. 
+Remove the battery and store it in a cool, dry room on a 
+wooden board. Never store the battery on any concrete or 
+earthen floor.
+7. 
+Clean and wipe the entire generator.
+3.13.2 RETURN TO SERVICE
+To return the unit to service after storage, proceed as follows:
+1. 
+Check the tag on the engine for oil viscosity and classification. 
+Verify that the correct recommended oil is used in the engine 
+(see "Engine Oil Requirements"). If necessary, drain and refill 
+with the proper oil.
+2. 
+Check the state of the battery. Fill all cells of unsealed batter-
+ies to the proper level with distilled water. DO NOT USE TAP 
+WATER IN THE BATTERY. Recharge the battery to 100 percent 
+state of charge, or, if defective, replace the battery.
+3. 
+Clean and wipe the entire generator.
+4. 
+Reconnect the battery. Observe battery polarity. Damage may 
+occur if the battery is connected incorrectly.
+5. 
+Turn OFF all electrical loads. Add fuel if necessary and then 
+start the engine.
+6. 
+Allow the unit to warm up thoroughly.
+7. 
+Apply electrical loads to at least 50 percent of the units rated 
+wattage capacity.
+8. 
+When the engine is thoroughly warmed up, shut it down.
+9. 
+The generator is now ready for service.
+3.14 RV GENERATOR SERVICE
+INTERVAL
+1st 8 Hours,
+ then every 200 Hours ......................... Change Engine Oil/Filter
+1st 50 Hours,
+ then every 500 Hours .................................. Adjust Valve Lash
+200 Hours ..................................................Clean Spark Arrestor
+200 Hours .................................Replace Paper Air Filter Element
+400 Hours ......................................................Replace Fuel Filter
+500 Hours ..................................................Replace Spark Plugs
+Maintenance
+
+Part II 
+Installation
+Instructions
+ONLY QUALIFIED ELECTRICIANS OR CONTRACTORS 
+SHOULD ATTEMPT INSTALLATION!
+Part II - Installation Instructions
+
+ 18 
+NOTICE TO INSTALLER
+These Installation Instructions have been published by the manu-
+facturer to aid in the installation of the products described in this 
+manual. The manufacturer assumes that installation personnel 
+are familiar with the procedures for installing such products, or 
+similar products manufactured. The manufacturer also assumes 
+that personnel have been trained in the recommended installation 
+procedures for these products and that such training includes (a) 
+use of common hand tools, (b) use of special tools, and (c) use of 
+any tools and/or equipment from other suppliers.
+The manufacturer cannot possibly know of and advise the rec-
+reational vehicle trade of all conceivable methods, procedures or 
+techniques by which to perform an installation. Nor can the manu-
+facturer anticipate every possible hazard that might result from 
+each installation method, procedure or technique. The manufactur-
+er has not undertaken any such wide evaluation. Therefore, people 
+who use a method, procedure or technique that the manufacturer 
+does not specifically recommend must first completely satisfy 
+themselves that their safety, the safety of the vehicle's occupants 
+and the product's safety is not endangered by the method, proce-
+dure or technique selected.
+Information, illustrations, specifications, etc., contained in these 
+Installation Instructions are based on the latest information avail-
+able at the time of publication. Every effort has been expended 
+to be sure that such data is both accurate and current. However, 
+the manufacturer reserves the right to change, alter or otherwise 
+improve this product at any time without prior notice.
+n 
+ Despite the safe design of this generator, 
+operating this equipment imprudently, neglect-
+ing its maintenance or being careless can 
+cause possible injury or death. Permit only 
+responsible and capable persons to operate 
+or maintain this equipment.
+ 
+ Potentially lethal voltages are generated by 
+these machines. Ensure all steps are taken to 
+render the machine safe before attempting to 
+work on the generator.
+n 
+ Parts of the generator are rotating and/or hot 
+during operation. Exercise care near running 
+generators. 
+GENERAL HAZARDS
+For safety reasons, the manufacturer recommends that the 
+ 
+installation, initial start-up and maintenance of this equipment 
+is carried out by an Authorized Service Dealer.
+The generator engine releases DEADLY carbon monoxide gas 
+ 
+through its exhaust system. This dangerous gas, if breathed 
+in sufficient concentrations, can cause unconsciousness or 
+even death. Never operate the generator set with the vehicle 
+inside any garage or other enclosed area. Shut down the 
+generator and do not operate it until it has been inspected 
+and repaired.
+DO NOT OPERATE THE GENERATOR IF THE EXHAUST SYSTEM 
+ 
+IS LEAKING OR HAS BEEN DAMAGED.
+SYMPTOMS OF CARBON MONOXIDE POISONING ARE (a) 
+ 
+inability to think coherently, (b) nausea, (c) vomiting, 
+(d) twitching muscles, (e) throbbing temples, (f) dizzi-
+ness, (g) headaches, (h) weakness, and (i) sleepiness. IF 
+EXPERIENCING ANY OF THESE SYMPTOMS, MOVE INTO 
+FRESH AIR IMMEDIATELY. IF SYMPTOMS PERSIST, GET 
+MEDICAL HELP. 
+Never sleep in the vehicle while the genset is running unless 
+ 
+the vehicle has a working carbon monoxide detector. The 
+exhaust system must be installed in accordance with the 
+genset installation manual. Make sure there is ample fresh 
+air when operating the genset in a confined area.
+Keep hands, feet, clothing, etc., away from drive belts, fans, 
+ 
+and other moving or hot parts. Never remove any drive belt or 
+fan guard while the unit is operating.
+Adequate, unobstructed flow of cooling and ventilating air is 
+ 
+critical to correct generator operation and is required to expel 
+toxic fumes and fuel vapors from the generator compartment. 
+Without sufficient cooling airflow, the engine/generator quickly 
+overheats, which causes serious damage to the generator. Do 
+not alter the installation or permit even partial blockage of ven-
+tilation provisions, as this can seriously affect safe operation of 
+the generator.
+When working on this equipment, remain alert at all times. 
+ 
+Never work on the equipment when physically or mentally 
+fatigued.
+Before performing any maintenance on the generator, discon-
+ 
+nect its battery cables to prevent accidental start up. Disconnect 
+the cable from the battery post indicated by a NEGATIVE, NEG 
+or () first. Reconnect that cable last. 
+Never use the generator or any of its parts as a step. Stepping 
+ 
+on the unit can stress and break parts, and may result in dan-
+gerous operating conditions from leaking exhaust gases, fuel 
+leakage, oil leakage, etc.
+Never insert any tool or other object through openings in the 
+ 
+generator interior, even if the unit is not running. Serious injury 
+or damage to the equipment could be done.
+n 
+ DANGER: For fire safety, installation of a generator into a recreational vehicle must comply strictly with 
+article 551, NFPA 70; ANSI C1-1975; AND, ANSI A119.2-1975/NFPA 501C Standard for Recreational 
+Vehicles (Part 3, Installation of Electrical Systems). In addition, installation must comply with the man-
+ufacturers instructions and recommendations.
+Safety Rules
+
+ 
+ 
+19
+ELECTRICAL HAZARDS
+The generator covered by this manual produces dangerous 
+ 
+electrical voltages and can cause fatal electrical shock. Avoid 
+contact with bare wires, terminals, connections, etc., while the 
+unit is running. Ensure all appropriate covers, guards and bar-
+riers are in place before operating the generator. If work must 
+be done around an operating unit, stand on an insulated, dry 
+surface to reduce shock hazard.
+Do not handle any kind of electrical device while stand-
+ 
+ing in water, while barefoot, or while hands or feet are wet. 
+DANGEROUS ELECTRICAL SHOCK MAY RESULT.
+During installation onto the vehicle, properly ground (bond) the 
+ 
+generator either by solid mounting to the vehicle frame or chas-
+sis, or by means of an approved bonding conductor. DO NOT 
+connect the bonding conductor to any generator part that might 
+be removed or disassembled during routine maintenance. If 
+the grounding conductor must be replaced, use only a flexible 
+conductor that is of No. 8 American Wire Gauge (AWG) copper 
+wire minimum.
+If the vehicle electrical circuits can be powered by any other 
+ 
+source of electricity (such as a dockside power receptacle), 
+there must be no possibility of connecting the different power 
+sources to the vehicle circuits at the same time. The dockside 
+(utility) power source must be positively isolated from the 
+vehicle circuits whenever the generator is operating. Failure to 
+isolate the vehicle circuits from the dockside power supply when 
+the generator is running may result in damage to the generator 
+or serious injury or death to dockside (utility) power workers due 
+to backfeed of electrical energy.
+In case of accident caused by electric shock, immediately shut 
+ 
+down the source of electrical power. If this is not possible, 
+attempt to free the victim from the live conductor. AVOID DIRECT 
+CONTACT WITH THE VICTIM. Use a nonconducting implement, 
+such as a rope or board, to free the victim from the live conduc-
+tor. If the victim is unconscious, apply first aid and get immediate 
+medical help.
+Never wear jewelry when working on this equipment. Jewelry 
+ 
+can conduct electricity resulting in electric shock, or may get 
+caught in moving components causing injury.
+FIRE HAZARDS
+For fire safety, the generator must be installed and maintained 
+ 
+properly. Installation always must comply with applicable 
+codes, standards, laws and regulations. Adhere strictly to local, 
+state and national electrical and building codes. Comply with 
+regulations the Occupational Safety and Health Administration 
+(OSHA) has established. Also, ensure that the generator is 
+installed in accordance with the manufacturers instructions 
+and recommendations. Following proper installation, do noth-
+ing that might alter a safe installation and render the unit in 
+noncompliance with the aforementioned codes, standards, 
+laws and regulations.
+Keep a fire extinguisher in the vehicle at all times. Extinguishers 
+ 
+rated ABC by the National Fire Protection Association are 
+appropriate for use on the recreational vehicle generator electrical 
+system. Keep the extinguisher properly charged and be familiar 
+with its use. If there are any questions pertaining to fire extin-
+guishers, consult the local fire department.
+EXPLOSION HAZARDS
+Do not smoke around the generator. Wipe up any fuel or oil spills 
+ 
+immediately. Ensure that no combustible materials are left in the 
+generator compartment, or on or near the generator, as FIRE or 
+EXPLOSION may result. Keep the area surrounding the generator 
+clean and free from debris.
+Gasoline is extremely FLAMMABLE and its vapors are EXPLOSIVE. 
+ 
+Do not permit smoking, open flame, sparks or any source of 
+heat in the vicinity while handling gasoline. Comply with all laws 
+governing the storage and handling of gasoline.
+Fuel lines must be properly installed and fastened, and free of 
+ 
+leaks. There must be no possibility of gasoline vapors entering 
+the vehicle interior.
+It is required that an approved, flexible, nonconductive fuel line 
+ 
+between the generator fuel connection point and rigid fuel lines 
+be installed.
+If the generator is equipped with a liquid propane (LP) gas fuel 
+ 
+system, install the unit so it complies with all codes, standards 
+and regulations pertaining to such systems. LP gas is highly 
+explosive. The gas tends to settle in low areas where even the 
+slightest spark can ignite it and cause an explosion. Do not 
+allow gas vapors to enter the vehicle.
+Safety Rules
+
+ 20 
+1.1 PURPOSE AND SCOPE OF THE 
+INSTALLATION INSTRUCTIONS
+These Installation Instructions have been prepared especially for 
+the purpose of familiarizing installers and owners of the applicable 
+equipment with the product's installation requirements. Give seri-
+ous consideration to all information and instructions in the manual, 
+both for safety and for continued reliable operation of the equip-
+ment.
+Because of the different recreational vehicle models and the 
+variations between the models, it would be extremely difficult, if 
+not impractical, to provide detailed instructions for every possible 
+installation. For that reason, instructions and illustrations in this 
+manual are general in nature. Illustrations are not intended to serve 
+as detailed installation blueprints.
+The installation should comply strictly with all applicable codes, 
+standards and regulations pertaining to the installation and use of 
+this product. If any portion of this manual appears to be in conflict 
+with such codes, standards or regulations, the applicable codes, 
+standards or regulations must take precedence over the manual.
+1.2 SAFETY
+Before handling, installing, operating or servicing this equipment, 
+carefully read the Notice to Installer and Safety Rules. Comply 
+with all safety rules to prevent death, personal injury or damage to 
+equipment and/or property. Stress safety to all installers, operators 
+and service technicians who work on this equipment.
+1.3 STANDARDS BOOKLETS
+Installation, use and servicing of this equipment should comply 
+strictly with published standards, as well as the manufacturer's 
+recommendations. The following standards booklets (latest revi-
+sion) are available from the sources indicated:
+1. 
+NFPA Standard 501C, Standard for Recreational Vehicles, 
+available from the National Fire Protection Association, 
+Batterymarch Park, Quincy, MA 02269.
+2. 
+NFPA 70, NFPA Handbook of the National Electric Code, 
+available same as Item 1.
+3. 
+ANSI C1-1975 and ANSI 119.2-1975, available from the 
+American National Standards Institute, 1430 Broadway, New 
+York, NY 10018.
+4. 
+ANSI A119.2/RVIA EGS-1, available from the Recreational 
+Vehicle Association, 1896 Preston White Drive, Reston, VA 
+22090.
+5. 
+California Administrative Code, Title 25, available from the 
+State of California, Documents Section, P.O. Box 1015, North 
+Highlands, CA 95660.
+6. 
+CSA Electrical Bulletin 946, available from the Canadian 
+Standards Association, Housing and Constructions Materials 
+Section, 178 Rexdale Boulevard, Rexdale, Ontario, Canada, 
+M9W 1R3.
+1.4 EQUIPMENT DESCRIPTION
+Instructions and information in this section pertain to air-cooled 
+generators. These generators are designed specifically for install-
+ing in recreational vehicles. They operate 120-volt, single-phase, 
+60-Hertz, AC electrical loads.
+1.5 GENERATOR ENGINE
+OPERATING SPEED
+The generators revolving field (rotor) is driven by a two-cylinder, 
+four-cycle engine through a pulley and drive belt arrangement. The 
+generator supplies 120 volts AC at 60 Hertz when the rotor is oper-
+ating at 3,600 rpm. The drive belt arrangement allows the engine to 
+operate at a lower speed than the rotor.
+1.6 GENERATOR AC 
+CONNECTION SYSTEM
+These air-cooled generator sets are equipped with dual stator AC 
+power windings. These two stator windings supply electrical power 
+to customer electrical loads by means of a dual 2-wire connection 
+system. 
+Generators may be installed to provide the following outputs:
+1. 120 VAC loads only  two loads each, with a maximum total 
+wattage requirement equal to half of the generators rated 
+power output (in watts), and 120V across the generator out-
+put terminals (see Fig. 1.1).
+2. 120/240 VAC loads  one load with a maximum total wattage 
+requirement equal to the generators rated power output, and 
+240V across the generator output terminals; or two separate 
+loads, each with a maximum total wattage requirement equal 
+to half of the generators rated power output (in watts), and 
+120V across the generator output terminals (see Fig. 1.3).
+Figure 1.1  Connection for 120 Volts Only
+General Information
+
+ 
+ 
+21
+Figure 1.2 - Major Features and Dimensions (Drawing No. 0G5519-D)
+Installation
+
+ 22 
+Figure 1.3 - Connection for 120/240 Volts
+T1
+RED
+T2
+WHITE
+T3
+BLACK
+GROUNDED NEUTRAL
+STATOR POWER
+WINDINGS
+CB1
+CB2
+The AC connection system on air-cooled generators uses a 
+ 
+GROUNDED neutral.
+A separate green ground wire is connected to the recreational 
+ 
+vehicles junction box.
+Total load connected across T1 (Red) to T2 (White), and T3 
+ 
+(Black) to T2 (White), must not exceed rating for the specific 
+generator (see "Generator Specifications").
+NOTE:
+Do NOT connect loads in excess of circuit breaker ratings.
+2.1 LOCATION AND SUPPORT
+2.1.1 
+GENERATOR LOCATION
+NOTE
+Be sure the installation complies with all standards and codes 
+listed in the "Standards Booklets" section of this manual.
+The most desirable location for the generator set is between the 
+vehicle's main frame members. However, this is seldom possible. 
+Most units must be installed on the side of the vehicle and are 
+difficult to reinforce.
+Many recreational vehicles have been factory equipped with an 
+area for the generator set. Some vehicles may even have a genera-
+tor compartment provided by the vehicle manufacturer.
+Plan the generator location based on the following:
+The generator set must be installed on a framework that is 
+ 
+part of the recreational vehicle, as outlined in the "Generator 
+Support" section.
+The location must provide an access opening that is large 
+ 
+enough to permit generator removal (unless the generator is to 
+be removed from underneath the supporting framework).
+The location must provide easy access to frequently serviced 
+ 
+components, such as filters, oil drains, spark plugs and other 
+common maintenance parts.
+The location must provide sufficient room to allow minimum 
+ 
+clearances as outlined in "Generator Compartments". If sound 
+insulation is to be used on the compartment walls and ceiling, 
+the minimum recommended applies to the space between the 
+generator and such insulation.
+The location must provide adequate cooling and ventilating 
+ 
+airflow for the generator without a great deal of work and 
+expense.
+If mounting the generator in an enclosed compartment, the base 
+ 
+of the generator must rest flat on the floor without any gaps.
+When using a suspended mounting system, ensure the base of 
+ 
+the generator is flush with the surrounding bodywork. If the unit 
+is mounted higher in the structure, heated air may recirculate 
+into the generator causing it to overheat.
+2.1.2 
+GENERATOR SUPPORT
+The generator must be securely attached to a metal framework that 
+has been made part of the vehicle frame structure by bolting or 
+welding. The metal framework on which the generator will rest and 
+which will restrain the generator set should consist of at least two 
+horizontal beams. These beams should consist of (a) 1-1/2-inch 
+square, 11-gauge steel tubing OR (b) 1-1/2-inch, 11-gauge angle 
+iron. A typical supporting frame with horizontal support tubing, is 
+shown in Figure 2.1.
+Figure 2.1  Typical Horizontal Support Frame
+The generator can be installed so that it sits on top of the horizontal 
+support tubing if the vehicle design permits. Another method is 
+to suspend the generator below the horizontal support tubing by 
+means of suitable, structurally sound metal framework. The fol-
+lowing general rules apply:
+Vehicle construction MUST be capable of supporting the weight 
+ 
+of the generator.
+Whether the generator is mounted above the horizontal support 
+ 
+tubing or suspended below the tubing, the supporting frame 
+used must be structurally sound.
+If the generator cannot be bolted directly to the supporting 
+ 
+frame or support tubing, consider using additional tubing, 
+angle brackets or other supports to give the supporting frame 
+sufficient strength.
+Installation
+
+ 
+ 
+23
+2.1.3 
+SUSPENDED MOUNTING
+If planning to suspend the generator below the horizontal sup-
+port tubing, the suspension method to use with the vehicle frame 
+members must (a) be able to support the weight of the generator 
+AND (b) provide sufficient restraint for the generator. One typical 
+suspended mounting system is shown in Figure 2.2. The location 
+of a suspended mounting system must be carefully planned, keep-
+ing the following general rules in mind:
+Protect the generator against road splash and debris. Baffles or 
+ 
+splash guards may be required to protect certain areas of the 
+generator. To make sure the generator is adequately protected, 
+road test the installation through mud, water and slush.
+Figure 2.2  Typical Suspended Mounting System
+The installer must make certain that the selected location will 
+ 
+permit adequate cooling and ventilating airflow to be supplied.
+2.1.4 
+GENERATOR RESTRAINT
+Use four 3/8"-16 hardened steel bolts (Grade 5) to fasten the 
+generator to the supporting frame or the support tubing. These 
+bolts must pass through (a) the generator mounting base, (b) the 
+compartment floor (if a compartment is used) and (c) the support-
+ing framework (Figure 2.3). All bolts must be long enough so that 
+when tight, at least three threads are visible past the retaining lock 
+nuts. Refer to "Generator Compartments" for the location of the 
+generator mounting holes. Torque Bolts to 31 ft./lbs..
+Figure 2.3  Typical Generator Restraint
+2.2 GENERATOR COMPARTMENTS
+Whether the generator set is being installed inside a compartment 
+specifically manufactured to house a generator or inside a compart-
+ment that the installer constructs, the compartment MUST meet 
+certain specifications as outlined in the following sections:
+2.2.1 
+COMPARTMENT SIZE
+Plan the compartment size carefully. Provide a minimum clearance 
+of 1/2 inch (13 mm) on the front top, sides, and from the back for 
+air circulation AFTER the compartment has been lined with metal 
+and sound insulation (Figure 2.4).
+NOTE:
+Refer to Figure 1.2  Major Features and Dimensions.
+Figure 2.4  Clearances
+1/2" Clearance
+in Back
+1/2" Clearance on Top
+1/2" Each Side
+1/2"
+in Front
+Insulation
+Plywood
+Compartment
+18" Clearance Recommended
+Below (Minimum 12")
+2.2.2 
+COMPARTMENT CONSTRUCTION
+The generator compartment should be either constructed of, or 
+ 
+lined with, 26-gauge galvanized steel.
+NOTE:
+Aluminum is NOT an acceptable alternative to galvanized steel 
+due to aluminums low melting point.
+If the compartment is lined with galvanized steel, it may be 
+ 
+constructed of any material. The manufacturer recommends 
+that the compartment be constructed of 1/2-inch thick plywood 
+(not strandboard), with the floor made of a double thickness of 
+1/2-inch plywood with the grain of the wood at cross section 
+for added strength (Figure 2.5).
+If constructing a compartment, line the exterior (underside) of 
+ 
+the compartment floor with 26-gauge galvanized steel.
+All seams, splices and joints of the compartment walls (unless 
+ 
+vapor tight by design) should be caulked to prevent poison-
+ous, flammable or explosive vapors from entering the vehicle 
+interior.
+Installation
+
+ 24 
+Figure 2.5  Typical Compartment Construction
+NOTE:
+Caulking must be done so that the caulking material will stay in 
+place permanently. Pressing such materials as putty tape onto 
+joints and seams is not acceptable. A high quality silicone rub-
+ber base sealant is recommended.
+Holes and openings made in the compartment walls to allow for 
+ 
+the passage of electrical conduit, conductors, hoses, cables, 
+etc., into the vehicle living area must be sealed vapor tight with 
+silicone rubber base sealant.
+If flexible metal conduit is used, it must be sealed internally at 
+ 
+the end where it terminates inside the compartments electrical 
+junction box. 
+NOTE:
+Flexible metal conduit, due to its unique construction, is NOT 
+vapor tight along its entire length.
+Seams and joints of the galvanized steel (whether used as a liner 
+ 
+or for the compartment itself) must be lapped and mechanically 
+secured. Such seams may be manufactured, welded, bolted, 
+riveted or screwed. Manufactured lock seams are shown in 
+Figure 2.6. Installer constructed compartments typically utilize 
+a standard lap joint.
+After the compartment has been metal lined and vapor 
+ 
+sealed, line the compartment interior walls and ceiling with an 
+approved, nonflammable sound insulating material. See "Sound 
+Insulating Materials".
+Figure 2.6  Types of Lock Seams
+ 
+ Do not install any flammable material directly 
+above or around the compartment. Heat, 
+transferred through the compartment struc-
+ture, may be sufficient to ignite, char or dis-
+color seat cushions, fiberboard and other 
+flammable materials. Use approved nonflam-
+mable insulating materials in high tempera-
+ture areas.
+2.2.3 
+SOUND INSULATING MATERIALS
+Once installers have determined that a compartment is properly 
+constructed and metal lined, they can add acoustical material. 
+This may include additional sealant or insulating material, to reflect 
+noise away from the vehicle interior.
+Sound insulating materials should be of a nonflammable type. One 
+excellent insulating material is a 1-inch (25 mm) thick fiberglass 
+having a 2-pound density. When fiberglass is used, its coated side 
+should face toward the compartment interior.
+ 
+ Do not install sound insulation or any absor-
+bent material on the compartment floor inte-
+rior. Such materials will become soaked with 
+combustible or explosive vapors and liquids 
+and will become a fire hazard.
+Using a combination of sound insulating materials can often 
+reduce noise more effectively than a single material. For example, 
+a sheet of lead or visco-elastic material, along with a layer of other 
+acoustical material, is more effective than when a single material 
+is used.
+Installation
+
+ 
+ 
+25
+2.2.4 
+ACOUSTICS
+For additional noise abatement, the installer may wish to consider 
+the following:
+Using special sound insulating materials.
+ 
+Construction of a special noise abatement compartment.
+ 
+NOTE:
+Any method used to reduce noise must not adversely affect the 
+flow of cooling and ventilating air into or out of the compart-
+ment.
+In addition to the effective use of sound insulating materials, 
+construction of a special noise abatement compartment might be 
+considered to reduce noise levels. Such a compartment might be 
+constructed as follows (Figure 2.7):
+Use 5/8-inch thick or 3/4-inch thick plywood in the compart-
+ 
+ment.
+Construct the compartment floor of a double thickness of 5/8-
+ 
+inch or 3/4-inch plywood.
+Line the compartment interior walls and floor, as well as the 
+ 
+underside of the floor, with 26-gauge galvanized steel.
+Vapor seal all compartment seams and joints.
+ 
+Over the galvanized steel lining, install a combination of acousti-
+ 
+cal materials as mentioned in "Sound Insulating Materials".
+ 
+ To prevent fire or explosion, do not install 
+any insulation or other absorbent materials 
+on the interior or underside of the compart-
+ment floor.
+Seal all compartment door edges to prevent noise leakage 
+ 
+around the door perimeter.
+ Figure 2.7  Typical Noise Abatement
+Line the compartment door interior (except for air openings) 
+ 
+with suitable, fireproof sound insulation (such as 1-inch (25 
+mm) thick fiberglass with a 2-pound density).
+2.2.5 
+COMPARTMENT FLOOR CUTOUTS
+Provide openings in the generator compartment for the following 
+items (Figure 2.9):
+Engine exhaust and cooling air outlets
+ 
+Generator cooling air inlet
+ 
+Four holes for passage of generator mounting bolts. See 
+ 
+"Generator Restraint".
+n 
+ Fuel lines and exhaust piping must not pen-
+etrate into the vehicle living area.
+2.3 
+ COOLING AND VENTILATING 
+AIR
+It is absolutely essential that an adequate flow of air for cooling, 
+ventilating and engine combustion be supplied to the generator set. 
+Without sufficient airflow, the engine/generator quickly overheats. 
+Such overheating can cause serious operating difficulties and also 
+may cause fire and personal injury. The installer must make sure 
+that sufficient air is available to the generator for cooling, ventilat-
+ing and combustion. The installer also must provide for a path for 
+exhausting the cooling air to the exterior of a compartment, if so 
+equipped.
+ 
+ Never use discharged cooling air for heating 
+or permit such air to enter the vehicle inte-
+rior. This air contains deadly carbon monox-
+ide gas and other poisonous, flammable or 
+explosive gases.
+2.3.1 
+GENERATOR AIRFLOW
+Engine operation drives cooling fans for the two-stage cooling 
+air system. A pressure fan draws cooling air into the top of the 
+generator (Figure 2.8). This airflow cools the engine/generator and 
+electronic components. The second part of the cooling system, a 
+suction fan, draws air that is heated from a hot engine into a col-
+lector pan at the base of the unit. This heated air (although cooler 
+than exhaust muffler) is then deflected out the bottom toward the 
+ground.
+Figure 2.8  Airflow Through Engine/Generator
+COOLING AIR IN
+ENGINE AIR IN
+COOLING
+AIR OUT
+Installation
+
+ 26 
+Figure 2.9  Compartment Floor Cutout (Drawing 0G4432-A)
+Installation
+
+ 
+ 
+27
+6.3.2 
+TESTING THE INSTALLATION
+The manufacturer recommends testing the installation to be sure 
+adequate cooling airflow is available to the unit before placing the 
+unit into service. If the unit shows signs of overheating, enlarge the 
+air openings. Never place a unit into service until absolutely certain 
+that cooling and ventilation is adequate.
+NOTE:
+The installation must be tested, especially if bringing in air from 
+below the generator set.
+2.4 GASOLINE FUEL SYSTEM
+ 
+ Gasoline is highly flammable, and its vapors 
+are explosive. Comply with all codes, stan-
+dards and regulations pertaining to gasoline 
+fuel systems used in recreational vehicle 
+generators. Properly install and maintain 
+the fuel system and keep it entirely free of 
+leaks. Gasoline vapors must not enter the 
+vehicle interior.
+The installation of a gasoline fuel system (Figure 2.10) for a 
+recreational vehicle generator set must comply with applicable 
+codes, standards and regulations. The entire fuel system must be 
+completely free of leaks. There must be no possibility of gasoline 
+vapors entering the vehicle interior.
+Figure 2.10  Generator Fuel System
+d
+a, b
+e
+Factory installed generator fuel system components include (a) 
+fuel filter, (b) 12-volt DC electric pump, (c) engine carburetor, and 
+(d) interconnecting lines and fittings, (e) evaporative port. Connect 
+a fuel supply line to the fuel filter inlet. Use a flexible length of 
+approved fuel hose between the fuel filter inlet connection and 
+rigid fuel lines.
+2.4.1 
+FUEL TANK
+Either the generator must share the vehicle engine's fuel tank, or a 
+separate fuel tank for the generator set must be installed. All fuel 
+tanks installed on the vehicle must be constructed, installed and 
+restrained so they comply with applicable codes, standards and 
+regulations. The generator has an evaporative emissions port to 
+evacuate accumulated gasoline vapors when necessary.
+If the generator is to share the vehicle engine's tank, separate 
+fuel pickup tubes are required for the engine and the generator. 
+The manufacturer recommends that the fuel pickup tube be two 
+to three inches (51 to 76 mm) shorter than the vehicle engine's 
+pickup tube. This prevents the generator from depleting the entire 
+fuel supply during prolonged generator operating periods.
+Gasoline generators are equipped with an Evaporative Emissions 
+Port that may be used in conjunction with a certified fuel system 
+where required by law.
+n 
+ Do NOT tee the generator fuel supply line 
+into the vehicle engine fuel supply line. If 
+this is done, the generator will be starved of 
+fuel when both engines are operating at the 
+same time. Also, while the vehicle engine is 
+not running, generator operation may drain 
+the vehicle engine supply line, making it dif-
+ficult to start the vehicle engine.
+2.4.2 
+GENERATOR FUEL SUPPLY LINE
+2.4.2.1 Rigid Fuel Lines
+Those lines used to supply fuel from a tank to the generator must 
+comply with applicable codes, standards and regulations. The fol-
+lowing general rules apply to rigid fuel lines:
+Rigid lines should be of annealed, seamless, drawn aluminum 
+ 
+or steel.
+Lines and fittings must comply with SAE J512F, Standard 
+ 
+Automotive Fittings, or with ANSI B126.26 (latest edition).
+Route the fuel line so that at least 2 inches (51 mm) of clear-
+ 
+ance is maintained between the line and any exhaust system 
+parts.
+Do not attach electrical wiring to fuel lines. Route the wiring so 
+ 
+it cannot come into contact with any fuel line.
+Route fuel lines so if they leak, fuel does not drip onto any 
+ 
+electrical or exhaust system parts.
+Use nonferrous metal straps without sharp edges to secure 
+ 
+fuel lines.
+2.4.2.2 Flexible Fuel Line
+Use an approved flexible length of fuel hose between the generator 
+fuel inlet connection and rigid fuel lines. This prevents breaking of 
+the line caused by vibration, shifting, settling or movement. The 
+following rules apply:
+The flexible hose must comply with SAE J30R7, Standard for 
+ 
+Fuel and Oil Hose. It must be approved for use with gasoline 
+and low permeability.
+The hose should be at least 6 inches (152 mm) longer than 
+ 
+is needed to prevent the hose from rupturing if the generator 
+shifts or settles.
+Installation
+
+ 28 
+2.5 
+EXHAUST SYSTEM
+The generator exhaust system must be safely and properly 
+installed. Only approved mufflers and other exhaust system parts 
+must be used. A properly installed exhaust system must be vapor 
+tight, quiet and completely safe.
+n 
+ The generator engine gives off DEADLY 
+carbon monoxide gas through its exhaust 
+system. This dangerous gas, if breathed in 
+sufficient concentrations, can cause uncon-
+sciousness or even death. Never operate 
+the generator set with the vehicle inside 
+any garage or other enclosed area. DO 
+NOT OPERATE THE GENERATOR IF THE 
+EXHAUST SYSTEM IS LEAKING OR HAS 
+BEEN DAMAGED. SYMPTOMS OF CARBON 
+MONOXIDE POISONING ARE (a) inability to 
+think coherently; (b) vomiting; (c) twitch-
+ing muscles; (d) throbbing temples; (e) 
+dizziness; (f) headaches; (g) weakness; 
+and (h) sleepiness. IF FEELING ANY OF 
+THESE SYMPTOMS, MOVE INTO FRESH AIR 
+IMMEDIATELY. IF SYMPTOMS PERSIST, GET 
+MEDICAL HELP. Do not operate the generator 
+until its exhaust system has been inspected 
+and properly repaired.
+n 
+ Never tee the generator engine exhaust pipe 
+into the vehicle engine exhaust piping. This 
+causes excessive back pressure on the gen-
+erator engine. Also, water from one engine 
+can damage the other engine.
+2.5.1 
+MUFFLERS AND SPARK ARRESTORS
+This muffler meets code and standard requirements of the U.S. 
+Forest Service. Use only mufflers and parts approved by the 
+manufacturer. Any person(s) installing an unapproved muffler, 
+or an unapproved exhaust system part, or modifying an exhaust 
+system in any way that might cause a hazard, is liable for any 
+damage, injury or warranty expense that might be caused by such 
+unapproved installation or modification.
+Failure to provide and maintain a spark arrestor may be in violation 
+of the law. If this generator is used on any forest covered, brush 
+covered or grass covered unimproved land, a spark arrestor must 
+be provided. The vehicle owner or operator must maintain this 
+device in good condition. In the state of California, the preceding 
+is required by law (Section 4442 of the California Public Resources 
+Code). Other states may have similar laws. Federal laws apply on 
+federal lands.
+When installing/replacing the tailpipe or spark arrestor compo-
+nents, verify that the tailpipe has a hole to securely fasten the 
+spark arrestor components (see Figures 2.11 and 2.12). Use only 
+manufacturer supplied hardware. Substitution of parts may cause 
+damage to the screen or a loose fit to the tailpipe.
+Figure 2.11 - Spark Arrestor
+RETAINING 
+SCREW P/N 056892
+SPARK ARRRESTOR
+SCREEN P/N 089680
+TAILPIPE
+P/N 0E0683
+Figure 2.12  Spark Arrestor Installation
+2.5.2 
+EXHAUST SYSTEM SAFETY
+Maintain a clearance of at least 3 inches (76 mm) between 
+ 
+exhaust system parts and any combustible material (such as 
+wood, felt, cotton, organic fibers or other like material). If the 
+3-inch (76 mm) clearance cannot be maintained, locate, insu-
+late or shield the exhaust part(s) so that the temperature of any 
+combustible material is not raised more than 117 F (65 C) 
+above the ambient air temperature.
+Extend the exhaust system at least 1 inch (25 mm) past the 
+ 
+outer edge of the vehicle. Do not terminate the exhaust system 
+under the vehicle.
+Terminate the exhaust tailpipe such that exhaust gases will not 
+ 
+be drawn back into the generator compartment and recircu-
+lated.
+If there is any possibility of the tailpipe or muffler being dam-
+ 
+aged, protect these damage-prone areas by means of a protec-
+tive device (such as a skid bar).
+Install the generator exhaust system according to safe automo-
+ 
+tive practices.
+Use enough exhaust system hangers to prevent any part of the 
+ 
+system from being dislocated.
+Use exhaust system parts recommended by the manufacturer. 
+ 
+Using unapproved exhaust mufflers and exhaust system parts 
+is the responsibility of the person(s) installing such unauthor-
+ized parts.
+Installation
+
+ 
+ 
+29
+Do not terminate the exhaust system under any opening, win-
+ 
+dow or vent that can be opened or is not permanently sealed 
+from the vehicle interior.
+Exhaust piping must be large enough to prevent excessive back 
+ 
+pressure on the generator engine.
+Never tee the generator engine exhaust pipe into the vehicle 
+ 
+engine exhaust piping. This causes excessive back pressure on 
+the generator engine. Also, water from one engine can damage 
+the other engine.
+Plan exhaust system installation carefully. Comply with all appli-
+ 
+cable codes, standards and regulations.
+2.6 
+ELECTRICAL CONNECTIONS
+The following general rules apply to electrical connections in a 
+recreational vehicle:
+Qualified electricians who are familiar with applicable codes, 
+ 
+standards and regulations should install electrical wiring.
+The wiring should comply with codes, standards and regula-
+ 
+tions. The National Electrical Code (NFPA 70), and state and 
+local codes apply.
+Switches and circuit breakers should be of a type approved for 
+ 
+use in recreational vehicles and must be mounted and installed 
+to prevent damage from road shock.
+Wiring must be of adequate size, have approved insulative 
+ 
+qualities and be properly supported.
+Conduit and wire openings into the generator compartment 
+ 
+(if used) must be vapor-sealed to prevent entry of flammable, 
+explosive or poisonous gases into the vehicle.
+2.6.1 
+ELECTRICAL JUNCTION BOX
+Install an approved, square electrical junction box with a blank 
+cover on the interior or exterior wall of the area planned for installa-
+tion of the generator (NOT on the generator). Route the generator's 
+AC output leads into this junction box through approved flexible 
+conduit. This is the point of first termination for generator AC 
+output leads.
+2.6.2 
+WIRING
+Wiring should be of stranded copper to reduce the chance that 
+ 
+vibration may cause breakage.
+Wire gauge size should be large enough to handle at least 115 
+ 
+percent of the installed generator's rated maximum current.
+If neutral conductors are used, they must be the same size as 
+ 
+other leg wires.
+Route power supply conductors from generator AC output leads 
+ 
+T1 (red), T2 (white), T3 (black) and the green ground wire 
+through approved flexible conduit to the electrical junction box 
+on the compartment wall.
+If flexible metal conduit is used between the generator and the 
+ 
+compartment junction box, the conduit end that terminates the 
+compartment junction box must be vapor-sealed. Flexible metal 
+conduit is NOT vapor tight along its entire length.
+From the junction box, route power supply wires through 
+ 
+approved conduit to either (a) double-pole, double-throw trans-
+fer switch, or (b) approved isolation receptacle. Connecting to 
+a transfer switch or isolation receptacle must prevent vehicle 
+electrical circuits from being connected to two different power 
+supplies at the same time (such as generator and dockside 
+power).
+Conductors must be rated 221 F (105 C) or must be of a 
+ 
+larger conductor size.
+2.6.3 
+GENERATOR AC CONNECTIONS
+Generator AC output leads T1 (red), T2 (white) and T3 (black) 
+come out of the generator as shown in Figure 2.13. Leads T1 (red) 
+and T3 (black) are hot, while T2 (white) is the grounded neutral 
+lead. There is also a green lead that connects to ground in the 
+junction box of the recreational vehicle.
+Figure 2.13  Generator AC Output Leads
+AC Output Leads
+T3
+T2
+T1
+Green
+(Ground)
+4500 Watts
+Line T1 (black) to T2 (white) is protected by circuit breaker a 
+(CB1). Use this line to neutral connection to operate 120 volt, 
+single-phase, 60 Hz, AC loads.
+5500 and 6500 Watts
+Line T1 (red) to T2 (white) is protected against overload by a cir-
+cuit breaker (CB1). Use this line-to-neutral connection separately 
+to operate 120-volt, single-phase, 60 Hertz, AC loads. Line T3 
+(black) to T2 (white) also is protected against overload by a circuit 
+breaker (CB2). Use this line-to-neutral connection separately to 
+operate similar loads. However, be sure the total unit load does not 
+exceed the maximum rating of the generator. The neutral line (T2, 
+white) on all units is a grounded neutral.
+Installation
+
+ 30 
+ 
+ Do NOT connect electrical loads in excess 
+of any circuit breaker rating or problems will 
+develop with circuit breaker tripping, which 
+causes a loss of AC output. Also, do NOT 
+exceed the generator's rated wattage capac-
+ity. Add the watts or amperes of all lighting, 
+appliance, tool and motor loads the generator 
+will operate at one time. This total should be 
+less than the unit's rated wattage/amperage 
+capacity.
+2.6.4 
+CONDUIT
+Route the connections between the generator and the junction box 
+through approved, flexible conduit. The following general rules 
+apply:
+Cut wiring to the required length and allow extra wire for junc-
+ 
+tion box connections.
+Carefully prepare conduit ends to prevent sharp edges from 
+ 
+cutting through wiring insulation.
+Route conduit so it does not interfere with generator move-
+ 
+ment.
+If using metallic conduit, vapor seal the end of the conduit 
+ 
+where it enters the junction box. Do this because flexible metal-
+lic conduit is not vapor proof along its entire length.
+2.6.5 
+ISOLATING DIFFERENT POWER SOURCES
+Connections from the junction box must terminate in a double-
+pole, double-throw transfer switch (Figure 2.14). An alternate 
+method for isolating different power sources is by using an isolat-
+ing receptacle (Figure 2.15). Whichever method is used, be certain 
+that both power sources are NOT connected at the same time.
+2.6.6 
+POWER SUPPLY CORD
+The power supply cord must comply with all applicable codes, 
+standards and regulations. It must be large enough to handle the 
+full amperage to which it will be subjected.
+2.6.7 
+ GROUND FAULT CIRCUIT 
+INTERRUPTERS
+The National Electrical Code (NFPA 70, article 551) requires that 
+ground fault circuit interrupters (GFCIs) on all external and some 
+internal electrical receptacles be installed. Contact the manufac-
+turer or dealer for recommendations.
+2.7 
+BATTERY INSTALLATION
+NOTE:
+This generator is not equipped with an internal battery charger. 
+It is intended for use in systems where an external battery char-
+ger is installed by the RV O.E.M. or an aftermarket installer.
+2.7.1 
+RECOMMENDED BATTERY
+Install a battery that meets the following requirements:
+The battery must be a 12-volt, automotive type storage bat-
+ 
+tery.
+For prevailing ambient temperatures above 32 F (0 C), use 
+ 
+a battery rated 70 amp-hours and capable of delivering 400 
+cold-cranking amperes.
+For prevailing ambient temperatures below 32 F (0 C), use 
+ 
+a battery rated 95 amp-hours and capable of delivering 400 
+cold-cranking amperes.
+NOTE:
+If the battery is to be used to power other vehicle accessories, 
+as well as start the generator, a battery with a larger capacity 
+may be needed.
+2.7.2 
+BATTERY CABLES
+Using battery cables that are too long or too small in diameter 
+may cause a drop in voltage, which causes starting problems. For 
+the best cold weather starting, the voltage drop between battery 
+terminals and the generator connection point should not exceed 
+0.12 volts per 100 amperes of cranking current.
+These generators are rated at about 100 DC amperes of cranking 
+current.
+Select battery cables based on (a) cable length and (b) prevail-
+ing ambient temperatures. Generally, the longer the cable and the 
+colder the weather, the larger the cable size must be, as shown in 
+the chart.
+CABLE LENGTH in Feet (meters)
+CABLE SIZE
+0 to 10 (0 to 3)
+2*
+11 to 15 (3.4 to 4.5)
+0
+16 to 20 (4.5 to 6)
+000
+*For warm weather, use No. 2 cable up to 20 feet.
+NOTE:
+Where a minimum of 1025 CCA (cold cranking amps) battery 
+current is available, up to 30 feet of AWG #2 battery cable is 
+permitted.
+2.7.3 
+BATTERY CABLE CONNECTIONS
+1. 
+Connect the battery cable from the battery post or terminal 
+indicated by a POSITIVE, POS or (+) to the lug on the starter 
+contactor (Figure 2.16).
+NOTE:
+Check to be sure the battery cable boot for the starter cable has 
+been installed.
+2. 
+Connect the battery cable from the battery post indicated by a 
+NEGATIVE, NEG or (-) to the frame ground connection (Figure 
+2.16).
+3. 
+Connect cables so the connectors are clean and tight.
+Installation
+
+ 
+ 
+31
+Figure 2.14  Typical Transfer Switch Isolation Method
+Figure 2.15  Typical Installation With Isolation Receptacle
+Installation
+
+ 32 
+Figure 2.16  Connecting Battery Cables
+
++
+Battery
+Negative Cable
+Positive Cable
+Chasis Ground
+2.7.4 
+BATTERY COMPARTMENT
+Install the generator battery in its own, vented compartment. Place 
+the battery compartment away from any source of heat, sparks 
+or flame.
+Provide ventilation openings in the battery compartment. The 
+minimum size of openings should be two (2) square inches at 
+the top of the compartment. Mount the battery on a strong, rigid 
+supporting structure, where leaks and spills of battery fluid will not 
+cause damage.
+2.8 
+OPTIONAL ACCESSORIES
+A plug-in receptacle (Figure 2.17) is provided on the generator set. 
+Use this receptacle to connect an optional remote-mounted start/
+stop panel to the generator. Installation of such a panel will permit 
+starting and stopping the generator engine from any convenient 
+location inside the vehicle.
+2.8.1 
+REMOTE PANEL MODELS
+The remote panels mount a rocker type start/stop switch, a 
+Generator Run advisory lamp and an hourmeter. The hourmeter 
+should be used in conjunction with the maintenance operations 
+found in Part I of this manual.
+Figure 2.17  Remote Panel Plug-in Receptacle
+WIRE NO.
+WIRE COLOR
+FUNCTION
+0
+Black
+Ground
+14
+Blue
+Engine Run Signal
+712
+Blue
+12 VDC
+17
+Brown/White
+Start
+18
+Brown/Black
+Stop
+Installation
+
+ 
+ 
+33
+3.1 POST INSTALLATION TESTS
+The air-cooled generator set was factory tested and adjusted. It 
+should not be necessary to adjust the unit any further except under 
+special circumstances.
+n 
+ Do not make any unnecessary adjustments. 
+Factory settings are correct for most applica-
+tions. When making adjustments, however, 
+be careful to avoid overspeeding the engine.
+3.2 BEFORE INITIAL START-UP
+Before starting, complete the following:
+1. 
+Check the engine crankcase oil level and, if necessary, fill to 
+the dipstick FULL mark (cross-hatched area) with the rec-
+ommended oil. Do not fill above the FULL mark.
+2. 
+Check the fuel supply. Gas fuel lines must have been properly 
+purged and leak tested in accordance with applicable fuel 
+codes. All fuel shutoff valves in the fuel supply lines must be 
+open.
+3.3 INITIAL START
+When certain that the unit has been properly installed and prepared 
+for use, start the engine as follows:
+1. 
+Turn off all electrical loads. Do this by setting the generators 
+main circuit breakers to their OFF (or open) position.
+2. 
+Refer to Part I, Starting the Generator, for cranking and 
+starting instructions. The engine may require more cranking 
+for initial starting since the fuel lines have to be primed (use 
+of the primer switch will shorten this time).
+3. 
+Let the engine warm up for about five minutes to allow internal 
+temperatures to stabilize.
+4. 
+Carefully inspect the engine/generator for fuel, oil and exhaust 
+system leaks. Before proceeding to the next step, correct any 
+leakage immediately.
+5. 
+When all tests and adjustments at no-load are completed, 
+apply electrical loads and check for proper operation under 
+load (see "Testing Under Load"). Run the unit at least 30 min-
+utes with loads applied.
+6. 
+Turn off all electrical loads by setting the generators main 
+circuit breakers to their OFF (or open) position.
+7. 
+Let the unit run at no-load for a few minutes to stabilize 
+internal engine/generator temperatures. Then, shut down the 
+engine.
+NOTE:
+The generator set was thoroughly tested and adjusted at the fac-
+tory before shipping. No additional adjustment should be neces-
+sary. Only qualified service technicians who have been trained 
+should perform adjustments outlined in this manual.
+3.4 TESTING UNDER LOAD
+Apply electrical loads equal to about 75 to 100 percent of the unit's 
+rated wattage/amperage capacity.
+Let the unit run at least 30 minutes with load applied. During this 
+part of the test, check that the unit is not running excessively hot 
+and that adequate cooling airflow is available. Do not allow the unit 
+to overheat during prolonged operation.
+NOTE:
+The generator engine is equipped with a high temperature 
+switch. The switch has normally open (N.O.) contacts. When the 
+engine temperature is too high, switch contacts close, and the 
+engine shuts down automatically.
+THE MANUFACTURER RECOMMENDS THAT THE GENERATOR BE 
+TESTED FOR ADEQUATE COOLING.
+Post Installation
+
+ 34 
+3.5 INSTALLATION CHECKLIST
+LOCATION AND SUPPORT
+ Generator is properly located.
+ Generator is properly supported.
+ Generator is properly restrained.
+GENERATOR COMPARTMENT
+ Compartment construction is proper.
+ Holes/Openings are vapor-sealed.
+ Compartment size is correct.
+ Compartment is vapor-sealed.
+ Sound insulation is correct.
+ Floor cutouts are properly completed.
+COOLING AND VENTILATING AIR
+ Airflow is adequate.
+ Air inlet opening is correct.
+ Compensate for restrictions.
+ Check that installation has been tested.
+GASOLINE FUEL SYSTEM
+ Fuel tank complies with all applicable codes.
+ Fuel system is properly installed and checked for 
+leaks.
+EXHAUST SYSTEM
+ Exhaust system complies with all applicable codes.
+ Exhaust system is properly and safely installed.
+ELECTRICAL CONNECTIONS
+ Connections comply with local code requirements 
+and all National Electrical Codes.
+ Junction box is properly installed.
+ Wiring meets all standards.
+ All connections are correct.
+ Conduit is properly installed and sealed.
+ Generator is properly bonded to the vehicle.
+ Generator is always isolated from other power 
+sources.
+BATTERY INSTALLATION
+ Recommended battery is installed.
+ Recommended cables are installed.
+ Cables are clean and tight.
+ Cables are connected properly.
+ Proper ventilation is provided.
+ Terminals are coated with anti-corrosion grease, and 
+terminal covers are positioned.
+OPTIONAL ACCESSORIES
+ Check that remote start/stop panels (if used) are 
+installed properly.
+ Check that hourmeter kit (if used) is installed 
+properly.
+ Check that any other options and accessories (if 
+used) are installed properly.
+POST INSTALLATION TESTS
+ Check that all tests are completed properly.
+ 
+DATE OF INSTALLATION _________________________________________________
+ 
+NAME OF INSTALLER ____________________________________________________
+ 
+SIGNATURE OF INSTALLER _____________________________________________
+Post Installation
+
+ 
+ 
+35
+4.1 
+TROUBLESHOOTING GUIDE
+Problem 
+Cause 
+Correction
+Engine wont crank. 
+1. 7.5 amp fuse blown. 
+1. 
+Replace blown fuse.
+ 
+2. Loose, or corroded or defective 
+2. 
+Tighten, clean or replace,
+ 
+ 
+battery cable(s). 
+ 
+as necessary.
+ 
+3. Battery is discharged or defective. 
+3. 
+Recharge or replace battery.
+ 
+4. Defective Start/Stop switch. 
+4. 
+Replace switch.
+ 
+5. Defective starter contactor. 
+5. 
+Replace starter contactor.
+ 
+6. Defective starter motor. 
+6. 
+Replace starter motor.
+ 
+7. Defective Engine Control Board 
+7. 
+Contact an authorized service dealer.
+ 
+Engine cranks, won't start. 
+1. Out of fuel. 
+1. 
+Refill fuel tank.
+ 
+2. Fuel pump not operating. 
+2. 
+Repair or replace pump.
+ 
+3. Automatic choke not operating properly. 
+3. 
+Repair, replace or adjust.
+ 
+4. Engine is flooded. 
+4. 
+Wait 5-10 minutes; try again.
+ 
+5. Fuel filter is clogged. 
+5. 
+Replace filter if clogged.
+ 
+6. Engine spark plugs defective. 
+6. 
+Clean, regap or replace as needed.
+ 
+7. Bad ignition magneto on engine. 
+7. 
+Replace if defective.
+ 
+8. Bad carburetor. 
+8. 
+Adjust, repair or replace.
+ 
+9. Dirty air cleaner. 
+9. 
+Clean or replace as needed.
+ 
+Engine starts hard, runs rough. 
+1. Dirty engine air cleaner. 
+1. 
+Clean or replace as needed.
+ 
+2. Automatic choke is sticking. 
+2. 
+Free choke linkage as needed.
+ 
+3. Defective spark plugs. 
+3. 
+Clean, regap or replace.
+ 
+4. Defective ignition magneto. 
+4. 
+Replace it if defective.
+ 
+Engine starts, then shuts down. 
+1. Engine oil level is low. 
+1. 
+Add oil as needed.
+ 
+2. Bad low oil pressure switch. 
+2. 
+Replace, if bad.
+ 
+3. Defective high temp switch. 
+3. 
+Replace, if bad.
+ 
+4. Water in fuel. 
+4. 
+Drain fuel tank and refill.
+ 
+5. Defective remote harness. 
+5. 
+Disconnect remote harness. Contact
+ 
+ 
+ 
+ 
+authorised service facility.
+ 
+No AC output voltage. 
+1. Main breaker(s) open. 
+1. 
+Close main breaker(s).
+ 
+2. Transfer switch (if so equipped) is 
+2. 
+Reset transfer switch.
+ 
+ 
+set to wrong position. 
+ 
+3. Failure in vehicle electrical system. 
+3. 
+See vehicle manual.
+ 
+4. Generator component failure. 
+4. 
+Contact an authorized service facility.
+Troubleshooting
+
+ 36 
+Electrical Data 
+Wiring Diagram Drawing No. 0G4221-C
+
+ 
+ 
+37
+Wiring Diagram Drawing No. 0G4221-C 
+Electrical Data
+
+ 38 
+Electrical Data 
+Wiring Diagram Drawing No. 0H3633-A
+
+ 
+ 
+39
+Wiring Diagram Drawing No. 0H3633-A 
+Electrical Data
+
+ 40 
+Exploded Views & Parts Lists 
+Enclosure Drawing No. 0G3881-F
+
+ 
+ 
+41
+ITEM 
+PART NO. 
+QTY. 
+DESCRIPTION
+ 1 
+0G3396 
+1 
+ENCLOSURE DOOR 
+ 2 
+0C5644 
+2 
+SLIDE LATCH, FLUSH
+ 3 
+0G5236 
+1 
+FOAM ENCLOSURE DOOR
+ 4 
+0D3700 
+23 
+NUT FLANGE M6-1.0 NYLOK
+ 5 
+0G3401 
+1 
+DUCT, AIR IN DOOR
+ 6 
+0G4077 
+1 
+GROMMET, OIL FILTER
+ 7 
+0G4433 
+1 
+U CHANNEL 1/8
+ 8 
+0G3377 
+1 
+TRAY, 530 RV
+ 9 
+0G3431 
+1 
+GASKET AIR IN BOTTOM DUCT
+ 10 
+0F9199 
+1 
+PLUG PLASTIC 1.093-1.125
+ 11 
+0G3430 
+1 
+GASKET AIR IN TOP DUCT
+ 12 
+0G3402 
+1 
+DUCT AIR IN ROOF
+ 13 
+090388 
+13 
+SCREW HHTT M6-1.0X12 ZINC
+ 14 
+0G3422 
+1 
+TOP DIVIDER PANEL
+ 15 
+0G5237 
+1 
+FOAM, SIDE ENCLOSURE
+ 16 
+0G3399 
+1 
+ENCLOSURE SIDE / BACK 
+ 17 
+0D3472 
+1 
+GROMMET OVAL 31.75X50.8
+ 18 
+0G4933 
+18 
+SCREW SWT 1/4-20X5/8 W/W
+ 23 
+0G5238 
+1 
+FOAM BACK ENCLOSURE ALT SIDE
+ 24 
+0G3397 
+1 
+ENCLOSURE ROOF
+ 25 
+0G4391 
+1 
+ENCLOSURE, BACK PANEL 530 RV
+ 26 
+0G5239 
+1 
+FOAM BACK PANEL ENCLOSURE
+ 28 
+0G3392 
+1 
+UPPER BLOWER HOUSING
+ 29 
+0G3754 
+1 
+UPPER BLOWER HOUSING GASKET
+ 30 
+0G3398 
+1 
+EXHAUST DIVIDER PANEL 
+ 31 
+0G3912 
+1 
+MUFFLER HOLD DOWN BRACKET
+ 32 
+0G3400 
+1 
+ENCLOSURE EXHAUST SIDE PANEL 
+ 33 
+0G5240 
+1 
+FBR GLASS, ENCLOSURE MFLR BACK
+ 34 
+0G5242 
+1 
+FOAM EXHAUST END ENCL FRONT
+ 35 
+0G5241 
+2 
+FBR GLASS, ENCLOSURE MFLR SIDE
+ 36 
+045756 
+9 
+SCREW HHTT M6-1.0X10 ZYC
+ 37 
+0G5755 
+1 
+BUMPER
+ 38 
+0G5761 
+1 
+STAND OFF
+ 39 
+022473 
+1 
+WASHER, FLAT 1/4
+ 40 
+022097 
+1 
+WASHER, LOCK 1/4
+ 41 
+022287 
+1 
+SCREW HHC 1/4-20 X 3/4 G5
+ 42 
+0G3429 
+1 
+GASKET, SCROLL DUCT
+SHEET METAL PAINT/MATERIAL CODE LEGEND
+The following exploded views contain part numbers of various sheet metal components. Only the base part number is listed. When ordering sheet metal, the 
+correct color and material information must be included as a suffix at the end of the part number as shown below.
+Material 
+Color 
+Example: 
+Desc. 
+Part No. 
+Material 
+Color 
+Order As"
+S = Steel 
+G = Gray 
+ 
+Roof 
+0G3397 
+S = Steel 
+G = Gray 
+0G33970ST08
+ 
+B = Black 
+ 
+Upper Blower Hsg. 
+0G3392 
+S = Steel 
+B = Black 
+0G33920ST03
+Enclosure Drawing No. 0G3881-F 
+Exploded Views & Parts Lists
+
+ 42 
+Exploded Views & Parts Lists 
+Control Panel Drawing No. 0H3635-C
+
+ 
+ 
+43
+ITEM PART NO. 
+QTY. 
+DESCRIPTION
+ 
+1 
+045757 
+1 
+SCREW HHC M6-1.0 X 25 G8.8 
+ 
+2 
+0F5458 
+2 
+SCREW PLASTITE HI-LOW #10X3/8 
+ 
+3 
+023484S 
+1 
+BUSHING SNAP SB-1093-937 
+ 
+4 
+0G9081* 
+1 
+WIRE HARNESS C/PNL FRAME 
+ 
+5 
+049813 
+1 
+NUT HEX M6 X 1.0 G8 YEL CHR 
+ 
+6 
+022473 
+2 
+WASHER FLAT 1/4-M6 ZINC 
+ 
+7 
+0A1658 
+1 
+WASHER LOCK SPECIAL 1/4" 
+ 
+8 
+0G3380 
+1 
+FUEL PUMP MOUNTING BRACKET 
+ 
+9 
+0F9176 
+28.75 
+HOSE,1/4" SAE30R7
+ 10 
+0G3662A 
+1 
+CLAMP HOSE BAND .50 
+ 11 
+028414 
+1 
+BARBED STR 1/8NPT X 1/4 
+ 12 
+0D3700 
+5 
+NUT FLANGE M6-1.0 NYLOK 
+ 13 
+0G5225 
+1 
+FUEL PUMP
+ 14 
+028916 
+1 
+ELBOW 90D STREET 1/8 BRASS 
+ 15 
+087769 
+1 
+FILTER FUEL 1/8P-1/4H 
+ 16 
+025965 
+1 
+SCREW HHC 1/4-20 X 2-1/4 G5 
+ 17 
+022097 
+2 
+ WASHER LOCK M6-1/4 
+ 18 
+0G5318 
+1 
+AC HARNESS 530RV (5500 + 6500W)
+ 
+ 
+0H3634 
+1 
+AC HARNESS 530RV EVAP (4500W)
+ 19 
+0G4602 
+1 
+GROMMET, DOUBLE SLIT
+ 20 
+0C7968 
+3 
+NUT HEX JAM 3/8-16 BRASS 
+ 21 
+022237 
+2 
+WASHER LOCK 3/8 
+ 22 
+0A4456 
+1 
+WASHER LOCK SPECIAL 3/8 
+ 23 
+0C7423 
+1 
+STUD 3/8-16 X 2-1/4 BRASS 
+ 24 
+022259 
+2 
+NUT HEX 5/16-18 STEEL 
+ 25 
+022129 
+2 
+WASHER LOCK M8-5/16 
+ 26 
+022145 
+1 
+WASHER FLAT 5/16-M8 ZINC 
+ 27 
+0E0593 
+1 
+STUD, 1/4-20 TO 5/16-18 
+ 28 
+0D8502 
+1 
+NEUTRAL CONNECTOR UL 
+ 29 
+0G5233 
+2 
+SCREW PPHTF #8-18 X 1/2 AB 
+ 30 
+0G3825 
+1 
+CONTROL PANEL COVER 
+ 31 
+0G3689 
+1 
+C/PNL FACE
+ 32 
+092036 
+4 
+SCREW PPHM #6-32 X 1/4 SEMS
+ 33 
+0A9611 
+1 
+FUSE 7.5AXBK/AGC7.5NX
+ 34 
+032300 
+1 
+HOLDER FUSE 
+ 35 
+0G4215 
+1 
+SWITCH RKRSPDT(ON)OFF(ON)ILLUM 
+ITEM PART NO. 
+QTY. 
+DESCRIPTION
+ 36 
+082025 
+4 
+NUT HEX LOCK M5-0.8 NYINS ZINC 
+ 37 
+0F9719 
+1 
+ASSY PCB VREG AIR COOLED 2006
+ 38 
+0G3977 
+1 
+ASSY PCB RV CONTROLLER 
+ 39 
+0G3530 
+1 
+C/PNL FRAME RV
+ 40 
+075476 
+2 
+SCREW PPHM M4-0.7 X 16 
+ 41 
+090987 
+2 
+SCREW PPHM M3-0.5 X 12 
+ 42 
+0C2174 
+1 
+RELAY 12V 25A SPST 
+ 43 
+031879 
+2 
+WASHER FLAT #4 ZINC 
+ 44 
+0D9784 
+2 
+NUT HEX LOCK M3-0.5 NY INS 
+ 45 
+075235 
+4 
+SCREW HHC M5-0.8 X 30 G8.8 
+ 46 
+074908 
+4 
+SCREW HHTT M5-0.8 X 10 BP 
+ 47 
+075210A 
+1 
+BLOCK 1 POSITION, 4 TAB 
+ 48 
+0E6480 
+2 
+NUT HEX LOCK M4-0.7 NY INS 
+ 49 
+090144 (5500W) 1 
+CIRCT BRK 20X1 MAG 10-32 CARL
+ 
+ 
+090145 (6500W) 1 
+CIRCT BRK 30X1 MAG 10-32 CARL
+ 50 
+090145 
+1 
+ CIRCT BRK 30X1 MAG 10-32 CARL 
+(4500W, 5500W, 6500W)
+ 51 
+0C2417A 
+1 
+EARTH STRAP
+ 52 
+0G5986 
+1 
+NYLON SPACER .26 X 1.00 X 1.73
+ 53 
+061669 
+1 
+ PLUG, PLASTIC .75 (5410-1/5412-
+1/5414-1 ONLY)
+ 54 
+059502 
+1 
+ BARBED EL 90  NPT X 5/16 
+(5751/5752/5753 ONLY)
+ 55 
+069598 
+1 
+ BULKHEAD ADAPTER 
+(5751/5752/5753 ONLY)
+ 56 
+035579 
+1 
+ BUSHING REDUCER HEX  TO 1/8 NPT 
+(5751/5752/5753 ONLY) 
+ 57 
+035483 
+1 
+ NIPPLE PIPE 1/8 NPT X 1  
+(5751/5752/5753 ONLY)
+ 58 
+0G0247 
+1 
+ SOLENOID 12 VDC (5751/5752/5753 
+ONLY)
+ 59 
+028740 
+1 
+ BARBED EL 90 1/8 NPT X  
+(5751/5752/5753 ONLY)
+*HARNESS NOT SHOWN
+Control Panel Drawing No. 0H3635-C 
+Exploded Views & Parts Lists
+
+ 44 
+Exploded Views & Parts Lists 
+Base & Pulley Drawing No. 0G7720-B
+
+ 
+ 
+45
+ITEM 
+PART NO. 
+QTY. 
+DESCRIPTION
+ 1 
+0G3377 
+1 
+TRAY, 530 RV
+ 2 
+081105 
+2 
+NUT FLANGE 5/16-18 LOCK
+ 3 
+022259 
+8 
+NUT HEX 5/16-18 STEEL 
+ 4 
+022129 
+12 
+WASHER LOCK M8-5/16 
+ 5 
+022145 
+13 
+WASHER FLAT 5/16-M8 ZINC 
+ 6 
+0G5217 
+2 
+SCREW HHC 3/8-24 X 1-1/2 G8
+ 7 
+0G3748 
+1 
+BELT V-RIBBED 4L X 43.75" LG
+ 8 
+046526 
+2 
+WASHER LOCK M10
+ 9 
+022131 
+2 
+WASHER FLAT 3/8-M10 ZINC 
+ 10 
+0G3384 
+1 
+ALTERNATOR PULLEY
+ 11 
+0C7758A 
+4 
+VIB MNT 1.5X1.38X5/16-18 DR 45
+ 12 
+0C1751 
+1 
+FAN 7" DIA (NYLON)
+ 13 
+0C2824 
+11 
+SCREW HHTR #10-32 X 9/16
+ 14 
+022473 
+7 
+WASHER FLAT 1/4-M6 ZINC
+ 15 
+022097 
+7 
+WASHER LOCK M6-1/4
+ 16 
+043116 
+7 
+SCREW HHC M6-1.0 X 12 G8.8 
+ 17 
+0G3383 
+1 
+ENGINE PULLEY
+ 18 
+0G4350 
+1 
+FAN ENGINE PULLEY RV
+ 19 
+0G3379 
+2 
+BRACKET MUFFLER SUPPORT 
+ 20 
+0C3062 
+2 
+BOLT CARR 5/16-18 X 1
+ 21 
+0G4429 
+1 
+EDGE TRIM W/ 3/4" HOLLOW CYL.
+ 22 
+0G3391 
+1 
+BLOWER HOUSING WALL
+ 23 
+0G3742 
+1 
+GASKET, LOWER BLOWER HOUSING 
+ 24 
+0G7670 
+1 
+FRAME GT530 RV MOUNTING 
+ 25 
+0E0588 
+1 
+SPACER, SAFETY BOLT .375 I.D.
+ 26 
+0G4702 
+2 
+SCREW HHC 5/16-18 X 3 SPC 
+ 27 
+029451 
+1.5ft 
+TAPE ELEC UL FOAM 1/8 X 1/2 
+ 28 
+0G3426 
+1 
+DUCT AIR OUT
+ 29 
+0G5676 
+1 
+GASKET,AIR OUT DUCT
+ 
+ 
+0G5676A 
+1 
+GASKET, AIR OUT DUCT OPPOSITE SIDE
+ 30 
+0G4692 
+1 
+SCREEN, BOTTOM AIR OUT 
+ 31 
+022473 
+3 
+WASHER FLAT 1/4-M6 ZINC
+ 32 
+0A2110 
+3 
+SCREW SWAGE 1/4-20 X 1/2 ZYC
+ 33 
+0G3410 
+5 
+ISOLATION SPRING 
+ 34 
+0G3393 
+1 
+MUFFLER, 530 RV
+ 
+ 
+0G7887 
+1 
+MUFFLER. 530 RV (MODELS: 5410-1 / 5412-1 / 5414-1 ONLY) 
+ 35 
+025145 
+1 
+BOLT U 5/16-18 X 1.25 W/SADDLE
+ 36 
+0C8565 
+4 
+SCREW SHC M8-1.25 X 18 G8.8 
+ 37 
+056892 
+1 
+SCREW CRIMPTITE 10-24 X 3/8 
+ 38 
+089680 
+1 
+SCREEN SPARK ARRESTOR
+ 39 
+094670 
+2 
+CLAMP EXHAUST
+ 40 
+0G3394 
+1 
+EXHAUST FLEX
+ 41 
+0G3395 
+1 
+EXHAUST MANIFOLD
+ 42 
+056893 
+6 
+SCREW CRIMPTITE 10-24 X 1/2
+ 43 
+023897 
+6 
+WASHER FLAT #10 ZINC 
+ 44 
+0G4260 
+2 
+GASKET, EXH BASE, 530 RV
+ 45 
+0E9369 
+2 
+GASKET, EXHAUST GT530 
+Base & Pulley Drawing No. 0G7720-B 
+Exploded Views & Parts Lists
+
+ 46 
+Exploded Views & Parts Lists 
+Engine Accessories Drawing No. 0G7718-K
+
+ 
+ 
+47
+ITEM PART NO. QTY. DESCRIPTION
+ 
+1 
+0G7670 
+1 
+FRAME
+ 
+3 
+0G3404 
+1 
+ENGINE WRAPPER, STARTER SIDE
+ 
+4 
+0E9507 
+8 
+SCREW HHFC M8-1.25 X 14
+ 
+5 
+023484S 
+1 
+SNAP BUSHING
+ 
+6 
+056893 
+14 
+SCREW CRIMPTITE 10-24 X 1/2
+ 
+7 
+0G4129 
+1 
+SHIELD WRAPPER, CYLINDER #1
+ 
+8 
+0C8563 
+12 
+SCREW HHFC M6-1.0 X 12 G8.8
+ 
+9 
+0G3405 
+1 
+ENGINE WRAPPER, BACK
+ 10 
+0G4985A 
+1 
+BACKPLATE
+ 11 
+0E9525A 
+1 
+ASSY, FLYWHEEL & RING GEAR 29D
+ 12 
+0E4997 
+1 
+ASSY, GROUND WIRE CONNECTOR
+ 13 
+067198N 
+1 
+WASHER,BELV-20 X 2.2
+ 14 
+067890 
+1 
+NUT HEX M20-1.5 G8
+ 15 
+0G3911 
+1 
+BLOWER HOUSING
+ 16 
+0G4130 
+1 
+SHIELD WRAPPER, CYLINDER #2
+ 17 
+082774 
+1 
+KEY, WOODRUFF 4 X 19D
+ 18 
+0G3454 
+1 
+BREATHER HOSE
+ 19 
+022131 
+3 
+WASHER FLAT 3/8  M10 ZINC
+ 20 
+0G5221A 
+1 
+IGNITION COIL CYLINDER #1
+ 21 
+0G5221B 
+1 
+IGNITION COIL CYLINDER #2
+ 22 
+0G6432 
+4 
+SCREW HHFC M6-1.0 X 25 SEMS
+ 23 
+0E9319 
+2 
+GASKET, INTAKE
+ 24 
+0E9333 
+1 
+INTAKE MANIFOLD
+ 25 
+040976 
+4 
+SCREW SHC M8-1.25 X 20 G12.9
+ 26 
+0E9471 
+1 
+GASKET, MANIFOLD TO CARB/MIXER
+ 27 
+0E9383D 
+1 
+CARBURETOR
+ 28 
+0G9640 
+1 
+ROD, CHOKE CONTROL
+ 29 
+0G3890 
+1 
+ASSY GOVERNOR ROD
+ 30 
+0G4378 
+1 
+GASKET, AIRBOX/CARB
+ 31 
+040173 
+1 
+CLAMP, HOSE WORM GEAR
+ 32 
+0G3406 
+1 
+WRAPPER, ENGINE OIL ADAPTOR
+ 33 
+0G3455 
+1 
+SNORKEL, AIR BOX
+ 34 
+0G3413 
+1 
+AIRBOX BASE 
+ 35 
+078601 
+1 
+AIR FILTER
+ 36 
+0G5057 
+1 
+AIRBOX SEAL
+ 37 
+0E9511B 
+1 
+AIRBOX QUARTER KNOB
+ 38 
+0G3414 
+1 
+AIRBOX COVER
+ 40 
+0G3408 
+1 
+OIL DRAIN LINE
+ 41 
+045756 
+4 
+ SCREW HHTT M6-1.0 X 10 YELLOW 
+CHROME
+ 42 
+0E0998 
+1 
+CLAMP, VINYL 9.5 O.D.
+ 43 
+0G3432 
+2 
+3/4 NPT TO 3/8 O.D. FLARE
+ 44 
+0E0393A 
+1 
+ASSY, CAP AND DIPSTICK
+ 45 
+0E0361B 
+1 
+OIL DRAIN/DIPSTICK TUBE
+ 46 
+043790 
+1 
+ 90 DEGREE ELBOW 3/8 NPT X 3/8 
+BARBED
+ 47 
+0G3662B 
+2 
+HOSE OETIKER CLAMP
+ 48 
+0F0452B 
+8 
+HOSE, 3/8 I.D.
+ 49 
+0G4426 
+1 
+ASSY, OIL DRAIN FITTING
+ITEM PART NO. QTY. DESCRIPTION
+ 50 
+0G3386 
+1 
+OIL FILTER SUPPORT
+ 51 
+0A2311 
+2 
+SCREW SWAGE 1/4-20 X 1
+ 52 
+070185B 
+1 
+OIL FILTER
+ 53 
+0D9235 
+1 
+OIL PRESSURE SWITCH 5 PSI
+ 54 
+0G4793 
+1 
+SWITCH, THERMAL 270F
+ 55 
+043182 
+2 
+WASHER, LOCK M3
+ 56 
+0C1085 
+2 
+SCREW PPHM M3-0.5 X 8
+ 58 
+0G4576 
+1 
+BRACKET, OIL CHECK TUBE
+ 59 
+0A2110 
+1 
+SCREW SWAGE 1/4-20 X 1/2
+ 60 
+0G3407 
+1 
+WRAPPER ENGINE VALLEY
+ 61 
+0G3915 
+1 
+WRAPPER UPPER VALLEY
+ 62 
+0G3840 
+1 
+WRAPPER INNER CYLINDER #2
+ 63 
+0G3839 
+1 
+WRAPPER INNER CYLINDER #1
+ 64 
+0E9368 
+2 
+SPARKPLUG
+ 65 
+0G7671 
+1 
+OIL LINE OUT
+ 66 
+0G3389 
+1 
+OIL LINE IN
+ 67 
+0A7094 
+2 
+SCREW PPHM #4-40 X 1/4
+ 68 
+0D8590 
+1 
+ASSEMBLY, BI-METAL/HEATER
+ 69 
+0D8591 
+1 
+CHOKE SOLENOID
+ 70 
+0G3984 
+1 
+CONTROLLER ASSEMBLY
+ 71 
+043146 
+2 
+SCREW HHC M6-1.0 X 10 G8.8
+ 72 
+022097 
+6 
+WASHER LOCK M6-1/4
+ 73 
+0D6342 
+1 
+BALL STUD, 10 MM
+ 74 
+0D9784 
+1 
+NUT HEX LOCK M3-0.5
+ 75 
+0G4016 
+1 
+BRACKET, CONTROLLER SUPPORT
+ 76 
+043116 
+2 
+SCREW HHC M6-1.0 X 12 G8.8
+ 77 
+0F1177 
+1 
+ASSY, GROUNDING WIRE W/O DIODES
+ 78 
+077091 
+1 
+COTTER PIN
+ 80 
+075763A 
+1 
+BOOT, BATT. CABLE
+ 81 
+0742600173 
+1 
+WIRE ASSY. BATT. POS.
+ 83 
+022473 
+2 
+WASHER, FLAT 1/4-M6
+ 84 
+061906 
+2 
+SCREW HHC M8-1.25 X 85
+ 85 
+049813 
+2 
+NUT M6-1.0
+ 86 
+056892 
+2 
+SCREW CRIMPTITE 10-24 X 3/8
+ 87 
+0E9323 
+1 
+START MOTOR
+ 88 
+022129 
+2 
+WASHER, LOCK M8-5/16
+ 89 
+0A4456 
+1 
+WASHER, LOCK SPECIAL 3/8
+ 90 
+022746 
+4 
+SCREW HHC 3/8-16 X 1-3/4 G5
+ 91 
+055934M 
+1 
+CLAMP VINYL .75 X .343
+ 92 
+0G6725 
+1 
+INSULATOR
+ 93 
+0G6729 
+1 
+GASKET, MANIFOLD TO CARB/MIXER
+ 94 
+078643C 
+2 
+BOLT,CARB MOUNT M6-1.0 X 95
+ 95 
+096290A 
+2 
+STUD M6-1.0 X 100
+ 96 
+046526 
+3 
+WASHER LOCK M10
+ 97 
+0G9148 
+1 
+PLUG, RUBBER (4703, 5, 6 & 7)
+ 98 
+0G7757A 
+1 
+ HOSE MOLDED EVAP. PORT (05751, 
+05752 & 05753)
+ 99 
+0H4269 
+1 
+SCREW, BHSC M6-1 X 8
+ 100 
+0G9062 
+1 
+SCREW BHSC M6-1 X 8MM BLACK
+Engine Accessories Drawing No. 0G7718-K 
+Exploded Views & Parts Lists
+
+ 48 
+Exploded Views & Parts Lists 
+530 RV Engine Drawing No. 0G7719-B
+
+ 
+ 
+49
+ITEM 
+PART NO. 
+QTY. 
+DESCRIPTION
+ 
+1 
+0E3812 
+2 
+SEAL D 35 X 48.2
+ 
+2 
+0D4788 
+1 
+3/8 SQUARE HEAD PLUG
+ 
+3 
+073144 
+9 
+SCREW HHFC M8  1.25 X 45
+ 
+4 
+0G7260A 
+1 
+GEAR COVER
+ 
+5 
+078699B 
+6 
+SLEEVE DOWEL PIN
+ 
+6 
+0A5776 
+1 
+11/32 DIAMETER PRESSURE RELIEF BALL
+ 
+7 
+0E9482 
+1 
+OIL PRESSURE SPRING
+ 
+8 
+0C5315A 
+1 
+GEAROTOR, OUTER
+ 
+9 
+0C5314A 
+1 
+GEAROTOR, INNER
+ 10 
+0E9379 
+1 
+SCREEN, OIL PICK-UP
+ 11 
+0E9382 
+1 
+COVER, GEROTOR
+ 12 
+0G0919 
+3 
+SCREW, HHFCS M6-1.0 x 12
+ 13 
+0E3372A 
+1 
+BREATHER SEPARATOR
+ 14 
+0E9345 
+1 
+GEAR, GEAROTOR
+ 15 
+076390 
+4 
+RETAINER RING
+ 16 
+0G4379 
+2 
+PISTON RING SET
+ 17 
+0G4331 
+2 
+PISTON
+ 18 
+076389 
+2 
+PISTON PIN
+ 19 
+0G1054 
+2 
+CONNECTING ROD ASSEMBLY
+ 20 
+0G1063G 
+1 
+CRANKSHAFT
+ 21 
+093064 
+1 
+OIL FILL CAP
+ 22 
+0E9334F 
+1 
+COVER ROCKER W/FILL
+ 23 
+080318 
+8 
+SCREW HHFC M6-1.0 X 25
+ 24 
+0E9352 
+2 
+GASKET, VALVE COVER
+ 25 
+0E9368 
+2 
+SPARK PLUG
+ 26 
+077168 
+12 
+SCREW HHC M8-1.25 X 56
+ 27 
+084186 
+4 
+WASHER, VALVE SPRING
+ 28 
+088156 
+2 
+SEAL, VALVE STEM
+ 29 
+0C4390 
+4 
+VALVE SPRING
+ 30 
+0C3733 
+4 
+VALVE RETAINER
+ 31 
+0C3592 
+8 
+KEEPER, VALVE SPRING
+ 32 
+077161 
+4 
+STUD, ROCKER ARM
+ 33 
+077160 
+4 
+ROCKER ARM
+ 34 
+076307 
+4 
+JAM NUT, ROCKER ARM
+ 35 
+0E9353A 
+2 
+PUSH ROD GUIDE PLATE
+ 36 
+0E9304 
+1 
+CYLINDER HEAD CYL. 1
+ 37 
+0C3591 
+2 
+INTAKE VALVE
+ 38 
+0C3590 
+2 
+EXHAUST VALVE
+ 39 
+0E9351 
+2 
+GASKET CYLINDER HEAD
+ 40 
+0G5728 
+1 
+SCREEN
+ 41 
+0E9455E 
+4 
+PUSHROD
+ 42 
+083235 
+4 
+TAPPET
+ 43 
+0G7679 
+1 
+CAM SHAFT & GEAR
+ 44 
+0E9350 
+1 
+GASKET, CRANKCASE
+ 45 
+0E9334G 
+1 
+COVER ROCKER
+ 46 
+0E9305 
+1 
+CYLINDER HEAD CYL 2
+ 47 
+0E9429C 
+1 
+CRANKCASE
+ 48 
+0E9366 
+1 
+GASKET, BREATHER ASSEMBLY
+ 49 
+0G5670 
+1 
+BREATHER ASSY
+ 50 
+0C8566 
+1 
+SCREW HHFC M6-1.0 X 20
+ 51 
+0C5943 
+1 
+SEAL, OIL PASSAGE
+ 52 
+0G0273 
+1 
+GASKET KIT
+ 53 
+0G5896 
+1 
+BREATHER KIT
+ 54 
+0G0275 
+1 
+KIT HEAD ASSY CYLINDER #1
+ 55 
+0G0276 
+1 
+KIT HEAD ASSY CYLINDER #2
+530 RV Engine Drawing No. 0G7719-B 
+Exploded Views & Parts Lists
+
+ 50 
+Exploded Views & Parts Lists 
+Rotor & Stator Drawing No. 0G3953-B
+
+ 
+ 
+51
+ITEM 
+PART NO. 
+QTY. 
+DESCRIPTION
+ 1 
+052858 
+6 
+NUT TOP LOCK FL M8-1.25
+ 2 
+075237 
+4 
+WASHER, SPRNG CENTER
+ 3 
+075242 
+4 
+SPRING, GEN. MOUNT
+ 4 
+0C1878 
+2 
+SUPPORT, SLIDE
+ 5 
+073146 
+4 
+SLIDE, NYLON
+ 6 
+052203 
+2 
+SCREW HHC M8-1.25 X 70 G8.8 
+ 7 
+022145 
+6 
+WASHER FLAT 5/16-M8 ZINC 
+ 9 
+0G3913 
+4 
+STUD, 530 RV STATOR
+ 10 
+029459 
+2 
+TENSION SPRING 
+ 11 
+075215 
+2 
+WASHER, SPRING CENTR
+ 12 
+0G3382 
+1 
+LOWER BEARING CARRIER
+ 13 
+0G3877H 
+1 
+RTR 200 4.5AD1 RV
+ 
+ 
+0G3878H 
+1 
+RTR 200 5.5AD1 RV
+ 
+ 
+0G3879H 
+1 
+RTR 200 6.5AD1 RV
+ 14 
+0G3893H 
+1 
+STR 200-4.5AD1 RV
+ 
+ 
+0G3894H 
+1 
+STR 200-5.5AD1 RV
+ 
+ 
+0G3895H 
+1 
+STR 200-6.5AD1 RV
+ 15 
+0G3381 
+1 
+UPPER BEARING CARRIER
+ 16 
+022129 
+4 
+WASHER LOCK M8-5/16
+ 17 
+045771 
+4 
+NUT HEX M8-1.25 G8 CLEAR ZINC
+ 18 
+066386 
+1 
+ASSEMBLY, BRUSH HOLDER 
+ 19 
+066849 
+2 
+SCREW HHTT M5-0.8 X 16 
+ 20 
+0G3542 
+1 
+FAN UPPER ALTERNATOR
+ 21 
+022131 
+1 
+WASHER FLAT 3/8-M10 ZINC
+ 22 
+042633 
+1 
+SCREW HHC 3/8-24 X 1 G5 
+ 23 
+022237 
+1 
+WASHER LOCK 3/8
+Rotor & Stator Drawing No. 0G3953-B 
+Exploded Views & Parts Lists
+
+ 52 
+CALIFORNIA AND FEDERAL EMISSION CONTROL WARRANTY STATEMENT
+YOUR WARRANTY RIGHTS AND OBLIGATIONS
+The California Air Resources Board (CARB) and the United States Environmental Protection Agency (EPA), together with Generac Power 
+Systems, Inc. (Generac), are pleased to explain the Emission Control System warranty on your new 2008 and later generator. New equip-
+ment that use small spark-ignited engines must be designed, built, and equipped to meet stringent anti-smog standards for the state of 
+California and the federal government. Generac will warrant the emission control system on your generator for the period of time listed below 
+provided there has been no abuse, neglect, unapproved modification or improper maintenance of your equipment.
+Your emission control system may include parts such as the: carburetor, ignition system, fuel system catalytic converter, and other associ-
+ated emission-related components (if equipped).
+MANUFACTURERS WARRANTY COVERAGE:
+This emission control system is warranted for two years. If, during such warranty period, any emission-related part on your equipment is 
+found to be defective in materials or workmanship, repairs or replacement will be performed by a Generac Authorized Warranty Service 
+Dealer.
+OWNER'S WARRANTY RESPONSIBILITIES:
+As the generator owner, you are responsible for the completion of all required maintenance as listed in your factory supplied Owner's 
+Manual. For warranty purposes, Generac recommends that you retain all receipts covering maintenance on your generator, but Generac 
+cannot deny warranty solely due to the lack of receipts.
+As the generator owner, you should be aware that Generac may deny any and/or all warranty coverage or responsibility if your generator, 
+or a part/component thereof, has failed due to abuse, neglect, improper maintenance or unapproved modifications, or the use of counterfeit 
+and/or "grey market" parts not made, supplied or approved by Generac.
+You are responsible for contacting a Generac Authorized Warranty Dealer as soon as a problem occurs. The warranty repairs should be 
+completed in a reasonable amount of time, not to exceed 30 days.
+Warranty service can be arranged by contacting either your selling dealer or a Generac Authorized Warranty Service Dealer. To locate the 
+Generac Authorized Warranty Service Dealer nearest you, call our toll free number:
+1-800-333-1322
+IMPORTANT NOTE: This warranty statement explains your rights and obligations under the Emission Control System Warranty (ECS 
+Warranty), which is provided to you by Generac pursuant to California and federal law. See also the "Generac Limited Warranties for Generac 
+Power Systems, Inc.," which is enclosed herewith on a separate sheet, also provided to you by Generac. Note that this warranty shall not 
+apply to any incidental, consequential or indirect damages caused by defects in materials or workmanship or any delay in repair or replace-
+ment of the defective part(s). This warranty is in place of all other warranties, expressed or implied. Specifically, Generac makes no other 
+warranties as to the merchantability or fitness for a particular purpose. Some states do not allow limitations on how long an implied warranty 
+lasts, so the above limitation may not apply to you.
+The ECS Warranty applies only to the emission control system of your new equipment. If there is any conflict in terms between the ECS 
+Warranty and the Generac Warranty, the Generac Warranty shall apply. Both the ECS Warranty and the Generac Warranty describe important 
+rights and obligations with respect to your new engine.
+Warranty service can be performed only by a Generac Authorized Warranty Service Facility. When requesting warranty service, evidence 
+must be presented showing the date of the sale to the original purchaser/owner.
+If you have any questions regarding your warranty rights and responsibilities, you should contact Generac at the following address:
+ATTENTION WARRANTY DEPARTMENT
+GENERAC POWER SYSTEMS, INC.
+P.O. BOX 297  WHITEWATER, WI 53190
+Part 1
+Part No. 0H1912 Rev. A 05/09
+Warranty
+
+ 
+ 
+53
+EMISSION CONTROL SYSTEM WARRANTY
+Emission Control System Warranty (ECS warranty) for equipment using small spark-ignited engines:
+(a) Applicability: This warranty shall apply to equipment that uses small off-road engines. The ECS Warranty period shall begin on the date the new equip-
+ment is purchased by/delivered to its original, end-use purchaser/owner and shall continue for 24 consecutive months thereafter.
+(b) General Emissions Warranty Coverage: Generac warrants to the original, end-use purchaser/owner of the new engine or equipment and to each sub-
+sequent purchaser/owner that the ECS when installed was:
+ 
+(1) Designed, built and equipped so as to conform with all applicable regulations; and
+ 
+(2) Free from defects in materials and workmanship which cause the failure of a warranted part at any time during the ECS Warranty Period.
+(c) The warranty on emissions-related parts will be interpreted as follows:
+ 
+(1) Any warranted part that is not scheduled for replacement as required maintenance in the Owner's Manual shall be warranted for the ECS Warranty 
+Period. If any such part fails during the ECS Warranty Period, it shall be repaired or replaced by Generac according to Subsection (4) below. Any 
+such part repaired or replaced under the ECS Warranty shall be warranted for the remainder of the ECS Warranty Period.
+ 
+(2) Any warranted part that is scheduled only for regular inspection as specified in the Owner's Manual shall be warranted for the ECS Warranty 
+Period. A statement in the Owners Manual to the effect of "repair or replace as necessary" shall not reduce the ECS Warranty Period. Any such 
+part repaired or replaced under the ECS Warranty shall be warranted for the remainder of the ECS Warranty Period.
+ 
+(3) Any warranted part that is scheduled for replacement as required maintenance in the Owner's Manual shall be warranted for the period of time prior 
+to first scheduled replacement point for that part. If the part fails prior to the first scheduled replacement, the part shall be repaired or replaced by 
+Generac according to Subsection (4) below. Any such emissions-related part repaired or replaced under the ECS warranty shall be warranted for 
+the remainder of the period prior to the first scheduled replacement point for that part.
+ 
+(4) Repair or replacement of any warranted, emissions-related part under this ECS Warranty shall be performed at no charge to the owner at a 
+Generac Authorized Warranty Service Facility.
+ 
+(5) Notwithstanding the provisions of subsection (4) above, warranty services or repairs must be provided at Generac Authorized Service Facilities.
+ 
+(6) When the engine is inspected by a Generac Authorized Warranty Service Facility, the purchaser/owner shall not be held responsible for diagnostic 
+costs if the repair is deemed warrantable.
+ 
+(7) Throughout the ECS Warranty Period, Generac shall maintain a supply of warranted emission-related parts sufficient to meet the expected demand 
+for such parts.
+ 
+(8) Any Generac authorized and approved emission-related replacement parts may be used in the performance of any ECS warranty maintenance or 
+repairs and will be provided without charge to the purchaser/owner. Such use shall not reduce Generac ECS Warranty obligations.
+ 
+(9) Unapproved, add-on, modified, counterfeit and/or "grey market" parts may not be used to modify or repair a Generac engine. Such use voids this 
+ECS Warranty and shall be sufficient grounds for disallowing an ECS Warranty claim. Generac shall not be held liable hereunder for failures of any 
+warranted parts of Generac equipment caused by the use of such an unapproved, add-on, modified, counterfeit and/or "grey market" part.
+EMISSION RELATED PARTS MAY INCLUDE THE FOLLOWING (IF EQUIPPED):
+ 
+ 
+Part 2
+1) FUEL METERING SYSTEM
+ 
+A. CARBURETOR AND INTERNAL PARTS
+ 
+B. PRESSURE REGULATOR
+2) AIR INDUCTION SYSTEM
+ 
+A. INTAKE MANIFOLD
+ 
+B. AIR FILTER
+3) IGNITION SYSTEM
+ 
+A. SPARK PLUGS
+ 
+B. IGNITION COILS / MODULE
+4) AIR INJECTION SYSTEM
+ 
+A. PULSE AIR VALVE
+5) EXHAUST SYSTEM
+ 
+A. CATALYST
+ 
+B. THERMAL REACTOR
+ 
+C. EXHAUST MANIFOLD
+Part No. 0H1912 Rev. A 05/09
+Warranty
+
+Part No. 0H3467 
+Revision B (04/15/10) 
+Printed in U.S.A.
+GENERAC POWER SYSTEMS THREE-YEAR LIMITED WARRANTY
+FOR GENERAC RECREATIONAL VEHICLE GENERATORS
+NOTE: ALL UNITS MUST BE INSTALLED BY GENERAC POWER SYSTEMS AUTHORIZED SERVICE FACILITIES. For a period of 3 
+(three) years of operation from the date of original sale, Generac Power Systems, Inc. (Generac) will, at its option, repair or replace any part 
+which, upon examination, inspection and testing by Generac or a Generac Authorized Warranty Service Facility, is found to be defective 
+under normal use and service, in accordance with the warranty schedule set forth below. Any equipment that the purchaser/owner claims to 
+be defective must be returned to and examined by the nearest Generac Authorized Warranty Service Facility. All transportation costs under 
+the warranty, including return to the factory, are to be borne and prepaid by the purchaser/owner. This warranty applies only to Generac 
+generators sold and rated for Recreational Vehicle (RV) applications, as Generac has defined Recreational Vehicle generator applications. 
+The factory recommends exercising the unit one half-hour every month.
+WARRANTY SCHEDULE  COMMERCIAL APPLICATIONS
+ YEAR ONE  100% (one hundred percent) coverage on part(s), labor, removal and reinstallation listed:
+ Engine  All components
+ Alternator  All components
+WARRANTY SCHEDULE  CONSUMER/PERSONAL APPLICATIONS
+ YEARS ONE AND TWO  100% (one hundred percent) coverage on part(s), labor, removal and reinstallation listed:
+ Engine  All components
+ Alternator  All components
+ YEAR THREE  100% (one hundred percent) only on selected part(s) and labor listed [Any labor and part(s) not listed, and removal and 
+reinstallation are the owners responsibility]:
+ Rotor, Stator, Computer Control Board (part numbers 0A6060 and 0A3369) and inverter, (if applicable with regard to the generator) Cylinder 
+Block, Cylinder Head, Crankshaft, Piston(s), Valve, Valve Lifter(s), Intake and Exhaust Manifolds
+Generac RV generators manufactured prior to December 31, 1997, DO NOT have a transferable warranty. Generac RV generators manu-
+factured after January 1, 1998, have a transferable warranty to the second owner ONLY for the remainder of the three-year limited warranty. 
+Proof-of-purchase is required and must be presented to a Generac Authorized Warranty Service Facility prior to the performance of any 
+warranty service.
+All warranty expense allowances are subject to the conditions defined in Guardians Warranty Policies and Procedures Guide.
+THIS WARRANTY SHALL NOT APPLY TO THE FOLLOWING:
+Generac Guardian generators that utilize non-Generac replacement parts.
+ 
+Costs of normal maintenance, adjustments, installation and start-up.
+ 
+Repairs
+ 
+ or diagnostics performed by individuals other than Guardian/Generac authorized dealers not authorized in writing by Generac 
+Power Systems.
+Failures caused by any contaminated fuels, oils, coolants or lack of proper fluid amounts.
+ 
+Failures due, but not limited, to normal wear and tear, accident, misuse, abuse, negligence or improper installation. As with all mechani-
+ 
+cal devices, the Generac engines need periodic part(s) service and replacement to perform well. This warranty will not cover repair when 
+normal use has exhausted the life of a part(s) or engine.
+Failures caused by any external cause or act of God, such as collision, theft, vandalism, riot or wars, nuclear holocaust, fire, freezing, 
+ 
+lightning, earthquake, windstorm, hail, volcanic eruption, water or flood, tornado or hurricane.
+Damage related to rodent and/or insect infestation.
+ 
+Products that are modified or altered in a manner not authorized by Generac in writing.
+ 
+Any incidental, consequential or indirect damages caused by defects in materials or workmanship, or any delay in repair or replacement 
+ 
+of the defective part(s).
+Failure due to misapplication.
+ 
+Telephone, cellular phone, facsimile, internet access or other communication expenses.
+ 
+Living or travel expenses of person(s) performing service, except as specifically included within the terms of a specific unit warranty 
+ 
+period.
+Expenses related to "customer instruction" or troubleshooting where no manufacturing defect is found.
+ 
+Rental equipment used while warranty repairs are being performed.
+ 
+Overnight freight costs for replacement part(s).
+ 
+Overtime labor.
+ 
+Starting batteries, fuses, light bulbs and engine fluids.
+ 
+THIS WARRANTY IS IN PLACE OF ALL OTHER WARRANTIES, EXPRESSED OR IMPLIED. SPECIFICALLY, GENERAC MAKES NO OTHER WARRANTIES 
+AS TO THE MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Some states do not allow limitations on how long an implied warranty 
+lasts, so the above limitation may not apply to you.
+GENERAC'S ONLY LIABILITY SHALL BE THE REPAIR OR REPLACEMENT OF PART(S) AS STATED ABOVE. IN NO EVENT SHALL GENERAC BE 
+LIABLE FOR ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES, EVEN IF SUCH DAMAGES ARE A DIRECT RESULT OF GENERAC'S NEGLIGENCE. 
+Some states do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation may not apply to you.
+This warranty gives you specific legal rights. You also have other rights from state to state.
+GENERAC POWER SYSTEMS, INC.
+P.O. BOX 297  WHITEWATER, WI 53190
+Rev. A 06.09
+Warranty

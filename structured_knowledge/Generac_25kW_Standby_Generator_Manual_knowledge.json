@@ -1,0 +1,152 @@
+{
+  "equipment_type": "generator",
+  "brand": "CAT",
+  "model": "005212-0",
+  "category": "service_manual",
+  "components": [
+    "alternator",
+    "bearing",
+    "belt",
+    "carburetor",
+    "circuit breaker",
+    "contactor",
+    "coupling",
+    "cylinder",
+    "filter",
+    "fuse",
+    "gasket",
+    "gear",
+    "ignition",
+    "o-ring",
+    "oil pump",
+    "radiator",
+    "rotor",
+    "seal",
+    "sensor",
+    "solenoid",
+    "spark plug",
+    "starter motor",
+    "stator",
+    "valve",
+    "water pump"
+  ],
+  "symptoms": [
+    "abnormal",
+    "abnormal operating",
+    "abnormal.",
+    "excessive",
+    "low pressure",
+    "overheating",
+    "vibration",
+    "won't start"
+  ],
+  "common_failures": [],
+  "diagnostic_steps": [
+    "Any unit built/manufactured prior to January 1, 2005.",
+    "Costs of normal maintenance (i.e. tune-ups, associated part(s), adjustments, loose/leaking clamps, installation and start-up).",
+    "Any failure caused by contaminated "
+  ],
+  "repair_steps": [],
+  "tools_required": [],
+  "safety_warnings": [
+    "disconnect its battery cables to prevent",
+    "Disconnect the cable from the",
+    "disconnect the ground",
+    "electric shock",
+    "electric shock",
+    "Disconnect utility power before the transfer",
+    "Disconnect Switch and the",
+    "disconnect the utility power circuit",
+    "safety glasses",
+    "disconnected wire #15A between"
+  ],
+  "specifications": {
+    "pressure": "10"
+  },
+  "torque_specs": [],
+  "maintenance_schedule": [
+    {
+      "interval": "Annually",
+      "context": "-1\n Once Every Six Months ...........................................10-1\n Once Annually .........................................................10-1\n First 100 Operating Hours .........."
+    },
+    {
+      "interval": "30 hour",
+      "context": "ped from the manufacturer \nwith break-in oil. This oil should be changed \nafter 30 hours of operation.\nCheck the oil level in the generator gearbox (if so \nequipped) prior to initial use"
+    },
+    {
+      "interval": "ANNUALLY",
+      "context": "Devices (low oil pressure, low \ncoolant level, high coolant temperature).\nONCE ANNUALLY\n1. Test engine governor; adjust or repair, if needed.\n2. Clean, inspect generator.\n3. Flush cooling"
+    },
+    {
+      "interval": "every 20 hour",
+      "context": "EVELS\nCHECK ENGINE OIL\nCheck engine crankcase oil level (Figure 10.3) at least \nevery 20 hours of operation, or prior to use.\n Remove oil dipstick and wipe dry with a clean, lint-\nfree cloth."
+    },
+    {
+      "interval": "Maintenance Schedule",
+      "context": "Engine\nAir Cleaner\nBATTERY FLUID\nCheck battery electrolyte fluid based on the \nMaintenance Schedule. Fluid should cover separa-\ntors in all battery cells. If fluid level is low, add dis-\ntilled water"
+    },
+    {
+      "interval": "Weekly",
+      "context": "engine at least once every seven \ndays and let it run at least 20 minutes. See Weekly \nExercise Cycle.\nINSPECT COOLING SYSTEM\n Inspect engine cooling system. See Maintenance \nSchedule."
+    },
+    {
+      "interval": "monthly",
+      "context": "NSPECTION\nComplete a thorough visual inspection of the entire \nengine-generator monthly. Look for obvious damage, \nloose, missing or corroded nuts, bolts and other fas-\nteners. Look for f"
+    },
+    {
+      "interval": "maintenance schedule",
+      "context": "nce\n10-5\nMaint005 Rev. 0 08/05\n\nSERVICE SCHEDULE\nThe following is a recommended maintenance schedule for small standby and residential generator sets. The \nestablished intervals in the schedule are th"
+    },
+    {
+      "interval": "monthly",
+      "context": "erate when required and to identify any poten-\ntial problem areas.\n \n Performed monthly this requires approximately .5 man-hours per unit to complete.\n \n This inspection may be performed"
+    },
+    {
+      "interval": "annually",
+      "context": "when required, \nand to identify any potential problem areas.\n \n Performed semi-annually this requires approximately 1.5 man-hours per unit to complete.\n \n This inspection contains some ma"
+    },
+    {
+      "interval": "annually",
+      "context": "load when required, \nand to identify any potential problem areas.\n \n Performed annually this requires approximately 4.0 man-hours per unit to complete.\n \n This inspection contains some ma"
+    },
+    {
+      "interval": "monthly",
+      "context": "to be done \n(Date- \n3 months/ \n(Date- \nSemi- \n(Date- \nto be done \n(Date-\n \n \nmonthly \nInitials) \nBreak-in \nInitials) \nannually \nInitials) \nAnnually \nInitials)\n \n \n10 Hrs. \n \n30 Hrs."
+    },
+    {
+      "interval": "annually",
+      "context": "Semi- \n(Date- \nto be done \n(Date-\n \n \nmonthly \nInitials) \nBreak-in \nInitials) \nannually \nInitials) \nAnnually \nInitials)\n \n \n10 Hrs. \n \n30 Hrs. \n \n50 Hrs. \n \n100 Hrs.\n1. Disable the unit f"
+    },
+    {
+      "interval": "Annually",
+      "context": "done \n(Date-\n \n \nmonthly \nInitials) \nBreak-in \nInitials) \nannually \nInitials) \nAnnually \nInitials)\n \n \n10 Hrs. \n \n30 Hrs. \n \n50 Hrs. \n \n100 Hrs.\n1. Disable the unit from \noperating per th"
+    },
+    {
+      "interval": "monthly",
+      "context": "to be done \n(Date- \n3 months/ \n(Date- \nSemi- \n(Date- \nto be done \n(Date-\n \n \nmonthly \nIn itials) \nBreak-in \nInitials) \nannually \nInitials) \nAnnually \nInitials)\n \n \n10 Hrs. \n \n30 Hrs."
+    },
+    {
+      "interval": "annually",
+      "context": "Semi- \n(Date- \nto be done \n(Date-\n \n \nmonthly \nIn itials) \nBreak-in \nInitials) \nannually \nInitials) \nAnnually \nInitials)\n \n \n10 Hrs. \n \n30 Hrs. \n \n50 Hrs. \n \n100 Hrs.\n13. Initiate an autom"
+    },
+    {
+      "interval": "Annually",
+      "context": "done \n(Date-\n \n \nmonthly \nIn itials) \nBreak-in \nInitials) \nannually \nInitials) \nAnnually \nInitials)\n \n \n10 Hrs. \n \n30 Hrs. \n \n50 Hrs. \n \n100 Hrs.\n13. Initiate an automatic start\nand transf"
+    },
+    {
+      "interval": "1 hour",
+      "context": "omatic start\nand transfer of the unit to\nsite load and exercise it for\nat least 1 hour looking for\nleaks, loose connections\nor components, and\nabnormal operating\nconditions. Correct as\nn"
+    },
+    {
+      "interval": "2\nhour",
+      "context": "t full rated load (use a\nload bank if the site load is\nnot enough) for at least 2\nhours looking for leaks,\nloose connections or\ncomponents, and abnormal\noperating conditions.\nCorrect as"
+    }
+  ],
+  "wiring_info": [],
+  "troubleshooting_table": [],
+  "source_document": "extracted/Generac_25kW_Standby_Generator_Manual.txt",
+  "text_length": 95735,
+  "confidence_scores": {
+    "overall": 0.71
+  }
+}

@@ -1,0 +1,988 @@
+Honda
+WB20XT, WB30XT
+OWNERS MANUAL
+Original instructions
+MANUEL DE LUTILISATEUR
+Notice originale
+BEDIENUNGSANLEITUNG
+Originalbetriebsanleitung
+MANUAL DEL PROPIETARIO
+Manual original
+MANUALE DELL'UTENTE
+Traduzione delle istruzioni originali
+3QYG46100_EN.book Page -1 Friday, October 19, 2018 1:53 PM
+
+Thank you for purchasing a Honda water pump.
+This manual covers the operation and maintenance of Honda water 
+pump: WB20XT/WB30XT
+All information in this publication is based on the latest product 
+information available at the time of approval for printing.
+Honda Motor Co., Ltd. reserves the right to make changes at any time 
+without notice and without incurring any obligation.
+No part of this publication may be reproduced without written 
+permission.
+This manual should be considered a permanent part of the pump and 
+should remain with the pump if it is resold.
+The illustrations in this manual are based on: WB20XT
+Pay special attention to statements preceded by the following words:
+Indicates a strong possibility of severe personal injury or 
+death if instructions are not followed.
+CAUTION: Indicates a possibility of equipment or property damage if 
+instructions are not followed.
+NOTE: Gives helpful information.
+If a problem should arise, or if you have any questions about the 
+pump, consult an authorized Honda dealer.
+Honda water pump is designed to give safe and dependable service if 
+operated according to instructions.
+Read and understand the Owners Manual before operating the water 
+pump. Failure to do so could result in personal injury or equipment 
+damage.
+ The illustration may vary according to the type.
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+1
+Disposal
+To protect the environment, do not dispose of this product,
+battery, engine oil, etc. carelessly by leaving them in the waste.
+Observe the local laws and regulations or consult your authorized
+Honda dealer for disposal.
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+2
+CONTENTS
+ 1. SAFETY INSTRUCTION.......................................................................3
+ 2. SAFETY LABEL LOCATIONS ..............................................................5
+ CE mark and noise label locations.................................................... 5
+ 3. COMPONENT IDENTIFICATION .........................................................7
+ 4. PRE-OPERATION FOR STARTING......................................................9
+ 5. STARTING THE ENGINE ...................................................................15
+  High altitude operation.................................................................. 17
+ 6. OPERATION .......................................................................................18
+ 7. STOPPING THE ENGINE ...................................................................19
+ 8. MAINTENANCE .................................................................................20
+ 9. TRANSPORTING/STORAGE .............................................................28
+10. TROUBLESHOOTING ........................................................................30
+11. SPECIFICATIONS...............................................................................32
+MAJOR Honda DISTRIBUTOR ADDRESSES .............. Inside back cover
+EC Declaration of Conformity CONTENT OUTLINE........ Inside back cover
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+3
+1. SAFETY INSTRUCTION
+To ensure safe operation 
+ Honda water pump is designed to give safe and 
+dependable service if operated according to 
+instructions.
+Read and understand the Owners Manual before 
+operating the water pump. Failure to do so could 
+result in personal injury or equipment damage.
+ Exhaust contains poisonous carbon monoxide, a 
+colorless, odorless gas. Breathing carbon 
+monoxide can cause loss of consciousness and 
+may lead to death.
+ If you run the pump in an area that is confined, 
+or even partially enclosed area, the air you 
+breathe could contain a dangerous amount of 
+exhaust gas.
+ Never run your pump inside a garage, house or 
+near open windows or doors.
+ Stop the engine before refueling.
+ Gasoline is extremely flammable and explosive 
+under certain conditions. Refuel in a well 
+ventilated area with the engine stopped.
+ The muffler becomes very hot during operation 
+and remains hot for a while after stopping the 
+engine. Be careful not to touch the muffler while 
+it is hot. Let the engine cool before storing the 
+water pump indoors.
+ The engine exhaust system will be heated during 
+operation and remain hot immediately after 
+stopping the engine. 
+To prevent scalding, pay attention to the warning 
+marks attached to the water pump.
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+4
+To ensure safe operation 
+ Never attempt to modify the water pump. It can cause an accident 
+as well as damage to the water pump and appliances. Tampering 
+with the engine voids the EU type-approval of this engine.
+ Do not connect an extension to the muffler.
+ Do not modify the intake system.
+ Do not adjust the governor.
+ Always make a pre-operation inspection () before you start 
+the engine. You may prevent an accident or equipment damage.
+ For safety, never pump flammable or corrosive liquids such as gasoline 
+or acid. Also, to avoid pump corrosion, never pump sea water, 
+chemical solutions, or caustic liquids such as used oil, wine, or milk.
+ Place the pump on a firm, level surface. If the pump is tilted or 
+overturned, fuel spillage may result.
+ To prevent fire hazards and to provide adequate ventilation, keep the pump 
+at least 1 meter (3 feet) away from building walls and other equipment 
+during operation. Do not place flammable objects close to the pump.
+ Children and pets must be kept away from the area of operation 
+due to a possibility of burns from the hot engine components.
+ Know how to stop the pump quickly, and understand the operation 
+of all controls. Never permit anyone to operate the pump without 
+proper instructions.
+ Gasoline is extremely flammable and is explosive under certain conditions.
+ Refuel in a well-ventilated area with the engine stopped. Do not 
+smoke or allow flames or sparks in the refueling area or where 
+gasoline is stored.
+ Do not overfill the tank (there should be no fuel above the upper 
+limit mark). After refueling, make sure the tank cap is closed 
+properly and securely.
+ Be careful not to spill fuel when refueling. Spilled fuel or fuel vapor 
+may ignite. If any fuel is spilled, make sure the area is dry before 
+starting the engine.
+ Never run the engine in an enclosed or confined area. Exhaust gas 
+contains poisonous carbon monoxide gas; exposure can cause loss 
+of consciousness and may lead to death.
+ Before each use, look around and underneath the engine for signs 
+of oil or gasoline leaks.
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+5
+2. SAFETY LABEL LOCATIONS
+These labels warn you of potential hazards that can cause serious 
+injury. Read the labels and safety notes and precautions described in 
+this manual carefully.
+If a label comes off or becomes hard to read, contact your servicing 
+dealer for a replacement.
+CE mark and noise label locations
+[Example: WB20XT]
+NOISE LABEL
+[Example: WB20XT]
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+6
+Name and address of manufacturer, authorized representative and importer are written in the 
+"EC Declaration of Conformity" CONTENT OUTLINE in this Owner's Manual.
+CE MARK
+Model
+Year of manufacture
+Machine mass
+Name and address of 
+authorized representative 
+and importer
+Name and address of the manufacturer
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+7
+3. COMPONENT IDENTIFICATION
+<WB20XT>
+DISCHARGE PORT
+THROTTLE LEVER
+FUEL FILLER CAP
+IGNITION SWITCH
+STRAINER
+OIL FILLER CAP
+STARTER GRIP
+FUEL VALVE LEVER
+CHOKE LEVER
+ENGINE SERIAL NUMBER
+PUMP DRAIN PLUG
+SUCTION PORT
+AIR CLEANER
+FRAME
+OIL DRAIN PLUG
+PRIMING WATER FILLER CAP
+MUFFLER
+HOSE CONNECTOR
+FRAME SERIAL 
+NUMBER
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+8
+<WB30XT>
+Record the frame serial number, the engine serial number, and the 
+date of purchase in the spaces below. You will need this information 
+when ordering parts and when making technical or warranty inquiries.
+Engine serial number: 
+Frame serial number: 
+Date of purchase: 
+THROTTLE LEVER
+DISCHARGE PORT
+STRAINER
+FUEL FILLER CAP
+CHOKE
+LEVER
+OIL FILLER CAP
+STARTER GRIP
+FUEL VALVE
+LEVER
+IGNITION SWITCH
+ENGINE SERIAL NUMBER
+AIR CLEANER
+OIL DRAIN PLUG
+MUFFLER
+SUCTION PORT
+PUMP DRAIN PLUG
+FRAME
+PRIMING WATER
+FILLER CAP
+HOSE CONNECTOR
+FRAME SERIAL 
+NUMBER
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+9
+4. PRE-OPERATION FOR STARTING
+Before each use, look around and underneath the engine for signs of 
+oil or gasoline leaks.
+1. Connect the suction hose.
+Use commercially available hose, hose connector, and hose bands. 
+The suction hose must be of reinforced, noncollapsible construction. 
+Suction hose length should not be longer than necessary, as pump 
+performance is best when the pump is not far above the water level. 
+Self-priming time is also proportional to hose length.
+The strainer that is provided with the pump should be attached to the 
+end of the suction hose with a band, as shown.
+CAUTION:
+Always install the strainer on the end of the suction hose before pumping. 
+The strainer will exclude debris that can cause clogging or impeller damage.
+SUCTION HOSE
+SUCTION PORT
+SEALING WASHER
+HOSE CLAMP RING
+HOSE
+CONNECTOR
+HOSE BAND
+HOSE COUPLING
+HOSE BAND
+SUCTION HOSE
+HOSE CONNECTOR
+STRAINER
+HOSE BAND
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+10
+2. Connect the discharge hose.
+Use a commercially available hose, hose connector, and hose band. A 
+short, large-diameter hose is most efficient. Long or small-diameter 
+hose increases fluid friction and reduces pump output.
+NOTE:
+Tighten the hose band securely to prevent the hose from 
+disconnecting under high pressure.
+3. Check the engine oil level.
+CAUTION:
+ Engine oil is a major factor affecting engine performance and service 
+life. Nondetergent or vegetable oils are not recommended.
+ Check the oil level with the pump on a level surface and the engine stopped.
+Use 4-stroke motor oil that meets or exceeds the requirements for API service 
+category SE or later (or equivalent). Always check the API service label on the 
+oil container to be sure it includes the letters SE or later (or equivalent).
+SAE 10W-30 is recommended for general use. Other viscosities shown 
+in the chart may be used when the average temperature in your area 
+is within the recommended range.
+Lubrication oil specifications necessary to maintain the performance 
+of the emissions control system: Honda genuine oil.
+DISCHARGE HOSE
+HOSE BAND
+AMBIENT TEMPERATURE
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+11
+Check the engine oil level with the engine stopped and in a level 
+position.
+1. Remove the oil filler cap.
+2. Check the oil level. If it is below the upper limit, fill with the recom-
+mended oil (see ) to the upper limit.
+3. Reinstall the oil filler cap securely.
+CAUTION:
+Running the engine with insufficient oil can cause serious engine 
+damage.
+Oil Alert System
+The Oil Alert System is designed to prevent engine damage caused by 
+an insufficient amount of oil in the crankcase. Before the oil level in 
+the crankcase can fall below a safe limit, the Oil Alert System will 
+automatically stop the engine (the ignition switch will remain in the 
+ON position). 
+If the engine stops and will not restart, check the engine oil level 
+before troubleshooting in other areas.
+OIL FILLER NECK
+OIL FILLER CAP
+UPPER LIMIT
+LOWER LIMIT
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+12
+4. Check the fuel level.
+Use automotive unleaded gasoline with a Research Octane Number of 
+91 or higher (a Pump Octane Number of 86 or higher). 
+Fuel specification(s) necessary to maintain the performance of the 
+emissions control system: E10 fuel referenced in EU regulation.
+Never use gasoline that is stale, contaminated, or mixed with oil. 
+Avoid getting dirt or water in the fuel tank.
+ Gasoline is extremely flammable and is explosive under certain 
+conditions.
+ Refuel in a well-ventilated area with the engine stopped. Do not 
+smoke or allow flames or sparks in the refueling area or where 
+gasoline is stored.
+ Be careful not to spill fuel when refueling. Spilled fuel or fuel vapor 
+may ignite. If any fuel is spilled, make sure the area is dry before 
+starting the engine.
+ Avoid repeated or prolonged contact with skin or breathing of 
+vapor.
+KEEP OUT OF REACH OF CHILDREN.
+With the engine stopped and on a level surface, remove the fuel tank 
+cap and check the fuel level. 
+Refill the tank if the fuel level is low.
+Do not fill the fuel tank completely. Fill tank to approximately 25 mm (1 
+inch) below the top of the fuel tank to allow for fuel expansion. If may 
+be necessary to lower the fuel level depending on operating 
+conditions.
+After refueling, make sure the tank cap is closed properly and securely.
+MAXIMUM FUEL LEVEL
+FUEL TANK TOP
+25 mm
+(1 inch)
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+13
+NOTE:
+Gasoline spoils very quickly depending on factors such as light 
+exposure, temperature and time.
+In worst cases, gasoline can be contaminated within 30 days. 
+Using contaminated gasoline can seriously damage the engine 
+(clogged carburetor, stuck valve). 
+Such damage due to spoiled fuel is disallowed from coverage by the 
+warranty.
+To avoid this please strictly follow these recommendations:
+ Only use specified gasoline (see ).
+ Use fresh and clean gasoline.
+ To slow deterioration, keep gasoline in a certified fuel container.
+ If long storage (more than 30 days) is foreseen, drain fuel tank and 
+carburetor (see ).
+Gasolines containing alcohol
+If you decide to use a gasoline containing alcohol (gasohol), be sure 
+its octane rating is at least as high as that recommended by Honda. 
+There are two types of gasohol: one containing ethanol, and the 
+other containing methanol. 
+Do not use gasohol that contains more than 10% ethanol. 
+Do not use gasoline containing more than 5% methanol (methyl or 
+wood alcohol) and that does not also contain co-solvents and 
+corrosion inhibitors for methanol.
+NOTE:
+ Fuel system damage or engine performance problems resulting 
+from the use of gasoline that contains more alcohol than 
+recommended is not covered under the warranty.
+ Before buying gasoline from an unfamiliar station, first determine if 
+the gasoline contains alcohol, if it does, find out the type and 
+percentage of alcohol used.
+If you notice any undesirable operating symptoms while using a 
+particular gasoline. Switch to a gasoline that you know contains less 
+than the recommended amount of alcohol.
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+14
+5. Check the air cleaner element.
+Unscrew the wing nut and remove the air cleaner cover.
+Check the element for dirt or obstruction. Clean the element if 
+necessary (see ).
+CAUTION:
+Never run the engine without the air cleaner. Rapid engine wear will 
+result from contaminants such as dust and dirt being drawn through 
+the carburetor into the engine.
+6. Check the priming water.
+The pump chamber should be primed with full of water before operating.
+CAUTION:
+Never attempt to operate the pump without priming water, or the 
+pump will overheat. Extended dry operation will destroy the pump 
+seal. If the unit has been operated dry, stop the engine immediately 
+and allow the pump to cool before adding priming water.
+WING NUT
+<WB20XT>
+AIR CLEANER 
+COVER
+AIR FILTER 
+(FOAM)
+AIR FILTER 
+(PAPER)
+WING NUT
+GASKET
+SILENCER NOSE
+WING NUT
+COVER 
+WASHER
+AIR CLEANER 
+COVER
+AIR FILTER 
+(FOAM)
+GRID
+<WB30XT>
+PRIMING WATER FILLER CAP
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+15
+5. STARTING THE ENGINE
+1. Turn the fuel valve lever to the ON position.
+2. Move the choke lever to the CLOSED position.
+NOTE:
+Do not use the choke if the engine is warm or the ambient 
+temperature is high.
+3. Turn the ignition switch to the ON position.
+CHOKE LEVER
+CLOSED
+CLOSED
+ON
+FUEL VALVE
+LEVER
+ON
+ON
+IGNITION SWITCH
+ON
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+16
+4. Move the throttle lever slightly to the left.
+5. Pull the starter grip lightly until you feel resistance, then pull briskly 
+in the direction of the arrow as shown below.
+CAUTION:
+Do not allow the starter grip to snap back against the engine. Return 
+it gently to prevent damage to the starter.
+THROTTLE LEVER
+FAST
+SLOW
+STARTER GRIP
+Direction
+to pull
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+17
+6. If the choke lever was moved to the CLOSED position to start the 
+engine, gradually move it to the OPEN position as the engine 
+warms up.
+ High altitude operation
+At high altitude, the standard carburetor air-fuel mixture will be 
+excessively rich. Performance will decrease, and fuel consumption 
+will increase.
+High altitude performance can be improved by specific modifications 
+to the carburetor. If you always operate the pump at altitudes higher 
+than 1,500 m (5,000 feet) above sea level, have your servicing dealer 
+perform these carburetor modifications.
+Even with suitable carburetor jetting, engine horsepower will 
+decrease approximately 3.5 % for each 300 m (1,000 foot) increase in 
+altitude. The effect of altitude on horsepower will be greater than this 
+if no carburetor modification is made.
+CAUTION:
+Operation of the pump at an altitude lower than the carburetor is 
+jetted for may result in reduced performance, overheating, and 
+serious engine damage caused by an excessively lean air/fuel mixture.
+OPEN
+OPEN
+CHOKE LEVER
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+18
+6. OPERATION
+CAUTION:
+Never use the pump for muddy water, rejected oil, wine, etc.
+After starting the engine, move the throttle lever to the FAST position 
+for self-priming, and check pump output.
+Pump output is controlled by adjusting engine speed. Moving the 
+throttle lever in the FAST direction will increase pump output, and 
+moving the throttle lever in the SLOW direction will decrease pump 
+output.
+THROTTLE LEVER
+SLOW
+FAST
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+19
+7. STOPPING THE ENGINE
+To stop the engine in an emergency, simply turn the ignition switch to 
+the OFF position. Under normal conditions, use the following 
+procedure.
+1. Move the throttle lever fully to the right.
+2. Turn the ignition switch to the OFF position.
+3. Turn the fuel valve lever to the OFF position.
+THROTTLE LEVER
+SLOW
+IGNITION SWITCH
+OFF
+OFF
+OFF
+FUEL VALVE LEVER
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+20
+8. MAINTENANCE
+Periodic inspection and adjustment of the pump are essential if high 
+level performance is to be maintained. Regular maintenance will also 
+help to extend service life. The required service intervals and the kind 
+of maintenance to be performed are described in the table below.
+Shut off the engine before performing any maintenance. If the engine 
+must be run, make sure the area is well-ventilated. The exhaust 
+contains poisonous carbon monoxide gas; exposure can cause loss of 
+consciousness and may lead to death.
+CAUTION:
+ If the pump has been used with sea water, etc., clean it with fresh 
+water immediately afterward to reduce corrosion or remove 
+sediment.
+ Use genuine Honda parts or their equivalent for maintenance or 
+repair. Replacement parts which are not of equivalent quality may 
+damage the pump.
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+21
+Maintenance schedule
+* Replace paper element type only.
+NOTE:
+(1) Service more frequently when used in dusty areas.
+(2) These items should be serviced by your servicing dealer, unless you have the 
+proper tools and are mechanically proficient. Refer to the Honda shop manual for 
+service procedures.
+(3) For commercial use, log hours of operation to determine proper maintenance 
+intervals.
+REGULAR SERVICE PERIOD (3)
+Perform at every indicated month or operating
+hour interval, whichever comes first.
+Item
+Each
+use
+First
+month
+or
+20 hrs.
+Every 3
+months
+or
+50 hrs.
+Every 6
+months
+or
+100 hrs.
+Every
+year
+or
+300 hrs.
+page
+Engine oil
+Check level
+o
+10
+Change
+o
+o
+22
+Air cleaner
+Check
+o
+14
+Clean
+o (1)
+23
+Replace
+o*
+23
+Spark plug
+Check-adjust
+o
+26
+Replace
+o
+Sediment cup
+Clean
+o
+25
+Idle speed
+Check-adjust
+o (2)
+
+Valve clearance
+Check-adjust
+o (2)
+Combustion chamber Clean
+After every 500 hrs. (2)
+Fuel tank and filter
+Clean
+o (2)
+Fuel tube
+Check
+Every 2 years (Replace if necessary) (2)
+Impeller
+Check
+o (2)
+Impeller clearance
+Check
+o (2)
+Pump inlet valve
+Check
+o (2)
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+22
+1. Changing oil
+Drain the oil while the engine is still warm to assure rapid and 
+complete draining.
+1. Place a suitable container below the engine to catch the used oil, 
+and then remove the oil filler cap, drain plug and sealing washer.
+2. Allow the used oil to drain completely into an approved container, then 
+reinstall the drain plug with a new sealing washer, and tighten it securely.
+TORQUE: 18 Nm (1.8 kgfm, 13 lbfft)
+3. With the engine in a level position fill with the recommended oil 
+(see ) to the upper limit.
+OIL CAPACITY: WB20XT: 0.56 L (0.59 US qt, 0.49 lmp qt)
+WB30XT: 0.58 L (0.61 US qt, 0.51 lmp qt)
+Wash your hands with soap and water after handling used oil.
+NOTE:
+Please dispose of used motor oil in a manner that is compatible with 
+the environment. We suggest you take it in a sealed container to your 
+local service station for reclamation. Do not throw it in the trash or 
+pour it on the ground.
+OIL FILLER CAP
+DRAIN PLUG
+SEALING WASHER 
+(Replace)
+OIL LEVEL
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+23
+2. Air cleaner service
+A dirty air filter will restrict air flow to the carburetor, reducing engine 
+performance. If you operate the pump in very dusty areas, clean the 
+air filter more frequently than specified in the Maintenance Schedule 
+(see ).
+Never use gasoline or low flash point solvents for cleaning. They are 
+flammable and explosive under certain conditions.
+CAUTION:
+Never run the pump without the air cleaner. Rapid engine wear will 
+result from contaminants such as dust and dirt being drawn into the 
+engine.
+1. Unscrew the wing nut, remove the air cleaner cover and remove the 
+element. (see )
+2. Clean the air filter elements if they are to be reused.
+Paper filter element:
+Tap the air filter element several times on a hard surface to remove 
+dirt, or blow compressed air [not exceeding 207 kPa (2.1 kgf/cm2, 
+30 psi)] through the air filter from the inside. Never try to brush off 
+dirt; brushing will force dirt into the fibers. Replace the air filter if it 
+is excessively dirty.
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+24
+Form filter element:
+Clean the air filter in warm soapy water, rinse, and allow to dry thor-
+oughly. Or clean in nonflammable solvent and allow to dry.
+Dip the air filter in clean engine oil, and then squeeze out all excess 
+oil. The engine will smoke when started if too much oil is left in the 
+foam.
+3. Wipe dirt from the air cleaner base and cover, using a moist rag. 
+Be careful to prevent dirt from entering the air duct that leads to the 
+carburetor.
+4. Reinstall the air filter and air cleaner cover (see ). Tighten 
+the wing nut securely.
+Clean
+Squeeze and dry
+Do not twist.
+Dip in oil
+Squeeze
+Do not twist.
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+25
+3. Sediment cup cleaning
+Gasoline is highly flammable and explosive.
+You can be burned or seriously injured when handling fuel.
+ Stop the engine and let it cool before handling fuel.
+ Keep heat, sparks, and flame away.
+ Handle fuel only outdoors.
+ Keep away from your vehicle.
+ Wipe up spills immediately.
+1. Move the fuel valve lever to the OFF position, then remove the fuel 
+sediment cup and O-ring.
+2. Wash the sediment cup and filter in non-flammable solvent, and dry 
+it thoroughly.
+3. Reinstall the filter, new O-ring, and sediment cup. Tighten the 
+sediment cup securely.
+4. Move the fuel valve lever to the ON position, and check for leaks.
+FILTER 
+(Viewed from the bottom)
+FUEL VALVE LEVER
+Align
+FILTER
+O-RING (Replace)
+SEDIMENT CUP
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+26
+4. Spark plug service
+Recommended spark plug: BPR6ES(NGK)
+To ensure proper engine operation, the spark plug must be properly 
+gapped and free of deposits.
+1. Disconnect the spark plug cap and then remove the spark plug with 
+the spark plug wrench.
+If the engine has been running, the muffler will be very hot. Be careful 
+not to touch the muffler.
+2. Visually inspect the spark plug. Discard the spark plug if there is 
+apparent wear, or if the insulator is cracked or chipped. Clean the 
+spark plug with a wire brush if it is to be reused.
+3. Measure the plug gap with a suitable gauge.
+Correct as necessary by bending the side electrode.
+The gap should be: 
+0.70.8 mm (0.0280.031 in)
+SPARK PLUG CAP
+0.70.8 mm
+(0.0280.031 in)
+SEALING WASHER
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+27
+4. Check that the spark plug washer is in good condition, and thread 
+the spark plug in by hand to prevent cross-threading.
+5. After the spark plug seats, tighten with a 21 mm (13/16-inch) spark 
+plug wrench to compress the washer.
+If reinstalling the used spark plug, tighten 1/81/4 turn after the 
+spark plug seats.
+If installing a new spark plug, tighten 1/2 turn after the spark plug 
+seats.
+TORQUE: 18 Nm (1.8 kgfm, 13 lbfft)
+CAUTION:
+The spark plug must be securely tightened. An improperly tightened 
+spark plug can become very hot and may cause engine damage.
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+28
+9. TRANSPORTING/STORAGE
+ To avoid severe burns or fire hazards, let the engine cool before 
+transporting the pump or storing it indoors.
+ When transporting the pump, turn the fuel valve to the OFF 
+position, and keep the pump level to prevent fuel spillage. Spilled 
+fuel or fuel vapor may ignite.
+Before storing the pump for an extended period;
+1. Be sure the storage area is free of excessive humidity and dust.
+2. Clean the pump interior.....
+Sediment will settle in the pump if it has been used in muddy or 
+sandy water, water containing heavy debris. 
+Pump clean water through the pump before shutting down or 
+impeller may be damaged when restarting. After flushing, remove 
+the pump drain plug, drain as much water as possible from the 
+pump housing and reinstall the plug.
+3. Drain the fuel.....
+<WB20XT>
+a. Place an approved gasoline container below the carburetor, and 
+use a funnel to avoid spilling fuel.
+b.Move the fuel valve lever to the OFF position, loosen the 
+carburetor drain bolt by turning 1 to 2 turns counterclockwise and 
+drain the fuel in the carburetor.
+c. Remove the sediment cup, and then move the fuel valve lever to 
+the ON position and drain the fuel in the fuel tank.
+d.After all fuel has drained into the container, tighten the carburetor 
+drain bolt securely.
+e. Reinstall a new O-ring and sediment cup.
+f. Move the fuel valve lever to the OFF position.
+PUMP DRAIN PLUG
+WASHER
+DRAIN BOLT
+O-RING (Replace)
+FUEL VALVE LEVER
+SEDIMENT CUP
+FILTER
+ON
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+29
+<WB30XT>
+a. Place an approved gasoline container below the carburetor, and 
+use a funnel to avoid spilling fuel.
+b.Move the fuel valve lever to the ON position and loosen the 
+carburetor drain bolt by turning 1 to 2 turns counterclockwise.
+c. After all fuel has drained, tighten the carburetor drain bolt 
+securely,move the fuel valve lever to the OFF position.
+4. Change the engine oil.
+5. Remove the spark plug, and pour about a tablespoon of clean 
+engine oil into the cylinder. Crank the engine several revolutions to 
+distribute the oil, then reinstall the spark plug.
+6. Pull the starter grip slowly until resistance is felt. This will close the 
+valves so moisture cannot enter the engine cylinder. Return the 
+recoil starter grip gently.
+7. Cover the pump to keep out dust.
+FUEL VALVE LEVER
+ON
+WASHER
+DRAIN BOLT
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+30
+10. TROUBLESHOOTING
+When the engine will not start:
+1. Is there enough fuel?
+2. Is the fuel valve ON?
+3. Is gasoline reaching the carburetor?
+To check, move the fuel valve lever to the ON position and loosen 
+the carburetor drain bolt by turning 1 to 2 turns counterclockwise.
+If any fuel is spilled, make sure the area is dry before starting the 
+engine. Spilled fuel or fuel vapor may ignite.
+4. Is the ignition switch ON?
+5. Is there enough oil in the engine?
+6. Is the spark plug in good condition?
+Remove and inspect the spark plug. Clean, readjust gap and dry the 
+spark plug. Replace it if necessary.
+7. If the engine still does not start, take the pump to your servicing 
+dealer.
+FUEL VALVE LEVER
+ON
+WASHER
+DRAIN BOLT
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+31
+When the pump cannot pump the water:
+1. Is the pump fully primed?
+2. Is the strainer clogged?
+3. Are the hose bands installed securely?
+4. Are the hoses damaged?
+5. Is the suction head too high?
+6. If the pump still does not operate, take the pump to your servicing 
+dealer.
+STRAINER
+HOSE BAND
+DISCHARGE HOSE
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+32
+11. SPECIFICATIONS
+Engine
+* The power rating of the engine indicated in this document is the net power 
+output tested on a production engine for the engine model and measured in 
+accordance with SAE J1349 at 3,600 min-1(rpm) (Engine Net Power) and at 
+2,500 min-1(rpm) (Engine Max. Net Torque). Mass production engines may vary 
+from this value.
+Actual power output for the engine installed in the final machine will vary 
+depending on numerous factors, including the operating speed of the engine in 
+application, environmental conditions, maintenance, and other variables.
+** The CO2 measurement results from testing over a fixed test cycle 
+under laboratory conditions a(n) (parent) engine representative of 
+the engine type (engine family) and shall not imply or express any 
+guarantee of the performance of a particular engine.
+Model
+WB20XT4
+WB30XT3
+Power product
+description code
+WABT
+WACT
+Length
+485 mm (19.1 in)
+510 mm (20.1 in)
+Width
+365 mm (14.4 in)
+385 mm (15.2 in)
+Height
+425 mm (16.9 in)
+455 mm (17.9 in)
+Dry mass [weight]
+21 kg (46 lbs)
+26 kg (57 lbs)
+WB20XT4
+WB30XT3
+Model
+GX120T3
+GX160T2
+Engine type
+4-stroke, over head valve, 1 cylinder
+Displacement
+122 cm3 (7.4 cu-in)
+163 cm3 (9.9 cu-in)
+[BoreStroke]
+60.043.5 mm
+(2.41.7 in)
+68.045.0 mm
+(2.71.8 in)
+Fuel tank capacity
+2.0 L
+(0.53 US gal,
+0.44 lmp gal)
+3.1 L
+(0.82 US gal,
+0.68 lmp gal)
+Engine Net power
+(in accordance with SAE J1349*)
+2.4 kW/3,600 min-1(rpm)
+(3.3 PS/3,600 min-1(rpm))
+3.6 kW/3,600 min-1(rpm)
+(4.9 PS/3,600 min-1(rpm))
+Engine Max.
+Net torque
+(in accordance with SAE J1349*)
+7.5 Nm/2,500 min-1(rpm)
+(0.76 kgfm/2,500 min-1(rpm),
+5.5 lbfft/2,500 min-1(rpm))
+10.3 Nm/2,500 min-1(rpm)
+(1.05 kgfm/2,500 min-1(rpm),
+7.6 lbfft/2,500 min-1(rpm))
+Cooling system
+Forced air
+Ignition system
+Transistor magneto
+PTO shaft rotation
+Counterclockwise
+Carbon dioxide (CO2) 
+emissions**
+Please refer to "CO2 Information List" on 
+www.honda-engines-eu.com/co2
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+33
+Pump
+Noise
+Model
+WB20XT4
+WB30XT3
+Suction port diameter
+50 mm (2.0 in)
+80 mm (3.1 in)
+Discharge port diameter
+50 mm (2.0 in)
+80 mm (3.1 in)
+Max. idling speed
+3,900100 min-1(rpm)
+3,900100 min-1(rpm)
+Maximum total head
+Minimum 32 m (105.0 ft) Minimum 23 m (75.5 ft)
+Maximum suction head
+Minimum 7.5 m (26.4 ft) Minimum 7.5 m (24.6 ft)
+Maximum discharge 
+capacity
+Minimum 620 L/min
+(163.8 US gal/min,
+136.4 lmp gal/min)
+Minimum 1,100 L/min
+(290.6 US gal/min,
+242.0 lmp gal/min)
+Model
+WB20XT4
+WB30XT3
+Sound pressure level at the
+workstation
+(EN ISO 20361:2015)
+88 dB (A)
+89 dB (A)
+Uncertainty
+1 dB (A)
+1 dB (A)
+Measured sound power level
+(2000/14/EC, 2005/88/EC)
+101 dB (A)
+102 dB (A)
+Uncertainty
+1 dB (A)
+1 dB (A)
+Guaranteed sound power level
+(2000/14/EC, 2005/88/EC)
+102 dB (A)
+103 dB (A)
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+34
+MEMO
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+35
+MEMO
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM
+
+36
+MEMO
+3QYG46100_EN.book  Friday, October 19, 2018 1:53 PM

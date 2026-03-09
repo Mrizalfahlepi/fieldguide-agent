@@ -1,0 +1,860 @@
+1
+750W 
+GENERATOR 
+FCG001 
+INSTRUCTION MANUAL
+Black
+Cyan
+Magenta
+Yellow
+Code: FCG001 Manual 
+Date: 070718
+Edition: 5
+Op: DCR
+
+2
+Contents
+Warranty 
+2
+Introduction 
+3
+Environmental protection 
+3
+Scope of product 
+3
+Description of symbols 
+3
+Specifications 
+3
+General safety instructions for power tools 
+4
+Risk of electrocution and fire 
+5
+Risk of fire 
+6
+Risk of injury and property damage 
+when transporting generator 
+7
+Risk of breathing  inhalation hazard 
+7
+Risk of unsafe operation 
+7
+Risk of hot surfaces 
+8
+Risk of moving parts 
+8
+Risk from lifting 
+8
+Additional safety rules for generators 
+9
+Unpacking 
+9
+Know your product 
+10
+Fitting the handle 
+11
+Mixing the fuel 
+11
+Filling the tank 
+11
+Earthing the generator 
+11
+Starting the engine 
+11
+Stopping the engine 
+12
+Connecting apparatus to compressor 
+12
+AC overload cut out 
+12
+Periodic maintenance 
+13
+Generator maintenance 
+13
+Storage 
+13
+Spark plugs 
+13
+Air filter 
+13
+Tap extension fuel filter 
+13
+Fuel tap bowl filter 
+15
+Petrol tank filter 
+15
+Cleaning 
+15
+Repairs 
+15
+Troubleshooting 
+16
+
+3
+Scope of product
+This product is suited for lighting, camping and car 
+battery recharging applications. 
+It is not recommended to be used with any 
+electronic devices. 
+Description of symbols
+The rating plate on your tool may show symbols. 
+These represent important information about the 
+product or instructions on its use.
+Wear hearing protection. 
+Wear eye protection. 
+Wear breathing protection.
+Conforms to relevant standards 
+for electromagnetic compatibility.
+Specifications
+AC Output: 
+240Vac ~ 50Hz
+Rated Power: 
+650W
+Peak Power: 
+750W
+Phase: 
+Single
+Power Factor: 
+cos =1
+Displacement: 
+64cc
+Engine: 
+2HP, 2 stroke
+No Load Speed: 
+3000 RPM
+Fuel Tank Capacity: 
+4.2L
+Fuel Type: 
+Unleaded petrol
+Oil Type: 
+2 Stroke
+Fuel Mixture: 
+Unleaded petrol /
+ 
+2-stroke oil (40:1)
+Operation Noise Level: 
+68dB/7m
+Net Weight: 
+17kg
+
+4
+General safety instructions for power tools
+To use this tool properly, you must observe the safety 
+regulations, the assembly instructions and the operating 
+instructions to be found in this Manual. All persons who use 
+and service the machine have to be acquainted with this 
+Manual and must be informed about its potential hazards. 
+Children and infirm people must not use this tool. Children 
+should be supervised at all times if they are in the area in 
+which the tool is being used. It is also imperative that you 
+observe the accident prevention regulations in force in your 
+area. The same applies for general rules of occupational 
+health and safety.
+WARNING. When using power tools, basic safety precautions 
+should always be taken to reduce the risk of fire, electric 
+shock and personal injury. Also, please read and heed the 
+advice given in the additional important safety instructions.
+1. Keep the work area clean and tidy. Cluttered work areas 
+and benches invite accidents and injury.
+2. Consider the environment in which you are working. Do 
+not use power tools in damp or wet locations. Keep the work 
+area well lit. Do not expose power tools to rain. Do not use 
+power tools in the presence of flammable liquids or gases.
+3. Keep visitors away from the work area. All visitors and 
+onlookers, especially children and infirm persons, should be 
+kept well away from where you are working. Do not let others 
+in the vicinity make contact with the tool or extension cord.
+4. Store tools safely. When not in use, tools should be 
+locked up out of reach.
+5. Do not force the tool. The tool will do the job better and 
+safer working at the rate for which it was designed.
+6. Use the correct tool for the job. Do not force small tools 
+or attachments to do the job best handled by a heavier 
+duty tool. Never use a tool for a purpose for which it was 
+not intended.
+7. Dress correctly. Do not wear loose clothing or jewellery. 
+They can be caught in moving parts. Rubber gloves and 
+non-slip footwear are recommended when working outdoors. 
+If you have long hair, wear a protective hair covering.
+8. Use safety accessories. Safety glasses and earmuffs 
+should always be worn. A face or dust mask is also 
+required if the drilling operation creates dust.
+9. Secure the work piece. Use clamps or a vice to hold the 
+work piece. It is safer than using your hand and frees both 
+hands to operate the tool.
+10. Do not overreach. Keep your footing secure and 
+balanced at all times.
+11. Look after your tools. Keep tools sharp and clean for 
+better and safer performance. Follow the instructions 
+regarding lubrication and accessory changes. Inspect tool 
+cords periodically and, if damaged, have them repaired 
+by an authorised service facility. Inspect extension cords 
+periodically and replace them if damaged. Keep tool 
+handles dry, clean and free from oil and grease.
+12. Remove adjusting keys and wrenches. Check to see 
+that keys and adjusting wrenches are removed from the 
+tool before switching on.
+13. Stay alert. Watch what you are doing. Use common 
+sense. Do not operate a tool when you are tired.
+14. Check for damaged parts. Before using a tool, check 
+that there are no damaged parts. If a part is slightly 
+damaged, carefully determine if it will operate properly 
+and perform its intended function. Check for alignment of 
+moving parts, binding of moving parts, breakage of parts, 
+proper mounting and any other conditions that may affect 
+the operation of the tool. A part that is damaged should be 
+properly repaired or replaced by an authorised service 
+facility, unless otherwise indicated in this Instruction Manual.
+15. Use only approved parts. When servicing, use only 
+identical replacement parts. Use an authorised service 
+facility to fit replacement parts.
+WARNING. The use of an accessory or attachment, other 
+than those recommended in this Instruction Manual, may 
+present a risk of personal injury.
+
+5
+Save these important safety instructions
+Risk of electrocution and fire
+Hazard
+What could happen
+How to prevent it
+Improper storage of extension cord.
+Extension cord can come into contact 
+with hot engine parts resulting in 
+damage. Using a damaged extension 
+cord can result in electrocution or death.
+Remove extension cord from the 
+generator and store separately away 
+from generator.
+Operation of generator in rain, wet, 
+icy, or flooded conditions.
+Water is an excellent conductor of 
+electricity! Water which comes in contact 
+with electrically charged components can 
+transmit electricity to the frame and other 
+surfaces, resulting in electrical shock to 
+anyone contacting them.
+Operate generator in a clean, dry, well 
+ventilated area. Make sure hands are dry 
+before touching unit.
+Placing generator on or against 
+highly conductive surface, such as 
+a steel walkway or metal roof.
+Accidental leakage of electrical current 
+could charge conductive surfaces in 
+contact with the generator.
+Place generator on low conductivity 
+surface such as a concrete slab.
+ALWAYS operate generator a minimum 
+of 2 meters from any conductive surface.
+Use of worn, damaged or 
+ungrounded extension cords.
+Contact with worn or damaged extension 
+cords could result in electrocution.
+Use of ungrounded cordsets could 
+prevent operation of circuit breakers and 
+result in electrical shock.
+Inspect extension cords before use and 
+replace with new cord if required.
+Always use a cordset having a grounding 
+wire with an appropriate grounding plug. 
+DO NOT use an ungrounded plug.
+Operation of unit when damaged, or 
+with guards or panels removed.
+Attempting to use the unit when it 
+has been damaged, or when it is not 
+functioning normally could result in fire or 
+electrocution.
+Removal of guarding could expose 
+electrically charged components and 
+result in electrocution.
+Do not operate generator with 
+mechanical or electrical problem. Have 
+unit repaired by an Authorized Service 
+Centre.
+Do not operate generator with protective 
+guarding removed.
+
+6
+Risk of fire
+Hazard
+What could happen
+How to prevent it
+Attempting to fill the fuel tank while 
+the engine is running.
+Fuel and fuel vapours can become 
+ignited by coming in contact with hot 
+components such as the muffler, engine 
+exhaust gases, or from an electrical 
+spark.
+Turn engine off and allow it to cool before 
+adding fuel to the tank. Equip area of 
+operation with a fire extinguisher certified 
+to handle gasoline or fuel fires.
+Sparks, fire, hot objects
+Cigarettes, sparks, fires, or other hot 
+objects can cause fuel or fuel vapours 
+to ignite.
+Add fuel to tank in well ventilated area. 
+Make sure there are no sources of 
+ignition near the generator.
+Improper storage of fuel
+Improperly stored fuel could lead to 
+accidental ignition. Fuel improperly 
+secured could get into the hands of 
+children or other unqualified persons.
+Store fuel in an approved container 
+designed to hold fuel. Store container in 
+secure location to prevent use by others.
+Tampering with factory set engine 
+speed settings.
+Engine speed has been factory set to 
+provide safe operation. Tampering with 
+the engine speed adjustment could result 
+in overheating of attachments and could 
+cause a fire.
+Never attempt to speed-up the engine 
+to obtain more performance. Both the 
+output voltage and frequency will be 
+thrown out of standard by this practice, 
+endangering attachments and the user.
+Inadequate ventilation 
+for generator
+Materials placed against or near the 
+generator or operating the generator in 
+areas where the temperature exceeds 
+40 C. ambient (such as storage rooms 
+or garages) can interfere with its proper 
+ventilation features causing overheating 
+and possible ignition of the materials or 
+buildings.
+Operate generator in a clean, dry, 
+well ventilated area. 
+DO NOT OPERATE UNIT INDOORS 
+OR IN ANY CONFINED AREA.
+Overfilling the fuel tank 
+ fuel spillage.
+Spilled fuel and its vapours can become 
+ignited from hot surfaces or sparks.
+Use care in filling the tank to avoid 
+spilling fuel. Make sure fuel cap is 
+secured tightly and check engine for 
+fuel leaks before starting engine. Move 
+generator away from refuelling area or 
+any spillage before starting engine. Allow 
+for fuel expansion. Never refuel with the 
+engine running.
+
+7
+Risk of injury and property damage when transporting generator
+Hazard
+What could happen
+How to prevent it
+Fire, Inhalation, Damage 
+to Vehicle Surfaces
+Fuel or oil can leak or spill and could 
+result in fire or breathing hazard, serious 
+injury or death can result. Fuel or oil 
+leaks can damage carpet, paint or other 
+surfaces in vehicles or trailers.
+The generator is equipped with a fuel 
+tap, turn the lever of this valve to the off 
+position before transporting to avoid fuel 
+leaks. Transport fuel only in an approved 
+fuel container. Always place generator 
+on a protective mat when transporting 
+to protect against damage to vehicle 
+from leaks. Remove generator from 
+vehicle immediately upon arrival at your 
+destination.
+Risk of breathing - inhalation hazard
+Hazard
+What could happen
+How to prevent it
+Gasoline engines produce toxic 
+carbon monoxide exhaust fumes.
+Breathing exhaust fumes will cause 
+serious injury or death.
+Operate generator in clean, dry, well 
+ventilated area. Never operate unit in 
+enclosed areas such as garages, 
+basements, storage, sheds, or in any 
+location occupied by humans or animals. 
+Keep children, pets and others away 
+from area of operating unit.
+Risk of unsafe operation
+Hazard
+What could happen
+How to prevent it
+Operation of generator in 
+careless manner.
+All sources of energy include the 
+potential for injury. Unsafe operation 
+or maintenance of your generator could 
+lead to serious injury or death to you 
+or others.
+ Review and understand all of the 
+operating instructions and warnings in 
+this manual.
+ Become familiar with the operation 
+and controls of the generator. Know 
+how to shut it off quickly.
+ Equip area of operation with a fire 
+extinguisher certified to handle 
+gasoline or fuel fires.
+ Keep children or others away from the 
+generator at all times.
+
+8
+Risk of unsafe operation continued
+Operating generator while 
+suspended
+Generator will not operate properly and 
+will cause damage to the generator and 
+could cause serious injury or death to 
+you or others.
+Never operate generator while 
+suspended or in an unlevel position. 
+Always operate generate on a flat, 
+level surface.
+Risk of hot surfaces
+Hazard
+What could happen
+How to prevent it
+Contact with hot engine and 
+generator components.
+Contact with hot surfaces, such as 
+engines exhaust components, could 
+result in serious burns.
+During operation, touch only the control 
+surfaces of the generator. Keep children 
+away from the generator at all times. 
+They may not be able to recognize the 
+hazards of this product.
+Risk of moving parts
+Hazard
+What could happen
+How to prevent it
+Contact with moving parts can 
+result in serious injury.
+The generator contains parts which rotate 
+at high speed during operation. 
+These parts are covered by guarding to 
+prevent injury.
+Never operate generator with guarding 
+or cover plates removed. Avoid wearing 
+loose fitting clothing or jewellery which 
+could be caught by moving parts.
+Risk from lifting
+Hazard
+What could happen
+How to prevent it
+Lifting a very heavy object.
+Serious injury can result from attempting 
+to lift too heavy an object.
+When lifting, always keep the object you 
+are lifting near the vertical axis of your 
+body. DO NOT use you back to lift heavy 
+loads. Both people should crouch down, 
+grab the underside of unit and use your 
+legs to carry the weight. Keep the object 
+as near the centre of your bodys gravity 
+as possible. Avoid twisting your bodies 
+when carrying the unit; instead, turn your 
+whole body using your feet.
+
+9
+Additional safety rules for generators
+1. Do not operate in a hazardous location. Such areas 
+include where there is a risk of explosion of petrol fumes, 
+leaking gas or explosive dust.
+2. Do not operate in a confined area. Exhaust gases, 
+smoke or fumes could reach dangerous concentrations.
+3. The output of this generator is potentially lethal. The 
+generator should not be connected to a fixed electrical 
+installation except by an appropriately licensed person
+4. Protect your generator. This generator is NOT 
+WEATHERPROOF and should not be exposed to direct 
+sunlight, high ambient temperature and damp, wet or high 
+humidity conditions. 
+5. Do not smoke while refuelling. This is potentially 
+dangerous as it may ignite the fuel and cause 
+an explosion.
+6. Take care not to spill fuel. When refuelling the generator 
+ensure that the engine has been switched off. Prevent the 
+spilling of fuel as this may also ignite with the hot engine. 
+Never refuel whilst the engine running.
+7. Be careful where you store the generator. Store the 
+generator in a dry area away from inflammable liquids.
+8. Keep your distance. The generator emits exhaust fumes. 
+As a safety precaution do not stand close to the unit whilst it 
+is in operation. Ensure bystanders also keep their distance.
+9. Ground (earth) your generator. Ensure that the 
+generator has been ground by using an earth lead. 
+Simply connect one end of the Earth lead to the generator 
+where marked and the other end should be pressed into 
+the ground.
+10. Ensure you use oil-mix fuel. Ensure that you mix 
+50 parts unleaded fuel to 1 part 2 stroke grade oil. If not, 
+the engine will overheat and cause damage to 
+your generator. 
+11. Never fill fuel tank indoors. Never fill fuel tank when 
+engine is running or hot. Do not smoke when filling 
+fuel tank.
+12. Engine speed has been factory set to provide safe 
+operation. Tampering with the engine speed adjustment 
+could result in overheating of attachments and could 
+cause a fire. Never attempt to speed-up the engine to 
+obtain more performance. Both the output voltage and 
+frequency will be thrown out of standard by this practice, 
+endangering attachments and the user.
+You MUST unplug any load from the generator before 
+starting and stopping to prevent permanent damage to 
+any appliances.
+Unpacking
+Due to modern mass production techniques, it is unlikely 
+that your GMC Power Tool is faulty or that a part is missing. 
+If you find anything wrong, do not operate the tool until the 
+parts have been replaced or the fault has been rectified. 
+Failure to do so could result in serious personal injury.
+
+10
+Know your product
+1. Handle
+2. Fuel cap
+3. Fuel tank
+4. Fuel tap
+5. Recoil starter
+6. On/off switch
+7. Choke
+8. Air filter cover
+9. Tap extension fuel filter
+10. AC Output 240V
+11. AC circuit breaker 
+12. Power ON light 
+4
+5
+3
+2
+1
+6
+7
+8
+10
+12
+4
+9
+11
+
+11
+Fitting the handle
+Firstly, place the 2 handle gaskets (supplied with the 
+generator) over the holes on the petrol tank. Then proceed 
+by placing the handle on top of the gaskets ensuring the 2 
+holes in the handles line up with the holes on the tank.
+Screw the handle onto the petrol tank using the 2 screws 
+provided with the unit. Ensure the flat washers and spring 
+washers are fitted under the heads of the screws.
+Mixing the fuel
+1. The generator uses unleaded fuel and 2 stroke grade oil.
+2. You need to mix both unleaded fuel and 2 stroke 
+oil together.
+3. The proportion should be 40 parts unleaded fuel and 
+1 part 2 stroke oil.
+4. The mixture should be poured into an approved fuel 
+container. This fuel container should be clearly marked 
+as a fuel container, sealed and made from fuel 
+resistant material.
+5. Once the mixture has been poured, shake the fuel 
+container well to ensure that the contents have been 
+thoroughly mixed. 
+Filling the fuel tank
+1. Switch off the engine.
+2. Remove the fuel cap (2) by turning anticlockwise.
+3. Pour the fuel/oil mix from the fuel container into the fuel 
+tank (3). Because fuel expands, DO NOT FILL to the tip 
+of the tank.
+4. Replace fuel cap and turn clockwise to lock.
+Earthing the generator
+WARNING. It is advisable to properly earth-ground 
+your generator before starting using a wire and a small 
+earth stake. 
+Note. The wire and earth stake are not supplied with 
+the unit.
+Starting the engine
+1. Before starting, ensure that no electrical apparatus has 
+been connected to the generator. 
+2. Turn the fuel tap (4) clockwise to the on position.
+3. Move the choke lever to the left hand side position.
+4. Turn the engine switch to On.
+5. Slowly pull the recoil starter until you feel it engage and 
+then pull it briskly. 
+Note: When the engine is started for the very first time, it 
+will require a number of attempts to start until the fuel has 
+travelled from the tank to the engine.
+
+12
+6. Once you hear the engine operating, return the choke 
+lever back to the right hand side position. This position will 
+switch the choke off.
+Stopping the engine
+1. Before stopping, ensure that 
+no electrical apparatus is 
+connected to the generator.
+2. Turn the engine switch to the 
+stop position.
+3. Turn the fuel tap (4) anti-
+clockwise to the off position.
+Connecting apparatus to the generator
+1. Start the engine. Allow the 
+engine to run for a couple of 
+minutes to warm up prior to 
+connecting any apparatus to 
+the generator. The green power 
+on light (12) will illuminate 
+when the generator is 
+operational and power is 
+available at the socket.
+2. For AC current, plug the power cord into the AC output 
+socket (10).
+WARNING. Prior to connecting any product to the generator, 
+check the rating label of the product. The generator is rated 
+at 650W so if the product being connected is higher than 
+650W, the protective cut out on the generator may operate 
+to prevent over load damage to the generator. The generator 
+will withstand short operation and spikes up to 750W.
+It should also be very clearly understood that output voltage 
+fluctuations will occur when various loads are connected 
+and disconnected. It is best to always use a voltage or surge 
+protector with this generator. It is NOT recommended to 
+connect any electronic equipment to the generator such 
+as computers, televisions, or stereo equipment. They 
+are very sensitive to the input supply fluctuations and 
+could be damaged if run off this generator. This warning 
+also includes caravans where electronic equipment is 
+incorporated as part of the wiring.
+AC overload cut out
+IMPORTANT: Exceeding the rated capacity of your 
+generator can result in serious damage to your generator 
+and connected apparatus.
+1. Each receptacle has a circuit breaker to protect the 
+generator from over loading.
+2. If the circuit breaker trips, unplug all electrical apparatus 
+from the generator.
+3. Let the overload cut out switch cool down.
+4. If it is an AC apparatus causing the overload push the 
+AC circuit breaker button (11). Commence to start your 
+generator accordingly.
+5. When re connecting appliances, reduce the load to that 
+which previously overloaded the generator.
+
+13
+Periodic maintenance
+Items
+Remarks
+Every 50hrs 
+or every 
+month
+Every 150 
+hrs or every 
+month
+Spark Plug
+Remove 
+Carbon
+x
+Air Filter
+Cleaning
+x
+Fuel Filters
+Clean
+x
+Decarbon-
+isation
+Clean
+x
+Generator maintenance
+Your generator should be kept clean and dry at all times. 
+The generator should not be stored or operated in 
+environments that includes excessive moisture, dust or any 
+corrosive vapours. If these substances are on the generator, 
+clean with a cloth or soft bristle brush. Do not use a garden 
+hose or anything with water pressure to clean the generator. 
+Water may enter the cooling air slots and could possibly 
+damage the rotor, stator and the internal windings of the 
+generator head.
+Storage
+If you are going to store your generator for more than 
+30 days, use the following information as a guide to 
+prepare the generator for storage.
+Never store generator with fuel in the tank indoors or 
+in enclosed, poorly ventilated areas, where fumes can 
+reach an open flame, spark or pilot light as on a furnace, 
+water heater, clothes dryer or other gas appliances.
+Spark plugs
+1. Remove spark plug from the 
+generator with a spark plug 
+spanner socket. 
+2. Remove carbon deposits 
+using a wire brush.
+3. Check for discoloration on 
+the top of the spark plug. The 
+standard colour should be a tan colour.
+4. Check the spark plug gap. The acceptable gap should be 
+between 0.7  0.8mm.
+Air filter
+1. Remove the cover (8) on 
+the front of the generator by 
+removing the two screws.
+2. Remove the air filter.
+3. Wash the air filter in solvent.
+4. Lubricate the filter using engine 
+oil (SEA #20).
+5. Thoroughly squeeze the filter 
+removing excess oil.
+6. Replace air filter back into 
+the engine.
+7. Secure the cover back onto the 
+front panel of the generator.
+IMPORTANT: Never run the 
+engine without the air filter 
+element in place.
+Tap extension fuel filter
+A small fuel filter has been fitted to the inlet side of the fuel 
+tap (4), inside the tank. This tap extension fuel filter (9) 
+prevents any dirt in the fuel from entering the fuel system.
+The procedure for removing this filter in order to replace or 
+clean it is given below.
+
+14
+Note: the following procedure should be performed in a well 
+ventilated area, with no naked flames, sparks, or cigarettes. 
+Safety glasses should also be worn and switch (6) set to the 
+OFF position.
+1. Completely empty the tank of fuel. Ensure the fuel tap (4) 
+is in the OFF position
+2. Compress the two wire arms of the hose clamp on the 
+outlet hose at the tap (4) and slide the clamp back from 
+the end of the hose by approx. 25mm. Slide the fuel hose 
+off the outlet of the tap (4).
+3. Remove the 4 screws holding the fuel tank (3) to 
+the generator assembly and lift the tank clear of the 
+generator.
+4. Loosen the lock nut locking 
+the tap (4) on to the tank. 
+Unscrew the tap from the tank 
+and withdraw the tap from the 
+tank. Be careful not to lose 
+the small seal on the thread of 
+the tap.
+5. Unscrew the tap extension fuel filter (9).
+This filter can be cleaned in petrol to remove any build-up of 
+dirt on the outside of the filter, or the filter can be replaced. 
+Do not operate the generator without this filter in place. To 
+replace the filter after cleaning, or with a new filter, simply 
+screw the filter into the inlet side of the tap. 
+6. Ensuring the small seal is 
+fitted to the tap thread, screw 
+the tap back into the tank by 
+a FULL 34 turns. Orientate 
+the tap so the outlet of the tap 
+is towards the rear of the tank, 
+and the tap control is to the 
+right hand side of the tank. 
+Holding the tap firm, tighten 
+the lock nut, ensuring the seal is 
+clamped between the lock nut 
+and the tank.
+7. Refit the fuel hose to the 
+outlet of the tap and with the 
+wire arms compressed, slide 
+the hose clamp up onto the 
+connection of the hose and 
+the tap.
+8. Refill the tank with fuel and ensure there are no leaks 
+between the tap and the tank, and with the fuel tap 
+turned on, ensure there are no leaks where the fuel hose 
+is fitted to the outlet of the tap. 
+
+15
+Petrol tank filter
+1. Stop the engine.
+2. Turn the fuel tap (4) to the off position.
+3. The petrol tank filter is located directly under the petrol 
+cap. This protects impurities entering the fuel tank during 
+refuelling. 
+4. Remove the filter & wash thoroughly in a solvent.
+5. Re-assemble.
+Cleaning
+1. Keep your machine clean. The outside of the machine 
+can be cleaned using a damp soft cloth with a mild 
+detergent if required. Never use water to clean the 
+generator as it may cause damage to internal parts.
+2. Some maintenance products 
+and solvents may damage the 
+plastic parts; these include 
+products containing benzene, 
+trichloroethylene, chloride and 
+ammonia.
+3. Use a vacuum to clean air 
+inlet and outlet louvres of the 
+alternator.
+4. Take special care to keep the ventilation inlets/outlets free 
+from obstruction; cleaning with a soft brush followed by 
+a compressed air jet will usually be sufficient to ensure 
+acceptable internal cleanliness.
+5. Wear eye protection when carrying out cleaning.
+Repairs
+Only an authorised service centre should repair the generator.
+
+16
+Troubleshooting
+Trouble
+Possible cause
+Suggested remedy
+Engine will not start or will 
+not keep running
+1. Low on fuel/oil content
+1. Add fuel/oil mix
+2. Ignition switch in Off position
+2. Turn to ON position
+3. Faulty spark plug
+3. Replace spark plug
+4. Choke in wrong position
+4. Adjust choke accordingly
+5. Fuel tap in closed position
+5. Open fuel tap
+6. Unit loaded during start-up
+6. Remove load from unit
+7. Spark plug wire loose
+7. Attach wire to spark plug
+8. Dirty fuel filters 
+8. Clean filters as per instructions
+No electrical output
+1. Faulty receptacle
+1. Have service centre replace receptacle
+2. Circuit breaker kicked out
+2. Depress and reset
+3. Defective capacitor
+3. Have service centre replace capacitor
+4. Faulty power cord
+4. Replace cord
+Repeated circuit breaker 
+tripping
+1. Overload
+1. Reduce load.
+2. Faulty cords or equipment.
+ 2. Check for damaged, bare, or frayed wires 
+on equipment. Replace.
+Generator overheating
+1. Generator overloaded.
+1. Reduce load
+2. Insufficient ventilation.
+2. Move to adequate supply of fresh air.
+
+17
+
+18
+
+19
+
+20

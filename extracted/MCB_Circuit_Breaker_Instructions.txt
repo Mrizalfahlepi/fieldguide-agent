@@ -1,0 +1,100 @@
+INSTRUCTIONS FOR USING 
+Miniature Circuit Breaker 
+ 
+Series 
+MCB manufactured according to 
+IEC60898-1 standard 
+ 
+ 
+ 
+ 
+ Be sure to read the manual and follow all safety precautions before using the product. 
+ This manual should be given to the person who will actually use the product and be responsible for 
+its maintenance. 
+ 
+ 1. Key Features 
+ 
+Rated Voltage: 240/415V 
+ 
+Rated Current: 6, 10, 16, 20, 25, 32, 40, 50, 63A 
+ 
+Breaking Capacity: Icu=Ics =6kA or Icu=10kA, Ics=7.5kA 
+ 
+Type: B, C, D curve 
+ 
+Applications: Residential, commercial, industrial 
+ 
+2. Installation 
+1. 
+Preparation: 
+o 
+Ensure power supply is disconnected before installation. 
+o 
+Verify the MCB rating matches the circuit requirements. 
+2. 
+Mounting: 
+o 
+Place the MCB on the DIN rail in the distribution board. 
+o 
+Ensure it is securely fixed and aligned. 
+3. 
+Wiring: 
+o 
+Connect the incoming (supply) wires to the top terminals and the outgoing (load) wires 
+to the bottom terminals. 
+o 
+Tighten screws securely to ensure proper electrical contact. 
+ 
+3. Operation 
+1. 
+Switching On: 
+o 
+Push the toggle lever to the "ON" position to power the circuit. 
+2. 
+Switching Off: 
+o 
+Push the toggle lever to the "OFF" position to isolate the circuit. 
+3. 
+Tripping: 
+o 
+The MCB will trip automatically during overcurrent or short-circuit conditions. 
+o 
+Inspect and resolve the fault before resetting. 
+ 
+4. Safety Guidelines 
+ 
+Always ensure the circuit is de-energized before working on the MCB. 
+ 
+Use an MCB within its specified voltage and current limits. 
+ 
+Avoid exposure to moisture, dust, or corrosive environments. 
+ 
+5. Troubleshooting 
+Issue 
+Possible Cause 
+Solution 
+MCB does not power on 
+Loose or incorrect wiring 
+Check and tighten connections 
+Frequent tripping 
+Overload or short circuit 
+Reduce load, inspect circuit 
+Lever stuck 
+Internal damage 
+Replace the MCB 
+ 
+6. Maintenance 
+ 
+Periodically inspect for signs of wear, overheating, or damage. 
+ 
+Test the MCB trip mechanism by pressing the test button (if available). 
+ 
+7. Dimension 
+ 
+ 
+ 
+Designed by BTB Electric 
+Add: Orhangazi Mah. Mimsan San. Sit. 1780 sok. 
+No: 5 Esenyurt / stanbul / Trkiye 
+E-mail: sales@btb-electric.com 
+Web: btb-electric.com

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FieldGuide AI</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{background:#0f172a;color:#fff;font-family:-apple-system,BlinkMacSystemFont,sans-serif;height:100dvh;display:flex;flex-direction:column}
+        header{background:#1e40af;padding:10px 16px;text-align:center;flex-shrink:0}
+        header h1{font-size:18px;font-weight:700}
+        header p{font-size:11px;opacity:.8}
+        #welcomeScreen{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center}
+        #welcomeScreen h2{font-size:22px;margin-bottom:10px}
+        #welcomeScreen .desc{font-size:13px;opacity:.7;max-width:300px;line-height:1.5}
+        #welcomeScreen .info{margin-top:10px;font-size:11px;opacity:.5}
+        .start-btn{margin-top:24px;padding:16px 40px;border-radius:30px;border:none;background:#2563eb;color:#fff;font-size:18px;font-weight:700;cursor:pointer}
+        #cameraView{flex:1;position:relative;background:#000;overflow:hidden;display:none}
+        #cameraView video{width:100%;height:100%;object-fit:cover}
+        canvas{display:none}
+        .dot{position:absolute;top:12px;right:12px;width:14px;height:14px;border-radius:50%;border:2px solid rgba(255,255,255,.5);z-index:5}
+        .dot.on{background:#22c55e}.dot.off{background:#ef4444}.dot.wait{background:#f59e0b}
+        .badge{position:absolute;top:12px;left:12px;background:rgba(34,197,94,.2);border:1px solid #22c55e;padding:4px 10px;border-radius:12px;font-size:11px;color:#22c55e;z-index:5;display:none}
+        .status{position:absolute;bottom:70px;left:0;right:0;text-align:center;z-index:5}
+        .status span{background:rgba(0,0,0,.7);padding:8px 20px;border-radius:20px;font-size:13px;display:inline-block}
+        .stop-btn{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);padding:12px 32px;border-radius:30px;border:none;background:#dc2626;color:#fff;font-size:15px;font-weight:600;cursor:pointer;z-index:10}
+        .dbg{position:absolute;top:36px;right:8px;z-index:20;font-size:9px;color:#86efac;background:rgba(0,0,0,.85);padding:4px 8px;border-radius:6px;max-width:220px;max-height:100px;overflow-y:auto}
+    </style>
+</head>
+<body>
+<header><h1>FieldGuide AI</h1><p>AI-Powered Visual Repair Supervisor</p></header>
+
+<div id="welcomeScreen">
+    <h2>Ready to Repair</h2>
+    <p class="desc">Point your camera at any equipment and FieldGuide AI will guide you through diagnosis and repair.</p>
+    <p class="info" id="knowledgeInfo">Loading...</p>
+    <button class="start-btn" id="btnStart" onclick="go()">Start Repair Session</button>
+</div>
+
+<div id="cameraView">
+    <video id="video" autoplay playsinline muted></video>
+    anvas id="canvas"></canvas>
+    <div class="dot off" id="dot"></div>
+    <div class="badge" id="badge">RAG Active</div>
+    <div class="dbg" id="dbg"></div>
+    <div class="status"><span id="st">Starting...</span></div>
+    <button class="stop-btn" onclick="end()">End Session</button>
+</div>
+
+<script>
+var ws,stream,vidInt,actx,ready=false,active=false;
+
+function L(m){console.log('[FG]',m);var d=document.getElementById('dbg');if(d)d.textContent=m+'\n'+d.textContent.substring(0,400)}
+function S(t){document.getElementById('st').textContent=t}
+
+fetch('/health').then(r=>r.json()).then(d=>{
+    var c=d.knowledge_base?d.knowledge_base.equipment_count:0;
+    document.getElementById('knowledgeInfo').textContent=c>0?c+' equipment manuals loaded':'Backend ready';
+}).catch(()=>{});
+
+async function go(){
+    var btn=document.getElementById('btnStart');
+    btn.textContent='Starting...';btn.disabled=true;
+    try{
+        stream=await navigator.mediaDevices.getUserMedia({video:{facingMode:'environment',width:640,height:480},audio:{sampleRate:16000,channelCount:1,echoCancellation:true,noiseSuppression:true}});
+        L('cam+mic ok');
+        document.getElementById('welcomeScreen').style.display='none';
+        document.getElementById('cameraView').style.display='block';
+        document.getElementById('dot').className='dot wait';
+        S('Connecting to AI...');
+        document.getElementById('video').srcObject=stream;
+
+        var proto=location.protocol==='https:'?'wss:':'ws:';
+        ws=new WebSocket(proto+'//'+location.host+'/ws');
+
+        ws.onopen=function(){L('ws open');S('Waiting for Gemini...')};
+
+        ws.onmessage=function(ev){
+            try{
+                var msg=JSON.parse(ev.data);
+                L('rx:'+msg.type);
+                if(msg.type==='status'&&msg.message==='connected'){
+                    ready=true;active=true;
+                    document.getElementById('dot').className='dot on';
+                    document.getElementById('badge').style.display='block';
+                    S('FieldGuide is listening... Speak now!');
+                    startVideo();startAudio();
+                    L('READY! streaming started');
+                }
+                else if(msg.type==='audio'&&msg.data){
+                    L('audio:'+msg.data.length);
+                    playAudio(msg.data);
+                    S('FieldGuide is speaking...');
+                    setTimeout(function(){if(active)S('FieldGuide is listening...')},3000);
+                }
+                else if(msg.type==='transcript'){
+                    var p=msg.role==='user'?'You: ':'AI: ';
+                    S(p+(msg.text||'').substring(0,80));
+                }
+                else if(msg.type==='error'){S('Error: '+msg.message);L('ERR:'+msg.message)}
+            }catch(e){L('parse err:'+e)}
+        };
+
+        ws.onclose=function(e){L('ws close:'+e.code);document.getElementById('dot').className='dot off';S('Disconnected');active=false;ready=false};
+        ws.onerror=function(){L('ws error');S('Connection error')};
+
+    }catch(err){
+        alert('Allow camera & microphone access.\n\n'+err.message);
+        btn.textContent='Start Repair Session';btn.disabled=false;
+    }
+}
+
+function end(){
+    active=false;ready=false;
+    if(vidInt)clearInterval(vidInt);vidInt=null;
+    if(ws)ws.close();ws=null;
+    if(stream){stream.getTracks().forEach(function(t){t.stop()});stream=null}
+    if(actx){actx.close().catch(function(){})};actx=null;
+    document.getElementById('welcomeScreen').style.display='flex';
+    document.getElementById('cameraView').style.display='none';
+    document.getElementById('btnStart').textContent='Start Repair Session';
+    document.getElementById('btnStart').disabled=false;
+}
+
+function startVideo(){
+    var v=document.getElementById('video');
+    var c=document.createElement('canvas');
+    c.width=640;c.height=480;
+    var ctx=c.getContext('2d');
+    vidInt=setInterval(function(){
+        if(!ready||!ws||ws.readyState!==1)return;
+        if(v.readyState>=v.HAVE_ENOUGH_DATA){
+            ctx.drawImage(v,0,0,640,480);
+            c.toBlob(function(blob){
+                if(!blob||!ws||ws.readyState!==1)return;
+                var r=new FileReader();
+                r.onloadend=function(){
+                    var b64=r.result.split(',')[1];
+                    ws.send(JSON.stringify({type:'video',data:b64}));
+                };
+                r.readAsDataURL(blob);
+            },'image/jpeg',0.6);
+        }
+    },2000);
+    L('video capture started');
+}
+
+
+function startAudio(){
+    actx=new AudioContext({sampleRate:16000});
+    var src=actx.createMediaStreamSource(stream);
+    var proc=actx.createScriptProcessor(4096,1,1);
+    proc.onaudioprocess=function(e){
+        if(!ready||!ws||ws.readyState!==1)return;
+        var inp=e.inputBuffer.getChannelData(0);
+        var pcm=new Int16Array(inp.length);
+        for(var i=0;i<inp.length;i++)pcm[i]=Math.max(-32768,Math.min(32767,inp[i]*32768));
+        var bytes=new Uint8Array(pcm.buffer);
+        var binary='';
+        for(var j=0;j<bytes.length;j++)binary+=String.fromCharCode(bytes[j]);
+        var b64=btoa(binary);
+        ws.send(JSON.stringify({type:'audio',data:b64}));
+    };
+    src.connect(proc);proc.connect(actx.destination);
+    L('audio capture started');
+}
+
+function playAudio(b64){
+    try{
+        var ctx=new AudioContext({sampleRate:24000});
+        var raw=atob(b64);
+        var bytes=new Uint8Array(raw.length);
+        for(var i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
+        var int16=new Int16Array(bytes.buffer);
+        var buf=ctx.createBuffer(1,int16.length,24000);
+        var ch=buf.getChannelData(0);
+        for(var i=0;i<int16.length;i++)ch[i]=int16[i]/32768;
+        var s=ctx.createBufferSource();
+        s.buffer=buf;s.connect(ctx.destination);s.start();
+        L('playing audio');
+    }catch(e){L('play err:'+e)}
+}
+</script>
+</body>
+</html>
