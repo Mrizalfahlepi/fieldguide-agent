@@ -19,9 +19,6 @@ export function useWebSocket(url) {
 
   const playNextAudio = useCallback(async () => {
     if (isPlayingRef.current || audioQueueRef.current.length === 0) {
-      if (audioQueueRef.current.length === 0) {
-        // All audio done playing, AI no longer speaking from playback perspective
-      }
       return;
     }
     isPlayingRef.current = true;
@@ -81,7 +78,7 @@ export function useWebSocket(url) {
           setAiText(msg.text || msg.message || '');
 
         } else if (msg.type === 'turn_complete') {
-          // Keep last text visible for a moment, then clear
+          // Keep last text visible briefly then clear
           setTimeout(() => setAiText(''), 3000);
 
         } else if (msg.type === 'interrupted') {
@@ -99,9 +96,11 @@ export function useWebSocket(url) {
     ws.onclose = () => {
       setStatus('disconnected');
       setIsAiSpeaking(false);
-      if (reconnectCount.current < 3) {
+      // FIX: increased from 3 to 10 reconnect attempts for demo stability
+      if (reconnectCount.current < 10) {
         reconnectCount.current++;
-        setTimeout(connect, 3000);
+        const delay = Math.min(1000 * reconnectCount.current, 10000);
+        setTimeout(connect, delay);
       }
     };
 
@@ -119,9 +118,15 @@ export function useWebSocket(url) {
     audioQueueRef.current = [];
   }, []);
 
+  // FIX BUG 2: sendMessage now sends {type, text} for text messages
+  // Previously sent {type, data} which caused backend data.get("text") to always return None
   const sendMessage = useCallback((type, data) => {
     if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
-      wsRef.current.send(JSON.stringify({ type, data }));
+      if (type === 'text') {
+        wsRef.current.send(JSON.stringify({ type, text: data }));
+      } else {
+        wsRef.current.send(JSON.stringify({ type, data }));
+      }
     }
   }, []);
 
