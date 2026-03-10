@@ -51,8 +51,8 @@ export default function CameraStream({ isActive, onFrame }) {
 
           const canvas = canvasRef.current;
           const video = videoRef.current;
-          canvas.width = 640;
-          canvas.height = 480;
+          canvas.width = 320;
+          canvas.height = 240;
           const ctx = canvas.getContext('2d');
           ctx.drawImage(video, 0, 0, 640, 480);
 
@@ -67,9 +67,9 @@ export default function CameraStream({ isActive, onFrame }) {
               reader.readAsDataURL(blob);
             },
             'image/jpeg',
-            0.6,
+            0.3,
           );
-        }, 1000);
+        }, 3000);
 
         console.log('[CameraStream] Camera streaming started');
       } catch (err) {
