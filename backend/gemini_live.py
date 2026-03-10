@@ -13,6 +13,7 @@ from google import genai
 from google.genai import types
 
 from rag_engine import get_context_for_query, get_equipment_list, load_knowledge_base
+from safety_monitor import check_safety_context
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("FieldGuide-Live")
@@ -166,12 +167,31 @@ async def websocket_endpoint(ws: WebSocket):
 
                         elif msg_type == "text" and data.get("text"):
                             text = data["text"]
+
+                            # FIX: safety monitor integrated — inject alert into context
+                            safety_alert = check_safety_context(text)
+
                             context = get_context_for_query(text)
+
+                            # FIX: RAG context and safety injected as system context, not appended to user text
+                            parts = [types.Part(text=text)]
+                            context_parts = []
+                            if safety_alert:
+                                context_parts.append(safety_alert)
                             if context:
-                                text = f"{text}\n{context}"
-                            await session.send_client_content(
-                                turns=types.Content(role="user", parts=[types.Part(text=text)])
-                            )
+                                context_parts.append(context)
+                            if context_parts:
+                                combined_context = "\n\n".join(context_parts)
+                                await session.send_client_content(
+                                    turns=[
+                                        types.Content(role="user", parts=[types.Part(text=f"[CONTEXT FOR THIS QUERY]\n{combined_context}")]),
+                                        types.Content(role="user", parts=parts),
+                                    ]
+                                )
+                            else:
+                                await session.send_client_content(
+                                    turns=types.Content(role="user", parts=parts)
+                                )
 
                 except Exception as e:
                     logger.error(f"Receive loop error: {e}", exc_info=True)
@@ -184,7 +204,6 @@ async def websocket_endpoint(ws: WebSocket):
                             break
 
                         try:
-                            # Try to get audio data
                             audio_data = None
                             text_data = None
 
@@ -206,16 +225,23 @@ async def websocket_endpoint(ws: WebSocket):
                             if hasattr(response, 'text') and response.text:
                                 text_data = response.text
 
-                            # Send audio to client
+                            # FIX BUG 1: notify frontend AI is speaking before sending audio
                             if audio_data:
+                                await ws.send_json({"type": "ai_speaking", "speaking": True})
                                 audio_b64 = base64.b64encode(audio_data).decode()
                                 await ws.send_json({"type": "audio", "data": audio_b64})
                                 logger.info(f">>> Sent audio to client: {len(audio_data)} bytes")
 
-                            # Send text to client
                             if text_data:
                                 await ws.send_json({"type": "transcript", "text": text_data, "role": "assistant"})
                                 logger.info(f">>> Transcript: {text_data[:80]}")
+
+                            # Notify frontend when turn is complete (AI done speaking)
+                            if hasattr(response, 'server_content') and response.server_content:
+                                sc = response.server_content
+                                if hasattr(sc, 'turn_complete') and sc.turn_complete:
+                                    await ws.send_json({"type": "ai_speaking", "speaking": False})
+                                    await ws.send_json({"type": "turn_complete"})
 
                         except WebSocketDisconnect:
                             logger.info("Client disconnected (send)")
