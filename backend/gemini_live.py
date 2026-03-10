@@ -25,6 +25,10 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
 
+# Session timeout config - Gemini Live API has ~10-15 min limit
+SESSION_MAX_DURATION = 8 * 60  # Reconnect every 8 minutes (before API timeout)
+SESSION_RECONNECT_DELAY = 0.5
+
 BASE_SYSTEM_PROMPT = """
 You are FieldGuide AI, an expert industrial field technician assistant with 20+ years of experience.
 You help technicians diagnose, repair, and maintain industrial equipment in real-time.
@@ -73,6 +77,7 @@ def get_live_config(system_prompt: str) -> types.LiveConnectConfig:
                 )
             )
         ),
+        input_audio_transcription=types.AudioTranscriptionConfig(),
     )
 
 
@@ -106,11 +111,182 @@ async def root():
 @app.get("/health")
 async def health():
     equipment = get_equipment_list()
-    return {"status": "ok", "model": MODEL, "knowledge_base": {"equipment_count": len(equipment), "equipment": equipment}}
+    return {
+        "status": "ok",
+        "model": MODEL,
+        "knowledge_base": {
+            "equipment_count": len(equipment),
+            "equipment": equipment,
+        },
+    }
 
 
 STATIC_DIR.mkdir(exist_ok=True)
-app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+(STATIC_DIR / "assets").mkdir(exist_ok=True)
+app.mount("/assets", StaticFiles(directory=str(STATIC_DIR / "assets")), name="static")
+
+
+class GeminiSession:
+    """Manages a Gemini Live session with auto-reconnect on 1011 timeout."""
+
+    def __init__(self, ws: WebSocket):
+        self.ws = ws
+        self.session = None
+        self.stop_event = asyncio.Event()
+        self.session_lock = asyncio.Lock()
+        self.audio_send_count = 0
+        self.turn_count = 0
+        self.session_start_time = 0.0
+        self.reconnect_count = 0
+        self._session_context = None
+        self.system_prompt = build_system_prompt()
+        self.config = get_live_config(self.system_prompt)
+
+    async def connect(self) -> bool:
+        """Create a new Gemini Live session."""
+        async with self.session_lock:
+            try:
+                await self._close_session_internal()
+                logger.info(f"Connecting to Gemini: {MODEL} (attempt #{self.reconnect_count + 1})")
+                self._session_context = client.aio.live.connect(model=MODEL, config=self.config)
+                self.session = await self._session_context.__aenter__()
+                self.session_start_time = asyncio.get_event_loop().time()
+                self.reconnect_count += 1
+                logger.info(f"Gemini Live session established! (session #{self.reconnect_count})")
+                return True
+            except Exception as e:
+                logger.error(f"Failed to connect to Gemini: {e}", exc_info=True)
+                self.session = None
+                self._session_context = None
+                return False
+
+    async def _close_session_internal(self):
+        """Close current session (must hold session_lock)."""
+        if self._session_context:
+            try:
+                await self._session_context.__aexit__(None, None, None)
+            except Exception as e:
+                logger.warning(f"Error closing previous session: {e}")
+            self._session_context = None
+            self.session = None
+
+    async def close(self):
+        """Close session safely."""
+        async with self.session_lock:
+            await self._close_session_internal()
+
+    def is_session_expired(self) -> bool:
+        """Check if session is approaching API timeout."""
+        if self.session_start_time == 0:
+            return False
+        elapsed = asyncio.get_event_loop().time() - self.session_start_time
+        return elapsed >= SESSION_MAX_DURATION
+
+    def is_1011_error(self, error: Exception) -> bool:
+        """Check if error is the Gemini 1011 deadline/timeout error."""
+        err_str = str(error)
+        return "1011" in err_str or "Deadline expired" in err_str
+
+    async def reconnect(self, reason: str = "timeout") -> bool:
+        """Reconnect to Gemini with notification to client."""
+        logger.warning(f"Reconnecting Gemini session (reason: {reason})...")
+        try:
+            await self.ws.send_json({
+                "type": "status",
+                "message": "reconnecting",
+                "reason": reason,
+            })
+        except Exception:
+            pass
+
+        await asyncio.sleep(SESSION_RECONNECT_DELAY)
+
+        success = await self.connect()
+        if success:
+            try:
+                await self.ws.send_json({
+                    "type": "status",
+                    "message": "reconnected",
+                    "session_number": self.reconnect_count,
+                })
+            except Exception:
+                pass
+            logger.info(f"Reconnected successfully (session #{self.reconnect_count})")
+        else:
+            logger.error("Reconnect failed!")
+        return success
+
+    async def send_audio(self, audio_bytes: bytes) -> bool:
+        """Send audio to Gemini with error handling."""
+        if not self.session or self.stop_event.is_set():
+            return False
+        try:
+            await self.session.send_realtime_input(
+                audio=types.Blob(data=audio_bytes, mime_type="audio/pcm;rate=16000")
+            )
+            self.audio_send_count += 1
+            if self.audio_send_count % 50 == 0:
+                logger.info(f"<<< Audio chunks sent to Gemini: {self.audio_send_count}")
+            return True
+        except Exception as e:
+            logger.error(f"!!! Failed to send audio to Gemini: {e}")
+            return False
+
+    async def send_video(self, img_bytes: bytes) -> bool:
+        """Send video frame to Gemini with error handling."""
+        if not self.session or self.stop_event.is_set():
+            return False
+        try:
+            await self.session.send_realtime_input(
+                video=types.Blob(data=img_bytes, mime_type="image/jpeg")
+            )
+            return True
+        except Exception as e:
+            if not self.is_1011_error(e):
+                logger.error(f"Failed to send video to Gemini: {e}")
+            return False
+
+    async def send_text(self, text: str) -> bool:
+        """Send text with RAG context to Gemini."""
+        if not self.session or self.stop_event.is_set():
+            return False
+        try:
+            safety_alert = check_safety_context(text)
+            context = get_context_for_query(text)
+
+            parts = [types.Part(text=text)]
+            context_parts = []
+            if safety_alert:
+                context_parts.append(safety_alert)
+            if context:
+                context_parts.append(context)
+
+            if context_parts:
+                combined_context = "\n\n".join(context_parts)
+                await self.session.send_client_content(
+                    turns=[
+                        types.Content(role="user", parts=[types.Part(text=f"[CONTEXT]\n{combined_context}")]),
+                        types.Content(role="user", parts=parts),
+                    ]
+                )
+            else:
+                await self.session.send_client_content(
+                    turns=types.Content(role="user", parts=parts)
+                )
+            return True
+        except Exception as e:
+            logger.error(f"Failed to send text to Gemini: {e}")
+            return False
+
+    async def send_audio_stream_end(self):
+        """Signal end of audio stream after turn completes."""
+        if not self.session:
+            return
+        try:
+            await self.session.send_realtime_input(audio_stream_end=True)
+            logger.info(">>> Sent audio_stream_end to Gemini")
+        except Exception as e:
+            logger.warning(f"audio_stream_end failed (ok to ignore): {e}")
 
 
 @app.websocket("/ws")
@@ -118,147 +294,281 @@ async def websocket_endpoint(ws: WebSocket):
     await ws.accept()
     logger.info("WebSocket client connected")
 
-    system_prompt = build_system_prompt()
-    config = get_live_config(system_prompt)
+    gemini = GeminiSession(ws)
 
     try:
-        logger.info(f"Connecting to Gemini: {MODEL}")
-        async with client.aio.live.connect(model=MODEL, config=config) as session:
-            logger.info("Gemini Live session established!")
+        if not await gemini.connect():
+            await ws.send_json({"type": "error", "message": "Failed to connect to Gemini"})
+            await ws.close()
+            return
+
+        try:
+            await ws.send_json({
+                "type": "status",
+                "message": "connected",
+                "knowledge_base": len(get_equipment_list()),
+            })
+        except Exception as e:
+            logger.error(f"Failed to send status: {e}")
+            return
+
+        async def receive_from_client():
+            """Receive data from browser and forward to Gemini."""
+            try:
+                while not gemini.stop_event.is_set():
+                    try:
+                        raw = await asyncio.wait_for(ws.receive_text(), timeout=60)
+                    except asyncio.TimeoutError:
+                        continue
+                    except WebSocketDisconnect:
+                        logger.info("Client disconnected (receive)")
+                        gemini.stop_event.set()
+                        return
+
+                    try:
+                        data = json.loads(raw)
+                    except json.JSONDecodeError:
+                        continue
+
+                    msg_type = data.get("type", "")
+
+                    if msg_type == "audio" and data.get("data"):
+                        audio_bytes = base64.b64decode(data["data"])
+                        success = await gemini.send_audio(audio_bytes)
+                        if not success and not gemini.stop_event.is_set():
+                            reconnected = await gemini.reconnect(reason="audio_send_failed")
+                            if not reconnected:
+                                logger.error("Reconnect failed after audio send error")
+                                gemini.stop_event.set()
+                                return
+                            await gemini.send_audio(audio_bytes)
+
+                    elif msg_type in ("video", "image") and data.get("data"):
+                        img_bytes = base64.b64decode(data["data"])
+                        await gemini.send_video(img_bytes)
+
+                    elif msg_type == "text" and data.get("text"):
+                        success = await gemini.send_text(data["text"])
+                        if not success and not gemini.stop_event.is_set():
+                            reconnected = await gemini.reconnect(reason="text_send_failed")
+                            if not reconnected:
+                                gemini.stop_event.set()
+                                return
+
+            except Exception as e:
+                logger.error(f"Receive loop error: {e}", exc_info=True)
+                gemini.stop_event.set()
+
+        async def send_to_client():
+            """Receive responses from Gemini and forward to frontend.
+
+            Handles:
+            - turn_complete restart loop
+            - 1011 timeout auto-reconnect
+            - Proactive session refresh before timeout
+            """
+            ai_is_speaking = False
+            response_count = 0
+            consecutive_errors = 0
+            MAX_CONSECUTIVE_ERRORS = 3
 
             try:
-                await ws.send_json({"type": "status", "message": "connected", "knowledge_base": len(get_equipment_list())})
-            except Exception as e:
-                logger.error(f"Failed to send status: {e}")
-                return
-
-            stop_event = asyncio.Event()
-
-            async def receive_from_client():
-                try:
-                    while not stop_event.is_set():
-                        try:
-                            raw = await asyncio.wait_for(ws.receive_text(), timeout=60)
-                        except asyncio.TimeoutError:
-                            continue
-                        except WebSocketDisconnect:
-                            logger.info("Client disconnected (receive)")
-                            stop_event.set()
+                while not gemini.stop_event.is_set():
+                    # Proactive reconnect before API timeout hits
+                    if gemini.is_session_expired():
+                        logger.warning("Session approaching timeout, proactive reconnect...")
+                        if ai_is_speaking:
+                            ai_is_speaking = False
+                            try:
+                                await ws.send_json({"type": "ai_speaking", "speaking": False})
+                                await ws.send_json({"type": "turn_complete"})
+                            except Exception:
+                                pass
+                        reconnected = await gemini.reconnect(reason="proactive_refresh")
+                        if not reconnected:
+                            logger.error("Proactive reconnect failed")
+                            gemini.stop_event.set()
                             return
+                        consecutive_errors = 0
+                        response_count = 0
+                        continue
 
-                        try:
-                            data = json.loads(raw)
-                        except json.JSONDecodeError:
-                            continue
+                    if not gemini.session:
+                        await asyncio.sleep(0.5)
+                        continue
 
-                        msg_type = data.get("type", "")
+                    try:
+                        async for response in gemini.session.receive():
+                            if gemini.stop_event.is_set():
+                                break
 
-                        if msg_type == "audio" and data.get("data"):
-                            audio_bytes = base64.b64decode(data["data"])
-                            await session.send_realtime_input(
-                                audio=types.Blob(data=audio_bytes, mime_type="audio/pcm;rate=16000")
-                            )
+                            consecutive_errors = 0
+                            response_count += 1
 
-                        elif msg_type in ("video", "image") and data.get("data"):
-                            img_bytes = base64.b64decode(data["data"])
-                            await session.send_realtime_input(
-                                video=types.Blob(data=img_bytes, mime_type="image/jpeg")
-                            )
+                            try:
+                                audio_data = None
+                                text_data = None
+                                input_transcript = None
 
-                        elif msg_type == "text" and data.get("text"):
-                            text = data["text"]
+                                # Check for input transcription (user speech)
+                                if hasattr(response, 'server_content') and response.server_content:
+                                    sc = response.server_content
+                                    if hasattr(sc, 'input_transcription') and sc.input_transcription:
+                                        if hasattr(sc.input_transcription, 'text') and sc.input_transcription.text:
+                                            input_transcript = sc.input_transcription.text
+                                            logger.info(f">>> User said: {input_transcript}")
 
-                            # FIX: safety monitor integrated — inject alert into context
-                            safety_alert = check_safety_context(text)
+                                # Debug log
+                                resp_attrs = []
+                                if hasattr(response, 'data') and response.data:
+                                    resp_attrs.append(f"data({len(response.data)}b)")
+                                if hasattr(response, 'text') and response.text:
+                                    resp_attrs.append(f"text({len(response.text)}c)")
+                                if hasattr(response, 'server_content') and response.server_content:
+                                    sc = response.server_content
+                                    if hasattr(sc, 'model_turn') and sc.model_turn:
+                                        resp_attrs.append("model_turn")
+                                    if hasattr(sc, 'turn_complete') and sc.turn_complete:
+                                        resp_attrs.append("turn_complete")
+                                    if hasattr(sc, 'interrupted') and sc.interrupted:
+                                        resp_attrs.append("interrupted")
+                                    if hasattr(sc, 'input_transcription') and sc.input_transcription:
+                                        resp_attrs.append("input_transcription")
 
-                            context = get_context_for_query(text)
+                                if (
+                                    response_count <= 5
+                                    or response_count % 50 == 0
+                                    or 'turn_complete' in resp_attrs
+                                    or 'interrupted' in resp_attrs
+                                    or 'input_transcription' in resp_attrs
+                                ):
+                                    logger.info(
+                                        f">>> Gemini response #{response_count}: "
+                                        f"[{', '.join(resp_attrs) if resp_attrs else 'EMPTY'}]"
+                                    )
 
-                            # FIX: RAG context and safety injected as system context, not appended to user text
-                            parts = [types.Part(text=text)]
-                            context_parts = []
-                            if safety_alert:
-                                context_parts.append(safety_alert)
-                            if context:
-                                context_parts.append(context)
-                            if context_parts:
-                                combined_context = "\n\n".join(context_parts)
-                                await session.send_client_content(
-                                    turns=[
-                                        types.Content(role="user", parts=[types.Part(text=f"[CONTEXT FOR THIS QUERY]\n{combined_context}")]),
-                                        types.Content(role="user", parts=parts),
-                                    ]
-                                )
-                            else:
-                                await session.send_client_content(
-                                    turns=types.Content(role="user", parts=parts)
-                                )
+                                # Method 1: direct .data attribute
+                                if hasattr(response, 'data') and response.data:
+                                    audio_data = response.data
 
-                except Exception as e:
-                    logger.error(f"Receive loop error: {e}", exc_info=True)
-                    stop_event.set()
+                                # Method 2: server_content.model_turn.parts
+                                if hasattr(response, 'server_content') and response.server_content:
+                                    sc = response.server_content
+                                    if hasattr(sc, 'model_turn') and sc.model_turn:
+                                        for part in sc.model_turn.parts:
+                                            if hasattr(part, 'inline_data') and part.inline_data and part.inline_data.data:
+                                                audio_data = part.inline_data.data
+                                            if hasattr(part, 'text') and part.text:
+                                                text_data = part.text
 
-            async def send_to_client():
-                try:
-                    async for response in session.receive():
-                        if stop_event.is_set():
-                            break
+                                # Method 3: direct .text attribute
+                                if hasattr(response, 'text') and response.text:
+                                    text_data = response.text
 
-                        try:
-                            audio_data = None
-                            text_data = None
+                                # Send ai_speaking=true ONCE when AI starts
+                                if audio_data and not ai_is_speaking:
+                                    ai_is_speaking = True
+                                    await ws.send_json({"type": "ai_speaking", "speaking": True})
+                                    logger.info(">>> AI started speaking - mic muted")
 
-                            # Method 1: direct .data attribute
-                            if hasattr(response, 'data') and response.data:
-                                audio_data = response.data
+                                if audio_data:
+                                    audio_b64 = base64.b64encode(audio_data).decode()
+                                    await ws.send_json({"type": "audio", "data": audio_b64})
+                                    if response_count % 20 == 0:
+                                        logger.info(f">>> Sent audio chunk (response #{response_count})")
 
-                            # Method 2: server_content.model_turn.parts
-                            if hasattr(response, 'server_content') and response.server_content:
-                                sc = response.server_content
-                                if hasattr(sc, 'model_turn') and sc.model_turn:
-                                    for part in sc.model_turn.parts:
-                                        if hasattr(part, 'inline_data') and part.inline_data and part.inline_data.data:
-                                            audio_data = part.inline_data.data
-                                        if hasattr(part, 'text') and part.text:
-                                            text_data = part.text
+                                if text_data:
+                                    await ws.send_json({"type": "transcript", "text": text_data, "role": "assistant"})
+                                    logger.info(f">>> Transcript: {text_data[:80]}")
 
-                            # Method 3: direct .text attribute
-                            if hasattr(response, 'text') and response.text:
-                                text_data = response.text
+                                if input_transcript:
+                                    await ws.send_json({"type": "transcript", "text": input_transcript, "role": "user"})
 
-                            # FIX BUG 1: notify frontend AI is speaking before sending audio
-                            if audio_data:
-                                await ws.send_json({"type": "ai_speaking", "speaking": True})
-                                audio_b64 = base64.b64encode(audio_data).decode()
-                                await ws.send_json({"type": "audio", "data": audio_b64})
-                                logger.info(f">>> Sent audio to client: {len(audio_data)} bytes")
+                                # Check turn_complete or interrupted
+                                turn_done = False
+                                if hasattr(response, 'server_content') and response.server_content:
+                                    sc = response.server_content
+                                    if hasattr(sc, 'turn_complete') and sc.turn_complete:
+                                        turn_done = True
+                                        logger.info(">>> turn_complete from Gemini")
+                                    if hasattr(sc, 'interrupted') and sc.interrupted:
+                                        turn_done = True
+                                        logger.info(">>> interrupted by user")
 
-                            if text_data:
-                                await ws.send_json({"type": "transcript", "text": text_data, "role": "assistant"})
-                                logger.info(f">>> Transcript: {text_data[:80]}")
-
-                            # Notify frontend when turn is complete (AI done speaking)
-                            if hasattr(response, 'server_content') and response.server_content:
-                                sc = response.server_content
-                                if hasattr(sc, 'turn_complete') and sc.turn_complete:
+                                if turn_done:
+                                    gemini.turn_count += 1
+                                    ai_is_speaking = False
                                     await ws.send_json({"type": "ai_speaking", "speaking": False})
                                     await ws.send_json({"type": "turn_complete"})
+                                    logger.info(f">>> Turn #{gemini.turn_count} complete - mic re-enabled")
+                                    await gemini.send_audio_stream_end()
 
-                        except WebSocketDisconnect:
-                            logger.info("Client disconnected (send)")
-                            stop_event.set()
+                            except WebSocketDisconnect:
+                                logger.info("Client disconnected (send)")
+                                gemini.stop_event.set()
+                                break
+                            except Exception as e:
+                                logger.error(f"Error processing response: {e}", exc_info=True)
+
+                    except StopAsyncIteration:
+                        logger.info(">>> session.receive() ended - restarting for next turn")
+                        continue
+
+                    except Exception as e:
+                        if gemini.stop_event.is_set():
                             break
-                        except Exception as e:
-                            logger.error(f"Error processing response: {e}", exc_info=True)
 
-                except Exception as e:
-                    logger.error(f"Send loop error: {e}", exc_info=True)
-                    stop_event.set()
+                        consecutive_errors += 1
+                        logger.error(f"Receive iterator error (#{consecutive_errors}): {e}")
 
+                        if gemini.is_1011_error(e):
+                            logger.warning("Detected 1011 timeout - attempting auto-reconnect...")
+                            if ai_is_speaking:
+                                ai_is_speaking = False
+                                try:
+                                    await ws.send_json({"type": "ai_speaking", "speaking": False})
+                                    await ws.send_json({"type": "turn_complete"})
+                                except Exception:
+                                    pass
+                            reconnected = await gemini.reconnect(reason="1011_timeout")
+                            if reconnected:
+                                consecutive_errors = 0
+                                response_count = 0
+                                logger.info("Auto-reconnect successful, resuming...")
+                                continue
+                            else:
+                                logger.error("Auto-reconnect failed after 1011")
+                                gemini.stop_event.set()
+                                return
+
+                        if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                            logger.error(f"Too many consecutive errors ({consecutive_errors}), reconnecting...")
+                            reconnected = await gemini.reconnect(reason="too_many_errors")
+                            if reconnected:
+                                consecutive_errors = 0
+                                response_count = 0
+                                continue
+                            else:
+                                gemini.stop_event.set()
+                                return
+
+                        await asyncio.sleep(0.2 * consecutive_errors)
+                        continue
+
+            except Exception as e:
+                logger.error(f"Send loop fatal error: {e}", exc_info=True)
+                gemini.stop_event.set()
+
+        # Run both tasks concurrently
+        try:
             await asyncio.gather(
                 receive_from_client(),
                 send_to_client(),
                 return_exceptions=True,
             )
+        finally:
+            await gemini.close()
+            logger.info("Gemini session cleaned up")
 
     except WebSocketDisconnect:
         logger.info("WebSocket disconnected")
@@ -268,6 +578,8 @@ async def websocket_endpoint(ws: WebSocket):
             await ws.send_json({"type": "error", "message": str(e)})
         except Exception:
             pass
+    finally:
+        await gemini.close()
 
 
 if __name__ == "__main__":

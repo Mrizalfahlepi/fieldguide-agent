@@ -6,6 +6,7 @@ export default function AudioHandler({ isActive, onAudioChunk, isAiSpeaking }) {
   const contextRef = useRef(null);
   const isActiveRef = useRef(isActive);
   const isAiSpeakingRef = useRef(isAiSpeaking);
+  const chunkCountRef = useRef(0);
 
   useEffect(() => {
     isActiveRef.current = isActive;
@@ -13,6 +14,7 @@ export default function AudioHandler({ isActive, onAudioChunk, isAiSpeaking }) {
 
   useEffect(() => {
     isAiSpeakingRef.current = isAiSpeaking;
+    console.log('[AudioHandler] isAiSpeaking changed to:', isAiSpeaking);
   }, [isAiSpeaking]);
 
   useEffect(() => {
@@ -22,7 +24,7 @@ export default function AudioHandler({ isActive, onAudioChunk, isAiSpeaking }) {
         processorRef.current = null;
       }
       if (contextRef.current && contextRef.current.state !== 'closed') {
-        contextRef.current.close().catch(() => {});
+        contextRef.current.close().catch(() => { });
         contextRef.current = null;
       }
       if (streamRef.current) {
@@ -62,21 +64,25 @@ export default function AudioHandler({ isActive, onAudioChunk, isAiSpeaking }) {
         const processor = audioContext.createScriptProcessor(4096, 1, 1);
         processorRef.current = processor;
 
+        // Simple noise gate only - Gemini handles VAD
+        const NOISE_GATE = 0.001;
+
         processor.onaudioprocess = (e) => {
           if (!isActiveRef.current) return;
 
-          // CRITICAL: Skip sending audio while AI is speaking to prevent echo
+          // Skip sending audio while AI is speaking to prevent echo
           if (isAiSpeakingRef.current) return;
 
           const inputData = e.inputBuffer.getChannelData(0);
 
-          // Check if there's actual sound (not silence)
           let sum = 0;
           for (let i = 0; i < inputData.length; i++) {
             sum += Math.abs(inputData[i]);
           }
           const avg = sum / inputData.length;
-          if (avg < 0.001) return;
+
+          // Only filter dead silence
+          if (avg < NOISE_GATE) return;
 
           // Convert float32 to int16 PCM
           const pcmData = new Int16Array(inputData.length);
@@ -84,15 +90,19 @@ export default function AudioHandler({ isActive, onAudioChunk, isAiSpeaking }) {
             pcmData[i] = Math.max(-32768, Math.min(32767, inputData[i] * 32768));
           }
 
-          // Encode to base64
           const base64 = btoa(String.fromCharCode(...new Uint8Array(pcmData.buffer)));
           onAudioChunk(base64);
+
+          chunkCountRef.current++;
+          if (chunkCountRef.current % 50 === 0) {
+            console.log(`[AudioHandler] Sent chunk #${chunkCountRef.current}, level: ${avg.toFixed(4)}`);
+          }
         };
 
         source.connect(processor);
         processor.connect(audioContext.destination);
 
-        console.log('[AudioHandler] Microphone streaming started');
+        console.log('[AudioHandler] Mic started - Gemini handles VAD');
       } catch (err) {
         console.error('[AudioHandler] Failed to start audio:', err);
       }
