@@ -4,7 +4,9 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Optional
 
+
 logger = logging.getLogger("FieldGuide-RAG")
+
 
 _EMBEDDING_MODEL = None
 _KNOWLEDGE_DB: List[Dict] = []
@@ -45,7 +47,6 @@ def load_knowledge_base(base_dir: str = None):
     if base_dir is None:
         candidates = [
             Path("knowledge"),
-            Path("C:/fieldguide-agent/backend/knowledge"),
             Path("structured_knowledge"),
             Path("../structured_knowledge"),
         ]

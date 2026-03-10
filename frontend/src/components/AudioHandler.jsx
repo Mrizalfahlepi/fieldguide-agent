@@ -1,14 +1,19 @@
 import { useEffect, useRef } from 'react';
 
-export default function AudioHandler({ isActive, onAudioChunk }) {
+export default function AudioHandler({ isActive, onAudioChunk, isAiSpeaking }) {
   const streamRef = useRef(null);
   const processorRef = useRef(null);
   const contextRef = useRef(null);
   const isActiveRef = useRef(isActive);
+  const isAiSpeakingRef = useRef(isAiSpeaking);
 
   useEffect(() => {
     isActiveRef.current = isActive;
   }, [isActive]);
+
+  useEffect(() => {
+    isAiSpeakingRef.current = isAiSpeaking;
+  }, [isAiSpeaking]);
 
   useEffect(() => {
     if (!isActive) {
@@ -47,6 +52,7 @@ export default function AudioHandler({ isActive, onAudioChunk }) {
         }
 
         streamRef.current = stream;
+
         const audioContext = new (window.AudioContext || window.webkitAudioContext)({
           sampleRate: 16000,
         });
@@ -58,8 +64,13 @@ export default function AudioHandler({ isActive, onAudioChunk }) {
 
         processor.onaudioprocess = (e) => {
           if (!isActiveRef.current) return;
+
+          // CRITICAL: Skip sending audio while AI is speaking to prevent echo
+          if (isAiSpeakingRef.current) return;
+
           const inputData = e.inputBuffer.getChannelData(0);
 
+          // Check if there's actual sound (not silence)
           let sum = 0;
           for (let i = 0; i < inputData.length; i++) {
             sum += Math.abs(inputData[i]);
@@ -67,16 +78,20 @@ export default function AudioHandler({ isActive, onAudioChunk }) {
           const avg = sum / inputData.length;
           if (avg < 0.001) return;
 
+          // Convert float32 to int16 PCM
           const pcmData = new Int16Array(inputData.length);
           for (let i = 0; i < inputData.length; i++) {
             pcmData[i] = Math.max(-32768, Math.min(32767, inputData[i] * 32768));
           }
+
+          // Encode to base64
           const base64 = btoa(String.fromCharCode(...new Uint8Array(pcmData.buffer)));
           onAudioChunk(base64);
         };
 
         source.connect(processor);
         processor.connect(audioContext.destination);
+
         console.log('[AudioHandler] Microphone streaming started');
       } catch (err) {
         console.error('[AudioHandler] Failed to start audio:', err);

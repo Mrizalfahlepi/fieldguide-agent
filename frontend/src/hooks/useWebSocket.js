@@ -3,6 +3,7 @@ import { useState, useRef, useCallback, useEffect } from 'react';
 export function useWebSocket(url) {
   const [status, setStatus] = useState('disconnected');
   const [aiText, setAiText] = useState('');
+  const [isAiSpeaking, setIsAiSpeaking] = useState(false);
   const wsRef = useRef(null);
   const reconnectCount = useRef(0);
   const audioQueueRef = useRef([]);
@@ -17,7 +18,12 @@ export function useWebSocket(url) {
   }, []);
 
   const playNextAudio = useCallback(async () => {
-    if (isPlayingRef.current || audioQueueRef.current.length === 0) return;
+    if (isPlayingRef.current || audioQueueRef.current.length === 0) {
+      if (audioQueueRef.current.length === 0) {
+        // All audio done playing, AI no longer speaking from playback perspective
+      }
+      return;
+    }
     isPlayingRef.current = true;
     const audioB64 = audioQueueRef.current.shift();
     try {
@@ -32,7 +38,10 @@ export function useWebSocket(url) {
       const source = ctx.createBufferSource();
       source.buffer = audioBuffer;
       source.connect(ctx.destination);
-      source.onended = () => { isPlayingRef.current = false; playNextAudio(); };
+      source.onended = () => {
+        isPlayingRef.current = false;
+        playNextAudio();
+      };
       source.start();
     } catch (e) {
       console.error('Audio playback error:', e);
@@ -46,27 +55,68 @@ export function useWebSocket(url) {
     setStatus('connecting');
     const ws = new WebSocket(url);
     wsRef.current = ws;
-    ws.onopen = () => { setStatus('connected'); reconnectCount.current = 0; };
+
+    ws.onopen = () => {
+      setStatus('connected');
+      reconnectCount.current = 0;
+    };
+
     ws.onmessage = (event) => {
       try {
         const msg = JSON.parse(event.data);
-        if (msg.type === 'audio') { audioQueueRef.current.push(msg.data); playNextAudio(); }
-        else if (msg.type === 'status') { setAiText(msg.text || msg.message); }
-        else if (msg.type === 'turn_complete') { setAiText(''); }
-        else if (msg.type === 'error') { setAiText('Error: ' + msg.message); }
-      } catch (e) { console.error('[WS] Parse error:', e); }
+
+        if (msg.type === 'audio') {
+          audioQueueRef.current.push(msg.data);
+          playNextAudio();
+
+        } else if (msg.type === 'ai_speaking') {
+          setIsAiSpeaking(msg.speaking);
+
+        } else if (msg.type === 'transcript') {
+          if (msg.role === 'assistant') {
+            setAiText(msg.text);
+          }
+
+        } else if (msg.type === 'status') {
+          setAiText(msg.text || msg.message || '');
+
+        } else if (msg.type === 'turn_complete') {
+          // Keep last text visible for a moment, then clear
+          setTimeout(() => setAiText(''), 3000);
+
+        } else if (msg.type === 'interrupted') {
+          setIsAiSpeaking(false);
+          audioQueueRef.current = [];
+
+        } else if (msg.type === 'error') {
+          setAiText('Error: ' + msg.message);
+        }
+      } catch (e) {
+        console.error('[WS] Parse error:', e);
+      }
     };
+
     ws.onclose = () => {
       setStatus('disconnected');
-      if (reconnectCount.current < 5) { reconnectCount.current++; setTimeout(connect, 3000); }
+      setIsAiSpeaking(false);
+      if (reconnectCount.current < 3) {
+        reconnectCount.current++;
+        setTimeout(connect, 3000);
+      }
     };
+
     ws.onerror = () => { ws.close(); };
   }, [url, playNextAudio]);
 
   const disconnect = useCallback(() => {
     reconnectCount.current = 99;
-    if (wsRef.current) wsRef.current.close();
+    if (wsRef.current) {
+      try { wsRef.current.send(JSON.stringify({ type: 'end_session' })); } catch (e) {}
+      wsRef.current.close();
+    }
     setStatus('disconnected');
+    setIsAiSpeaking(false);
+    audioQueueRef.current = [];
   }, []);
 
   const sendMessage = useCallback((type, data) => {
@@ -76,8 +126,11 @@ export function useWebSocket(url) {
   }, []);
 
   useEffect(() => {
-    return () => { reconnectCount.current = 99; if (wsRef.current) wsRef.current.close(); };
+    return () => {
+      reconnectCount.current = 99;
+      if (wsRef.current) wsRef.current.close();
+    };
   }, []);
 
-  return { status, aiText, connect, disconnect, sendMessage, getAudioContext };
+  return { status, aiText, isAiSpeaking, connect, disconnect, sendMessage, getAudioContext };
 }

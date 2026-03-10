@@ -5,12 +5,11 @@ import StatusPanel from './components/StatusPanel';
 import { useWebSocket } from './hooks/useWebSocket';
 
 const wsProtocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
-const WS_URL = `${wsProtocol}://${window.location.host}/ws/session`;
-
+const WS_URL = `${wsProtocol}://${window.location.host}/ws`;
 
 export default function App() {
   const [isStreaming, setIsStreaming] = useState(false);
-  const { status, aiText, connect, disconnect, sendMessage, getAudioContext } = useWebSocket(WS_URL);
+  const { status, aiText, isAiSpeaking, connect, disconnect, sendMessage, getAudioContext } = useWebSocket(WS_URL);
 
   const handleStart = useCallback(() => { connect(); setIsStreaming(true); }, [connect]);
   const handleStop = useCallback(() => { disconnect(); setIsStreaming(false); }, [disconnect]);
@@ -39,23 +38,17 @@ export default function App() {
         {isStreaming ? (
           <>
             <CameraStream isActive={isStreaming} onFrame={handleVideoFrame} />
-            <AudioHandler isActive={isStreaming && status === 'connected'} onAudioChunk={handleAudioChunk} />
+            <AudioHandler isActive={isStreaming} onAudioChunk={handleAudioChunk} isAiSpeaking={isAiSpeaking} />
             <StatusPanel connectionStatus={status} aiText={aiText} isStreaming={isStreaming} />
-            <div className="absolute inset-0 z-10 pointer-events-none">
-              <div className="w-full h-full border border-white/10">
-                <div className="absolute top-1/3 left-0 right-0 border-t border-white/10" />
-                <div className="absolute top-2/3 left-0 right-0 border-t border-white/10" />
-                <div className="absolute top-0 bottom-0 left-1/3 border-l border-white/10" />
-                <div className="absolute top-0 bottom-0 left-2/3 border-l border-white/10" />
-              </div>
-            </div>
           </>
         ) : (
-          <div className="h-full flex flex-col items-center justify-center px-8 text-center">
-            <div className="text-7xl mb-6">&#128295;</div>
-            <h2 className="text-2xl font-bold text-white mb-3">Welcome to FieldGuide</h2>
-            <p className="text-gray-400 mb-2 max-w-sm">Point your camera at any broken equipment and I will guide you through the repair step-by-step.</p>
-            <div className="mt-6 space-y-2 text-left text-sm text-gray-500">
+          <div className="flex flex-col items-center justify-center h-full px-6 text-center">
+            <div className="text-6xl mb-4">&#128295;</div>
+            <h2 className="text-xl font-bold text-white mb-2">Welcome to FieldGuide</h2>
+            <p className="text-gray-400 text-sm mb-6">
+              Point your camera at any broken equipment and I will guide you through the repair step-by-step.
+            </p>
+            <div className="text-gray-500 text-xs space-y-1">
               <p>Water pumps, generators, electrical panels</p>
               <p>Motorcycle engines, household appliances</p>
               <p>Real-time voice guidance with safety alerts</p>
@@ -64,13 +57,13 @@ export default function App() {
         )}
       </div>
 
-      <div className="bg-gray-800/90 backdrop-blur px-4 py-4 shrink-0 z-30">
+      <div className="p-4 shrink-0">
         {!isStreaming ? (
-          <button onClick={handleStart} className="w-full bg-fg-primary hover:bg-blue-700 text-white font-bold py-4 rounded-2xl text-lg flex items-center justify-center gap-2">
+          <button onClick={handleStart} className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold text-base">
             &#128247; Start Repair Session
           </button>
         ) : (
-          <button onClick={handleStop} className="w-full bg-fg-danger hover:bg-red-700 text-white font-bold py-4 rounded-2xl text-lg flex items-center justify-center gap-2">
+          <button onClick={handleStop} className="w-full py-3 bg-red-600 hover:bg-red-700 text-white rounded-xl font-semibold text-base">
             Stop Session
           </button>
         )}
