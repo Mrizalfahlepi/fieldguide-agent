@@ -77,8 +77,16 @@ def get_live_config(system_prompt: str) -> types.LiveConnectConfig:
                 )
             )
         ),
+        realtime_input_config=types.RealtimeInputConfig(
+            automatic_activity_detection=types.AutomaticActivityDetection(
+                disabled=False,
+                start_of_speech_sensitivity=types.StartSensitivity.START_SENSITIVITY_HIGH,
+                end_of_speech_sensitivity=types.EndSensitivity.END_SENSITIVITY_LOW,
+            )
+        ),
         input_audio_transcription=types.AudioTranscriptionConfig(),
     )
+
 
 
 @asynccontextmanager
