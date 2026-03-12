@@ -1,0 +1,154 @@
+{
+    "equipment_type": "standing_fan",
+    "brand": "Cosmos",
+    "model": "16-SN Twino",
+    "category": "service_manual",
+    "components": [
+        "motor",
+        "stator winding",
+        "rotor",
+        "capacitor",
+        "thermal fuse",
+        "speed switch",
+        "bushing",
+        "fan blade",
+        "blade nut",
+        "front guard",
+        "rear guard",
+        "guard fixing ring",
+        "oscillation gearbox",
+        "oscillation knob",
+        "inner pipe",
+        "outer pipe",
+        "base stand",
+        "power cord",
+        "switch box",
+        "piano switch panel",
+        "height adjustment lock"
+    ],
+    "symptoms": [
+        "fan won't turn on",
+        "fan completely dead",
+        "no power",
+        "fan blade spins slowly",
+        "heavy rotation",
+        "motor hums but blade won't spin",
+        "fan makes grinding noise",
+        "fan vibrates excessively",
+        "oscillation not working",
+        "speed switch not responding",
+        "fan only works on one speed",
+        "burning smell from motor",
+        "fan stops after few minutes",
+        "blade wobbles"
+    ],
+    "safety_warnings": [
+        "ALWAYS unplug the fan from power outlet before any repair work",
+        "Wait at least 5 minutes after unplugging before touching internal components",
+        "Do NOT touch the capacitor terminals directly - it may hold residual charge",
+        "Do NOT operate the fan without the front guard installed",
+        "Do NOT use the fan if power cord is damaged or frayed",
+        "Keep water away from motor and electrical components",
+        "Do NOT bypass the thermal fuse permanently - it is a safety device"
+    ],
+    "tools_required": [
+        "Phillips screwdriver",
+        "flat screwdriver",
+        "multimeter",
+        "soldering iron",
+        "solder wire",
+        "heat shrink tube",
+        "pliers",
+        "wire stripper",
+        "electrical tape",
+        "cleaning brush",
+        "lubricant oil (light machine oil)"
+    ],
+    "diagnostic_steps": [
+        "Step 1: Check power cord - plug into working outlet and test with multimeter for continuity",
+        "Step 2: Check thermal fuse - use multimeter continuity mode on fuse terminals inside motor housing",
+        "Step 3: Check capacitor - look for bulging, leaking, or burnt marks on the capacitor",
+        "Step 4: Check speed switch - test each speed position with multimeter for continuity",
+        "Step 5: Check motor winding - test resistance between speed wires (blue=common, yellow=speed2, red=speed3)",
+        "Step 6: Check bushing - spin the blade by hand, if it feels rough or stuck, bushing needs replacement",
+        "Step 7: Check oscillation gearbox - remove gearbox cover and inspect gears for wear or broken teeth"
+    ],
+    "repair_steps": [
+        "Step 1: Unplug fan and remove front guard by turning guard fixing ring counterclockwise",
+        "Step 2: Remove blade nut (WARNING: reverse thread - turn CLOCKWISE to loosen)",
+        "Step 3: Pull off fan blade from motor shaft",
+        "Step 4: Remove rear guard by unscrewing guard fixing ring",
+        "Step 5: Open switch box cover by removing screws at bottom",
+        "Step 6: Photograph all wire connections before disconnecting anything",
+        "Step 7: For thermal fuse replacement - remove motor housing screws, carefully extract windings",
+        "Step 8: Locate thermal fuse embedded in windings - it looks like a small cylinder with two wires",
+        "Step 9: Cut old thermal fuse wires, solder new thermal fuse (same rating) in place",
+        "Step 10: Cover with heat shrink tube, carefully reassemble windings into motor housing",
+        "Step 11: For capacitor replacement - note the microfarad rating on old capacitor, replace with same rating",
+        "Step 12: For bushing replacement - remove motor shaft, pull out old bushing, press in new one with light oil",
+        "Step 13: Reassemble in reverse order, test on each speed before putting back the guard"
+    ],
+    "specifications": {
+        "voltage": "220V AC",
+        "frequency": "50Hz",
+        "power_consumption": "46 Watts",
+        "blade_diameter": "40 cm (16 inch)",
+        "speed_settings": "3 speeds",
+        "height": "132 cm (adjustable)",
+        "blade_material": "Plastic",
+        "capacitor_rating": "1.2-1.5 uF / 400V",
+        "thermal_fuse_rating": "115-120°C"
+    },
+    "common_failures": [
+        "Thermal fuse blown - most common cause of completely dead fan, fuse embedded in motor winding",
+        "Capacitor failed - causes slow rotation, humming without spinning, or fan only works on highest speed",
+        "Bushing worn out - causes grinding noise, heavy/slow rotation, motor shaft wobbles",
+        "Speed switch contacts corroded - fan works on some speeds but not others",
+        "Power cord internal break - fan intermittently dies when cord is moved",
+        "Oscillation gear teeth broken - oscillation stops but fan still spins normally"
+    ],
+    "troubleshooting_table": [
+        {
+            "problem": "Fan completely dead, no response at all",
+            "cause": "Thermal fuse blown or power cord break",
+            "solution": "Test power cord continuity first. If OK, open motor housing and test thermal fuse. Replace if open circuit."
+        },
+        {
+            "problem": "Motor hums but blade won't spin",
+            "cause": "Capacitor failed or bushing seized",
+            "solution": "Try spinning blade by hand while powered on. If it starts, replace capacitor. If shaft is stiff, replace bushing."
+        },
+        {
+            "problem": "Fan spins slowly on all speeds",
+            "cause": "Worn bushing or weak capacitor",
+            "solution": "Check bushing for roughness. Replace capacitor with same uF rating if bushing is OK."
+        },
+        {
+            "problem": "Fan only works on speed 3 (highest)",
+            "cause": "Capacitor partially failed or switch contact issue",
+            "solution": "Replace capacitor. If still fails, check speed switch wire connections with multimeter."
+        },
+        {
+            "problem": "Burning smell from motor area",
+            "cause": "Stator winding shorted or thermal fuse about to blow",
+            "solution": "STOP using immediately. Unplug. Check winding resistance. If reading is very low or zero, winding is shorted - replace motor."
+        },
+        {
+            "problem": "Oscillation not working but fan spins fine",
+            "cause": "Oscillation gear teeth broken or knob mechanism stuck",
+            "solution": "Open gearbox cover. Inspect gears for broken teeth. Clean and lubricate. Replace gear if broken."
+        },
+        {
+            "problem": "Fan vibrates and makes rattling noise",
+            "cause": "Loose blade nut, unbalanced blade, or loose guard",
+            "solution": "Tighten blade nut (reverse thread!). Check blade for cracks. Ensure all guards are secure."
+        }
+    ],
+    "maintenance_schedule": [
+        { "interval": "Every 2 weeks", "task": "Clean fan blades and guards with damp cloth" },
+        { "interval": "Every 3 months", "task": "Clean switch box area from dust, check power cord condition" },
+        { "interval": "Every 6 months", "task": "Apply 2-3 drops of light machine oil to front and rear bushing" },
+        { "interval": "Every 12 months", "task": "Open motor housing, clean dust from winding, inspect capacitor and thermal fuse" }
+    ],
+    "confidence_scores": { "overall": 0.95 }
+}

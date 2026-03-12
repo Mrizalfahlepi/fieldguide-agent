@@ -1,0 +1,135 @@
+{
+    "equipment_type": "wall_fan",
+    "brand": "Generic",
+    "model": "16-inch Wall Mount Fan",
+    "category": "service_manual",
+    "components": [
+        "motor",
+        "stator winding",
+        "rotor",
+        "capacitor",
+        "thermal fuse",
+        "speed selector switch",
+        "pull cord switch",
+        "fan blade",
+        "blade nut",
+        "front guard",
+        "rear guard",
+        "wall mount bracket",
+        "oscillation mechanism",
+        "oscillation knob",
+        "power cord",
+        "motor housing"
+    ],
+    "symptoms": [
+        "wall fan won't turn on",
+        "fan dead no power",
+        "fan hums but doesn't spin",
+        "fan blade rotates slowly",
+        "wall fan makes buzzing noise",
+        "oscillation stuck",
+        "fan falls from wall mount",
+        "pull cord broken",
+        "speed stuck on one setting",
+        "fan overheating",
+        "burning smell"
+    ],
+    "safety_warnings": [
+        "ALWAYS unplug the fan before any repair - wall outlet may be hard to reach, use circuit breaker if needed",
+        "Wall fan is mounted at height - use stable ladder, never stand on chair",
+        "Support the fan body before removing wall mount screws - fan can fall and cause injury",
+        "Capacitor may hold charge even after unplugging - discharge with insulated screwdriver",
+        "Check wall mount bracket for cracks before remounting repaired fan",
+        "Do NOT operate without front guard - blade at eye level is extremely dangerous"
+    ],
+    "tools_required": [
+        "Phillips screwdriver",
+        "flat screwdriver",
+        "multimeter",
+        "soldering iron",
+        "solder wire",
+        "heat shrink tube",
+        "pliers",
+        "wire stripper",
+        "electrical tape",
+        "step ladder",
+        "wall anchors and screws (for remounting)",
+        "cleaning brush",
+        "lubricant oil"
+    ],
+    "diagnostic_steps": [
+        "Step 1: Ensure power outlet works - test with another device",
+        "Step 2: Check power cord for damage or internal break - test with multimeter",
+        "Step 3: Remove fan from wall mount carefully using ladder",
+        "Step 4: Open motor housing - check thermal fuse with multimeter continuity test",
+        "Step 5: Inspect capacitor for bulging, leaking, or burn marks",
+        "Step 6: Check speed selector switch - test each position with multimeter",
+        "Step 7: Test motor winding resistance between each speed wire and common wire",
+        "Step 8: Check pull cord mechanism if applicable - inspect for broken cord or stuck switch"
+    ],
+    "repair_steps": [
+        "Step 1: Unplug fan. Use ladder to safely remove fan from wall bracket",
+        "Step 2: Place fan on flat surface. Remove front guard (turn fixing ring counterclockwise)",
+        "Step 3: Remove blade nut (usually reverse thread - turn CLOCKWISE to loosen)",
+        "Step 4: Remove fan blade and rear guard",
+        "Step 5: Open motor housing by removing housing screws",
+        "Step 6: For thermal fuse: locate in winding, cut old fuse, solder new one (same temp rating)",
+        "Step 7: For capacitor: disconnect old capacitor wires, connect new one with same uF and voltage rating",
+        "Step 8: For pull cord: remove switch housing, replace pull cord mechanism",
+        "Step 9: Reassemble motor housing, ensure no wires are pinched",
+        "Step 10: Reassemble blade, guards, and test on each speed",
+        "Step 11: Remount on wall - check bracket is secure, use appropriate wall anchors"
+    ],
+    "specifications": {
+        "voltage": "220V AC",
+        "frequency": "50Hz",
+        "power_consumption": "35-55 Watts",
+        "blade_diameter": "40 cm (16 inch)",
+        "speed_settings": "3 speeds (pull cord or rotary switch)",
+        "mounting": "Wall mount bracket with 3 screws",
+        "capacitor_rating": "1.0-1.5 uF / 400V",
+        "thermal_fuse_rating": "115-120°C"
+    },
+    "common_failures": [
+        "Thermal fuse blown - fan completely dead, most common failure",
+        "Capacitor degraded - fan hums or spins slowly, especially on low speed",
+        "Pull cord switch broken - cord pulls out but doesn't click or change speed",
+        "Wall mount bracket loosened - fan tilts or falls from wall, dangerous",
+        "Bushing dry or worn - grinding noise, slow start, motor gets hot quickly",
+        "Speed selector contacts worn - fan works on some speeds only"
+    ],
+    "troubleshooting_table": [
+        {
+            "problem": "Wall fan completely dead",
+            "cause": "Thermal fuse blown or power cord issue",
+            "solution": "Check power cord first. Then open motor and test thermal fuse for continuity. Replace if blown."
+        },
+        {
+            "problem": "Fan hums but blade doesn't move",
+            "cause": "Bad capacitor or seized bushing",
+            "solution": "Give blade a manual push. If it starts spinning, replace capacitor. If shaft is stuck, replace bushing and add oil."
+        },
+        {
+            "problem": "Pull cord doesn't change speed",
+            "cause": "Pull cord switch mechanism broken internally",
+            "solution": "Replace entire pull cord switch unit. Match wire colors when reconnecting."
+        },
+        {
+            "problem": "Fan wobbles on wall mount",
+            "cause": "Loose wall bracket screws or wall anchors pulled out",
+            "solution": "Remove fan. Install new wall anchors if needed. Retighten bracket. Ensure bracket is level."
+        },
+        {
+            "problem": "Fan gets very hot after 30 minutes",
+            "cause": "Bushing dry, winding partially shorted, or blocked ventilation",
+            "solution": "Clean dust from motor vents. Oil bushings. If still hot, check winding resistance - may need motor replacement."
+        }
+    ],
+    "maintenance_schedule": [
+        { "interval": "Every 2 weeks", "task": "Clean blades and guards from dust with damp cloth" },
+        { "interval": "Every 3 months", "task": "Clean motor vents and switch housing from dust" },
+        { "interval": "Every 6 months", "task": "Oil bushings with 2-3 drops of light machine oil through front and rear shaft openings" },
+        { "interval": "Every 12 months", "task": "Full disassembly, clean winding from dust, inspect capacitor and thermal fuse, check wall bracket condition" }
+    ],
+    "confidence_scores": { "overall": 0.90 }
+}

@@ -1,0 +1,152 @@
+{
+    "equipment_type": "desk_fan",
+    "brand": "Generic",
+    "model": "Desk/Table Fan 12-16 inch",
+    "category": "service_manual",
+    "components": [
+        "motor",
+        "stator winding",
+        "rotor",
+        "capacitor",
+        "thermal fuse",
+        "speed rotary switch",
+        "fan blade",
+        "blade nut",
+        "front guard",
+        "rear guard",
+        "guard clip or fixing ring",
+        "base stand",
+        "tilt adjustment knob",
+        "oscillation knob",
+        "oscillation gearbox",
+        "power cord",
+        "motor housing",
+        "rubber feet"
+    ],
+    "symptoms": [
+        "desk fan won't turn on",
+        "fan completely dead",
+        "blade spins very slowly",
+        "motor hums but no rotation",
+        "fan makes clicking noise",
+        "loud buzzing sound",
+        "oscillation not working",
+        "fan tilts down by itself",
+        "rotary switch feels loose",
+        "fan wobbles on desk",
+        "burning smell",
+        "fan stops after running few minutes"
+    ],
+    "safety_warnings": [
+        "ALWAYS unplug fan before opening or repairing",
+        "Do NOT touch capacitor terminals - may hold residual charge",
+        "Do NOT run fan without front guard - especially around children",
+        "Do NOT use fan if power cord shows any damage",
+        "Keep fan away from water and wet surfaces",
+        "If burning smell occurs, unplug IMMEDIATELY and do not use until repaired",
+        "Do NOT force blade nut - remember it is usually REVERSE THREAD (clockwise to loosen)"
+    ],
+    "tools_required": [
+        "Phillips screwdriver",
+        "flat screwdriver",
+        "multimeter",
+        "soldering iron",
+        "solder wire",
+        "heat shrink tube",
+        "pliers",
+        "needle nose pliers",
+        "electrical tape",
+        "cleaning brush or compressed air",
+        "light machine oil"
+    ],
+    "diagnostic_steps": [
+        "Step 1: Verify power outlet is working with another device",
+        "Step 2: Check power cord - wiggle cord near plug and near fan entry point while testing with multimeter",
+        "Step 3: Open switch box or base cover - check for loose or burnt wire connections",
+        "Step 4: Test thermal fuse continuity with multimeter - located inside motor winding",
+        "Step 5: Inspect capacitor visually - look for bulging top, leaking fluid, or burn marks",
+        "Step 6: Test capacitor with multimeter capacitance mode if available",
+        "Step 7: Test rotary switch - check continuity at each speed position",
+        "Step 8: Spin blade by hand - if rough or grinding, bushing is worn",
+        "Step 9: Smell the motor area - burnt smell indicates possible winding damage"
+    ],
+    "repair_steps": [
+        "Step 1: Unplug fan completely",
+        "Step 2: Remove front guard - either unclip or turn fixing ring counterclockwise",
+        "Step 3: Remove blade nut - REVERSE THREAD, turn CLOCKWISE to loosen",
+        "Step 4: Pull blade off motor shaft gently",
+        "Step 5: Remove rear guard",
+        "Step 6: Open motor housing screws (usually 4 screws around the housing)",
+        "Step 7: Take photo of all wire connections before disconnecting",
+        "Step 8: For thermal fuse: locate small cylinder in winding, cut old wires, solder new fuse with same temperature rating, insulate with heat shrink",
+        "Step 9: For capacitor: note uF and voltage rating, desolder old one, solder new one matching specs",
+        "Step 10: For rotary switch: unsolder wires from old switch, install new switch, reconnect wires matching photo from step 7",
+        "Step 11: For bushing: pull motor shaft out, remove old bushing, insert new bushing, add 2-3 drops oil",
+        "Step 12: Reassemble motor housing - make sure no wires pinched between housing halves",
+        "Step 13: Reattach rear guard, blade (reverse thread nut!), front guard",
+        "Step 14: Test on all speed settings before use"
+    ],
+    "specifications": {
+        "voltage": "220V AC",
+        "frequency": "50Hz",
+        "power_consumption": "25-45 Watts",
+        "blade_diameter": "30-40 cm (12-16 inch)",
+        "speed_settings": "3 speeds (rotary switch)",
+        "capacitor_rating": "0.8-1.5 uF / 400V",
+        "thermal_fuse_rating": "115-120°C",
+        "weight": "2-4 kg"
+    },
+    "common_failures": [
+        "Thermal fuse blown - number one cause of dead fan, fuse is inside motor winding and opens when overheated",
+        "Capacitor degraded - causes slow spin or motor humming without rotation, very common in fans older than 2 years",
+        "Bushing worn - metal sleeve bearing dries out, causes grinding noise and slow heavy rotation",
+        "Rotary switch contacts burnt - switch feels loose, fan only works on some speeds or no speed at all",
+        "Power cord internal wire break - fan dies intermittently, especially when cord is moved or bent",
+        "Oscillation gear cracked - oscillation stops but fan still rotates, plastic gear teeth wear out over time"
+    ],
+    "troubleshooting_table": [
+        {
+            "problem": "Fan completely dead, no response when plugged in",
+            "cause": "Blown thermal fuse (90% of cases) or broken power cord",
+            "solution": "Test power cord with multimeter first. If cord is OK, open motor housing and test thermal fuse continuity. Replace blown fuse with same temperature rating (usually 115-120 degree Celsius)."
+        },
+        {
+            "problem": "Motor hums/buzzes but blade doesn't spin",
+            "cause": "Failed capacitor or seized bushing",
+            "solution": "Try pushing blade gently by hand while fan is on. If it starts spinning, capacitor is bad - replace it. If shaft won't turn freely by hand when unplugged, bushing is seized - replace and oil."
+        },
+        {
+            "problem": "Fan runs but very slowly on all speeds",
+            "cause": "Weak capacitor or dry bushing",
+            "solution": "Replace capacitor with exact same uF rating. Also add oil to front and rear bushings."
+        },
+        {
+            "problem": "Fan works on speed 3 only, not on 1 and 2",
+            "cause": "Capacitor partially failed",
+            "solution": "Replace capacitor. Lower speeds need more capacitor assistance to start."
+        },
+        {
+            "problem": "Grinding or scraping noise",
+            "cause": "Worn bushing, loose blade, or debris in housing",
+            "solution": "Check blade for wobble. Open housing and inspect bushing. Clean any debris. Replace bushing if worn."
+        },
+        {
+            "problem": "Fan stops working after 10-30 minutes",
+            "cause": "Thermal fuse cutting out due to overheating, then resets",
+            "solution": "Motor is overheating - likely dry bushing causing friction heat. Oil bushings. If problem persists, winding may be partially shorted."
+        },
+        {
+            "problem": "Burning or hot plastic smell",
+            "cause": "Winding insulation burning or capacitor failing",
+            "solution": "STOP immediately. Unplug. Open housing and inspect for burn marks. Test winding resistance. Replace damaged component."
+        }
+    ],
+    "maintenance_schedule": [
+        { "interval": "Every 2 weeks", "task": "Clean blades and guards from dust with damp cloth" },
+        { "interval": "Every month", "task": "Check power cord for any damage or fraying" },
+        { "interval": "Every 3 months", "task": "Clean base and switch area, check rubber feet" },
+        { "interval": "Every 6 months", "task": "Oil front and rear bushings with 2-3 drops light machine oil" },
+        { "interval": "Every 12 months", "task": "Full service - open motor housing, clean dust from winding, inspect capacitor and thermal fuse, replace bushing oil" }
+    ],
+    "confidence_scores": { "overall": 0.90 }
+}

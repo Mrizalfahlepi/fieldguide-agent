@@ -13,3 +13,9 @@ frontend/dist/
 .DS_Store
 Thumbs.db
 *.log
+
+ChromaDB persistent storage (di-generate saat runtime, jangan commit)
+backend/chroma_db/
+
+Old rag_engine backup (opsional)
+backend/rag_engine_old.py

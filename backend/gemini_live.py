@@ -12,7 +12,7 @@ from fastapi.staticfiles import StaticFiles
 from google import genai
 from google.genai import types
 
-from rag_engine import get_context_for_query, get_equipment_list, load_knowledge_base
+from rag_engine_v2 import get_context_for_query, get_equipment_list, load_knowledge_base
 from safety_monitor import check_safety_context
 
 logging.basicConfig(level=logging.INFO)
@@ -80,8 +80,8 @@ def get_live_config(system_prompt: str) -> types.LiveConnectConfig:
         realtime_input_config=types.RealtimeInputConfig(
             automatic_activity_detection=types.AutomaticActivityDetection(
                 disabled=False,
-                start_of_speech_sensitivity=types.StartSensitivity.START_SENSITIVITY_HIGH,
-                end_of_speech_sensitivity=types.EndSensitivity.END_SENSITIVITY_LOW,
+                start_of_speech_sensitivity=types.StartSensitivity.START_SENSITIVITY_LOW,
+                end_of_speech_sensitivity=types.EndSensitivity.END_SENSITIVITY_HIGH,
             )
         ),
         input_audio_transcription=types.AudioTranscriptionConfig(),
@@ -127,6 +127,45 @@ async def health():
             "equipment": equipment,
         },
     }
+
+
+@app.get("/health/v2")
+async def health_v2():
+    """Health check dengan info ChromaDB."""
+    from rag_engine_v2 import _get_collections
+    knowledge_col, chunks_col = _get_collections()
+    equipment = get_equipment_list()
+    return {
+        "status": "ok",
+        "model": MODEL,
+        "embedding_model": "gemini-embedding-2-preview",
+        "vector_db": "ChromaDB",
+        "knowledge_base": {
+            "equipment_count": len(equipment),
+            "equipment": equipment,
+            "indexed_knowledge": knowledge_col.count(),
+            "indexed_chunks": chunks_col.count(),
+        },
+    }
+
+
+@app.post("/reindex")
+async def reindex_knowledge():
+    """Force re-index semua knowledge. Panggil setelah update data."""
+    from rag_engine_v2 import force_reindex
+    try:
+        force_reindex()
+        equipment = get_equipment_list()
+        return {
+            "status": "success",
+            "message": "Knowledge base re-indexed with Gemini Embedding 2",
+            "equipment_count": len(equipment),
+        }
+    except Exception as e:
+        return JSONResponse(
+            status_code=500,
+            content={"status": "error", "message": str(e)}
+        )
 
 
 STATIC_DIR.mkdir(exist_ok=True)
