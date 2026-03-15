@@ -1,5 +1,21 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 
+/**
+ * useWebSocket — manages WebSocket lifecycle and audio playback.
+ *
+ * KEY FIXES:
+ *
+ * 1. INTERRUPTION HANDLING: When server sends "interrupted", we now
+ *    immediately flush the audio queue AND stop the currently playing
+ *    audio source. Previously, old audio would keep playing even after
+ *    the user interrupted, making it seem like the AI wasn't listening.
+ *
+ * 2. AUDIO QUEUE FLUSH: Added proper queue flush on interrupted and
+ *    on disconnect. Prevents stale audio from playing after state changes.
+ *
+ * 3. RECONNECT BACKOFF: Increased max attempts from 10 to 15 with
+ *    better exponential backoff for unstable mobile connections.
+ */
 export function useWebSocket(url) {
   const [status, setStatus] = useState('disconnected');
   const [aiText, setAiText] = useState('');
@@ -9,12 +25,32 @@ export function useWebSocket(url) {
   const audioQueueRef = useRef([]);
   const audioContextRef = useRef(null);
   const isPlayingRef = useRef(false);
+  const currentSourceRef = useRef(null);
 
   const getAudioContext = useCallback(() => {
-    if (!audioContextRef.current) {
+    if (!audioContextRef.current || audioContextRef.current.state === 'closed') {
       audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)({ sampleRate: 24000 });
     }
+    // Resume if suspended (browsers require user gesture to start audio)
+    if (audioContextRef.current.state === 'suspended') {
+      audioContextRef.current.resume().catch(() => {});
+    }
     return audioContextRef.current;
+  }, []);
+
+  const flushAudioQueue = useCallback(() => {
+    audioQueueRef.current = [];
+    isPlayingRef.current = false;
+    // Stop currently playing audio source
+    if (currentSourceRef.current) {
+      try {
+        currentSourceRef.current.onended = null;
+        currentSourceRef.current.stop();
+      } catch (e) {
+        // Already stopped, ignore
+      }
+      currentSourceRef.current = null;
+    }
   }, []);
 
   const playNextAudio = useCallback(async () => {
@@ -35,13 +71,16 @@ export function useWebSocket(url) {
       const source = ctx.createBufferSource();
       source.buffer = audioBuffer;
       source.connect(ctx.destination);
+      currentSourceRef.current = source;
       source.onended = () => {
+        currentSourceRef.current = null;
         isPlayingRef.current = false;
         playNextAudio();
       };
       source.start();
     } catch (e) {
       console.error('Audio playback error:', e);
+      currentSourceRef.current = null;
       isPlayingRef.current = false;
       playNextAudio();
     }
@@ -82,8 +121,10 @@ export function useWebSocket(url) {
           setTimeout(() => setAiText(''), 3000);
 
         } else if (msg.type === 'interrupted') {
+          // FIX: Immediately flush audio queue and stop playback
+          // This prevents the AI from "talking over" the user after interrupt
           setIsAiSpeaking(false);
-          audioQueueRef.current = [];
+          flushAudioQueue();
 
         } else if (msg.type === 'error') {
           setAiText('Error: ' + msg.message);
@@ -96,16 +137,15 @@ export function useWebSocket(url) {
     ws.onclose = () => {
       setStatus('disconnected');
       setIsAiSpeaking(false);
-      // FIX: increased from 3 to 10 reconnect attempts for demo stability
-      if (reconnectCount.current < 10) {
+      if (reconnectCount.current < 15) {
         reconnectCount.current++;
-        const delay = Math.min(1000 * reconnectCount.current, 10000);
+        const delay = Math.min(1000 * Math.pow(1.5, reconnectCount.current - 1), 15000);
         setTimeout(connect, delay);
       }
     };
 
     ws.onerror = () => { ws.close(); };
-  }, [url, playNextAudio]);
+  }, [url, playNextAudio, flushAudioQueue]);
 
   const disconnect = useCallback(() => {
     reconnectCount.current = 99;
@@ -115,11 +155,9 @@ export function useWebSocket(url) {
     }
     setStatus('disconnected');
     setIsAiSpeaking(false);
-    audioQueueRef.current = [];
-  }, []);
+    flushAudioQueue();
+  }, [flushAudioQueue]);
 
-  // FIX BUG 2: sendMessage now sends {type, text} for text messages
-  // Previously sent {type, data} which caused backend data.get("text") to always return None
   const sendMessage = useCallback((type, data) => {
     if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
       if (type === 'text') {

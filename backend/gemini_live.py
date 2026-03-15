@@ -9,6 +9,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
 from google import genai
 from google.genai import types
 
@@ -29,23 +30,59 @@ STATIC_DIR = Path(__file__).resolve().parent / "static"
 SESSION_MAX_DURATION = 8 * 60  # Reconnect every 8 minutes (before API timeout)
 SESSION_RECONNECT_DELAY = 0.5
 
-BASE_SYSTEM_PROMPT = """
-You are FieldGuide AI, an expert industrial field technician assistant with 20+ years of experience.
-You help technicians diagnose, repair, and maintain industrial equipment in real-time.
+# =============================================================================
+# SYSTEM PROMPT — THE CORE FIX FOR LANGUAGE SWITCHING
+# =============================================================================
+# ROOT CAUSE ANALYSIS:
+# Gemini native audio models do NOT support language_code in SpeechConfig.
+# They auto-detect language from audio input. When the system prompt doesn't
+# enforce language strongly enough, the model drifts to other languages —
+# especially after reconnects where session context is lost.
+#
+# Per Google's official best practice:
+# "For non-English responses: Include 'RESPOND IN {LANGUAGE}. YOU MUST RESPOND
+#  UNMISTAKABLY IN {LANGUAGE}.' in system instructions."
+#
+# The old prompt was vague: "Speak in the same language the user speaks"
+# This caused the model to guess — and guess wrong after context loss.
+# =============================================================================
+
+BASE_SYSTEM_PROMPT = """\
+You are FieldGuide AI, an expert industrial field technician assistant \
+with 20+ years of hands-on experience repairing industrial machinery, \
+water pumps, generators, electrical panels, and household appliances.
+
+YOU MUST RESPOND UNMISTAKABLY IN ENGLISH. ALL your spoken responses MUST \
+be in English only. Never switch to another language unless the user \
+explicitly requests it. If the user speaks in another language, still \
+respond in English unless they ask you to switch.
 
 You can SEE through the user's camera and HEAR their voice in real-time.
-Give step-by-step repair instructions, one step at a time.
-ALWAYS prioritize safety. If you see something dangerous, INTERRUPT immediately.
 
-SAFETY PRIORITIES:
-1. Electrical hazards - shock, arc flash
-2. Gas/fuel hazards - explosion, fire
-3. Mechanical hazards - moving parts, pressure
+=== COMMUNICATION RULES ===
+1. Speak in SHORT sentences (max 15 words per sentence)
+2. Use SIMPLE language — the user may NOT be a technician
+3. Use spatial references: "to the left", "the red wire below", "near your thumb"
+4. After each instruction, WAIT for user to confirm before next step
+5. Say "Good job" or "That is correct" when user does it right
+6. If you cannot see clearly, ask: "Move your camera closer" or "Can you add more light?"
 
-COMMUNICATION STYLE:
-- Speak clearly and concisely
-- Number your steps
-- Confirm understanding before moving to next step
+=== SAFETY RULES (HIGHEST PRIORITY) ===
+1. If user reaches for a DANGEROUS component, IMMEDIATELY say "STOP" loudly
+2. Dangerous: fuel lines, electrical terminals, exhaust pipes, rotating parts, \
+pressurized components, exposed wires
+3. ALWAYS ask if power/fuel is disconnected BEFORE starting any repair
+4. If repair is beyond safe DIY scope, say: "This needs a professional technician."
+5. Never guide user to work on high-voltage systems (above 220V)
+
+=== INTERACTION FLOW ===
+1. Identify what equipment you see: "I can see a [type]. Is that correct?"
+2. Ask what the problem is: "What happened? What is not working?"
+3. Safety check: "Is the power turned off?"
+4. Diagnosis: "Based on what I see, the issue might be..."
+5. Guide repair step-by-step, one action at a time
+6. Confirm each step: "Done? Good. Now..."
+7. When finished: "Great work! Try turning it on now."
 
 When the session starts, introduce yourself briefly and ask what the user needs help with.
 """
@@ -65,6 +102,23 @@ def build_system_prompt() -> str:
 
 
 def get_live_config(system_prompt: str) -> types.LiveConnectConfig:
+    """
+    Build the Gemini Live API config.
+
+    KEY FIXES applied here:
+    1. VAD sensitivity: Changed start_of_speech to HIGH so Gemini picks up
+       the user's voice more easily (was LOW = often missed quiet speech).
+       Changed end_of_speech to LOW so Gemini waits longer before cutting
+       off the user (was HIGH = cut off too early, causing "not hearing").
+    2. Added prefix_padding_ms=20 to capture audio slightly before speech
+       detection triggers — prevents clipping the start of words.
+    3. Added silence_duration_ms=500 to give the user a reasonable pause
+       window before Gemini assumes they're done talking.
+    4. Added output_audio_transcription for debugging — lets us see what
+       Gemini actually says (useful for diagnosing language drift).
+    5. Added context_window_compression to prevent context overflow during
+       long sessions (audio tokens accumulate at ~25 tokens/sec).
+    """
     return types.LiveConnectConfig(
         response_modalities=["AUDIO"],
         system_instruction=types.Content(
@@ -80,13 +134,26 @@ def get_live_config(system_prompt: str) -> types.LiveConnectConfig:
         realtime_input_config=types.RealtimeInputConfig(
             automatic_activity_detection=types.AutomaticActivityDetection(
                 disabled=False,
-                start_of_speech_sensitivity=types.StartSensitivity.START_SENSITIVITY_LOW,
-                end_of_speech_sensitivity=types.EndSensitivity.END_SENSITIVITY_HIGH,
+                # HIGH = more sensitive to speech start → catches quiet voices
+                start_of_speech_sensitivity=types.StartSensitivity.START_SENSITIVITY_HIGH,
+                # LOW = waits longer after silence → doesn't cut user off mid-sentence
+                end_of_speech_sensitivity=types.EndSensitivity.END_SENSITIVITY_LOW,
+                # Capture 20ms of audio before speech detected (prevents word clipping)
+                prefix_padding_ms=20,
+                # Wait 500ms of silence before assuming user is done talking
+                silence_duration_ms=500,
             )
         ),
         input_audio_transcription=types.AudioTranscriptionConfig(),
+        output_audio_transcription=types.AudioTranscriptionConfig(),
+        # Compress context window for long sessions to prevent token overflow
+        # Audio tokens accumulate at ~25 tokens/sec, so a 10-min session = 15K tokens
+        context_window_compression=types.ContextWindowCompressionConfig(
+            sliding_window=types.SlidingWindow(
+                target_tokens=20000,
+            )
+        ),
     )
-
 
 
 @asynccontextmanager
@@ -106,6 +173,16 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
+
+# CORS middleware — needed when frontend is served from a different origin
+# (e.g. during development with Vite on port 5173 while backend is on 8080)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/")
@@ -272,7 +349,7 @@ class GeminiSession:
                 audio=types.Blob(data=audio_bytes, mime_type="audio/pcm;rate=16000")
             )
             self.audio_send_count += 1
-            if self.audio_send_count % 50 == 0:
+            if self.audio_send_count % 100 == 0:
                 logger.info(f"<<< Audio chunks sent to Gemini: {self.audio_send_count}")
             return True
         except Exception as e:
@@ -413,6 +490,8 @@ async def websocket_endpoint(ws: WebSocket):
             - turn_complete restart loop
             - 1011 timeout auto-reconnect
             - Proactive session refresh before timeout
+            - Interruption: flush audio queue on client side
+            - Output transcription logging for language debugging
             """
             ai_is_speaking = False
             response_count = 0
@@ -456,16 +535,25 @@ async def websocket_endpoint(ws: WebSocket):
                                 audio_data = None
                                 text_data = None
                                 input_transcript = None
+                                output_transcript = None
 
-                                # Check for input transcription (user speech)
+                                # Extract all response data from server_content
                                 if hasattr(response, 'server_content') and response.server_content:
                                     sc = response.server_content
+
+                                    # Input transcription (what user said)
                                     if hasattr(sc, 'input_transcription') and sc.input_transcription:
                                         if hasattr(sc.input_transcription, 'text') and sc.input_transcription.text:
                                             input_transcript = sc.input_transcription.text
                                             logger.info(f">>> User said: {input_transcript}")
 
-                                # Debug log
+                                    # Output transcription (what AI said — for language debugging)
+                                    if hasattr(sc, 'output_transcription') and sc.output_transcription:
+                                        if hasattr(sc.output_transcription, 'text') and sc.output_transcription.text:
+                                            output_transcript = sc.output_transcription.text
+                                            logger.info(f">>> AI said: {output_transcript}")
+
+                                # Debug log (reduced frequency to avoid log spam)
                                 resp_attrs = []
                                 if hasattr(response, 'data') and response.data:
                                     resp_attrs.append(f"data({len(response.data)}b)")
@@ -481,13 +569,16 @@ async def websocket_endpoint(ws: WebSocket):
                                         resp_attrs.append("interrupted")
                                     if hasattr(sc, 'input_transcription') and sc.input_transcription:
                                         resp_attrs.append("input_transcription")
+                                    if hasattr(sc, 'output_transcription') and sc.output_transcription:
+                                        resp_attrs.append("output_transcription")
 
                                 if (
-                                    response_count <= 5
-                                    or response_count % 50 == 0
+                                    response_count <= 3
+                                    or response_count % 100 == 0
                                     or 'turn_complete' in resp_attrs
                                     or 'interrupted' in resp_attrs
                                     or 'input_transcription' in resp_attrs
+                                    or 'output_transcription' in resp_attrs
                                 ):
                                     logger.info(
                                         f">>> Gemini response #{response_count}: "
@@ -521,18 +612,20 @@ async def websocket_endpoint(ws: WebSocket):
                                 if audio_data:
                                     audio_b64 = base64.b64encode(audio_data).decode()
                                     await ws.send_json({"type": "audio", "data": audio_b64})
-                                    if response_count % 20 == 0:
-                                        logger.info(f">>> Sent audio chunk (response #{response_count})")
 
+                                # Send transcript from model_turn text or output_transcription
                                 if text_data:
                                     await ws.send_json({"type": "transcript", "text": text_data, "role": "assistant"})
                                     logger.info(f">>> Transcript: {text_data[:80]}")
+                                elif output_transcript:
+                                    await ws.send_json({"type": "transcript", "text": output_transcript, "role": "assistant"})
 
                                 if input_transcript:
                                     await ws.send_json({"type": "transcript", "text": input_transcript, "role": "user"})
 
                                 # Check turn_complete or interrupted
                                 turn_done = False
+                                is_interrupted = False
                                 if hasattr(response, 'server_content') and response.server_content:
                                     sc = response.server_content
                                     if hasattr(sc, 'turn_complete') and sc.turn_complete:
@@ -540,12 +633,16 @@ async def websocket_endpoint(ws: WebSocket):
                                         logger.info(">>> turn_complete from Gemini")
                                     if hasattr(sc, 'interrupted') and sc.interrupted:
                                         turn_done = True
+                                        is_interrupted = True
                                         logger.info(">>> interrupted by user")
 
                                 if turn_done:
                                     gemini.turn_count += 1
                                     ai_is_speaking = False
                                     await ws.send_json({"type": "ai_speaking", "speaking": False})
+                                    if is_interrupted:
+                                        # Tell client to flush audio queue immediately
+                                        await ws.send_json({"type": "interrupted"})
                                     await ws.send_json({"type": "turn_complete"})
                                     logger.info(f">>> Turn #{gemini.turn_count} complete - mic re-enabled")
                                     await gemini.send_audio_stream_end()
