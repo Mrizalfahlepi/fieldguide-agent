@@ -531,6 +531,8 @@ def force_reindex():
     logger.info("Force re-index completed!")
 
 
-# Auto-load on import
-load_knowledge_base()
+# FIX: Removed auto-load on import.
+# Loading is now handled by the FastAPI lifespan handler in gemini_live.py.
+# Auto-loading at import time can fail if GEMINI_API_KEY isn't set yet
+# (e.g., when the module is imported before environment variables are loaded).
 
