@@ -5,7 +5,32 @@ steps:
     args: ['push', 'gcr.io/$PROJECT_ID/fieldguide-backend']
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
-    args: ['run', 'deploy', 'fieldguide-backend', '--image', 'gcr.io/$PROJECT_ID/fieldguide-backend', '--region', 'asia-southeast1', '--platform', 'managed', '--allow-unauthenticated', '--memory', '1Gi', '--timeout', '300']
+    args:
+      - 'run'
+      - 'deploy'
+      - 'fieldguide-backend'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/fieldguide-backend'
+      - '--region'
+      - 'asia-southeast1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--memory'
+      - '1Gi'
+      # FIX: Increased from 300s to 3600s — WebSocket sessions last 8+ min
+      - '--timeout'
+      - '3600'
+      # FIX: Required for WebSocket support on Cloud Run
+      - '--use-http2'
+      # FIX: Session affinity keeps user on same instance during reconnects
+      - '--session-affinity'
+      - '--min-instances'
+      - '0'
+      - '--max-instances'
+      - '5'
+      - '--concurrency'
+      - '20'
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/$PROJECT_ID/fieldguide-frontend', './frontend']
   - name: 'gcr.io/cloud-builders/docker'
