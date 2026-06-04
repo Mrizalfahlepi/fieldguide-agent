@@ -22,7 +22,16 @@ logger = logging.getLogger("FieldGuide-Live")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = "gemini-2.5-flash-native-audio-latest"
 
-client = genai.Client(api_key=GEMINI_API_KEY)
+_client = None
+
+def get_client():
+    global _client, GEMINI_API_KEY
+    if _client is None:
+        GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+        if not GEMINI_API_KEY:
+            raise ValueError("GEMINI_API_KEY is not set. Please add your API key in Secrets.")
+        _client = genai.Client(api_key=GEMINI_API_KEY)
+    return _client
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
 
@@ -272,7 +281,7 @@ class GeminiSession:
             try:
                 await self._close_session_internal()
                 logger.info(f"Connecting to Gemini: {MODEL} (attempt #{self.reconnect_count + 1})")
-                self._session_context = client.aio.live.connect(model=MODEL, config=self.config)
+                self._session_context = get_client().aio.live.connect(model=MODEL, config=self.config)
                 self.session = await self._session_context.__aenter__()
                 self.session_start_time = asyncio.get_event_loop().time()
                 self.reconnect_count += 1
