@@ -67,23 +67,24 @@ export function useWebSocket(url) {
       const int16 = new Int16Array(bytes.buffer);
       const audioBuffer = ctx.createBuffer(1, int16.length, 24000);
       const channelData = audioBuffer.getChannelData(0);
-      for (let i = 0; i < int16.length; i++) channelData[i] = int16[i] / 32768.0;
+      // Pre-amplify at PCM level (16x) — this boosts the actual audio samples
+      // before any Web Audio API processing, ensuring loudness regardless of platform
+      const VOLUME_BOOST = 16.0;
+      for (let i = 0; i < int16.length; i++) {
+        channelData[i] = Math.max(-1, Math.min(1, (int16[i] / 32768.0) * VOLUME_BOOST));
+      }
       const source = ctx.createBufferSource();
       source.buffer = audioBuffer;
 
-      // Amplify output volume (Gemini audio is quiet by default)
+      // Compressor to normalize peaks after amplification
       const compressor = ctx.createDynamicsCompressor();
-      compressor.threshold.value = -24;
-      compressor.knee.value = 10;
-      compressor.ratio.value = 4;
-      compressor.attack.value = 0.003;
-      compressor.release.value = 0.1;
+      compressor.threshold.value = -6;
+      compressor.knee.value = 3;
+      compressor.ratio.value = 20;
+      compressor.attack.value = 0.001;
+      compressor.release.value = 0.05;
 
-      const gainNode = ctx.createGain();
-      gainNode.gain.value = 8.0; // 8x amplification
-
-      source.connect(gainNode);
-      gainNode.connect(compressor);
+      source.connect(compressor);
       compressor.connect(ctx.destination);
       currentSourceRef.current = source;
       source.onended = () => {
