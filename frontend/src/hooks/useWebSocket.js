@@ -70,7 +70,12 @@ export function useWebSocket(url) {
       for (let i = 0; i < int16.length; i++) channelData[i] = int16[i] / 32768.0;
       const source = ctx.createBufferSource();
       source.buffer = audioBuffer;
-      source.connect(ctx.destination);
+
+      // Amplify output volume (Gemini audio is quiet by default)
+      const gainNode = ctx.createGain();
+      gainNode.gain.value = 4.0; // 4x amplification
+      source.connect(gainNode);
+      gainNode.connect(ctx.destination);
       currentSourceRef.current = source;
       source.onended = () => {
         currentSourceRef.current = null;
