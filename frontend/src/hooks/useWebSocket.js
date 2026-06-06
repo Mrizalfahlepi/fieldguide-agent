@@ -72,10 +72,19 @@ export function useWebSocket(url) {
       source.buffer = audioBuffer;
 
       // Amplify output volume (Gemini audio is quiet by default)
+      const compressor = ctx.createDynamicsCompressor();
+      compressor.threshold.value = -24;
+      compressor.knee.value = 10;
+      compressor.ratio.value = 4;
+      compressor.attack.value = 0.003;
+      compressor.release.value = 0.1;
+
       const gainNode = ctx.createGain();
-      gainNode.gain.value = 4.0; // 4x amplification
+      gainNode.gain.value = 8.0; // 8x amplification
+
       source.connect(gainNode);
-      gainNode.connect(ctx.destination);
+      gainNode.connect(compressor);
+      compressor.connect(ctx.destination);
       currentSourceRef.current = source;
       source.onended = () => {
         currentSourceRef.current = null;
