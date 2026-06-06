@@ -1,26 +1,53 @@
-export default function StatusPanel({ connectionStatus, aiText, isStreaming }) {
-  const colors = { disconnected: 'bg-red-500', connecting: 'bg-yellow-500', connected: 'bg-green-500' };
-  const labels = { disconnected: 'Disconnected', connecting: 'Connecting...', connected: 'AI Connected' };
+export default function StatusPanel({ connectionStatus, aiText, isStreaming, isAiSpeaking }) {
+  const statusConfig = {
+    disconnected: { dot: 'bg-red-500', label: 'Disconnected', ring: 'border-red-500/30 bg-red-500/10' },
+    connecting:   { dot: 'bg-yellow-400 animate-pulse', label: 'Connecting…', ring: 'border-yellow-400/30 bg-yellow-400/10' },
+    connected:    { dot: 'bg-green-400 animate-pulse-slow', label: 'AI Connected', ring: 'border-green-400/30 bg-green-400/10' },
+  };
+  const cfg = statusConfig[connectionStatus] ?? statusConfig.disconnected;
 
   return (
     <>
-      <div className="absolute top-4 right-4 z-20 flex items-center gap-2 bg-black/60 rounded-full px-3 py-1.5">
-        <div className={`w-2.5 h-2.5 rounded-full ${colors[connectionStatus]} ${connectionStatus === 'connected' ? 'animate-pulse' : ''}`} />
-        <span className="text-xs text-white/80">{labels[connectionStatus]}</span>
+      {/* Connection status badge — top right */}
+      <div className={`absolute top-4 right-4 z-20 flex items-center gap-2 rounded-full px-3 py-1.5 border ${cfg.ring}`}>
+        <div className={`w-2 h-2 rounded-full ${cfg.dot}`} />
+        <span className="text-xs text-white/80 font-medium">{cfg.label}</span>
       </div>
+
+      {/* AI speaking indicator — top left */}
+      {isAiSpeaking && (
+        <div className="absolute top-4 left-4 z-20 flex items-center gap-2 glass rounded-full px-3 py-1.5 animate-fade-in">
+          <div className="flex items-end gap-0.5 h-4">
+            {[0, 150, 300, 150, 0].map((delay, i) => (
+              <div
+                key={i}
+                className="wave-bar"
+                style={{ height: '100%', animationDelay: `${delay}ms` }}
+              />
+            ))}
+          </div>
+          <span className="text-xs text-indigo-300 font-medium">AI Speaking</span>
+        </div>
+      )}
+
+      {/* AI text panel — bottom */}
       {isStreaming && (
-        <div className="absolute bottom-24 left-0 right-0 z-20 flex justify-center px-4">
-          <div className="bg-black/70 backdrop-blur-sm rounded-2xl px-5 py-3 max-w-sm">
+        <div className="absolute bottom-4 left-4 right-4 z-20 animate-slide-up">
+          <div className="glass rounded-2xl px-4 py-3 min-h-[52px] flex items-center justify-center">
             {aiText ? (
-              <p className="text-sm text-white text-center">{aiText}</p>
+              <p className="text-sm text-white text-center leading-relaxed font-medium">
+                {aiText}
+              </p>
             ) : (
-              <div className="flex items-center gap-2 justify-center">
-                <div className="flex gap-1">
-                  <div className="w-2 h-2 bg-fg-primary rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
-                  <div className="w-2 h-2 bg-fg-primary rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
-                  <div className="w-2 h-2 bg-fg-primary rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+              <div className="flex items-center gap-3">
+                <div className="dot-loader flex gap-1.5">
+                  {[0, 200, 400].map((delay, i) => (
+                    <span key={i} style={{ animationDelay: `${delay}ms` }} />
+                  ))}
                 </div>
-                <span className="text-sm text-white/70">Listening and Watching...</span>
+                <span className="text-xs text-fg-muted">
+                  {connectionStatus === 'connected' ? 'Listening & watching…' : 'Connecting to AI…'}
+                </span>
               </div>
             )}
           </div>
