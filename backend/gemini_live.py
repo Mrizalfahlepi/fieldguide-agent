@@ -162,6 +162,11 @@ def get_live_config(system_prompt: str) -> types.LiveConnectConfig:
                 target_tokens=20000,
             )
         ),
+        # Disable thinking to eliminate latency — real-time audio needs instant response
+        # Thinking tokens cause visible lag before AI starts speaking
+        thinking_config=types.ThinkingConfig(
+            thinking_budget=0,
+        ),
     )
 
 
