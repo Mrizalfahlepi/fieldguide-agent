@@ -67,25 +67,24 @@ export function useWebSocket(url) {
       const int16 = new Int16Array(bytes.buffer);
       const audioBuffer = ctx.createBuffer(1, int16.length, 24000);
       const channelData = audioBuffer.getChannelData(0);
-      // Pre-amplify at PCM level (16x) — this boosts the actual audio samples
-      // before any Web Audio API processing, ensuring loudness regardless of platform
-      const VOLUME_BOOST = 16.0;
+
+      // Normalize audio to maximum volume without distortion:
+      // 1. Find the peak amplitude in this chunk
+      // 2. Scale so peak = 90% of max (no hard clipping = no distortion)
+      // 3. Cap gain at 6x to avoid amplifying silence/noise
+      let peak = 0;
       for (let i = 0; i < int16.length; i++) {
-        channelData[i] = Math.max(-1, Math.min(1, (int16[i] / 32768.0) * VOLUME_BOOST));
+        const abs = Math.abs(int16[i]) / 32768.0;
+        if (abs > peak) peak = abs;
       }
+      const gain = peak > 0.01 ? Math.min(0.9 / peak, 6.0) : 1.0;
+      for (let i = 0; i < int16.length; i++) {
+        channelData[i] = (int16[i] / 32768.0) * gain;
+      }
+
       const source = ctx.createBufferSource();
       source.buffer = audioBuffer;
-
-      // Compressor to normalize peaks after amplification
-      const compressor = ctx.createDynamicsCompressor();
-      compressor.threshold.value = -6;
-      compressor.knee.value = 3;
-      compressor.ratio.value = 20;
-      compressor.attack.value = 0.001;
-      compressor.release.value = 0.05;
-
-      source.connect(compressor);
-      compressor.connect(ctx.destination);
+      source.connect(ctx.destination);
       currentSourceRef.current = source;
       source.onended = () => {
         currentSourceRef.current = null;
